@@ -1,0 +1,342 @@
+{
+  "name": "OmniCalc RSS Content Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "url": "https://www.247wallst.com/feed/"
+      },
+      "type": "n8n-nodes-base.rssFeedTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "rss-trigger",
+      "name": "RSS News Trigger"
+    },
+    {
+      "parameters": {
+        "model": "gpt-4o-mini",
+        "messages": {
+          "messageValues": [
+            {
+              "role": "system",
+              "message": "You are a content filtering agent for a site called OmniCalc.\nWe have three interactive tools on our site:\n1. 💰 Loan & Compound Interest Calculator (for mortgage, rates, debt, loans, interest, inflation news)\n2. 🥗 Calorie Deficit & Fitness Calculator (for nutrition, FDA, diet, fitness, calories, fat loss trends)\n3. 📅 Days Between Dates Calculator (for deadlines, project timing, date differences, calendar adjustments)\n\nAnalyze the incoming news title/summary. Is this news article relevant to one of these three categories? \nRespond in strict JSON format:\n{\n  \"relevant\": true or false,\n  \"tool\": \"loan\", \"calorie\", \"days\" or null,\n  \"reason\": \"short explanation\"\n}"
+            },
+            {
+              "role": "user",
+              "message": "Title: {{ $json.title }}\nSummary: {{ $json.summary }}"
+            }
+          ]
+        },
+        "options": {
+          "responseFormat": {
+            "type": "json_object"
+          }
+        }
+      },
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        220,
+        0
+      ],
+      "id": "check-relevance",
+      "name": "Check Relevance",
+      "credentials": {
+        "openAiApi": {
+          "id": "YOUR_OPENAI_CREDENTIAL_ID"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "type": "boolean"
+          },
+          "conditions": [
+            {
+              "leftValue": "={{ JSON.parse($json.choices[0].message.content).relevant }}",
+              "rightValue": true,
+              "operator": "equals"
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ],
+      "id": "filter-relevant",
+      "name": "If Relevant"
+    },
+    {
+      "parameters": {
+        "model": "gpt-4o-mini",
+        "messages": {
+          "messageValues": [
+            {
+              "role": "system",
+              "message": "You are an expert copywriter. Generate a high-quality article responding to this news. The article must relate to the tool: {{ $('Check Relevance').item.json.tool }}.\nEnsure the output is in JSON format matching this exact schema:\n{\n  \"title\": \"Catchy SEO Page Title (under 60 chars)\",\n  \"metaDescription\": \"Compelling description (under 155 chars)\",\n  \"category\": \"Finance, Health, or Productivity\",\n  \"headline\": \"Powerful, engaging headline for the article\",\n  \"body\": \"HTML formatted article body using <p>, <h2>, <ul>, <li>. Do not write full html page, just the article body. Must be highly informative, professional, and contain 3-4 paragraphs with solid advice.\",\n  \"slug\": \"url-safe-lowercase-slug-without-html-extension (e.g. mortgage-rates-spike)\",\n  \"embeddedCalculatorLink\": \"<a href=\\\"../calculators/loan.html\\\" class=\\\"btn btn-primary\\\">Open Loan & Interest Calculator &rarr;</a>\" (select matching tool path: loan.html, calorie.html, or days.html)\n}"
+            },
+            {
+              "role": "user",
+              "message": "News item to write about:\nTitle: {{ $('RSS News Trigger').item.json.title }}\nSummary: {{ $('RSS News Trigger').item.json.summary }}"
+            }
+          ]
+        },
+        "options": {
+          "responseFormat": {
+            "type": "json_object"
+          }
+        }
+      },
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1.4,
+      "position": [
+        660,
+        -100
+      ],
+      "id": "generate-content",
+      "name": "Generate Article Content",
+      "credentials": {
+        "openAiApi": {
+          "id": "YOUR_OPENAI_CREDENTIAL_ID"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/article-template.html",
+        "sendHeaders": true,
+        "headersUi": {
+          "parameter": [
+            {
+              "name": "Authorization",
+              "value": "token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        -100
+      ],
+      "id": "fetch-template",
+      "name": "Fetch HTML Template"
+    },
+    {
+      "parameters": {
+        "jsCode": "const aiData = JSON.parse($('Generate Article Content').item.json.choices[0].message.content);\nconst template = $('Fetch HTML Template').item.json.data;\nconst todayStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });\n\n// Replace hooks\nlet compiledHtml = template\n  .replace(/{title}/g, aiData.title)\n  .replace(/{meta-description}/g, aiData.metaDescription)\n  .replace(/{category}/g, aiData.category)\n  .replace(/{date}/g, todayStr)\n  .replace(/{article-headline}/g, aiData.headline)\n  .replace(/{article-body}/g, aiData.body)\n  .replace(/{embedded-calculator-link}/g, aiData.embeddedCalculatorLink);\n\nreturn {\n  html: compiledHtml,\n  slug: aiData.slug,\n  title: aiData.headline,\n  summary: aiData.metaDescription,\n  category: aiData.category,\n  date: todayStr\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        -100
+      ],
+      "id": "compile-html",
+      "name": "Compile HTML File"
+    },
+    {
+      "parameters": {
+        "authentication": "pat",
+        "owner": "YOUR_GITHUB_USERNAME",
+        "repository": "YOUR_REPO_NAME",
+        "operation": "create",
+        "filePath": "=articles/{{ $json.slug }}.html",
+        "fileContent": "={{ $json.html }}",
+        "commitMessage": "=Auto-publish article: {{ $json.title }}"
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        -100
+      ],
+      "id": "commit-html",
+      "name": "Push HTML to GitHub",
+      "credentials": {
+        "githubApi": {
+          "id": "YOUR_GITHUB_CREDENTIAL_ID"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/articles.json",
+        "sendHeaders": true,
+        "headersUi": {
+          "parameter": [
+            {
+              "name": "Authorization",
+              "value": "token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        -100
+      ],
+      "id": "fetch-articles-json",
+      "name": "Fetch Articles Index"
+    },
+    {
+      "parameters": {
+        "jsCode": "let articles = [];\ntry {\n  articles = JSON.parse($('Fetch Articles Index').item.json.data);\n} catch (e) {\n  articles = [];\n}\n\nconst compiled = $('Compile HTML File').item.json;\n\n// Add new article metadata to the top\narticles.unshift({\n  title: compiled.title,\n  summary: compiled.summary,\n  url: `articles/${compiled.slug}.html`,\n  date: compiled.date,\n  category: compiled.category\n});\n\n// Cap at 30 articles to prevent file growing too large\nif (articles.length > 30) {\n  articles = articles.slice(0, 30);\n}\n\nreturn {\n  jsonContent: JSON.stringify(articles, null, 2)\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1760,
+        -100
+      ],
+      "id": "update-json-list",
+      "name": "Update JSON Index"
+    },
+    {
+      "parameters": {
+        "authentication": "pat",
+        "owner": "YOUR_GITHUB_USERNAME",
+        "repository": "YOUR_REPO_NAME",
+        "operation": "edit",
+        "filePath": "articles.json",
+        "fileContent": "={{ $json.jsonContent }}",
+        "commitMessage": "Update articles.json index"
+      },
+      "type": "n8n-nodes-base.github",
+      "typeVersion": 1,
+      "position": [
+        1980,
+        -100
+      ],
+      "id": "commit-json",
+      "name": "Push JSON to GitHub",
+      "credentials": {
+        "githubApi": {
+          "id": "YOUR_GITHUB_CREDENTIAL_ID"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "rss-trigger": {
+      "main": [
+        [
+          {
+            "node": "check-relevance",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "check-relevance": {
+      "main": [
+        [
+          {
+            "node": "filter-relevant",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "filter-relevant": {
+      "main": [
+        [
+          {
+            "node": "generate-content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "generate-content": {
+      "main": [
+        [
+          {
+            "node": "fetch-template",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "fetch-template": {
+      "main": [
+        [
+          {
+            "node": "compile-html",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "compile-html": {
+      "main": [
+        [
+          {
+            "node": "commit-html",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "commit-html": {
+      "main": [
+        [
+          {
+            "node": "fetch-articles-json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "fetch-articles-json": {
+      "main": [
+        [
+          {
+            "node": "update-json-list",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "update-json-list": {
+      "main": [
+        [
+          {
+            "node": "commit-json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {},
+  "staticData": null,
+  "meta": {
+    "templateId": ""
+  },
+  "pinData": {}
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Days Between Dates Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate the exact number of days, weeks, and months between two dates. Optional filters to count business days or exclude weekends.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📅</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#calculators" class="active">Tools</a>
+        <a href="../index.html#blog">Blog</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Title -->
+    <div class="hero" style="padding: 40px 0 20px;">
+      <h1>Days Between <span>Dates Calculator</span></h1>
+      <p>Compute the exact calendar duration, total weeks, and business days between any two calendar events.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Ad Placement)
+    </div>
+
+    <!-- Calculator Box -->
+    <div class="calc-container">
+      
+      <!-- Input Panel -->
+      <div class="card calc-inputs">
+        
+        <!-- Start Date -->
+        <div class="form-group">
+          <label for="start-date">Start Date</label>
+          <input type="date" class="form-control" id="start-date">
+        </div>
+
+        <!-- End Date -->
+        <div class="form-group">
+          <label for="end-date">End Date</label>
+          <input type="date" class="form-control" id="end-date">
+        </div>
+
+        <!-- Options -->
+        <div class="form-group" style="gap: 12px; margin-top: 8px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <input type="checkbox" id="include-end" style="width: 18px; height: 18px; cursor: pointer;">
+            <label for="include-end" style="cursor: pointer; font-size: 14px; font-weight: normal; color: var(--text-secondary);">Include end date (adds 1 day)</label>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Results Panel -->
+      <div class="calc-results">
+        <h3 class="result-title">Duration Output</h3>
+        
+        <div class="result-main">
+          <div class="value" id="res-days" style="color: var(--accent-secondary);">0</div>
+          <div class="label">Total Days</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Weeks & Days:</span>
+          <span class="val" id="res-weeks-days">0 weeks, 0 days</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Business Days (Mon-Fri):</span>
+          <span class="val" id="res-business" style="color: var(--accent-success);">0</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Weekend Days (Sat-Sun):</span>
+          <span class="val" id="res-weekends">0</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Content Ad)
+    </div>
+
+    <!-- SEO Content / Article related to calculations -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>Understanding Calendar Time & Business Day Calculations</h2>
+        <p>In our modern work environment and personal planning, tracking deadlines, counting days, and projecting timelines are everyday tasks. While checking a physical calendar works for a few days, calculating large durations or extracting business days requires automated tools.</p>
+        
+        <h3>Why Calendar Math is Complex</h3>
+        <p>Calculating the exact number of days between two dates is not as simple as subtracting numbers, due to several anomalies in our timekeeping systems:</p>
+        <ul>
+          <li><strong>Leap Years:</strong> Every four years, an extra day is added to February. If your range crosses February of a leap year (such as 2024 or 2028), a standard calculator must adjust for this 366-day year.</li>
+          <li><strong>Varying Month Lengths:</strong> Months range from 28 to 31 days. Simple estimations (like assuming 30 days per month) will introduce errors in long-term counts.</li>
+          <li><strong>Time Zones:</strong> A date span crossing daylight savings shifts or crossing borders can result in hourly offsets, though calendar calculators typically use absolute midnight boundaries.</li>
+        </ul>
+        <blockquote>
+          Our date calculator uses high-precision JavaScript Epoch time stamps, measuring the exact milliseconds between midnight of both dates to ensure perfect mathematical consistency, including leap years.
+        </blockquote>
+
+        <h3>What are Business Days?</h3>
+        <p>Business days, or working days, represent the standard operational days of most organizations—typically Monday through Friday. Weekend days (Saturday and Sunday) are excluded.</p>
+        <p>This calculator loops through every date in your selected range, checks its day of the week (where 0 is Sunday and 6 is Saturday), and excludes Saturdays and Sundays from the business day count. This is extremely useful for contract deadlines, shipping times, or project milestone estimations.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 16px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal Pages</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Default dates (Today and +30 days)
+    const today = new Date();
+    const futureDate = new Date();
+    futureDate.setDate(today.getDate() + 30);
+
+    const formatDateStr = (d) => d.toISOString().split('T')[0];
+
+    // Elements
+    const startDateInput = document.getElementById('start-date');
+    const endDateInput = document.getElementById('end-date');
+    const includeEndInput = document.getElementById('include-end');
+
+    // Outputs
+    const resDays = document.getElementById('res-days');
+    const resWeeksDays = document.getElementById('res-weeks-days');
+    const resBusiness = document.getElementById('res-business');
+    const resWeekends = document.getElementById('res-weekends');
+
+    // Set default values
+    startDateInput.value = formatDateStr(today);
+    endDateInput.value = formatDateStr(futureDate);
+
+    function calculateDates() {
+      const d1 = new Date(startDateInput.value + 'T00:00:00');
+      const d2 = new Date(endDateInput.value + 'T00:00:00');
+
+      if (isNaN(d1.getTime()) || isNaN(d2.getTime())) {
+        return;
+      }
+
+      // Check if d2 is before d1, if so swap or show 0
+      let difference = d2.getTime() - d1.getTime();
+      let totalDays = Math.round(difference / (1000 * 60 * 60 * 24));
+
+      if (totalDays < 0) {
+        resDays.textContent = '0';
+        resWeeksDays.textContent = '0 weeks, 0 days';
+        resBusiness.textContent = '0';
+        resWeekends.textContent = '0';
+        return;
+      }
+
+      if (includeEndInput.checked) {
+        totalDays += 1;
+      }
+
+      // Calculate Weeks and Days
+      const weeks = Math.floor(totalDays / 7);
+      const remainingDays = totalDays % 7;
+
+      // Calculate Business Days and Weekends
+      let businessDays = 0;
+      let weekendDays = 0;
+      
+      const current = new Date(d1);
+      const limit = new Date(d2);
+      if (includeEndInput.checked) {
+        limit.setDate(limit.getDate() + 1);
+      }
+
+      while (current < limit) {
+        const dayOfWeek = current.getDay();
+        if (dayOfWeek === 0 || dayOfWeek === 6) {
+          weekendDays++;
+        } else {
+          businessDays++;
+        }
+        current.setDate(current.getDate() + 1);
+      }
+
+      // Update UI
+      resDays.textContent = totalDays.toLocaleString();
+      resWeeksDays.textContent = `${weeks} week${weeks !== 1 ? 's' : ''}, ${remainingDays} day${remainingDays !== 1 ? 's' : ''}`;
+      resBusiness.textContent = businessDays.toLocaleString();
+      resWeekends.textContent = weekendDays.toLocaleString();
+    }
+
+    // Event listeners
+    startDateInput.addEventListener('change', calculateDates);
+    endDateInput.addEventListener('change', calculateDates);
+    includeEndInput.addEventListener('change', calculateDates);
+
+    // Initialize
+    calculateDates();
+  </script>
+</body>
+</html>

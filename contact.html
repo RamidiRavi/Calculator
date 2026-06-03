@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - OmniCalc</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✉️</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#calculators">Tools</a>
+        <a href="index.html#blog">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero" style="padding: 40px 0 20px;">
+      <h1>Contact <span>Our Team</span></h1>
+      <p>Have questions, tool suggestions, or feedback? Get in touch with us using the form below.</p>
+    </div>
+
+    <!-- Contact Form Box -->
+    <div style="max-width: 600px; margin: 0 auto 80px;">
+      <div class="card">
+        
+        <form id="contact-form" onsubmit="handleContactSubmit(event)">
+          
+          <div class="form-group" style="margin-bottom: 20px;">
+            <label for="contact-name">Your Name</label>
+            <input type="text" class="form-control" id="contact-name" placeholder="John Doe" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 20px;">
+            <label for="contact-email">Email Address</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="john@example.com" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 20px;">
+            <label for="contact-subject">Subject</label>
+            <input type="text" class="form-control" id="contact-subject" placeholder="Feedback or Suggestion" required>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 24px;">
+            <label for="contact-message">Message</label>
+            <textarea class="form-control" id="contact-message" rows="5" placeholder="Write your message here..." style="resize: vertical; font-family: var(--font-body);" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          
+        </form>
+
+        <div id="contact-success" style="display: none; text-align: center; padding: 24px 0;">
+          <div style="font-size: 48px; margin-bottom: 16px;">✉️</div>
+          <h3 style="font-family: var(--font-display); font-size: 20px; font-weight: 700; margin-bottom: 8px; color: var(--accent-success);">Message Sent Successfully!</h3>
+          <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">Thank you for contacting OmniCalc. Our team will review your message and get back to you within 24-48 hours.</p>
+          <button class="btn btn-secondary" onclick="resetContactForm()">Send Another Message</button>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: 16px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="calculators/loan.html">Loan Calculator</a></li>
+            <li><a href="calculators/calorie.html">Calorie Deficit</a></li>
+            <li><a href="calculators/days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal Pages</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    function handleContactSubmit(event) {
+      event.preventDefault();
+      
+      // Select fields
+      const name = document.getElementById('contact-name').value;
+      const email = document.getElementById('contact-email').value;
+      const subject = document.getElementById('contact-subject').value;
+      const message = document.getElementById('contact-message').value;
+
+      // Mock submit (since it's static) - User can hook it to Formspree or Netlify Forms
+      console.log('Submitting Form Data:', { name, email, subject, message });
+
+      // Toggle views
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('contact-success').style.display = 'block';
+    }
+
+    function resetContactForm() {
+      // Clear values
+      document.getElementById('contact-name').value = '';
+      document.getElementById('contact-email').value = '';
+      document.getElementById('contact-subject').value = '';
+      document.getElementById('contact-message').value = '';
+
+      // Toggle views back
+      document.getElementById('contact-success').style.display = 'none';
+      document.getElementById('contact-form').style.display = 'block';
+    }
+  </script>
+</body>
+</html>

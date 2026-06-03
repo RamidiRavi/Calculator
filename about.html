@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - OmniCalc</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#calculators">Tools</a>
+        <a href="index.html#blog">Blog</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="article-page" style="margin-top: 40px;">
+      <div class="article-header">
+        <h1>About OmniCalc</h1>
+        <p style="color: var(--text-muted);">Our mission and development principles.</p>
+      </div>
+
+      <article class="article-body">
+        <p>OmniCalc was founded with a single, clear objective: to build the fastest, most beautiful, and most private interactive calculators on the web.</p>
+        <p>In a digital world full of bulky websites, popups, and registration forms, we wanted to create a clean, responsive space where anyone can calculate everyday tasks without friction.</p>
+
+        <h2>Our Development Principles</h2>
+        
+        <h3>1. Privacy First</h3>
+        <p>Most online calculators send your inputs to a remote server. We believe your personal data—especially your financial variables and biological details—should remain private. Every single calculator on OmniCalc operates entirely in your web browser (client-side). Your inputs are never stored, transmitted, or analyzed by us.</p>
+        
+        <h3>2. Performance & Speed</h3>
+        <p>We do not use heavy javascript frameworks or bloated databases. OmniCalc is built on pure, optimized HTML, CSS, and vanilla JavaScript. This ensures that pages load in fractions of a second, even on slow mobile connections.</p>
+
+        <h3>3. Accuracy & Simplicity</h3>
+        <p>We spend hours verifying our mathematical formulas (such as amortization algorithms and the Harris-Benedict BMR formula) against official guidelines. We then package these formulas into simple, sliding controls that anyone can use instantly.</p>
+
+        <h2>Who We Are</h2>
+        <p>We are a small, independent team of developers, researchers, and designers passionate about web utility optimization. By building direct, focused tools, we help thousands of visitors make smarter everyday decisions regarding their health, money, and time.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="index.html" class="logo" style="margin-bottom: 16px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="calculators/loan.html">Loan Calculator</a></li>
+            <li><a href="calculators/calorie.html">Calorie Deficit</a></li>
+            <li><a href="calculators/days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal Pages</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
