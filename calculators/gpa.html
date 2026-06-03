@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPA Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your semester or cumulative Grade Point Average (GPA) using our free 4.0 scale GPA calculator.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+  <style>
+    .gpa-row {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-other">GPA Calculator</h1>
+      <p>Estimate your Semester Grade Point Average (GPA) using a standard US 4.0 academic scale.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs" id="gpa-inputs-box">
+        <div class="gpa-row" style="font-weight: 600; font-size: 13px; color: var(--text-secondary); margin-bottom: 8px;">
+          <span>Course Name (Optional)</span>
+          <span>Grade</span>
+          <span>Credits</span>
+        </div>
+        
+        <!-- Course 1 -->
+        <div class="gpa-row">
+          <input type="text" class="form-control" placeholder="Course 1" value="English">
+          <select class="form-control gpa-grade" onchange="calculateGPA()">
+            <option value="4.0" selected>A</option>
+            <option value="3.0">B</option>
+            <option value="2.0">C</option>
+            <option value="1.0">D</option>
+            <option value="0.0">F</option>
+          </select>
+          <input type="number" class="form-control gpa-credits" value="3" min="1" max="6" oninput="calculateGPA()">
+        </div>
+
+        <!-- Course 2 -->
+        <div class="gpa-row">
+          <input type="text" class="form-control" placeholder="Course 2" value="Mathematics">
+          <select class="form-control gpa-grade" onchange="calculateGPA()">
+            <option value="4.0">A</option>
+            <option value="3.0" selected>B</option>
+            <option value="2.0">C</option>
+            <option value="1.0">D</option>
+            <option value="0.0">F</option>
+          </select>
+          <input type="number" class="form-control gpa-credits" value="4" min="1" max="6" oninput="calculateGPA()">
+        </div>
+
+        <!-- Course 3 -->
+        <div class="gpa-row">
+          <input type="text" class="form-control" placeholder="Course 3" value="History">
+          <select class="form-control gpa-grade" onchange="calculateGPA()">
+            <option value="4.0" selected>A</option>
+            <option value="3.0">B</option>
+            <option value="2.0">C</option>
+            <option value="1.0">D</option>
+            <option value="0.0">F</option>
+          </select>
+          <input type="number" class="form-control gpa-credits" value="3" min="1" max="6" oninput="calculateGPA()">
+        </div>
+
+        <!-- Course 4 -->
+        <div class="gpa-row">
+          <input type="text" class="form-control" placeholder="Course 4" value="Science">
+          <select class="form-control gpa-grade" onchange="calculateGPA()">
+            <option value="4.0">A</option>
+            <option value="3.0">B</option>
+            <option value="2.0" selected>C</option>
+            <option value="1.0">D</option>
+            <option value="0.0">F</option>
+          </select>
+          <input type="number" class="form-control gpa-credits" value="4" min="1" max="6" oninput="calculateGPA()">
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">GPA Report</h3>
+        <div class="result-main">
+          <div class="value" id="res-gpa" style="color: var(--accent-other);">3.14</div>
+          <div class="label">Grade Point Average Score</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Total Grade Points:</span>
+          <span class="val" id="res-gpa-points">44.0</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Total Credit Hours:</span>
+          <span class="val" id="res-gpa-credits">14</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const gpaVal = document.getElementById('res-gpa');
+    const pointsVal = document.getElementById('res-gpa-points');
+    const creditsVal = document.getElementById('res-gpa-credits');
+
+    function calculateGPA() {
+      const grades = document.querySelectorAll('.gpa-grade');
+      const credits = document.querySelectorAll('.gpa-credits');
+
+      let totalPoints = 0;
+      let totalCredits = 0;
+
+      for (let i = 0; i < grades.length; i++) {
+        const gradePoint = parseFloat(grades[i].value) || 0;
+        const creditHours = parseFloat(credits[i].value) || 0;
+
+        if (creditHours > 0) {
+          totalPoints += gradePoint * creditHours;
+          totalCredits += creditHours;
+        }
+      }
+
+      if (totalCredits === 0) {
+        gpaVal.textContent = '0.00';
+        pointsVal.textContent = '0.0';
+        creditsVal.textContent = '0';
+        return;
+      }
+
+      const gpa = totalPoints / totalCredits;
+
+      gpaVal.textContent = gpa.toFixed(2);
+      pointsVal.textContent = totalPoints.toFixed(1);
+      creditsVal.textContent = totalCredits.toString();
+    }
+
+    calculateGPA();
+  </script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compound Interest Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate the future value of your savings or investments using compound interest. Support for monthly deposits and custom compounding periods.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Compound Interest Calculator</h1>
+      <p>Estimate the growth of your investments over time. See how monthly additions and compounding frequency impact your net worth.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="initial-principal">Initial Deposit ($)</label>
+            <input type="number" class="form-control" id="initial-principal" value="10000">
+          </div>
+          <div class="form-group">
+            <label for="monthly-deposit">Monthly Contribution ($)</label>
+            <input type="number" class="form-control" id="monthly-deposit" value="200">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="interest-rate">Annual Interest Rate (%)</label>
+            <input type="number" class="form-control" id="interest-rate" value="8" step="0.1">
+          </div>
+          <div class="form-group">
+            <label for="years">Length of Time (Years)</label>
+            <input type="number" class="form-control" id="years" value="10">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="frequency">Compounding Frequency</label>
+          <select class="form-control" id="frequency">
+            <option value="12" selected>Monthly (12/year)</option>
+            <option value="1">Annually (1/year)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">Future Balance</h3>
+        <div class="result-main">
+          <div class="value" id="res-future-val" style="color: var(--accent-financial);">$58,829.17</div>
+          <div class="label">Estimated Net Worth</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Principal Contributions:</span>
+          <span class="val" id="res-total-deposits">$34,000.00</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Total Interest Accrued:</span>
+          <span class="val" id="res-interest-earned" style="color: var(--accent-fitness);">$24,829.17</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+    <!-- SEO Content -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>The Power of Compound Interest</h2>
+        <p>Compound interest is the addition of interest to the principal sum of a loan or deposit, or in other words, interest on interest. It is the result of reinvesting interest, rather than paying it out.</p>
+        
+        <h3>The Compounding Formula</h3>
+        <p>The standard future value formula with compounding is:</p>
+        <p style="font-family: monospace; text-align: center; background: #f1f5f9; padding: 10px; border-radius: 6px;">
+          A = P * (1 + r/n)^(n*t)
+        </p>
+        <p>Where <strong>A</strong> is the final balance, <strong>P</strong> is the principal, <strong>r</strong> is the rate, <strong>n</strong> is the compounding frequency, and <strong>t</strong> is time in years.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const principalInput = document.getElementById('initial-principal');
+    const depositInput = document.getElementById('monthly-deposit');
+    const rateInput = document.getElementById('interest-rate');
+    const yearsInput = document.getElementById('years');
+    const freqInput = document.getElementById('frequency');
+
+    const futureValText = document.getElementById('res-future-val');
+    const depositsText = document.getElementById('res-total-deposits');
+    const interestText = document.getElementById('res-interest-earned');
+
+    function calculateCompound() {
+      const P = parseFloat(principalInput.value) || 0;
+      const PMT = parseFloat(depositInput.value) || 0;
+      const annualRate = parseFloat(rateInput.value) || 0;
+      const t = parseFloat(yearsInput.value) || 0;
+      const n = parseInt(freqInput.value) || 12;
+
+      if (t <= 0) return;
+
+      const r = annualRate / 100;
+      
+      // Calculate Future value of principal: P * (1 + r/n)^(n*t)
+      const fvPrincipal = P * Math.pow(1 + r/n, n * t);
+
+      // Future value of series: PMT * [((1 + r/k)^(k*t) - 1) / (r/k)] where k is monthly (12)
+      // Since contributions are monthly, monthly rate is r/12
+      const monthlyRate = r / 12;
+      const totalMonths = t * 12;
+      let fvContributions = 0;
+      if (r > 0) {
+        fvContributions = PMT * ((Math.pow(1 + monthlyRate, totalMonths) - 1) / monthlyRate);
+      } else {
+        fvContributions = PMT * totalMonths;
+      }
+
+      const totalBalance = fvPrincipal + fvContributions;
+      const totalDeposited = P + (PMT * totalMonths);
+      const totalInterest = totalBalance - totalDeposited;
+
+      futureValText.textContent = totalBalance.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      depositsText.textContent = totalDeposited.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      interestText.textContent = totalInterest.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+    }
+
+    principalInput.addEventListener('input', calculateCompound);
+    depositInput.addEventListener('input', calculateCompound);
+    rateInput.addEventListener('input', calculateCompound);
+    yearsInput.addEventListener('input', calculateCompound);
+    freqInput.addEventListener('change', calculateCompound);
+
+    calculateCompound();
+  </script>
+</body>
+</html>

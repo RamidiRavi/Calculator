@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <!-- Navigation Header -->
+  <!-- Header -->
   <header>
     <div class="container header-inner">
       <a href="../index.html" class="logo">
@@ -19,15 +19,15 @@
       </a>
       <nav>
         <a href="../index.html">Home</a>
-        <a href="../index.html#calculators">Tools</a>
-        <a href="../index.html#blog" class="active">Blog</a>
+        <a href="../index.html#directory">Calculators</a>
+        <a href="../index.html#blog" class="active">Insights</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Horizontal Ad Placeholder -->
+  <!-- Horizontal Ad Banner -->
   <div class="container">
     <div class="adsense-placeholder ads-horizontal">
       Advertisements (Top Article Banner)
@@ -35,36 +35,36 @@
   </div>
 
   <main class="container">
-    <section class="article-page">
+    <section class="article-page" style="margin-top: 20px;">
       
       <!-- Article Header -->
       <div class="article-header">
-        <div class="article-meta" style="margin-bottom: 12px; font-size: 14px;">
+        <div class="article-meta" style="margin-bottom: 8px; font-size: 13px;">
           <span>{date}</span>
           <span>•</span>
-          <span style="color: var(--accent-primary); font-weight: 600;">{category}</span>
+          <span style="color: var(--accent-financial); font-weight: bold;">{category}</span>
         </div>
         <h1>{article-headline}</h1>
       </div>
 
-      <!-- Main Layout: Content and Sidebar Ads -->
-      <div class="calc-container" style="padding-top: 0; padding-bottom: 40px;">
+      <!-- Main Layout: Content + Sidebar -->
+      <div class="calc-container" style="padding-top: 0; padding-bottom: 30px;">
         
-        <!-- Article Body -->
+        <!-- Content -->
         <article class="article-body">
           {article-body}
           
-          <!-- Embedded Dynamic Tool Card -->
-          <div class="card" style="margin: 40px 0; border-color: var(--accent-primary); background: linear-gradient(145deg, rgba(30, 41, 59, 0.6) 0%, rgba(11, 15, 25, 0.8) 100%);">
-            <h3 style="margin-top: 0; font-family: var(--font-display); font-size: 20px;">⚡ Need to run the calculations yourself?</h3>
-            <p style="font-size: 14px; margin-bottom: 20px;">We've built a free, interactive tool designed specifically for this task. Calculate your rates, deficits, or dates instantly in your browser.</p>
+          <!-- Tool Card Widget -->
+          <div class="card" style="margin: 30px 0; border: 1px solid var(--accent-financial); background-color: var(--bg-primary); border-radius: 8px; padding: 20px;">
+            <h3 style="margin-top: 0; font-family: var(--font-display); font-size: 18px; color: var(--accent-financial);">⚡ Need to calculate this?</h3>
+            <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: 16px;">We have built a dedicated, browser-side interactive calculator to help you process these numbers immediately. It is free and respects your privacy.</p>
             {embedded-calculator-link}
           </div>
 
-          <p style="margin-top: 40px;"><a href="../index.html#blog" style="color: var(--accent-primary); text-decoration: none; font-weight: 600;">&larr; Back to Latest Insights</a></p>
+          <p style="margin-top: 30px;"><a href="../index.html#blog" style="color: var(--accent-financial); text-decoration: none; font-weight: 600;">&larr; Back to Latest Insights</a></p>
         </article>
 
-        <!-- Sidebar Ads Column -->
+        <!-- Sidebar Ad -->
         <div>
           <div class="adsense-placeholder ads-sidebar">
             Vertical Sidebar Advertisement (High CPC Ad Unit)
@@ -76,9 +76,9 @@
     </section>
   </main>
 
-  <!-- Horizontal Ad Placeholder -->
+  <!-- Horizontal Ad Banner -->
   <div class="container">
-    <div class="adsense-placeholder ads-horizontal" style="margin-bottom: 60px;">
+    <div class="adsense-placeholder ads-horizontal" style="margin-bottom: 40px;">
       Advertisements (Bottom Article Banner)
     </div>
   </div>
@@ -88,11 +88,11 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-col">
-          <a href="../index.html" class="logo" style="margin-bottom: 16px;">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
             <div class="logo-icon">⚡</div>
             <span>OmniCalc</span>
           </a>
-          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
         </div>
         <div class="footer-col">
           <h4>Utility Tools</h4>
@@ -103,7 +103,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Legal Pages</h4>
+          <h4>Information</h4>
           <ul class="footer-links">
             <li><a href="../about.html">About Us</a></li>
             <li><a href="../contact.html">Contact Us</a></li>
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
       </div>
     </div>
   </footer>

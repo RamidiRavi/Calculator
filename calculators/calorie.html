@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Calorie Deficit & BMR Calculator - OmniCalc</title>
-  <meta name="description" content="Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE). Find the perfect calorie deficit for healthy and sustainable weight loss.">
+  <title>Calorie Deficit Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE). Find the perfect deficit for healthy weight loss.">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥗</text></svg>">
 </head>
 <body>
 
-  <!-- Navigation Header -->
+  <!-- Header -->
   <header>
     <div class="container header-inner">
       <a href="../index.html" class="logo">
@@ -19,8 +19,8 @@
       </a>
       <nav>
         <a href="../index.html">Home</a>
-        <a href="../index.html#calculators" class="active">Tools</a>
-        <a href="../index.html#blog">Blog</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
       </nav>
@@ -29,24 +29,20 @@
 
   <main class="container">
     
-    <!-- Title -->
-    <div class="hero" style="padding: 40px 0 20px;">
-      <h1>Calorie Deficit & <span>BMR Calculator</span></h1>
-      <p>Estimate your daily calorie burn based on your biology and physical activity. Discover your target calories to lose fat or gain muscle.</p>
+    <div class="hero">
+      <h1 class="calc-header-fitness">Calorie Deficit Calculator</h1>
+      <p>Estimate your daily calorie expenditure based on biological inputs and activity coefficients.</p>
     </div>
 
-    <!-- Ad placeholder -->
     <div class="adsense-placeholder ads-horizontal">
-      Advertisements (Top Ad Placement)
+      Advertisements (Top Calculator Ad)
     </div>
 
-    <!-- Calculator Box -->
+    <!-- Calculator Grid -->
     <div class="calc-container">
       
-      <!-- Input Panel -->
-      <div class="card calc-inputs">
-        
-        <!-- Gender Selection -->
+      <!-- Inputs -->
+      <div class="calc-inputs">
         <div class="form-group">
           <label>Biological Gender</label>
           <div class="radio-group">
@@ -61,106 +57,75 @@
           </div>
         </div>
 
-        <!-- Age & Weight -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
           <div class="form-group">
             <label for="age">Age (Years)</label>
-            <input type="number" class="form-control" id="age" value="25" min="15" max="90">
+            <input type="number" class="form-control" id="age" value="25">
           </div>
           <div class="form-group">
             <label for="weight">Weight (kg)</label>
-            <input type="number" class="form-control" id="weight" value="70" min="30" max="250">
+            <input type="number" class="form-control" id="weight" value="70">
           </div>
         </div>
 
-        <!-- Height -->
         <div class="form-group">
           <label for="height">Height (cm)</label>
-          <input type="number" class="form-control" id="height" value="175" min="100" max="250">
+          <input type="number" class="form-control" id="height" value="175">
         </div>
 
-        <!-- Activity Level -->
         <div class="form-group">
           <label for="activity">Daily Activity Level</label>
           <select class="form-control" id="activity">
-            <option value="1.2">Sedentary (Little or no exercise)</option>
+            <option value="1.2">Sedentary (No exercise)</option>
             <option value="1.375" selected>Lightly Active (Light exercise 1-3 days/week)</option>
-            <option value="1.55">Moderately Active (Moderate exercise 3-5 days/week)</option>
+            <option value="1.55">Moderately Active (Exercise 3-5 days/week)</option>
             <option value="1.725">Very Active (Hard exercise 6-7 days/week)</option>
-            <option value="1.9">Extra Active (Very hard physical job or double training)</option>
           </select>
         </div>
-
       </div>
 
-      <!-- Results Panel -->
+      <!-- Results -->
       <div class="calc-results">
-        <h3 class="result-title">Energy Analysis</h3>
-        
+        <h3 class="result-title">Energy Metrics</h3>
         <div class="result-main">
-          <div class="value" id="res-tdee" style="color: var(--accent-primary);">2,243</div>
-          <div class="label">Total Daily Energy Expenditure (TDEE)</div>
+          <div class="value" id="res-tdee" style="color: var(--accent-fitness);">2,243</div>
+          <div class="label">Daily Expenditure (TDEE)</div>
         </div>
 
         <div class="result-row">
-          <span class="lbl">Basal Metabolic Rate (BMR):</span>
+          <span class="lbl">BMR:</span>
           <span class="val" id="res-bmr">1,657 kcal</span>
         </div>
         <div class="result-row">
-          <span class="lbl">Maintenance Calories:</span>
-          <span class="val" id="res-maintenance">2,243 kcal/day</span>
+          <span class="lbl">Maintenance:</span>
+          <span class="val" id="res-maintenance">2,243 kcal</span>
         </div>
-        <div class="result-row" style="padding: 16px 0;">
+        <div class="result-row" style="padding-top: 12px;">
           <div style="width: 100%;">
-            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px; color: var(--accent-success);">
+            <div style="display: flex; justify-content: space-between; font-weight: bold; color: var(--accent-fitness);">
               <span>Fat Loss Deficit (15%):</span>
               <span id="res-deficit">1,906 kcal</span>
             </div>
-            <p style="font-size: 11px; color: var(--text-muted);">Recommended for safe, long-term body fat reduction.</p>
+            <p style="font-size: 11px; color: var(--text-muted); margin-top: 2px;">Target for steady, safe fat reduction.</p>
           </div>
         </div>
-        <div class="result-row" style="border-bottom: none;">
-          <div style="width: 100%;">
-            <div style="display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 4px; color: var(--accent-secondary);">
-              <span>Lean Muscle Surplus (10%):</span>
-              <span id="res-surplus">2,467 kcal</span>
-            </div>
-            <p style="font-size: 11px; color: var(--text-muted);">Recommended for building muscle while minimizing fat gain.</p>
-          </div>
-        </div>
-
       </div>
 
     </div>
 
     <!-- Ad placeholder -->
     <div class="adsense-placeholder ads-horizontal">
-      Advertisements (Middle Content Ad)
+      Advertisements (Middle Calculator Ad)
     </div>
 
-    <!-- SEO Content / Article related to calculations -->
+    <!-- SEO Content -->
     <section class="article-page" style="margin-top: 0;">
       <article class="article-body">
-        <h2>Understanding BMR, TDEE, and Calorie Deficits</h2>
-        <p>If you've ever tried to manage your body weight, you have likely encountered terms like BMR and TDEE. Understanding these metabolic figures is the cornerstone of designing a nutrition program that matches your physique goals, whether you are trying to lose fat, maintain, or gain muscle mass.</p>
+        <h2>Understanding BMR & TDEE</h2>
+        <p>Your body consumes calories constantly to perform biological tasks. Estimating your metabolic parameters helps structure your training and diet plans.</p>
         
-        <h3>What is Basal Metabolic Rate (BMR)?</h3>
-        <p>Your BMR is the exact number of calories your body burns just to perform basic life-sustaining functions. This includes breathing, circulating blood, cellular recovery, and brain function. Imagine lying in bed all day without moving a single muscle; your BMR is the energy required to keep you alive in that state.</p>
-        <blockquote>
-          BMR accounts for approximately 60% to 75% of your total daily calorie burn. It is heavily influenced by your age, height, biological gender, and total lean muscle mass (leaner bodies burn more resting calories).
-        </blockquote>
-
-        <h3>What is Total Daily Energy Expenditure (TDEE)?</h3>
-        <p>While BMR calculates your base energy, TDEE calculates your total energy burned in a 24-hour cycle. It represents your BMR plus the energy used during movement, work, and exercise. TDEE is computed by multiplying your BMR by a coefficient based on your activity level.</p>
-        
-        <h3>How to Establish a Safe Calorie Deficit</h3>
-        <p>A calorie deficit occurs when you consume fewer calories than your TDEE. This forces your body to tap into stored fat reserves to cover the energy deficit. While it may be tempting to drop calories drastically, a massive deficit can be harmful:</p>
-        <ul>
-          <li><strong>Slowed Metabolism:</strong> Extreme starvation triggers "adaptive thermogenesis," causing your body to burn fewer calories.</li>
-          <li><strong>Muscle Loss:</strong> Severe calorie deprivation causes the body to break down muscle tissue for fuel. Muscle is metabolically active, so losing it decreases your BMR.</li>
-          <li><strong>Nutritional Deficiencies:</strong> Consuming very few calories makes it difficult to get sufficient vitamins, minerals, and proteins.</li>
-        </ul>
-        <p>A safe, sustainable calorie deficit is typically <strong>15% to 20% below your TDEE</strong> (usually a deficit of 300 to 500 calories per day). This leads to a steady, healthy fat loss rate of 0.5 to 1.0 pound (0.25 to 0.5 kg) per week.</p>
+        <h3>BMR vs. TDEE</h3>
+        <p><strong>BMR (Basal Metabolic Rate)</strong> measures resting metabolic costs when active movement is zero. <strong>TDEE (Total Daily Energy Expenditure)</strong> adds physical activity. Consuming fewer calories than your TDEE creates a calorie deficit, triggering fat loss.</p>
       </article>
     </section>
 
@@ -171,11 +136,11 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-col">
-          <a href="../index.html" class="logo" style="margin-bottom: 16px;">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
             <div class="logo-icon">⚡</div>
             <span>OmniCalc</span>
           </a>
-          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
         </div>
         <div class="footer-col">
           <h4>Utility Tools</h4>
@@ -186,7 +151,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Legal Pages</h4>
+          <h4>Information</h4>
           <ul class="footer-links">
             <li><a href="../about.html">About Us</a></li>
             <li><a href="../contact.html">Contact Us</a></li>
@@ -196,7 +161,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -204,7 +169,6 @@
   <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
-    // Elements
     const genderMale = document.getElementById('gender-male');
     const genderFemale = document.getElementById('gender-female');
     const ageInput = document.getElementById('age');
@@ -212,12 +176,10 @@
     const heightInput = document.getElementById('height');
     const activityInput = document.getElementById('activity');
 
-    // Outputs
     const bmrText = document.getElementById('res-bmr');
     const tdeeText = document.getElementById('res-tdee');
     const maintenanceText = document.getElementById('res-maintenance');
     const deficitText = document.getElementById('res-deficit');
-    const surplusText = document.getElementById('res-surplus');
 
     function calculateCalories() {
       const age = parseFloat(ageInput.value) || 0;
@@ -226,31 +188,21 @@
       const activityMult = parseFloat(activityInput.value) || 1.2;
       const isMale = genderMale.checked;
 
-      if (age <= 0 || weight <= 0 || height <= 0) {
-        return;
-      }
+      if (age <= 0 || weight <= 0 || height <= 0) return;
 
-      // Revised Harris-Benedict Equation
-      let bmr = 0;
-      if (isMale) {
-        bmr = 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age);
-      } else {
-        bmr = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
-      }
+      let bmr = isMale
+        ? 88.362 + (13.397 * weight) + (4.799 * height) - (5.677 * age)
+        : 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
 
       const tdee = bmr * activityMult;
-      const deficit = tdee * 0.85; // 15% deficit
-      const surplus = tdee * 1.10; // 10% surplus
+      const deficit = tdee * 0.85;
 
-      // Update UI
       bmrText.textContent = Math.round(bmr).toLocaleString() + ' kcal';
       tdeeText.textContent = Math.round(tdee).toLocaleString();
-      maintenanceText.textContent = Math.round(tdee).toLocaleString() + ' kcal/day';
+      maintenanceText.textContent = Math.round(tdee).toLocaleString() + ' kcal';
       deficitText.textContent = Math.round(deficit).toLocaleString() + ' kcal';
-      surplusText.textContent = Math.round(surplus).toLocaleString() + ' kcal';
     }
 
-    // Event Listeners
     genderMale.addEventListener('change', calculateCalories);
     genderFemale.addEventListener('change', calculateCalories);
     ageInput.addEventListener('input', calculateCalories);
@@ -258,7 +210,6 @@
     heightInput.addEventListener('input', calculateCalories);
     activityInput.addEventListener('change', calculateCalories);
 
-    // Initialize
     calculateCalories();
   </script>
 </body>

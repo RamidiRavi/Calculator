@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Percentage Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate percentage values, percentage ratios, and percentage differences easily with our dynamic math utility tool.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-math">Percentage Calculator</h1>
+      <p>Resolve standard daily percentage calculations instantly. Ideal for financial, grading, or mathematical conversions.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container" style="grid-template-columns: 1fr;">
+      
+      <div class="calc-inputs" style="gap: 24px;">
+        
+        <!-- Scenario 1: What is X% of Y? -->
+        <div class="card" style="box-shadow: none; border: 1px solid var(--border-color); padding: 20px;">
+          <h3 style="font-size: 15px; margin-bottom: 12px; color: var(--accent-math);">What is X% of Y?</h3>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <span>What is</span>
+            <input type="number" class="form-control" id="sc1-x" value="20" style="width: 100px;">
+            <span>% of</span>
+            <input type="number" class="form-control" id="sc1-y" value="150" style="width: 120px;">
+            <span>?</span>
+            <span style="font-weight: bold; margin-left: auto; font-size: 18px; color: var(--accent-fitness);">Result: <span id="res-sc1">30</span></span>
+          </div>
+        </div>
+
+        <!-- Scenario 2: X is what percent of Y? -->
+        <div class="card" style="box-shadow: none; border: 1px solid var(--border-color); padding: 20px;">
+          <h3 style="font-size: 15px; margin-bottom: 12px; color: var(--accent-math);">X is what percent of Y?</h3>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <input type="number" class="form-control" id="sc2-x" value="25" style="width: 100px;">
+            <span>is what percent of</span>
+            <input type="number" class="form-control" id="sc2-y" value="200" style="width: 120px;">
+            <span>?</span>
+            <span style="font-weight: bold; margin-left: auto; font-size: 18px; color: var(--accent-fitness);">Result: <span id="res-sc2">12.5</span>%</span>
+          </div>
+        </div>
+
+        <!-- Scenario 3: Percentage change from X to Y -->
+        <div class="card" style="box-shadow: none; border: 1px solid var(--border-color); padding: 20px;">
+          <h3 style="font-size: 15px; margin-bottom: 12px; color: var(--accent-math);">Percentage change from X to Y?</h3>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <span>Change from</span>
+            <input type="number" class="form-control" id="sc3-x" value="40" style="width: 100px;">
+            <span>to</span>
+            <input type="number" class="form-control" id="sc3-y" value="50" style="width: 120px;">
+            <span>?</span>
+            <span style="font-weight: bold; margin-left: auto; font-size: 18px; color: var(--accent-fitness);">Result: <span id="res-sc3">+25</span>%</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+    <!-- SEO Content -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>Understanding Percentages</h2>
+        <p>A percentage is a number or ratio expressed as a fraction of 100. It is often denoted using the percent sign "%". Percentages are widely used in computing interest rates, tax values, business metrics, and statistics.</p>
+        
+        <h3>Basic Percentage Formulas</h3>
+        <ul>
+          <li><strong>Find Percentage of Value:</strong> <code>Value = (Percent / 100) * Total</code></li>
+          <li><strong>Find Ratio Percentage:</strong> <code>Percent = (Part / Whole) * 100</code></li>
+          <li><strong>Find Percentage Change:</strong> <code>Change % = ((New Value - Old Value) / Old Value) * 100</code></li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Scenario 1
+    const sc1X = document.getElementById('sc1-x');
+    const sc1Y = document.getElementById('sc1-y');
+    const resSc1 = document.getElementById('res-sc1');
+
+    function calcSc1() {
+      const x = parseFloat(sc1X.value) || 0;
+      const y = parseFloat(sc1Y.value) || 0;
+      const res = (x / 100) * y;
+      resSc1.textContent = Number(res.toFixed(4)).toString();
+    }
+
+    sc1X.addEventListener('input', calcSc1);
+    sc1Y.addEventListener('input', calcSc1);
+
+    // Scenario 2
+    const sc2X = document.getElementById('sc2-x');
+    const sc2Y = document.getElementById('sc2-y');
+    const resSc2 = document.getElementById('res-sc2');
+
+    function calcSc2() {
+      const x = parseFloat(sc2X.value) || 0;
+      const y = parseFloat(sc2Y.value) || 0;
+      if (y === 0) {
+        resSc2.textContent = '0';
+        return;
+      }
+      const res = (x / y) * 100;
+      resSc2.textContent = Number(res.toFixed(4)).toString();
+    }
+
+    sc2X.addEventListener('input', calcSc2);
+    sc2Y.addEventListener('input', calcSc2);
+
+    // Scenario 3
+    const sc3X = document.getElementById('sc3-x');
+    const sc3Y = document.getElementById('sc3-y');
+    const resSc3 = document.getElementById('res-sc3');
+
+    function calcSc3() {
+      const x = parseFloat(sc3X.value) || 0;
+      const y = parseFloat(sc3Y.value) || 0;
+      if (x === 0) {
+        resSc3.textContent = '0';
+        return;
+      }
+      const res = ((y - x) / x) * 100;
+      const sign = res >= 0 ? '+' : '';
+      resSc3.textContent = sign + Number(res.toFixed(4)).toString();
+    }
+
+    sc3X.addEventListener('input', calcSc3);
+    sc3Y.addEventListener('input', calcSc3);
+
+    // Initial calculations
+    calcSc1();
+    calcSc2();
+    calcSc3();
+  </script>
+</body>
+</html>

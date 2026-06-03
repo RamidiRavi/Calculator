@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortgage Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your estimated monthly mortgage payments including principal, interest, taxes, and home insurance.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Mortgage Calculator</h1>
+      <p>Estimate your total monthly mortgage payment including principal, interest, property taxes, and insurance.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="home-price">Home Price ($)</label>
+            <input type="number" class="form-control" id="home-price" value="300000">
+          </div>
+          <div class="form-group">
+            <label for="down-payment">Down Payment ($)</label>
+            <input type="number" class="form-control" id="down-payment" value="60000">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="interest-rate">Interest Rate (%)</label>
+            <input type="number" class="form-control" id="interest-rate" value="6.5" step="0.1">
+          </div>
+          <div class="form-group">
+            <label for="loan-term">Loan Term (Years)</label>
+            <input type="number" class="form-control" id="loan-term" value="30">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="property-tax">Property Tax / Year ($)</label>
+            <input type="number" class="form-control" id="property-tax" value="3600">
+          </div>
+          <div class="form-group">
+            <label for="home-insurance">Home Insurance / Year ($)</label>
+            <input type="number" class="form-control" id="home-insurance" value="1200">
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">Monthly Payment</h3>
+        <div class="result-main">
+          <div class="value" id="res-total-payment" style="color: var(--accent-financial);">$1,917.02</div>
+          <div class="label">Total Monthly Payment</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Principal & Interest:</span>
+          <span class="val" id="res-pi">$1,517.02</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Property Tax (Monthly):</span>
+          <span class="val" id="res-tax">$300.00</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Home Insurance (Monthly):</span>
+          <span class="val" id="res-insurance">$100.00</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+    <!-- SEO Content -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>How Mortgages Work</h2>
+        <p>A mortgage is a loan specifically used to purchase real estate. Unlike standard personal loans, mortgages are secured by the property itself. Most mortgages run for 15 or 30 years.</p>
+        
+        <h3>Components of a Mortgage Payment</h3>
+        <p>A complete monthly payment is often referred to as PITI (Principal, Interest, Taxes, and Insurance):</p>
+        <ul>
+          <li><strong>Principal:</strong> The portion of your payment that goes directly to pay down the balance of the loan.</li>
+          <li><strong>Interest:</strong> The interest charged by the bank.</li>
+          <li><strong>Taxes:</strong> Annual property taxes assessed by your local government, split into 12 monthly payments.</li>
+          <li><strong>Insurance:</strong> Homeowner's hazard insurance required by lenders to protect the property against damages.</li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const homePriceInput = document.getElementById('home-price');
+    const downPaymentInput = document.getElementById('down-payment');
+    const interestRateInput = document.getElementById('interest-rate');
+    const loanTermInput = document.getElementById('loan-term');
+    const propertyTaxInput = document.getElementById('property-tax');
+    const homeInsuranceInput = document.getElementById('home-insurance');
+
+    const totalPaymentText = document.getElementById('res-total-payment');
+    const piText = document.getElementById('res-pi');
+    const taxText = document.getElementById('res-tax');
+    const insuranceText = document.getElementById('res-insurance');
+
+    function calculateMortgage() {
+      const homePrice = parseFloat(homePriceInput.value) || 0;
+      const downPayment = parseFloat(downPaymentInput.value) || 0;
+      const annualRate = parseFloat(interestRateInput.value) || 0;
+      const years = parseInt(loanTermInput.value) || 0;
+      const annualTax = parseFloat(propertyTaxInput.value) || 0;
+      const annualInsurance = parseFloat(homeInsuranceInput.value) || 0;
+
+      const principal = homePrice - downPayment;
+      if (principal <= 0 || annualRate <= 0 || years <= 0) return;
+
+      const monthlyRate = (annualRate / 100) / 12;
+      const totalPayments = years * 12;
+      const x = Math.pow(1 + monthlyRate, totalPayments);
+      const piPayment = (principal * x * monthlyRate) / (x - 1);
+
+      const monthlyTax = annualTax / 12;
+      const monthlyInsurance = annualInsurance / 12;
+      const totalPayment = piPayment + monthlyTax + monthlyInsurance;
+
+      totalPaymentText.textContent = totalPayment.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      piText.textContent = piPayment.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      taxText.textContent = monthlyTax.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      insuranceText.textContent = monthlyInsurance.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+    }
+
+    homePriceInput.addEventListener('input', calculateMortgage);
+    downPaymentInput.addEventListener('input', calculateMortgage);
+    interestRateInput.addEventListener('input', calculateMortgage);
+    loanTermInput.addEventListener('input', calculateMortgage);
+    propertyTaxInput.addEventListener('input', calculateMortgage);
+    homeInsuranceInput.addEventListener('input', calculateMortgage);
+
+    calculateMortgage();
+  </script>
+</body>
+</html>

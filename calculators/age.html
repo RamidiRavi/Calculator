@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your exact age in years, months, weeks, days, and hours since birth. Optional targets to calculate age at any historical date.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👶</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-other">Age Calculator</h1>
+      <p>Compute your exact biological age in years, months, and days down to the second.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        <div class="form-group">
+          <label for="birth-date">Date of Birth</label>
+          <input type="date" class="form-control" id="birth-date" value="1995-06-15">
+        </div>
+
+        <div class="form-group">
+          <label for="target-date">Age at Date</label>
+          <input type="date" class="form-control" id="target-date">
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">Chronological Age</h3>
+        <div class="result-main">
+          <div class="value" id="res-years" style="color: var(--accent-other);">0</div>
+          <div class="label">Years Old</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Months & Days:</span>
+          <span class="val" id="res-months-days">0 months, 0 days</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Total Days Lived:</span>
+          <span class="val" id="res-total-days">0 days</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Total Weeks Lived:</span>
+          <span class="val" id="res-total-weeks">0 weeks</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const birthInput = document.getElementById('birth-date');
+    const targetInput = document.getElementById('target-date');
+
+    const yearsText = document.getElementById('res-years');
+    const monthsDaysText = document.getElementById('res-months-days');
+    const totalDaysText = document.getElementById('res-total-days');
+    const totalWeeksText = document.getElementById('res-total-weeks');
+
+    // Default target date is Today
+    targetInput.value = new Date().toISOString().split('T')[0];
+
+    function calculateAge() {
+      const birth = new Date(birthInput.value + 'T00:00:00');
+      const target = new Date(targetInput.value + 'T00:00:00');
+
+      if (isNaN(birth.getTime()) || isNaN(target.getTime())) return;
+
+      const diffTime = target.getTime() - birth.getTime();
+      if (diffTime < 0) {
+        yearsText.textContent = '0';
+        monthsDaysText.textContent = '0 months, 0 days';
+        totalDaysText.textContent = '0 days';
+        totalWeeksText.textContent = '0 weeks';
+        return;
+      }
+
+      // Calculate total stats
+      const totalDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+      const totalWeeks = Math.floor(totalDays / 7);
+
+      // Detailed Years/Months/Days Breakdown
+      let y = target.getFullYear() - birth.getFullYear();
+      let m = target.getMonth() - birth.getMonth();
+      let d = target.getDate() - birth.getDate();
+
+      if (d < 0) {
+        m--;
+        // Get number of days in the previous month
+        const prevMonth = new Date(target.getFullYear(), target.getMonth(), 0);
+        d += prevMonth.getDate();
+      }
+      if (m < 0) {
+        y--;
+        m += 12;
+      }
+
+      yearsText.textContent = y.toString();
+      monthsDaysText.textContent = `${m} month${m !== 1 ? 's' : ''}, ${d} day${d !== 1 ? 's' : ''}`;
+      totalDaysText.textContent = totalDays.toLocaleString() + ' days';
+      totalWeeksText.textContent = totalWeeks.toLocaleString() + ' weeks';
+    }
+
+    birthInput.addEventListener('change', calculateAge);
+    targetInput.addEventListener('change', calculateAge);
+
+    calculateAge();
+  </script>
+</body>
+</html>

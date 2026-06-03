@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loan & Compound Interest Calculator - OmniCalc</title>
-  <meta name="description" content="Use our interactive loan calculator to estimate your monthly mortgage, auto, or personal loan payments. Customize interest rates and loan terms instantly.">
+  <title>Loan Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your monthly payments, principal reduction, and total interest expenses for auto, mortgage, or personal loans.">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>">
 </head>
 <body>
 
-  <!-- Navigation Header -->
+  <!-- Header -->
   <header>
     <div class="container header-inner">
       <a href="../index.html" class="logo">
@@ -19,8 +19,8 @@
       </a>
       <nav>
         <a href="../index.html">Home</a>
-        <a href="../index.html#calculators" class="active">Tools</a>
-        <a href="../index.html#blog">Blog</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
       </nav>
@@ -29,133 +29,102 @@
 
   <main class="container">
     
-    <!-- Hero / Title -->
-    <div class="hero" style="padding: 40px 0 20px;">
-      <h1>Interactive <span>Loan & Payment</span> Calculator</h1>
-      <p>Instantly estimate your monthly principal and interest repayments. Use the sliders to run different scenarios.</p>
+    <div class="hero">
+      <h1 class="calc-header-financial">Loan Calculator</h1>
+      <p>Estimate your monthly principal and interest repayments. Use the sliders to customize your terms.</p>
     </div>
 
-    <!-- Ad placeholder -->
     <div class="adsense-placeholder ads-horizontal">
-      Advertisements (Top Ad Placement)
+      Advertisements (Top Calculator Ad)
     </div>
 
-    <!-- Calculator Box -->
+    <!-- Calculator Grid -->
     <div class="calc-container">
       
-      <!-- Input Panel -->
-      <div class="card calc-inputs">
-        
-        <!-- Loan Amount -->
+      <!-- Inputs -->
+      <div class="calc-inputs">
         <div class="form-group">
           <div class="range-header">
-            <label for="loan-amount">Loan Amount</label>
+            <label for="loan-amount">Loan Principal Amount</label>
             <span class="range-val">$<span id="loan-amount-val">100,000</span></span>
           </div>
-          <input type="range" class="form-control-range" id="loan-amount" min="1000" max="1000000" step="5000" value="100000">
-          <input type="number" class="form-control" id="loan-amount-num" value="100000" min="1000" max="1000000">
+          <input type="range" class="form-control-range" id="loan-amount" min="1000" max="500000" step="1000" value="100000">
+          <input type="number" class="form-control" id="loan-amount-num" value="100000">
         </div>
 
-        <!-- Interest Rate -->
         <div class="form-group">
           <div class="range-header">
             <label for="interest-rate">Annual Interest Rate</label>
-            <span class="range-val"><span id="interest-rate-val">5.5</span>%</span>
+            <span class="range-val"><span id="interest-rate-val">6.0</span>%</span>
           </div>
-          <input type="range" class="form-control-range" id="interest-rate" min="1" max="15" step="0.1" value="5.5">
-          <input type="number" class="form-control" id="interest-rate-num" value="5.5" min="0.1" max="30" step="0.05">
+          <input type="range" class="form-control-range" id="interest-rate" min="0.5" max="20" step="0.1" value="6.0">
+          <input type="number" class="form-control" id="interest-rate-num" value="6.0" step="0.1">
         </div>
 
-        <!-- Loan Term -->
         <div class="form-group">
           <div class="range-header">
             <label for="loan-term">Loan Term (Years)</label>
-            <span class="range-val"><span id="loan-term-val">30</span> Years</span>
+            <span class="range-val"><span id="loan-term-val">15</span> Years</span>
           </div>
-          <input type="range" class="form-control-range" id="loan-term" min="1" max="40" step="1" value="30">
-          <input type="number" class="form-control" id="loan-term-num" value="30" min="1" max="50">
+          <input type="range" class="form-control-range" id="loan-term" min="1" max="40" step="1" value="15">
+          <input type="number" class="form-control" id="loan-term-num" value="15">
         </div>
-
       </div>
 
-      <!-- Results Panel -->
+      <!-- Results -->
       <div class="calc-results">
-        <h3 class="result-title">Repayment Estimates</h3>
-        
+        <h3 class="result-title">Monthly Estimates</h3>
         <div class="result-main">
-          <div class="value" id="monthly-payment">$567.79</div>
-          <div class="label">Estimated Monthly Payment</div>
+          <div class="value" id="monthly-payment">$843.86</div>
+          <div class="label">Monthly Repayment</div>
         </div>
 
-        <!-- SVG Visual representation -->
-        <div style="margin-bottom: 24px;">
-          <div style="display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 6px; color: var(--text-secondary);">
-            <span>Principal (<span id="pct-principal">49%</span>)</span>
-            <span>Total Interest (<span id="pct-interest">51%</span>)</span>
+        <div style="margin-bottom: 20px;">
+          <div style="display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 4px; color: var(--text-secondary);">
+            <span>Principal (<span id="pct-principal">66%</span>)</span>
+            <span>Interest (<span id="pct-interest">34%</span>)</span>
           </div>
-          <svg width="100%" height="16" style="border-radius: 8px; overflow: hidden; background: #2e1065;">
-            <rect id="rect-principal" x="0" y="0" width="49%" height="16" fill="var(--accent-primary)"></rect>
-            <rect id="rect-interest" x="49%" y="0" width="51%" height="16" fill="var(--accent-secondary)"></rect>
+          <svg width="100%" height="12" style="border-radius: 6px; overflow: hidden; background: #cbd5e1;">
+            <rect id="rect-principal" x="0" y="0" width="66%" height="12" fill="var(--accent-financial)"></rect>
+            <rect id="rect-interest" x="66%" y="0" width="34%" height="12" fill="#6d28d9"></rect>
           </svg>
         </div>
 
         <div class="result-row">
-          <span class="lbl">Principal Amount:</span>
+          <span class="lbl">Principal Sum:</span>
           <span class="val" id="res-principal">$100,000.00</span>
         </div>
         <div class="result-row">
-          <span class="lbl">Total Interest Cost:</span>
-          <span class="val" id="res-interest">$104,407.97</span>
+          <span class="lbl">Interest Charges:</span>
+          <span class="val" id="res-interest">$51,894.28</span>
         </div>
-        <div class="result-row" style="border-bottom: none; padding-top: 16px; font-size: 16px;">
-          <span class="lbl" style="color: var(--text-primary);">Total Cost of Loan:</span>
-          <span class="val" id="res-total" style="color: var(--accent-success);">$204,407.97</span>
+        <div class="result-row" style="border-bottom: none; font-size: 15px; font-weight: bold; margin-top: 10px; color: var(--text-primary);">
+          <span class="lbl">Total Cost:</span>
+          <span class="val" id="res-total" style="color: var(--accent-fitness);">$151,894.28</span>
         </div>
-
       </div>
 
     </div>
 
     <!-- Ad placeholder -->
     <div class="adsense-placeholder ads-horizontal">
-      Advertisements (Middle Content Ad)
+      Advertisements (Middle Calculator Ad)
     </div>
 
-    <!-- SEO Content / Article related to calculations -->
+    <!-- SEO Content -->
     <section class="article-page" style="margin-top: 0;">
       <article class="article-body">
-        <h2>Understanding Loan Amortization & Monthly Payments</h2>
-        <p>Whether you're purchasing a new home, buying a car, or looking into personal loans, calculating your estimated payment and total interest cost is a critical first step. By using an amortization calculation, you can determine how much of your payment goes towards reducing the principal vs. paying interest.</p>
+        <h2>Understanding Loan Calculations & Rates</h2>
+        <p>A loan calculator helps you understand the true cost of debt. By breaking down your repayments, you can determine how different interest rates and loan terms affect your financial commitments.</p>
         
-        <h3>What is Principal and Interest?</h3>
-        <p>Every standard loan installment is divided into two parts:</p>
-        <ul>
-          <li><strong>Principal:</strong> The original money you borrowed. Paying down the principal reduces the outstanding balance of your loan.</li>
-          <li><strong>Interest:</strong> The fee charged by the lender for borrowing the money. Interest is calculated based on the current remaining balance.</li>
-        </ul>
-        <blockquote>
-          At the beginning of a long-term loan (like a 30-year mortgage), the majority of your monthly payment goes toward interest. Over time, as the principal balance decreases, less interest accumulates, and a larger portion of your payment goes toward paying down the principal.
-        </blockquote>
+        <h3>Amortization Schedule Explained</h3>
+        <p>Amortization is the process of spreading out a loan into a series of equal periodic payments. Although the total payment remains identical each month, the distribution between interest and principal shifts: at the beginning of the term, interest charges are high. As the principal drops, interest costs drop, allowing more of your payment to settle the core debt.</p>
 
-        <h3>How is the Monthly Payment Calculated?</h3>
-        <p>The monthly payment (P) is calculated using the following mathematical amortization formula:</p>
-        <p style="font-family: monospace; text-align: center; background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; margin-bottom: 24px;">
-          P = L * [ c * (1 + c)^n ] / [ (1 + c)^n - 1 ]
-        </p>
-        <p>Where:</p>
+        <h3>How to Save Money on Interest</h3>
         <ul>
-          <li><strong>L</strong> = Total loan amount (Principal)</li>
-          <li><strong>c</strong> = Monthly interest rate (Annual rate divided by 12 months)</li>
-          <li><strong>n</strong> = Total number of payments (Years multiplied by 12 months)</li>
+          <li><strong>Shorten the Term:</strong> Swapping from a 30-year term to a 15-year term results in slightly higher payments, but cuts total interest costs by over 50%.</li>
+          <li><strong>Prepayments:</strong> Making extra payments directly to your principal reduces the balance faster, compounding interest savings over time.</li>
         </ul>
-
-        <h3>Strategies to Minimize Interest Costs</h3>
-        <p>If you want to save money on your loan, consider the following strategies:</p>
-        <ol>
-          <li><strong>Make Extra Principal Payments:</strong> Even adding $50 or $100 extra to your principal payment each month can shave years off your loan and save thousands in interest.</li>
-          <li><strong>Choose a Shorter Term:</strong> A 15-year mortgage will have higher monthly payments than a 30-year mortgage, but the overall interest paid will be significantly lower because the interest rate is lower and the debt is cleared twice as fast.</li>
-          <li><strong>Refinance:</strong> If interest rates fall after you take out your loan, refinancing to a lower rate can lower both your monthly payment and your total interest costs.</li>
-        </ol>
       </article>
     </section>
 
@@ -166,11 +135,11 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-col">
-          <a href="../index.html" class="logo" style="margin-bottom: 16px;">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
             <div class="logo-icon">⚡</div>
             <span>OmniCalc</span>
           </a>
-          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
         </div>
         <div class="footer-col">
           <h4>Utility Tools</h4>
@@ -181,7 +150,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Legal Pages</h4>
+          <h4>Information</h4>
           <ul class="footer-links">
             <li><a href="../about.html">About Us</a></li>
             <li><a href="../contact.html">Contact Us</a></li>
@@ -191,7 +160,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -199,7 +168,6 @@
   <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
-    // Elements
     const amountSlider = document.getElementById('loan-amount');
     const amountInput = document.getElementById('loan-amount-num');
     const amountValText = document.getElementById('loan-amount-val');
@@ -212,37 +180,26 @@
     const termInput = document.getElementById('loan-term-num');
     const termValText = document.getElementById('loan-term-val');
 
-    // Outputs
     const monthlyPaymentText = document.getElementById('monthly-payment');
     const resPrincipal = document.getElementById('res-principal');
     const resInterest = document.getElementById('res-interest');
     const resTotal = document.getElementById('res-total');
+    
     const pctPrincipalText = document.getElementById('pct-principal');
     const pctInterestText = document.getElementById('pct-interest');
     const rectPrincipal = document.getElementById('rect-principal');
     const rectInterest = document.getElementById('rect-interest');
 
-    // Synchronize inputs and run calculation
     function syncAndCalculate(source) {
-      if (source === 'amount-slider') {
-        amountInput.value = amountSlider.value;
-      } else if (source === 'amount-num') {
-        amountSlider.value = amountInput.value;
-      }
+      if (source === 'amount-slider') amountInput.value = amountSlider.value;
+      else if (source === 'amount-num') amountSlider.value = amountInput.value;
 
-      if (source === 'rate-slider') {
-        rateInput.value = rateSlider.value;
-      } else if (source === 'rate-num') {
-        rateSlider.value = rateInput.value;
-      }
+      if (source === 'rate-slider') rateInput.value = rateSlider.value;
+      else if (source === 'rate-num') rateSlider.value = rateInput.value;
 
-      if (source === 'term-slider') {
-        termInput.value = termSlider.value;
-      } else if (source === 'term-num') {
-        termSlider.value = termInput.value;
-      }
+      if (source === 'term-slider') termInput.value = termSlider.value;
+      else if (source === 'term-num') termSlider.value = termInput.value;
 
-      // Update text values
       amountValText.textContent = Number(amountInput.value).toLocaleString();
       rateValText.textContent = rateInput.value;
       termValText.textContent = termInput.value;
@@ -250,61 +207,42 @@
       calculateLoan();
     }
 
-    // Run loan calculation
     function calculateLoan() {
       const principal = parseFloat(amountInput.value) || 0;
       const annualRate = parseFloat(rateInput.value) || 0;
       const years = parseInt(termInput.value) || 0;
 
-      if (principal <= 0 || annualRate <= 0 || years <= 0) {
-        return;
-      }
+      if (principal <= 0 || annualRate <= 0 || years <= 0) return;
 
       const monthlyRate = (annualRate / 100) / 12;
       const totalPayments = years * 12;
-
-      // Amortization Formula
       const x = Math.pow(1 + monthlyRate, totalPayments);
       const monthly = (principal * x * monthlyRate) / (x - 1);
-
       const totalCost = monthly * totalPayments;
       const totalInterest = totalCost - principal;
 
-      // Format currency
-      const formattedMonthly = monthly.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
-      const formattedPrincipal = principal.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
-      const formattedInterest = totalInterest.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
-      const formattedTotal = totalCost.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      monthlyPaymentText.textContent = monthly.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      resPrincipal.textContent = principal.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      resInterest.textContent = totalInterest.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      resTotal.textContent = totalCost.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 
-      // Calculate Percentages
       const principalPct = Math.round((principal / totalCost) * 100);
       const interestPct = 100 - principalPct;
 
-      // Update UI
-      monthlyPaymentText.textContent = formattedMonthly;
-      resPrincipal.textContent = formattedPrincipal;
-      resInterest.textContent = formattedInterest;
-      resTotal.textContent = formattedTotal;
-
       pctPrincipalText.textContent = principalPct + '%';
       pctInterestText.textContent = interestPct + '%';
-
       rectPrincipal.setAttribute('width', principalPct + '%');
       rectInterest.setAttribute('x', principalPct + '%');
       rectInterest.setAttribute('width', interestPct + '%');
     }
 
-    // Event Listeners
     amountSlider.addEventListener('input', () => syncAndCalculate('amount-slider'));
     amountInput.addEventListener('input', () => syncAndCalculate('amount-num'));
-    
     rateSlider.addEventListener('input', () => syncAndCalculate('rate-slider'));
     rateInput.addEventListener('input', () => syncAndCalculate('rate-num'));
-
     termSlider.addEventListener('input', () => syncAndCalculate('term-slider'));
     termInput.addEventListener('input', () => syncAndCalculate('term-num'));
 
-    // Initialize
     calculateLoan();
   </script>
 </body>

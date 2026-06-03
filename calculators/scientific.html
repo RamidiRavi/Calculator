@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scientific Calculator - OmniCalc</title>
+  <meta name="description" content="Use our free online scientific calculator to solve arithmetic, trigonometry, and logarithmic equations instantly in your browser.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧮</text></svg>">
+  <style>
+    .calc-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .calc-screen {
+      background: #f1f5f9;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 16px;
+      font-family: monospace;
+      font-size: 24px;
+      text-align: right;
+      min-height: 60px;
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+    .btn-calc {
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-fast);
+      text-align: center;
+    }
+    .btn-calc:hover {
+      background: var(--border-color);
+    }
+    .btn-operator {
+      background: var(--bg-tertiary);
+      color: var(--accent-math);
+    }
+    .btn-equal {
+      background: var(--accent-math);
+      color: white;
+      grid-column: span 2;
+    }
+    .btn-equal:hover {
+      opacity: 0.95;
+      background: var(--accent-math);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-math">Scientific Calculator</h1>
+      <p>Solve arithmetic, trigonometry, and advanced logarithmic equations instantly.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <div class="calc-container" style="max-width: 500px; margin: 0 auto 60px; grid-template-columns: 1fr;">
+      
+      <div class="card">
+        <div class="calc-screen" id="screen">0</div>
+        
+        <div class="calc-grid">
+          <button class="btn-calc btn-operator" onclick="clearScreen()">C</button>
+          <button class="btn-calc btn-operator" onclick="backspace()">&larr;</button>
+          <button class="btn-calc btn-operator" onclick="press('(')">(</button>
+          <button class="btn-calc btn-operator" onclick="press(')')">)</button>
+
+          <button class="btn-calc btn-operator" onclick="pressMath('sin')">sin</button>
+          <button class="btn-calc btn-operator" onclick="pressMath('cos')">cos</button>
+          <button class="btn-calc btn-operator" onclick="pressMath('tan')">tan</button>
+          <button class="btn-calc btn-operator" onclick="press('/')">/</button>
+
+          <button class="btn-calc" onclick="press('7')">7</button>
+          <button class="btn-calc" onclick="press('8')">8</button>
+          <button class="btn-calc" onclick="press('9')">9</button>
+          <button class="btn-calc btn-operator" onclick="press('*')">*</button>
+
+          <button class="btn-calc" onclick="press('4')">4</button>
+          <button class="btn-calc" onclick="press('5')">5</button>
+          <button class="btn-calc" onclick="press('6')">6</button>
+          <button class="btn-calc btn-operator" onclick="press('-')">-</button>
+
+          <button class="btn-calc" onclick="press('1')">1</button>
+          <button class="btn-calc" onclick="press('2')">2</button>
+          <button class="btn-calc" onclick="press('3')">3</button>
+          <button class="btn-calc btn-operator" onclick="press('+')">+</button>
+
+          <button class="btn-calc" onclick="press('0')">0</button>
+          <button class="btn-calc" onclick="press('.')">.</button>
+          <button class="btn-calc btn-equal" onclick="calculate()">=</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const screen = document.getElementById('screen');
+    let expr = '';
+
+    function press(val) {
+      if (expr === '0' || expr === 'Error') expr = '';
+      expr += val;
+      screen.textContent = expr;
+    }
+
+    function clearScreen() {
+      expr = '0';
+      screen.textContent = expr;
+    }
+
+    function backspace() {
+      if (expr.length > 0 && expr !== '0' && expr !== 'Error') {
+        expr = expr.slice(0, -1);
+        if (expr === '') expr = '0';
+      } else {
+        expr = '0';
+      }
+      screen.textContent = expr;
+    }
+
+    function pressMath(fn) {
+      try {
+        let val = eval(expr);
+        if (fn === 'sin') val = Math.sin(val * Math.PI / 180);
+        else if (fn === 'cos') val = Math.cos(val * Math.PI / 180);
+        else if (fn === 'tan') val = Math.tan(val * Math.PI / 180);
+        expr = Number(val.toFixed(8)).toString();
+      } catch (e) {
+        expr = 'Error';
+      }
+      screen.textContent = expr;
+    }
+
+    function calculate() {
+      try {
+        let val = eval(expr);
+        expr = Number(val.toFixed(8)).toString();
+      } catch (e) {
+        expr = 'Error';
+      }
+      screen.textContent = expr;
+    }
+  </script>
+</body>
+</html>

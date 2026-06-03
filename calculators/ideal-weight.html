@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideal Weight Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your estimated ideal body weight based on height, age, and biological gender using standard formulas.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-fitness">Ideal Weight Calculator</h1>
+      <p>Estimate your ideal body weight range based on standard biological health algorithms.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        <div class="form-group">
+          <label>Biological Gender</label>
+          <div class="radio-group">
+            <div class="radio-btn">
+              <input type="radio" id="gender-male" name="gender" value="male" checked>
+              <label for="gender-male" class="radio-label">Male</label>
+            </div>
+            <div class="radio-btn">
+              <input type="radio" id="gender-female" name="gender" value="female">
+              <label for="gender-female" class="radio-label">Female</label>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="age">Age (Years)</label>
+            <input type="number" class="form-control" id="age" value="25" min="15">
+          </div>
+          <div class="form-group">
+            <label for="height">Height (cm)</label>
+            <input type="number" class="form-control" id="height" value="175" min="100">
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">Ideal Target</h3>
+        <div class="result-main">
+          <div class="value" id="res-devine" style="color: var(--accent-fitness);">70.3 kg</div>
+          <div class="label">Ideal Body Weight (Devine Formula)</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Robinson Formula:</span>
+          <span class="val" id="res-rob">69.4 kg</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Miller Formula:</span>
+          <span class="val" id="res-miller">68.5 kg</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Healthy BMI range:</span>
+          <span class="val" id="res-bmi-range">56.7 kg - 76.6 kg</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+    <!-- SEO Content -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>How Ideal Body Weight (IBW) is Estimated</h2>
+        <p>Ideal Body Weight equations were originally developed to determine dosages for pharmaceutical products. Today, they are popular markers in physical therapy and training plans.</p>
+        
+        <h3>The Devine Formula (1974)</h3>
+        <p>Devine's equation is the most widely referenced calculation algorithm:</p>
+        <ul>
+          <li><strong>Male:</strong> <code>50.0 kg + 2.3 kg per inch over 5 feet</code></li>
+          <li><strong>Female:</strong> <code>45.5 kg + 2.3 kg per inch over 5 feet</code></li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const genderMale = document.getElementById('gender-male');
+    const genderFemale = document.getElementById('gender-female');
+    const heightInput = document.getElementById('height');
+
+    const devineText = document.getElementById('res-devine');
+    const robText = document.getElementById('res-rob');
+    const millerText = document.getElementById('res-miller');
+    const rangeText = document.getElementById('res-bmi-range');
+
+    function calculateWeight() {
+      const height = parseFloat(heightInput.value) || 0;
+      const isMale = genderMale.checked;
+
+      if (height <= 0) return;
+
+      const heightInches = height / 2.54;
+      const inchesOver5Ft = Math.max(0, heightInches - 60);
+
+      // Devine (1974)
+      const devine = isMale ? 50.0 + (2.3 * inchesOver5Ft) : 45.5 + (2.3 * inchesOver5Ft);
+      // Robinson (1983)
+      const rob = isMale ? 52.0 + (1.9 * inchesOver5Ft) : 49.0 + (1.9 * inchesOver5Ft);
+      // Miller (1983)
+      const miller = isMale ? 56.2 + (1.41 * inchesOver5Ft) : 53.1 + (1.36 * inchesOver5Ft);
+
+      // Healthy BMI weight limits
+      const heightM = height / 100;
+      const minWeight = Math.round(18.5 * heightM * heightM * 10) / 10;
+      const maxWeight = Math.round(24.9 * heightM * heightM * 10) / 10;
+
+      devineText.textContent = devine.toFixed(1) + ' kg';
+      robText.textContent = rob.toFixed(1) + ' kg';
+      millerText.textContent = miller.toFixed(1) + ' kg';
+      rangeText.textContent = `${minWeight} kg - ${maxWeight} kg`;
+    }
+
+    genderMale.addEventListener('change', calculateWeight);
+    genderFemale.addEventListener('change', calculateWeight);
+    heightInput.addEventListener('input', calculateWeight);
+
+    calculateWeight();
+  </script>
+</body>
+</html>

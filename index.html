@@ -3,34 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OmniCalc - Free Interactive Everyday Utilities & Tools</title>
-  <meta name="description" content="Access free, instant online calculators for finance, health, fitness, and date calculations. High-performance tools designed for day-to-day decisions.">
+  <title>OmniCalc - Free Online Calculators</title>
+  <meta name="description" content="Access free online calculators categorized in finance, fitness, math, and other daily productivity utilities. Simple, fast, and light calculations.">
   <link rel="stylesheet" href="style.css">
-  
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
-  
-  <!-- Open Graph / SEO -->
-  <meta property="og:title" content="OmniCalc - Free Interactive Everyday Utilities & Tools">
-  <meta property="og:description" content="Access free, instant online calculators for finance, health, fitness, and date calculations. High-performance tools designed for day-to-day decisions.">
-  <meta property="og:type" content="website">
-  
-  <!-- AdSense Auto Ads Placeholder (uncomment and replace publisher ID when approved) -->
-  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
 </head>
 <body>
 
-  <!-- Navigation Header -->
+  <!-- Header -->
   <header>
     <div class="container header-inner">
-      <a href="index.html" class="logo" id="header-logo">
+      <a href="index.html" class="logo">
         <div class="logo-icon">⚡</div>
         <span>OmniCalc</span>
       </a>
-      <nav id="nav-menu">
+      <nav>
         <a href="index.html" class="active">Home</a>
-        <a href="#calculators">Tools</a>
-        <a href="#blog">Blog</a>
+        <a href="#directory">Calculators</a>
+        <a href="#blog">Insights</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -40,76 +30,82 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1>Smarter Tools for <span>Everyday Decisions</span></h1>
-      <p>Free, fast, and interactive calculators to simplify your personal finance, fitness tracking, and time management. No registration required.</p>
-      <div>
-        <a href="#calculators" class="btn btn-primary">Try Free Tools</a>
-        <a href="#blog" class="btn btn-secondary">Read Insights</a>
-      </div>
+      <h1>Free Online <span>Calculators</span></h1>
+      <p>OmniCalc provides clean, fast, and free interactive calculation utilities. No popups, no registration, and no tracking. Simply choose a tool below to begin.</p>
     </div>
   </section>
 
-  <!-- Top Ad Placeholder -->
+  <!-- Ad Banner -->
   <div class="container">
-    <div class="adsense-placeholder ads-horizontal" id="ad-top-banner">
-      Advertisements (Banner Ad Placeholder)
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Banner Placement)
     </div>
   </div>
 
-  <!-- Tools Grid Section -->
-  <section class="tools-section" id="calculators">
+  <!-- Main Directory / Sitemap -->
+  <section class="directory-section" id="directory">
     <div class="container">
-      <h2 class="section-title">Explore Interactive Tools</h2>
-      <div class="grid-3">
+      <div class="directory-grid">
         
-        <!-- Loan Calculator Card -->
-        <div class="card tool-card finance">
-          <div class="tool-icon">💰</div>
-          <h3>Loan & Interest Calculator</h3>
-          <p>Estimate your monthly payments, compound interest, and lifetime interest expenses with our dynamic loan payoff sliders.</p>
-          <a href="calculators/loan.html" class="btn btn-secondary btn-sm" style="width: 100%;">Open Calculator</a>
+        <!-- Financial Calculators -->
+        <div class="directory-card financial">
+          <h3>💰 Financial Calculators</h3>
+          <ul class="link-list">
+            <li><a href="calculators/loan.html">Loan Calculator</a></li>
+            <li><a href="calculators/mortgage.html">Mortgage Calculator</a></li>
+            <li><a href="calculators/compound-interest.html">Compound Interest Calculator</a></li>
+          </ul>
         </div>
 
-        <!-- Calorie Calculator Card -->
-        <div class="card tool-card fitness">
-          <div class="tool-icon">🥗</div>
-          <h3>Calorie Deficit & BMR</h3>
-          <p>Find your Basal Metabolic Rate (BMR) and daily caloric needs to establish a customized diet or weight loss plan.</p>
-          <a href="calculators/calorie.html" class="btn btn-secondary btn-sm" style="width: 100%;">Open Calculator</a>
+        <!-- Fitness & Health -->
+        <div class="directory-card fitness">
+          <h3>🥗 Fitness & Health</h3>
+          <ul class="link-list">
+            <li><a href="calculators/calorie.html">Calorie Deficit Calculator</a></li>
+            <li><a href="calculators/bmi.html">BMI Calculator</a></li>
+            <li><a href="calculators/ideal-weight.html">Ideal Weight Calculator</a></li>
+          </ul>
         </div>
 
-        <!-- Days Calculator Card -->
-        <div class="card tool-card date">
-          <div class="tool-icon">📅</div>
-          <h3>Days Between Dates</h3>
-          <p>Calculate the exact number of days, weeks, or business days between two dates, or add/subtract days from any date.</p>
-          <a href="calculators/days.html" class="btn btn-secondary btn-sm" style="width: 100%;">Open Calculator</a>
+        <!-- Math Calculators -->
+        <div class="directory-card math">
+          <h3>📊 Math Calculators</h3>
+          <ul class="link-list">
+            <li><a href="calculators/percentage.html">Percentage Calculator</a></li>
+            <li><a href="calculators/scientific.html">Scientific Calculator</a></li>
+          </ul>
+        </div>
+
+        <!-- Other Tools -->
+        <div class="directory-card other">
+          <h3>📅 Other Tools</h3>
+          <ul class="link-list">
+            <li><a href="calculators/days.html">Days Between Dates</a></li>
+            <li><a href="calculators/age.html">Age Calculator</a></li>
+            <li><a href="calculators/gpa.html">GPA Calculator</a></li>
+          </ul>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- Content / Blog Section -->
+  <!-- Dynamic Blog/Insights Section -->
   <section class="articles-section" id="blog">
     <div class="container">
-      <h2 class="section-title">Latest Insights & Trends</h2>
-      
-      <!-- Article List Container -->
+      <h2 class="section-title">Latest Calculations & News Insights</h2>
       <div class="article-grid" id="articles-container">
-        <!-- Spinner or Fallback text while loading -->
-        <div style="grid-column: 1/-1; text-align: center; color: var(--text-secondary); padding: 40px 0;">
-          <p>Loading insights...</p>
+        <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+          <p>Loading latest articles...</p>
         </div>
       </div>
-      
     </div>
   </section>
 
-  <!-- Bottom Ad Placeholder -->
+  <!-- Ad Banner -->
   <div class="container">
-    <div class="adsense-placeholder ads-horizontal" id="ad-bottom-banner">
-      Advertisements (Footer Ad Placeholder)
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Footer Banner Placement)
     </div>
   </div>
 
@@ -118,22 +114,22 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-col">
-          <a href="index.html" class="logo" style="margin-bottom: 16px;">
+          <a href="index.html" class="logo" style="margin-bottom: 12px;">
             <div class="logo-icon">⚡</div>
             <span>OmniCalc</span>
           </a>
-          <p>Providing high-precision utility tools and daily data tools for personal productivity. Helping you calculate what matters instantly.</p>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
         </div>
         <div class="footer-col">
-          <h4>Utility Tools</h4>
+          <h4>Directories</h4>
           <ul class="footer-links">
-            <li><a href="calculators/loan.html">Loan Calculator</a></li>
-            <li><a href="calculators/calorie.html">Calorie Deficit</a></li>
-            <li><a href="calculators/days.html">Days Counter</a></li>
+            <li><a href="index.html#directory">Financial Tools</a></li>
+            <li><a href="index.html#directory">Health & Gym Tools</a></li>
+            <li><a href="index.html#directory">Math Utilities</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Legal Pages</h4>
+          <h4>Information</h4>
           <ul class="footer-links">
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
@@ -143,60 +139,54 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Designed for optimal speed and reliability.</p>
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved. Calculations are client-side estimates only.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Script to load dynamic articles and set current year -->
   <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
-    // Fetch and render articles dynamically
     async function loadArticles() {
       const container = document.getElementById('articles-container');
       try {
         const response = await fetch('articles.json');
-        if (!response.ok) {
-          throw new Error('Could not fetch articles.json');
-        }
+        if (!response.ok) throw new Error('Could not fetch index');
         const articles = await response.json();
         
         if (articles.length === 0) {
           container.innerHTML = `
-            <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px 0;">
-              <p>Articles published via our automated feed will appear here shortly.</p>
+            <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+              <p>Automated news updates will appear here once n8n is active.</p>
             </div>
           `;
           return;
         }
 
-        // Render articles
         container.innerHTML = articles.map(art => `
           <article class="article-card">
             <div class="article-content">
               <div class="article-meta">
-                <span>${art.date || 'Today'}</span>
+                <span>${art.date}</span>
                 <span>•</span>
-                <span style="color: var(--accent-primary); font-weight: 600;">${art.category || 'Trends'}</span>
+                <span style="color: var(--accent-financial); font-weight: bold;">${art.category}</span>
               </div>
               <h4>${art.title}</h4>
-              <p>${art.summary || art.description || ''}</p>
-              <a href="${art.url}" class="article-link">Read full story &rarr;</a>
+              <p>${art.summary || ''}</p>
+              <a href="${art.url}" class="article-link">Read Guide &rarr;</a>
             </div>
           </article>
         `).join('');
 
       } catch (err) {
-        console.error('Error loading articles:', err);
+        console.error(err);
         container.innerHTML = `
-          <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px 0;">
-            <p>Our automation queue is preparing the latest insights. Stay tuned!</p>
+          <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+            <p>Ready to load automated news. Trigger the n8n pipeline to display posts.</p>
           </div>
         `;
       }
     }
-
     loadArticles();
   </script>
 </body>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator - OmniCalc</title>
+  <meta name="description" content="Calculate your Body Mass Index (BMI) and discover if your weight falls within a healthy range. Includes weight classification chart.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>OmniCalc</span>
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#directory" class="active">Calculators</a>
+        <a href="../index.html#blog">Insights</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-fitness">BMI Calculator</h1>
+      <p>Determine your Body Mass Index (BMI) to see if you fall within the normal weight category for your height.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        <div class="form-group">
+          <label for="weight">Weight (kg)</label>
+          <input type="number" class="form-control" id="weight" value="70" min="10" max="300">
+        </div>
+
+        <div class="form-group">
+          <label for="height">Height (cm)</label>
+          <input type="number" class="form-control" id="height" value="175" min="50" max="250">
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">BMI Status</h3>
+        <div class="result-main">
+          <div class="value" id="res-bmi" style="color: var(--accent-fitness);">22.9</div>
+          <div class="label">Body Mass Index Score</div>
+        </div>
+
+        <!-- BMI visual scale indicator -->
+        <div style="margin-bottom: 20px;">
+          <div style="display: flex; justify-content: space-between; font-size: 10px; margin-bottom: 4px; color: var(--text-secondary);">
+            <span>18.5 (Low)</span>
+            <span>25.0 (High)</span>
+            <span>30.0 (Obese)</span>
+          </div>
+          <svg width="100%" height="10" style="border-radius: 5px; overflow: hidden; background: #e2e8f0;">
+            <rect x="0" y="0" width="40%" height="10" fill="#3b82f6" opacity="0.3"></rect> <!-- Underweight -->
+            <rect x="40%" y="0" width="25%" height="10" fill="#10b981"></rect> <!-- Normal -->
+            <rect x="65%" y="0" width="15%" height="10" fill="#f59e0b" opacity="0.5"></rect> <!-- Overweight -->
+            <rect x="80%" y="0" width="20%" height="10" fill="#ef4444" opacity="0.5"></rect> <!-- Obese -->
+            <line id="bmi-marker" x1="57%" y1="0" x2="57%" y2="10" stroke="black" stroke-width="3"></line>
+          </svg>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">Weight Classification:</span>
+          <span class="val" id="res-status" style="color: var(--accent-fitness);">Normal Weight</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Healthy Weight Range:</span>
+          <span class="val" id="res-range">56.7 kg - 76.6 kg</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+    <!-- SEO Content -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>What is Body Mass Index (BMI)?</h2>
+        <p>BMI is a mathematical estimate of body fatness based on an individual's weight and height. It is used as a screening tool to categorize people into underweight, healthy weight, overweight, and obese brackets.</p>
+        
+        <h3>The BMI Formula</h3>
+        <p>BMI is computed by dividing an individual's weight in kilograms by the square of their height in meters:</p>
+        <p style="font-family: monospace; text-align: center; background: #f1f5f9; padding: 10px; border-radius: 6px;">
+          BMI = Weight (kg) / [Height (m)]&sup2;
+        </p>
+
+        <h3>BMI Categories</h3>
+        <ul>
+          <li><strong>Underweight (BMI &lt; 18.5):</strong> May indicate malnutrition or other health concerns.</li>
+          <li><strong>Normal Weight (BMI 18.5 - 24.9):</strong> Associated with lower health risks.</li>
+          <li><strong>Overweight (BMI 25.0 - 29.9):</strong> Indicates increased risk for cardiovascular strain.</li>
+          <li><strong>Obese (BMI &gt; 30.0):</strong> Elevated risk for conditions such as high blood pressure and type 2 diabetes.</li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>OmniCalc</span>
+          </a>
+          <p>Providing high-precision utility tools and daily data tools for personal productivity.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="loan.html">Loan Calculator</a></li>
+            <li><a href="calorie.html">Calorie Deficit</a></li>
+            <li><a href="days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> OmniCalc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    const weightInput = document.getElementById('weight');
+    const heightInput = document.getElementById('height');
+
+    const bmiText = document.getElementById('res-bmi');
+    const statusText = document.getElementById('res-status');
+    const rangeText = document.getElementById('res-range');
+    const bmiMarker = document.getElementById('bmi-marker');
+
+    function calculateBMI() {
+      const weight = parseFloat(weightInput.value) || 0;
+      const height = parseFloat(heightInput.value) || 0;
+
+      if (weight <= 0 || height <= 0) return;
+
+      const heightM = height / 100;
+      const bmi = weight / (heightM * heightM);
+
+      // BMI category ranges
+      let status = '';
+      let statusColor = 'var(--text-primary)';
+      if (bmi < 18.5) {
+        status = 'Underweight';
+        statusColor = '#3b82f6'; // Blue
+      } else if (bmi >= 18.5 && bmi < 25.0) {
+        status = 'Normal Weight';
+        statusColor = 'var(--accent-fitness)'; // Green
+      } else if (bmi >= 25.0 && bmi < 30.0) {
+        status = 'Overweight';
+        statusColor = '#f59e0b'; // Orange
+      } else {
+        status = 'Obese';
+        statusColor = '#ef4444'; // Red
+      }
+
+      // Estimate healthy range
+      const minWeight = Math.round(18.5 * heightM * heightM * 10) / 10;
+      const maxWeight = Math.round(24.9 * heightM * heightM * 10) / 10;
+
+      // Update marker percentage position on scale (10 to 40 BMI range map to 0 to 100%)
+      let markerPct = ((bmi - 10) / 30) * 100;
+      markerPct = Math.max(0, Math.min(100, markerPct));
+
+      bmiText.textContent = bmi.toFixed(1);
+      bmiText.style.color = statusColor;
+      statusText.textContent = status;
+      statusText.style.color = statusColor;
+      rangeText.textContent = `${minWeight} kg - ${maxWeight} kg`;
+      bmiMarker.setAttribute('x1', markerPct + '%');
+      bmiMarker.setAttribute('x2', markerPct + '%');
+    }
+
+    weightInput.addEventListener('input', calculateBMI);
+    heightInput.addEventListener('input', calculateBMI);
+
+    calculateBMI();
+  </script>
+</body>
+</html>
