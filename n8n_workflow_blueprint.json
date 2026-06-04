@@ -193,6 +193,7 @@
         "operation": "create",
         "owner": "RamidiRavi",
         "repository": "Calculator",
+        "branch": "main",
         "filePath": "=articles/{{ $json.slug }}.html",
         "fileContent": "={{ $json.html }}",
         "commitMessage": "=Auto-publish article: {{ $json.title }}"
@@ -249,6 +250,7 @@
         "operation": "edit",
         "owner": "RamidiRavi",
         "repository": "Calculator",
+        "branch": "main",
         "filePath": "articles.json",
         "fileContent": "={{ $json.jsonContent }}",
         "commitMessage": "Update articles.json index"
