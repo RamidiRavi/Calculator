@@ -1,5 +1,5 @@
 {
-  "name": "OmniCalc RSS Content Pipeline",
+  "name": "InterestCalcs RSS Content Pipeline",
   "nodes": [
     {
       "parameters": {
@@ -62,7 +62,7 @@
             },
             {
               "role": "system",
-              "content": "You are a content filtering agent for a site called OmniCalc.\nWe have three interactive tools on our site:\n1. 💰 Loan & Compound Interest Calculator (for mortgage, rates, debt, loans, interest, inflation news)\n2. 🥗 Calorie Deficit & Fitness Calculator (for nutrition, FDA, diet, fitness, calories, fat loss trends)\n3. 📅 Days Between Dates Calculator (for deadlines, project timing, date differences, calendar adjustments)\n\nAnalyze the incoming news title/summary. Is this news article relevant to one of these three categories? \nRespond in strict JSON format:\n{\n  \"relevant\": true or false,\n  \"tool\": \"loan\", \"calorie\", \"days\" or null,\n  \"reason\": \"short explanation\"\n}"
+              "content": "You are a content filtering agent for a site called InterestCalcs.\nWe have three interactive tools on our site:\n1. 💰 Loan & Compound Interest Calculator (for mortgage, rates, debt, loans, interest, inflation news)\n2. 🥗 Calorie Deficit & Fitness Calculator (for nutrition, FDA, diet, fitness, calories, fat loss trends)\n3. 📅 Days Between Dates Calculator (for deadlines, project timing, date differences, calendar adjustments)\n\nAnalyze the incoming news title/summary. Is this news article relevant to one of these three categories? \nRespond in strict JSON format:\n{\n  \"relevant\": true or false,\n  \"tool\": \"loan\", \"calorie\", \"days\" or null,\n  \"reason\": \"short explanation\"\n}"
             }
           ]
         },
