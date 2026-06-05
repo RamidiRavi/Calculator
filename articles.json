@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Connection Between Eigenvalues and Polynomials",
+    "summary": "Delve into the relationship between eigenvalues of T and polynomial transformations p(T) in finite-dimensional vector spaces.",
+    "url": "articles/eigenvalues-t-and-p-t-over-r.html",
+    "date": "June 5, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Discovering Lehmer's Infinite Fibonacci Identity: A Visual Perspective",
     "summary": "Explore the visual proof of Lehmer's infinite Fibonacci arctangent identity and its significance in mathematics.",
     "url": "articles/lehmer-infinite-fibonacci-identity-explained.html",
