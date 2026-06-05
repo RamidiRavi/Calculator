@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Manifolds Matter in Pure Mathematics",
+    "summary": "Explore the significance of manifolds in pure mathematics beyond physics applications.",
+    "url": "articles/importance-of-manifolds-in-pure-mathematics.html",
+    "date": "June 5, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Connection Between Eigenvalues and Polynomials",
     "summary": "Delve into the relationship between eigenvalues of T and polynomial transformations p(T) in finite-dimensional vector spaces.",
     "url": "articles/eigenvalues-t-and-p-t-over-r.html",
