@@ -7,7 +7,7 @@
           "interval": [
             {
               "field": "hours",
-              "hoursInterval": 4
+              "hoursInterval": 6
             }
           ]
         }
@@ -17,34 +17,33 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.1,
       "position": [
-        -200,
-        200
+        -208,
+        208
       ]
     },
     {
       "parameters": {
-        "url": "https://247wallst.com/feed/"
+        "url": "https://247wallst.com/feed/",
+        "options": {}
       },
       "id": "node_rss_read",
       "name": "Get RSS Feed",
       "type": "n8n-nodes-base.rssFeedRead",
       "typeVersion": 1,
       "position": [
-        0,
-        200
+        16,
+        208
       ]
     },
     {
-      "parameters": {
-        "maxItems": 1
-      },
+      "parameters": {},
       "id": "node_limit",
       "name": "Get Latest Article",
       "type": "n8n-nodes-base.limit",
       "typeVersion": 1,
       "position": [
-        200,
-        200
+        240,
+        208
       ]
     },
     {
@@ -66,17 +65,16 @@
             }
           ]
         },
-        "options": {
-          "responseFormat": "json_object"
-        }
+        "builtInTools": {},
+        "options": {}
       },
       "id": "node_check_relevance",
       "name": "Check Relevance",
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 2.1,
       "position": [
-        400,
-        200
+        464,
+        208
       ],
       "credentials": {
         "openAiApi": {
@@ -84,33 +82,6 @@
           "name": "OpenAi account"
         }
       }
-    },
-    {
-      "parameters": {
-        "conditions": {
-          "options": {
-            "caseSensitive": true,
-            "leftValue": "",
-            "typeValidation": "strict"
-          },
-          "conditions": [
-            {
-              "leftValue": "={{ JSON.parse($json.output[0].content[0].text).relevant }}",
-              "rightValue": true,
-              "operator": "equals"
-            }
-          ],
-          "combinator": "and"
-        }
-      },
-      "id": "node_if_relevant",
-      "name": "If Relevant",
-      "type": "n8n-nodes-base.if",
-      "typeVersion": 2,
-      "position": [
-        650,
-        200
-      ]
     },
     {
       "parameters": {
@@ -127,21 +98,20 @@
             },
             {
               "role": "system",
-              "content": "=You are an expert copywriter. Generate a high-quality article responding to this news. The article must relate to the tool: {{ JSON.parse($('Check Relevance').item.json.output[0].content[0].text).tool }}.\nEnsure the output is in JSON format matching this exact schema:\n{\n  \"title\": \"Catchy SEO Page Title (under 60 chars)\",\n  \"metaDescription\": \"Compelling description (under 155 chars)\",\n  \"category\": \"Finance, Health, or Productivity\",\n  \"headline\": \"Powerful, engaging headline for the article\",\n  \"body\": \"HTML formatted article body using <p>, <h2>, <ul>, <li>. Do not write full html page, just the article body. Must be highly informative, professional, and contain 3-4 paragraphs with solid advice.\",\n  \"slug\": \"url-safe-lowercase-slug-without-html-extension (e.g. mortgage-rates-spike)\",\n  \"embeddedCalculatorLink\": \"<a href=\\\"../calculators/loan.html\\\" class=\\\"btn btn-primary\\\">Open Loan & Interest Calculator &rarr;</a>\" (select matching tool path: loan.html, calorie.html, or days.html)\n}"
+              "content": "=You are an expert copywriter. Generate a high-quality article responding to this news. The article must relate to the tool: {{ $('Check Relevance').item.json.output[0].content[0].text }}\nEnsure the output is in JSON format matching this exact schema:\n{\n  \"title\": \"Catchy SEO Page Title (under 60 chars)\",\n  \"metaDescription\": \"Compelling description (under 155 chars)\",\n  \"category\": \"Finance, Health, or Productivity\",\n  \"headline\": \"Powerful, engaging headline for the article\",\n  \"body\": \"HTML formatted article body using <p>, <h2>, <ul>, <li>. Do not write full html page, just the article body. Must be highly informative, professional, and contain 3-4 paragraphs with solid advice.\",\n  \"slug\": \"url-safe-lowercase-slug-without-html-extension (e.g. mortgage-rates-spike)\",\n  \"embeddedCalculatorLink\": \"<a href=\\\"../calculators/loan.html\\\" class=\\\"btn btn-primary\\\">Open Loan & Interest Calculator &rarr;</a>\" (select matching tool path: loan.html, calorie.html, or days.html)\n}"
             }
           ]
         },
-        "options": {
-          "responseFormat": "json_object"
-        }
+        "builtInTools": {},
+        "options": {}
       },
       "id": "node_generate_content",
       "name": "Generate Article Content",
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 2.1,
       "position": [
-        850,
-        200
+        1264,
+        208
       ],
       "credentials": {
         "openAiApi": {
@@ -152,119 +122,210 @@
     },
     {
       "parameters": {
-        "method": "GET",
         "url": "https://raw.githubusercontent.com/RamidiRavi/Calculator/main/article-template.html",
-        "sendHeaders": true,
-        "headersUi": {
-          "parameter": [
-            {
-              "name": "Authorization",
-              "value": "token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
-            }
-          ]
-        }
+        "options": {}
       },
       "id": "node_fetch_template",
       "name": "Fetch HTML Template",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        1100,
-        200
+        1616,
+        208
       ]
     },
     {
       "parameters": {
-        "jsCode": "const aiData = JSON.parse($('Generate Article Content').item.json.output[0].content[0].text);\nconst template = $('Fetch HTML Template').item.json.data;\nconst todayStr = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });\n\n// Replace hooks\nlet compiledHtml = template\n  .replace(/{title}/g, aiData.title)\n  .replace(/{meta-description}/g, aiData.metaDescription)\n  .replace(/{category}/g, aiData.category)\n  .replace(/{date}/g, todayStr)\n  .replace(/{article-headline}/g, aiData.headline)\n  .replace(/{article-body}/g, aiData.body)\n  .replace(/{embedded-calculator-link}/g, aiData.embeddedCalculatorLink);\n\nreturn {\n  html: compiledHtml,\n  slug: aiData.slug,\n  title: aiData.headline,\n  summary: aiData.metaDescription,\n  category: aiData.category,\n  date: todayStr\n};"
+        "jsCode": "let aiText = $('Generate Article Content').item.json.output[0].content[0].text;\n\n// Remove markdown json blocks\naiText = aiText\n  .replace(/```json/g, '')\n  .replace(/```/g, '')\n  .trim();\n\n// Convert text to JSON\nconst aiData = JSON.parse(aiText);\n\nconst template = $('Fetch HTML Template').item.json.data;\n\nconst todayStr = new Date().toLocaleDateString('en-US', { \n  year: 'numeric',\n  month: 'long',\n  day: 'numeric'\n});\n\nlet compiledHtml = template\n  .replace(/{title}/g, aiData.title || '')\n  .replace(/{meta-description}/g, aiData.metaDescription || '')\n  .replace(/{category}/g, aiData.category || '')\n  .replace(/{date}/g, todayStr)\n  .replace(/{article-headline}/g, aiData.headline || '')\n  .replace(/{article-body}/g, aiData.body || '')\n  .replace(/{embedded-calculator-link}/g, aiData.embeddedCalculatorLink || '');\n\nreturn [\n  {\n    json: {\n      html: compiledHtml,\n      slug: aiData.slug,\n      title: aiData.headline,\n      summary: aiData.metaDescription,\n      category: aiData.category,\n      date: todayStr\n    }\n  }\n];"
       },
       "id": "node_compile_html",
       "name": "Compile HTML File",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        1300,
-        200
+        1840,
+        208
       ]
     },
     {
       "parameters": {
-        "authentication": "pat",
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "b60eaf31-e90a-4228-b0df-70eaff81508e",
+              "leftValue": "={{ $json.relevant }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        1040,
+        208
+      ],
+      "id": "29c7bdaa-5902-4461-bd82-11d2dc69894a",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "jsCode": "let text = $json.output[0].content[0].text;\n\n// Remove OpenAI markdown code block\ntext = text\n  .replace(/```json/g, '')\n  .replace(/```/g, '')\n  .trim();\n\n// Convert string to JSON\nconst parsed = JSON.parse(text);\n\nreturn [\n  {\n    json: {\n      relevant: parsed.relevant,\n      tool: parsed.tool,\n      reason: parsed.reason\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        816,
+        208
+      ],
+      "id": "29e27c73-f83a-4912-8ea2-d93f0f05df3c",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
         "resource": "file",
-        "operation": "create",
-        "owner": "RamidiRavi",
-        "repository": "Calculator",
-        "branch": "main",
+        "owner": {
+          "__rl": true,
+          "value": "RamidiRavi",
+          "mode": "name"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "Calculator",
+          "mode": "list",
+          "cachedResultName": "Calculator",
+          "cachedResultUrl": "https://github.com/RamidiRavi/Calculator"
+        },
         "filePath": "=articles/{{ $json.slug }}.html",
         "fileContent": "={{ $json.html }}",
         "commitMessage": "=Auto-publish article: {{ $json.title }}"
       },
-      "id": "node_commit_html",
-      "name": "Push HTML to GitHub",
       "type": "n8n-nodes-base.github",
-      "typeVersion": 1,
+      "typeVersion": 1.1,
       "position": [
-        1500,
-        200
-      ]
-    },
-    {
-      "parameters": {
-        "method": "GET",
-        "url": "https://raw.githubusercontent.com/RamidiRavi/Calculator/main/articles.json",
-        "sendHeaders": true,
-        "headersUi": {
-          "parameter": [
-            {
-              "name": "Authorization",
-              "value": "token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
-            }
-          ]
+        2064,
+        208
+      ],
+      "id": "9819a811-d480-47e0-bc47-71e2c3104f1c",
+      "name": "Create a file",
+      "webhookId": "0de72bcc-5faf-4272-9387-e42195138531",
+      "credentials": {
+        "githubApi": {
+          "id": "NjU1clhzHcQsQ9vx",
+          "name": "GitHub account"
         }
-      },
-      "id": "node_fetch_json",
-      "name": "Fetch Articles Index",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        1700,
-        200
-      ]
+      }
     },
     {
       "parameters": {
-        "jsCode": "let articles = [];\ntry {\n  articles = JSON.parse($('Fetch Articles Index').item.json.data);\n} catch (e) {\n  articles = [];\n}\n\nconst compiled = $('Compile HTML File').item.json;\n\n// Add new article metadata to the top\narticles.unshift({\n  title: compiled.title,\n  summary: compiled.summary,\n  url: `articles/${compiled.slug}.html`,\n  date: compiled.date,\n  category: compiled.category\n});\n\n// Cap at 30 articles to prevent file growing too large\nif (articles.length > 30) {\n  articles = articles.slice(0, 30);\n}\n\nreturn {\n  jsonContent: JSON.stringify(articles, null, 2)\n};"
-      },
-      "id": "node_update_json",
-      "name": "Update JSON Index",
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        1900,
-        200
-      ]
-    },
-    {
-      "parameters": {
-        "authentication": "pat",
         "resource": "file",
         "operation": "edit",
-        "owner": "RamidiRavi",
-        "repository": "Calculator",
-        "branch": "main",
-        "filePath": "articles.json",
+        "owner": {
+          "__rl": true,
+          "value": "RamidiRavi",
+          "mode": "list",
+          "cachedResultName": "RamidiRavi",
+          "cachedResultUrl": "https://github.com/RamidiRavi"
+        },
+        "repository": {
+          "__rl": true,
+          "value": "Calculator",
+          "mode": "list",
+          "cachedResultName": "Calculator",
+          "cachedResultUrl": "https://github.com/RamidiRavi/Calculator"
+        },
+        "filePath": "=articles.json",
         "fileContent": "={{ $json.jsonContent }}",
         "commitMessage": "Update articles.json index"
       },
-      "id": "node_commit_json",
-      "name": "Push JSON to GitHub",
       "type": "n8n-nodes-base.github",
-      "typeVersion": 1,
+      "typeVersion": 1.1,
       "position": [
-        2100,
-        200
+        2736,
+        208
+      ],
+      "id": "f3703afe-2b33-4c04-bf71-9fdbdf4cb34f",
+      "name": "Edit a file",
+      "webhookId": "4cc5a2b0-5488-4fa2-a5be-6dacc82884f3",
+      "credentials": {
+        "githubApi": {
+          "id": "NjU1clhzHcQsQ9vx",
+          "name": "GitHub account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://raw.githubusercontent.com/RamidiRavi/Calculator/main/articles.json",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "f69bbe3f-661c-4291-b23d-a36043869dec",
+      "name": "Fetch Articles Index1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2288,
+        208
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "let articles = [];\ntry {\n  articles = JSON.parse($('Fetch Articles Index1').item.json.data);\n} catch (e) {\n  articles = [];\n}\n\nconst compiled = $('Compile HTML File').item.json;\n\n// Add new article metadata to the top\narticles.unshift({\n  title: compiled.title,\n  summary: compiled.summary,\n  url: `articles/${compiled.slug}.html`,\n  date: compiled.date,\n  category: compiled.category\n});\n\n// Cap at 30 articles to prevent file growing too large\nif (articles.length > 30) {\n  articles = articles.slice(0, 30);\n}\n\nreturn {\n  jsonContent: JSON.stringify(articles, null, 2)\n};"
+      },
+      "id": "cb1b6047-ba79-4260-83f7-27a6dc220ee4",
+      "name": "Update JSON Index1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2512,
+        208
       ]
     }
   ],
+  "pinData": {
+    "Schedule Trigger": [
+      {
+        "json": {
+          "timestamp": "2026-06-05T09:38:36.641+05:30",
+          "Readable date": "June 5th 2026, 9:38:36 am",
+          "Readable time": "9:38:36 am",
+          "Day of week": "Friday",
+          "Year": "2026",
+          "Month": "June",
+          "Day of month": "05",
+          "Hour": "09",
+          "Minute": "38",
+          "Second": "36",
+          "Timezone": "Asia/Kolkata (UTC+05:30)"
+        },
+        "pairedItem": {
+          "item": 0
+        }
+      }
+    ]
+  },
   "connections": {
     "Schedule Trigger": {
       "main": [
@@ -303,18 +364,7 @@
       "main": [
         [
           {
-            "node": "If Relevant",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "If Relevant": {
-      "main": [
-        [
-          {
-            "node": "Generate Article Content",
+            "node": "Code in JavaScript",
             "type": "main",
             "index": 0
           }
@@ -347,40 +397,62 @@
       "main": [
         [
           {
-            "node": "Push HTML to GitHub",
+            "node": "Create a file",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Push HTML to GitHub": {
+    "If": {
       "main": [
         [
           {
-            "node": "Fetch Articles Index",
+            "node": "Generate Article Content",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Fetch Articles Index": {
+    "Code in JavaScript": {
       "main": [
         [
           {
-            "node": "Update JSON Index",
+            "node": "If",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Update JSON Index": {
+    "Create a file": {
       "main": [
         [
           {
-            "node": "Push JSON to GitHub",
+            "node": "Fetch Articles Index1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Articles Index1": {
+      "main": [
+        [
+          {
+            "node": "Update JSON Index1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update JSON Index1": {
+      "main": [
+        [
+          {
+            "node": "Edit a file",
             "type": "main",
             "index": 0
           }
@@ -388,10 +460,19 @@
       ]
     }
   },
+  "active": true,
   "settings": {
-    "executionOrder": "v1"
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false,
+    "timeSavedMode": "fixed",
+    "timezone": "Asia/Kolkata"
   },
-  "staticData": null,
-  "meta": null,
-  "pinData": {}
+  "versionId": "d71ac7db-b459-47a9-a158-97d13f1e0674",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "e6fd00305b4025ffea433f2743f4ccbb7f95e0636e8dc43fe4cbe8b7a188cdcb"
+  },
+  "id": "bx6dzl0WLm9OFuq5",
+  "tags": []
 }
