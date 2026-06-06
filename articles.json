@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Cartier Divisors: A Step-by-Step Guide",
+    "summary": "Explore the nuances of Cartier divisors through examples in algebraic geometry.",
+    "url": "articles/cartier-divisors-algebraic-geometry.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Role of Inverses in Left Regular Representation",
     "summary": "Explore why inverses are necessary in left actions of regular representations in group theory.",
     "url": "articles/understanding-left-regular-representation.html",
@@ -201,12 +208,5 @@
     "url": "articles/integration-area-calculation.html",
     "date": "June 5, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Elevate Your Snacking with Mini Banana Bran Muffins",
-    "summary": "Discover these quick, healthy mini muffins packed with fiber and flavor—perfect for meal prep and nutritious snacking!",
-    "url": "articles/nutritious-mini-banana-bran-muffins.html",
-    "date": "June 5, 2026",
-    "category": "Health"
   }
 ]
