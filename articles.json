@@ -1,5 +1,12 @@
 [
   {
+    "title": "A Step-by-Step Guide to Confirming Real Roots of 2x³ + 9x² - 24",
+    "summary": "Discover how to prove all roots of the polynomial 2x³ + 9x² - 24 are real without using calculus.",
+    "url": "articles/proving-real-roots-cubic-polynomial.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mystery of Exponents: The Power of Zero",
     "summary": "Explore the intriguing concept of exponents and why any number raised to the power of 0 equals 1.",
     "url": "articles/understanding-why-any-number-to-the-power-of-0-equals-1.html",
@@ -201,12 +208,5 @@
     "url": "articles/calculate-primes-equation.html",
     "date": "June 6, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Demystifying the Limit of Recurrence Relations",
-    "summary": "Explore the convergence of recurrence relations and the validity of their solutions in mathematical analysis.",
-    "url": "articles/recurrence-relations-convergence.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
   }
 ]
