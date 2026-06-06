@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Complexification Essential in Real Algebraic Geometry?",
+    "summary": "Exploring the necessity of complexification in real algebraic geometry and its implications.",
+    "url": "articles/complexity-in-real-algebraic-geometry.html",
+    "date": "June 6, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Are There Infinite Pairs of Integers Yielding Perfect Squares?",
     "summary": "Discover the fascinating quest for ordered pairs of integers where both their sum and difference are perfect squares.",
     "url": "articles/infinite-perfect-square-pairs.html",
@@ -199,13 +206,6 @@
     "title": "Discovering Lehmer's Infinite Fibonacci Identity: A Visual Perspective",
     "summary": "Explore the visual proof of Lehmer's infinite Fibonacci arctangent identity and its significance in mathematics.",
     "url": "articles/lehmer-infinite-fibonacci-identity-explained.html",
-    "date": "June 5, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring Set Theory: When Is at Least One Set Empty?",
-    "summary": "Delve into the intricacies of set theory with an analysis of a proof concerning empty sets and Cartesian products.",
-    "url": "articles/understanding-set-theory-proof-analysis.html",
     "date": "June 5, 2026",
     "category": "Productivity"
   }
