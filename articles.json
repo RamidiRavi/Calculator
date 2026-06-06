@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the World of Functional Analysis References",
+    "summary": "Struggling to find references for functional analysis results? Discover how to identify key texts and resources.",
+    "url": "articles/finding-references-functional-analysis.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is Complexification Essential in Real Algebraic Geometry?",
     "summary": "Exploring the necessity of complexification in real algebraic geometry and its implications.",
     "url": "articles/complexity-in-real-algebraic-geometry.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Connection Between Eigenvalues and Polynomials",
     "summary": "Delve into the relationship between eigenvalues of T and polynomial transformations p(T) in finite-dimensional vector spaces.",
     "url": "articles/eigenvalues-t-and-p-t-over-r.html",
-    "date": "June 5, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Discovering Lehmer's Infinite Fibonacci Identity: A Visual Perspective",
-    "summary": "Explore the visual proof of Lehmer's infinite Fibonacci arctangent identity and its significance in mathematics.",
-    "url": "articles/lehmer-infinite-fibonacci-identity-explained.html",
     "date": "June 5, 2026",
     "category": "Productivity"
   }
