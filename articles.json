@@ -1,5 +1,12 @@
 [
   {
+    "title": "Are There Infinite Pairs of Integers Yielding Perfect Squares?",
+    "summary": "Discover the fascinating quest for ordered pairs of integers where both their sum and difference are perfect squares.",
+    "url": "articles/infinite-perfect-square-pairs.html",
+    "date": "June 6, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Exploring the Homotopy Type of Manifolds: A Deep Dive",
     "summary": "Explore the homotopy equivalence of compact smooth manifolds and their divisors with normal crossings.",
     "url": "articles/homotopy-types-manifolds.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-set-theory-proof-analysis.html",
     "date": "June 5, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Nourishing Mini Banana Bran Muffins: A Perfect Snack Option",
-    "summary": "Discover nutritious mini banana bran muffins that are quick to make and perfect for meal prep. A tasty way to fuel your day!",
-    "url": "articles/healthy-mini-banana-bran-muffins.html",
-    "date": "June 5, 2026",
-    "category": "Health"
   }
 ]
