@@ -1,5 +1,12 @@
 [
   {
+    "title": "Flatness Failure: Counterexamples in Algebraic Geometry",
+    "summary": "Explore the non-openness of flat loci in schemes and discover a counterexample to finite surjectivity.",
+    "url": "articles/flatness-in-morphisms-counterexample.html",
+    "date": "June 6, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Unlocking the Mystery of Diagonal Transformations in Linear Algebra",
     "summary": "Explore the necessary conditions under which a polynomial transformation implies diagonalizability of its operator.",
     "url": "articles/understanding-diagonalizability-key-condition-revealed.html",
@@ -201,12 +208,5 @@
     "url": "articles/spicy-chicken-burgers-sweet-potato-fries.html",
     "date": "June 5, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Analytic Continuation of Dirichlet Series: Possibilities & Examples",
-    "summary": "Exploring the analytic continuation of Dirichlet series using relationships with zeta functions.",
-    "url": "articles/extending-dirichlet-series-analytic-continuation.html",
-    "date": "June 5, 2026",
-    "category": "Finance"
   }
 ]
