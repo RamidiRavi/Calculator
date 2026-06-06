@@ -1,5 +1,12 @@
 [
   {
+    "title": "Identifying Logic Errors in Number Theory Solutions",
+    "summary": "Delve into the logic error in a number theory exercise regarding orders and primitive roots modulo 19.",
+    "url": "articles/logic-errors-in-number-theory-solutions.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Do Infinite Primitive Solutions Exist for Power Sums?",
     "summary": "Investigating the existence of infinite primitive solutions for the equation a^n + b^n + ... = k^n.",
     "url": "articles/infinite-primitive-solutions-power-sums.html",
@@ -201,12 +208,5 @@
     "url": "articles/spicy-turkey-burgers-recipe.html",
     "date": "June 5, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlocking the Mysteries of Cyclic Space Filling",
-    "summary": "Dive into the complexities of the Cyclic Space Filling Formula and its applications in spatial mathematics.",
-    "url": "articles/cyclic-space-filling-formula.html",
-    "date": "June 5, 2026",
-    "category": "Productivity"
   }
 ]
