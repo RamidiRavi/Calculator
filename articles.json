@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Role of Inverses in Left Regular Representation",
+    "summary": "Explore why inverses are necessary in left actions of regular representations in group theory.",
+    "url": "articles/understanding-left-regular-representation.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Mathematical Inequalities",
     "summary": "Explore the proof of a fascinating inequality involving positive numbers.",
     "url": "articles/mastering-mathematical-inequalities.html",
@@ -201,12 +208,5 @@
     "url": "articles/nutritious-mini-banana-bran-muffins.html",
     "date": "June 5, 2026",
     "category": "Health"
-  },
-  {
-    "title": "The Rising Tide: Leveraged Loan Default Rates and LME Dynamics",
-    "summary": "Explore the rise in leveraged loan default rates and its connection to LME activities.",
-    "url": "articles/leveraged-loan-default-rate-surge-lme-activity.html",
-    "date": "June 5, 2026",
-    "category": "Finance"
   }
 ]
