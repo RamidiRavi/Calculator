@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Diagonal Transformations in Linear Algebra",
+    "summary": "Explore the necessary conditions under which a polynomial transformation implies diagonalizability of its operator.",
+    "url": "articles/understanding-diagonalizability-key-condition-revealed.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Identifying Logic Errors in Number Theory Solutions",
     "summary": "Delve into the logic error in a number theory exercise regarding orders and primitive roots modulo 19.",
     "url": "articles/logic-errors-in-number-theory-solutions.html",
@@ -201,12 +208,5 @@
     "url": "articles/extending-dirichlet-series-analytic-continuation.html",
     "date": "June 5, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Boost Your Weeknight Dinner: Spicy Turkey Burgers with Carrot Slaw",
-    "summary": "Discover a healthy twist on turkey burgers with harissa carrot slaw and tahini sauce—perfect for dinner or cookouts.",
-    "url": "articles/spicy-turkey-burgers-recipe.html",
-    "date": "June 5, 2026",
-    "category": "Health"
   }
 ]
