@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Solutions to Quadratic Trigonometric Equations",
+    "summary": "Explore unique methods for solving quadratic trigonometric equations efficiently and discover special cases to optimize your approach.",
+    "url": "articles/advanced-trigonometric-equation-solving-techniques.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Cartier Divisors: A Step-by-Step Guide",
     "summary": "Explore the nuances of Cartier divisors through examples in algebraic geometry.",
     "url": "articles/cartier-divisors-algebraic-geometry.html",
@@ -201,12 +208,5 @@
     "url": "articles/healthy-mini-banana-bran-muffins.html",
     "date": "June 5, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlocking the Secrets of Area Calculation through Integration",
-    "summary": "Learn to calculate the area of complex regions using integration, focusing on the curves y = x^2 and y = 2x.",
-    "url": "articles/integration-area-calculation.html",
-    "date": "June 5, 2026",
-    "category": "Productivity"
   }
 ]
