@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Solution Verification in Set Theory",
+    "summary": "Explore the significance of solution verification in set theory and its implications in mathematics.",
+    "url": "articles/understanding-solution-verification-in-set-theory.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring Terminology for Jordan Measurable Sets",
     "summary": "Explore the debate on terminology for Jordan measurable sets as discussed by Munkres and Edwards.",
     "url": "articles/jordan-measurable-sets-terminology.html",
@@ -199,13 +206,6 @@
     "title": "Navigating 401(k) Withdrawals: A Strategic Approach to Tax Penalties",
     "summary": "Discover how affluent couples are using smart strategies to manage 401(k) withdrawals and avoid the widow's tax penalty.",
     "url": "articles/affluent-couples-widows-tax-strategies.html",
-    "date": "June 5, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Navigating Retirement Withdrawals to Avoid the Widow’s Tax Penalty",
-    "summary": "Learn why affluent couples withdraw from the higher earner's 401(k) to reduce tax penalties on widowed spouses.",
-    "url": "articles/401k-withdrawals-widows-tax-penalty.html",
     "date": "June 5, 2026",
     "category": "Finance"
   }
