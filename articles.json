@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Puzzle of Irreducibles in Monoid Tensor Products",
+    "summary": "Dive into the complexities of the conjecture regarding the irreducibility of elements in the tensor product of monoids.",
+    "url": "articles/monoid-tensor-products-conjecture.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "A Dive into the Integral $D_n$: Insights and Evaluations",
     "summary": "Discover the integral evaluation in terms of elliptic and hypergeometric functions.",
     "url": "articles/calculating-integral-dn.html",
