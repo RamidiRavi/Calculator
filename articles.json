@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying the Limit of Recurrence Relations",
+    "summary": "Explore the convergence of recurrence relations and the validity of their solutions in mathematical analysis.",
+    "url": "articles/recurrence-relations-convergence.html",
+    "date": "June 6, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Trilinear Coordinates and Conics",
     "summary": "Dive into the fascinating world of trilinear coordinates and cross-ratio substitutions in conic sections with this insightful exploration.",
     "url": "articles/cross-ratio-substitutions-trilinear-coordinates.html",
