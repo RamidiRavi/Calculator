@@ -1,5 +1,12 @@
 [
   {
+    "title": "Do Infinite Primitive Solutions Exist for Power Sums?",
+    "summary": "Investigating the existence of infinite primitive solutions for the equation a^n + b^n + ... = k^n.",
+    "url": "articles/infinite-primitive-solutions-power-sums.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying K-Theory: A Deep Dive into Hatcher's Insights",
     "summary": "Explore the complexities of K-Theory groups in Hatcher's 'Vector Bundles and K-Theory' and clarify the relationship between $K(X)$ and $\\widetilde{K(X)}$.",
     "url": "articles/understanding-k-theory-hatchers-book-insights.html",
@@ -201,12 +208,5 @@
     "url": "articles/cyclic-space-filling-formula.html",
     "date": "June 5, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is 2027 Set to Be Bitcoin's Year of Recovery?",
-    "summary": "Explore predictions and insights on Bitcoin's performance in 2027 amid market trends and historical cycles.",
-    "url": "articles/bitcoin-2027-predictions.html",
-    "date": "June 5, 2026",
-    "category": "Finance"
   }
 ]
