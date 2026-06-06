@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring New Expressions of the Gamma Function and Exponential",
+    "summary": "Exploring new expressions of the Gamma function and exponential through computational validation.",
+    "url": "articles/new-expressions-gamma-function-exponential.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Maximize Your Gold Investment: GLDM vs. GLD",
     "summary": "Discover cost-effective gold investment strategies with GLDM versus GLD, maximizing your financial growth.",
     "url": "articles/gldm-vs-gld-gold-investment.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Sigma-Finite Measures and Their Consequences",
     "summary": "Discover sigma-finite measures and their significance in measure theory and integration strategies.",
     "url": "articles/exploring-sigma-finite-measures.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Intricacies of Monoids in CMon",
-    "summary": "Delve into the intriguing analogy of monoids in CMon and the challenges of completing the analogy picture.",
-    "url": "articles/exploring-beautiful-analogy-in-cmon.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
