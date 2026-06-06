@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Mathematical Inequalities",
+    "summary": "Explore the proof of a fascinating inequality involving positive numbers.",
+    "url": "articles/mastering-mathematical-inequalities.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Solution Verification in Set Theory",
     "summary": "Explore the significance of solution verification in set theory and its implications in mathematics.",
     "url": "articles/understanding-solution-verification-in-set-theory.html",
@@ -199,13 +206,6 @@
     "title": "The Rising Tide: Leveraged Loan Default Rates and LME Dynamics",
     "summary": "Explore the rise in leveraged loan default rates and its connection to LME activities.",
     "url": "articles/leveraged-loan-default-rate-surge-lme-activity.html",
-    "date": "June 5, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Navigating 401(k) Withdrawals: A Strategic Approach to Tax Penalties",
-    "summary": "Discover how affluent couples are using smart strategies to manage 401(k) withdrawals and avoid the widow's tax penalty.",
-    "url": "articles/affluent-couples-widows-tax-strategies.html",
     "date": "June 5, 2026",
     "category": "Finance"
   }
