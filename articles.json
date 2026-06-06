@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying K-Theory: A Deep Dive into Hatcher's Insights",
+    "summary": "Explore the complexities of K-Theory groups in Hatcher's 'Vector Bundles and K-Theory' and clarify the relationship between $K(X)$ and $\\widetilde{K(X)}$.",
+    "url": "articles/understanding-k-theory-hatchers-book-insights.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Tangents in Hyperbolic Geometry",
     "summary": "Explore an intriguing method for constructing tangents to hyperbolas and the fascinating properties involved.",
     "url": "articles/tangents-to-hyperbolas.html",
@@ -201,12 +208,5 @@
     "url": "articles/bitcoin-2027-predictions.html",
     "date": "June 5, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Grill Up Healthy Salmon Sliders with Sriracha Aioli",
-    "summary": "Enjoy omega-3-rich salmon sliders with zesty Sriracha aioli—perfect for a healthy cookout in just 20 minutes!",
-    "url": "articles/salmon-sliders-sriracha-aioli.html",
-    "date": "June 5, 2026",
-    "category": "Health"
   }
 ]
