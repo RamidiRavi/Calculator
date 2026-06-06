@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Score Sequences: A Guide for Aspiring Statisticians",
+    "summary": "Explore strategies to determine score sequences for n=10 effectively.",
+    "url": "articles/unlocking-score-sequences-n10.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring New Expressions of the Gamma Function and Exponential",
     "summary": "Exploring new expressions of the Gamma function and exponential through computational validation.",
     "url": "articles/new-expressions-gamma-function-exponential.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Trilinear Coordinates and Conics",
     "summary": "Dive into the fascinating world of trilinear coordinates and cross-ratio substitutions in conic sections with this insightful exploration.",
     "url": "articles/cross-ratio-substitutions-trilinear-coordinates.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Sigma-Finite Measures and Their Consequences",
-    "summary": "Discover sigma-finite measures and their significance in measure theory and integration strategies.",
-    "url": "articles/exploring-sigma-finite-measures.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
