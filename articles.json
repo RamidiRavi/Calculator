@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Exponents: The Power of Zero",
+    "summary": "Explore the intriguing concept of exponents and why any number raised to the power of 0 equals 1.",
+    "url": "articles/understanding-why-any-number-to-the-power-of-0-equals-1.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Score Sequences: A Guide for Aspiring Statisticians",
     "summary": "Explore strategies to determine score sequences for n=10 effectively.",
     "url": "articles/unlocking-score-sequences-n10.html",
@@ -201,12 +208,5 @@
     "url": "articles/recurrence-relations-convergence.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of Trilinear Coordinates and Conics",
-    "summary": "Dive into the fascinating world of trilinear coordinates and cross-ratio substitutions in conic sections with this insightful exploration.",
-    "url": "articles/cross-ratio-substitutions-trilinear-coordinates.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
