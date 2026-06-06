@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the Complexities of Nonlinear Estimates in KdV",
+    "summary": "Explore the complexities of nonlinear estimates in the 5th order KdV equation and key insights from recent mathematical proofs.",
+    "url": "articles/understanding-nonlinear-estimates-for-the-5th-order-kdv.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Primes with Scalar Product Projections",
     "summary": "Delve into the analytic validity of mapping natural numbers to primes using scalar products in advanced number theory.",
     "url": "articles/scalar-products-prime-theories.html",
@@ -201,12 +208,5 @@
     "url": "articles/solving-trigonometric-equations.html",
     "date": "June 6, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Caterpillar vs. Zillow: Smart Investing in a Stalled Housing Market",
-    "summary": "Explore why investing in Caterpillar may be smarter than Zillow as the housing market stalls.",
-    "url": "articles/caterpillar-vs-zillow-investing.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
   }
 ]
