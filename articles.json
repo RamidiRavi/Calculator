@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Proximal Mappings and Subdifferentials",
+    "summary": "Dive into reversible implications of proximal mappings and subdifferentials in optimization.",
+    "url": "articles/understanding-proximal-mappings-in-optimization.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Efficiency: Bevco's Oranj Production Optimization",
     "summary": "Explore how Bevco can optimize Oranj production using linear programming for cost efficiency.",
     "url": "articles/bevco-oranj-production-optimization.html",
@@ -199,13 +206,6 @@
     "title": "Fuel Your Fitness with Salmon Burgers on Cloud Buns",
     "summary": "Try our nutritious salmon burgers on cloud buns for a healthy meal packed with omega-3s—perfect for your fitness journey!",
     "url": "articles/salmon-burgers-cloud-buns-recipe.html",
-    "date": "June 5, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Savor the Flavor: Spicy Chicken Burgers with Sweet Potato Fries",
-    "summary": "Discover the bold flavors of spicy chicken burgers paired with healthy sweet potato fries in a nutritious meal.",
-    "url": "articles/spicy-chicken-burgers-sweet-potato-fries.html",
     "date": "June 5, 2026",
     "category": "Health"
   }
