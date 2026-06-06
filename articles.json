@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is a Linear Relationship Implicit in Dilution Model Assumptions?",
+    "summary": "Explore the logical assumptions in dilution models and their implications for interpreting water quality data.",
+    "url": "articles/deducing-relationships-in-dilution-models.html",
+    "date": "June 6, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Decoding the Inequality in Small Data Energy Scattering",
     "summary": "Explore the inequality from Guo and Nakanishi's work on scattering in Zakharov systems. Learn about its implications in mathematical analysis.",
     "url": "articles/understanding-inequality-zakharov-systems.html",
@@ -201,12 +208,5 @@
     "url": "articles/monoid-tensor-products-conjecture.html",
     "date": "June 6, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "A Dive into the Integral $D_n$: Insights and Evaluations",
-    "summary": "Discover the integral evaluation in terms of elliptic and hypergeometric functions.",
-    "url": "articles/calculating-integral-dn.html",
-    "date": "June 5, 2026",
-    "category": "Finance"
   }
 ]
