@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Tangents in Hyperbolic Geometry",
+    "summary": "Explore an intriguing method for constructing tangents to hyperbolas and the fascinating properties involved.",
+    "url": "articles/tangents-to-hyperbolas.html",
+    "date": "June 6, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Economics Behind Chicken Production",
     "summary": "Explore the mathematical models behind chicken production, lifespan, and economic valuations.",
     "url": "articles/mathematics-chicken-production.html",
@@ -201,12 +208,5 @@
     "url": "articles/salmon-sliders-sriracha-aioli.html",
     "date": "June 5, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Why Manifolds Matter in Pure Mathematics",
-    "summary": "Explore the significance of manifolds in pure mathematics beyond physics applications.",
-    "url": "articles/importance-of-manifolds-in-pure-mathematics.html",
-    "date": "June 5, 2026",
-    "category": "Productivity"
   }
 ]
