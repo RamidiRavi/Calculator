@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Primes with Scalar Product Projections",
+    "summary": "Delve into the analytic validity of mapping natural numbers to primes using scalar products in advanced number theory.",
+    "url": "articles/scalar-products-prime-theories.html",
+    "date": "June 6, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering Semilinear PDEs: A Step-by-Step Approach",
     "summary": "Discover how to tackle a semilinear system of first-order PDEs with two dependent and independent variables.",
     "url": "articles/solving-semilinear-pdes.html",
@@ -201,12 +208,5 @@
     "url": "articles/caterpillar-vs-zillow-investing.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Calculate the Number of Primes with a Groundbreaking Equation",
-    "summary": "Discover a new mathematical approach to calculate primes between powers of two.",
-    "url": "articles/calculate-primes-equation.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
