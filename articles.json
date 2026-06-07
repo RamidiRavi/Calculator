@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Role of Finite Intrinsic Composability in Mathematics",
+    "summary": "Exploring implications of finite intrinsic composability in mathematical frameworks and its connection to compact Lie groups.",
+    "url": "articles/finite-intrinsic-composability-group-theory.html",
+    "date": "June 7, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Mystery of Congruent Lines in Geometry",
     "summary": "Explore a geometric proof for demonstrating the congruence of lines AX, BY, and CZ in triangle ABC formed by tangent circles.",
     "url": "articles/proving-congruent-lines-in-triangle-abc.html",
@@ -201,12 +208,5 @@
     "url": "articles/mathematics-chicken-production.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Navigating the World of Functional Analysis References",
-    "summary": "Struggling to find references for functional analysis results? Discover how to identify key texts and resources.",
-    "url": "articles/finding-references-functional-analysis.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
