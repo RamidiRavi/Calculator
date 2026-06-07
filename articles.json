@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Stone Duality in Mathematics",
+    "summary": "Explore the intricacies of Stone duality and its proof within category theory, focusing on spectral spaces and distributive lattices.",
+    "url": "articles/understanding-stone-duality.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Types of Differential Equations",
     "summary": "Learn about the various types of differential equations beyond just ODEs and PDEs, including unique categories and examples.",
     "url": "articles/exploring-types-of-differential-equations.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Proximal Mappings and Subdifferentials",
     "summary": "Dive into reversible implications of proximal mappings and subdifferentials in optimization.",
     "url": "articles/understanding-proximal-mappings-in-optimization.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Efficiency: Bevco's Oranj Production Optimization",
-    "summary": "Explore how Bevco can optimize Oranj production using linear programming for cost efficiency.",
-    "url": "articles/bevco-oranj-production-optimization.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
