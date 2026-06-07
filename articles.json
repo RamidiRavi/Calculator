@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Isomorphism Conundrum in Monoid Rings",
+    "summary": "Discover insights into the isomorphism problem for integral monoid rings and the quest for easy counterexamples.",
+    "url": "articles/counterexamples-in-monoid-rings.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Intersection of Mathematics and Continuity in Topology",
     "summary": "A deep dive into topology, continuity, and discontinuous inverses in higher dimensions.",
     "url": "articles/continuity-in-higher-dimensions.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-nonlinear-estimates-for-the-5th-order-kdv.html",
     "date": "June 6, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Primes with Scalar Product Projections",
-    "summary": "Delve into the analytic validity of mapping natural numbers to primes using scalar products in advanced number theory.",
-    "url": "articles/scalar-products-prime-theories.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
   }
 ]
