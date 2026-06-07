@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Mathematical Mystery of Non-Decaying Solutions in ODEs",
+    "summary": "Explore why second-order linear ODEs with negative potential have no decaying solutions.",
+    "url": "articles/non-existence-decaying-solutions-odes.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Do We Call Special Numbers 'Mathematical Constants'?",
     "summary": "Explore the reasons behind calling special numbers mathematical constants instead of special numbers.",
     "url": "articles/understanding-mathematical-constants.html",
@@ -199,13 +206,6 @@
     "title": "Is Complexification Essential in Real Algebraic Geometry?",
     "summary": "Exploring the necessity of complexification in real algebraic geometry and its implications.",
     "url": "articles/complexity-in-real-algebraic-geometry.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Are There Infinite Pairs of Integers Yielding Perfect Squares?",
-    "summary": "Discover the fascinating quest for ordered pairs of integers where both their sum and difference are perfect squares.",
-    "url": "articles/infinite-perfect-square-pairs.html",
     "date": "June 6, 2026",
     "category": "Finance"
   }
