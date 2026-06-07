@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Power of Cohomology in Algebraic Topology",
+    "summary": "Discover the advantages of cohomology over homology in algebraic topology proofs, including key examples and insights.",
+    "url": "articles/cohomology-outshines-homology-in-topology.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Role of Finite Intrinsic Composability in Mathematics",
     "summary": "Exploring implications of finite intrinsic composability in mathematical frameworks and its connection to compact Lie groups.",
     "url": "articles/finite-intrinsic-composability-group-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/tangents-to-hyperbolas.html",
     "date": "June 6, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Economics Behind Chicken Production",
-    "summary": "Explore the mathematical models behind chicken production, lifespan, and economic valuations.",
-    "url": "articles/mathematics-chicken-production.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
   }
 ]
