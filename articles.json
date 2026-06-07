@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mysteries of the Hyperbolic Metric",
+    "summary": "Dive into the fascinating world of hyperbolic metrics in complex analysis, focusing on special points in the domain.",
+    "url": "articles/hyperbolic-metric-complex-analysis.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Stone Duality in Mathematics",
     "summary": "Explore the intricacies of Stone duality and its proof within category theory, focusing on spectral spaces and distributive lattices.",
     "url": "articles/understanding-stone-duality.html",
@@ -201,12 +208,5 @@
     "url": "articles/negative-numbers-irrational-powers.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of Proximal Mappings and Subdifferentials",
-    "summary": "Dive into reversible implications of proximal mappings and subdifferentials in optimization.",
-    "url": "articles/understanding-proximal-mappings-in-optimization.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
