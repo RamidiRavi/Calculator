@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of $\\Sigma_{3}$: Covering Spaces in Topology",
+    "summary": "Delve into k-sheeted covering spaces of $\\Sigma_{3}$, a cornerstone of topology, and understand their fascinating properties.",
+    "url": "articles/topology-genus-3-covering-spaces.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Mysteries of the Hyperbolic Metric",
     "summary": "Dive into the fascinating world of hyperbolic metrics in complex analysis, focusing on special points in the domain.",
     "url": "articles/hyperbolic-metric-complex-analysis.html",
@@ -199,13 +206,6 @@
     "title": "Decoding the Inequality in Small Data Energy Scattering",
     "summary": "Explore the inequality from Guo and Nakanishi's work on scattering in Zakharov systems. Learn about its implications in mathematical analysis.",
     "url": "articles/understanding-inequality-zakharov-systems.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Navigating Negative Numbers Raised to Irrational Powers",
-    "summary": "Explore how negative bases and irrational powers interact in mathematics, with insights on when negative results occur.",
-    "url": "articles/negative-numbers-irrational-powers.html",
     "date": "June 6, 2026",
     "category": "Finance"
   }
