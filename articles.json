@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can One-Sided L-Pentominoes Tile 10k+5 Squares?",
+    "summary": "Delve into the complexities of tiling with one-sided L-pentominoes and the unresolved cases of specific sized squares.",
+    "url": "articles/one-sided-l-pentomino-tiling.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Infinite Sets: Proving Cardinality with AC",
     "summary": "Dive into the fascinating world of set theory and learn how to prove that the cardinality of an infinite set is equal to its square.",
     "url": "articles/understanding-cardinality-infinite-sets.html",
@@ -199,13 +206,6 @@
     "title": "The Role of Inverses in Left Regular Representation",
     "summary": "Explore why inverses are necessary in left actions of regular representations in group theory.",
     "url": "articles/understanding-left-regular-representation.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Mathematical Inequalities",
-    "summary": "Explore the proof of a fascinating inequality involving positive numbers.",
-    "url": "articles/mastering-mathematical-inequalities.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
