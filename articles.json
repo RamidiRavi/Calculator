@@ -1,5 +1,12 @@
 [
   {
+    "title": "Delving into the Intersection of Subgroups in Group Theory",
+    "summary": "Understanding subgroup interactions in dihedral groups and square-free orders in group theory.",
+    "url": "articles/subgroup-intersections-in-group-theory.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Subgroup Existence in Finite Group Theory",
     "summary": "Explore how group centers lead to subgroups of finite groups of power two and enhance your understanding of group theory.",
     "url": "articles/unraveling-subgroups-finite-groups-order-2n.html",
@@ -201,12 +208,5 @@
     "url": "articles/gldm-vs-gld-gold-investment.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unleash Flavor: Air Fryer Egg Rolls That Are Both Tasty and Nutritious",
-    "summary": "Make crispy air fryer egg rolls in just 35 minutes. A healthy twist on a favorite snack!",
-    "url": "articles/healthy-air-fryer-egg-rolls.html",
-    "date": "June 6, 2026",
-    "category": "Health"
   }
 ]
