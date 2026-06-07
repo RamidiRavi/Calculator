@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Intersection of Mathematics and Continuity in Topology",
+    "summary": "A deep dive into topology, continuity, and discontinuous inverses in higher dimensions.",
+    "url": "articles/continuity-in-higher-dimensions.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Intricacies of Unstable Equilibria in Dynamical Systems",
     "summary": "Explore the dynamics of unstable equilibria and how increasing functions affect stability.",
     "url": "articles/unstable-equilibria-dynamical-systems.html",
@@ -201,12 +208,5 @@
     "url": "articles/scalar-products-prime-theories.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering Semilinear PDEs: A Step-by-Step Approach",
-    "summary": "Discover how to tackle a semilinear system of first-order PDEs with two dependent and independent variables.",
-    "url": "articles/solving-semilinear-pdes.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
