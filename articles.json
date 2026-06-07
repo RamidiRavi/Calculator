@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Concept of Vertical Thickness in Function Graphs",
+    "summary": "Learn how to calculate the vertical thickness of a function plot in mathematical terms.",
+    "url": "articles/vertical-thickness-function-plots.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring the Inequality: When is x^y Greater than y^x?",
     "summary": "Discover patterns and insights on the inequality x^y > y^x, and explore the proofs and conjectures surrounding it.",
     "url": "articles/when-x-to-the-y-is-greater-than-y-to-the-x.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Homotopy Type of Manifolds: A Deep Dive",
     "summary": "Explore the homotopy equivalence of compact smooth manifolds and their divisors with normal crossings.",
     "url": "articles/homotopy-types-manifolds.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Cartier Divisors: A Step-by-Step Guide",
-    "summary": "Explore the nuances of Cartier divisors through examples in algebraic geometry.",
-    "url": "articles/cartier-divisors-algebraic-geometry.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
