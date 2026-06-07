@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Subgroup Existence in Finite Group Theory",
+    "summary": "Explore how group centers lead to subgroups of finite groups of power two and enhance your understanding of group theory.",
+    "url": "articles/unraveling-subgroups-finite-groups-order-2n.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Lebesgue Integrals Supercede Riemann for Higher Dimensions",
     "summary": "Explore why Lebesgue integrals are vital for multidimensional calculus and how they handle irregular functions better than Riemann integrals.",
     "url": "articles/importance-of-lebesgue-integrals.html",
@@ -201,12 +208,5 @@
     "url": "articles/healthy-air-fryer-egg-rolls.html",
     "date": "June 6, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlocking Real Analysis: Books Like Gallian's Abstract Algebra",
-    "summary": "Looking for real analysis books like J. Gallian's? Discover engaging texts with practice problems and clear explanations.",
-    "url": "articles/books-like-gallian-real-analysis.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
