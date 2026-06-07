@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Eremey-Sobolev Spaces",
+    "summary": "Explore the Eremey-Sobolev space and its role in quantifying topological structures through mathematical frameworks.",
+    "url": "articles/understanding-eremey-sobolev-spaces.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mystery of π: The Circle’s Timeless Ratio",
     "summary": "Explore the intuitive reasoning behind π as the ratio of a circle's circumference to its diameter, revealing its universal significance.",
     "url": "articles/understanding-pi-circle-constant.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mystery of Diagonal Transformations in Linear Algebra",
     "summary": "Explore the necessary conditions under which a polynomial transformation implies diagonalizability of its operator.",
     "url": "articles/understanding-diagonalizability-key-condition-revealed.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Identifying Logic Errors in Number Theory Solutions",
-    "summary": "Delve into the logic error in a number theory exercise regarding orders and primitive roots modulo 19.",
-    "url": "articles/logic-errors-in-number-theory-solutions.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
