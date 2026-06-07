@@ -1,5 +1,12 @@
 [
   {
+    "title": "Kickstart Your Knowledge in Spectral Geometry",
+    "summary": "Explore essential resources for a graduate seminar on spectral geometry, designed for those with a foundational understanding in algebra.",
+    "url": "articles/resources-for-understanding-spectral-geometry.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Achieve High Numerical Accuracy in Log Ratio Calculation",
     "summary": "Explore the most accurate methods for calculating log ratios between close numbers and avoid precision loss.",
     "url": "articles/precision-in-log-ratio-calculations.html",
@@ -201,12 +208,5 @@
     "url": "articles/finding-references-functional-analysis.html",
     "date": "June 6, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is Complexification Essential in Real Algebraic Geometry?",
-    "summary": "Exploring the necessity of complexification in real algebraic geometry and its implications.",
-    "url": "articles/complexity-in-real-algebraic-geometry.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
   }
 ]
