@@ -1,5 +1,12 @@
 [
   {
+    "title": "Discover an Innovative Approach to Approximating Pi",
+    "summary": "Explore a new method of approximating pi through statistical distributions and coin flips.",
+    "url": "articles/unique-pi-approximation-coin-flips.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of $\\Sigma_{3}$: Covering Spaces in Topology",
     "summary": "Delve into k-sheeted covering spaces of $\\Sigma_{3}$, a cornerstone of topology, and understand their fascinating properties.",
     "url": "articles/topology-genus-3-covering-spaces.html",
@@ -201,12 +208,5 @@
     "url": "articles/deducing-relationships-in-dilution-models.html",
     "date": "June 6, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Decoding the Inequality in Small Data Energy Scattering",
-    "summary": "Explore the inequality from Guo and Nakanishi's work on scattering in Zakharov systems. Learn about its implications in mathematical analysis.",
-    "url": "articles/understanding-inequality-zakharov-systems.html",
-    "date": "June 6, 2026",
-    "category": "Finance"
   }
 ]
