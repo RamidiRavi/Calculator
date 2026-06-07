@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Krull Dimension in Distributive Lattices",
+    "summary": "Explore the nuances of the Krull dimension in distributive lattices and the characterization of maximal filters.",
+    "url": "articles/understanding-krull-dimension-distributive-lattices.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Avoid Massive Tax Bills on Inherited IRAs: Essential Tips",
     "summary": "Learn how to avoid hefty taxes on inherited IRAs with smart decisions and proper planning.",
     "url": "articles/navigating-tax-implications-inherited-iras.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Score Sequences: A Guide for Aspiring Statisticians",
     "summary": "Explore strategies to determine score sequences for n=10 effectively.",
     "url": "articles/unlocking-score-sequences-n10.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring New Expressions of the Gamma Function and Exponential",
-    "summary": "Exploring new expressions of the Gamma function and exponential through computational validation.",
-    "url": "articles/new-expressions-gamma-function-exponential.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
