@@ -1,8 +1,8 @@
 [
   {
-    "title": "The Mathematical Mystery of Non-Decaying Solutions in ODEs",
-    "summary": "Explore why second-order linear ODEs with negative potential have no decaying solutions.",
-    "url": "articles/non-existence-decaying-solutions-odes.html",
+    "title": "Achieve High Numerical Accuracy in Log Ratio Calculation",
+    "summary": "Explore the most accurate methods for calculating log ratios between close numbers and avoid precision loss.",
+    "url": "articles/precision-in-log-ratio-calculations.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   },
