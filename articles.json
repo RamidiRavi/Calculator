@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Do We Call Special Numbers 'Mathematical Constants'?",
+    "summary": "Explore the reasons behind calling special numbers mathematical constants instead of special numbers.",
+    "url": "articles/understanding-mathematical-constants.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering the Concept of Vertical Thickness in Function Graphs",
     "summary": "Learn how to calculate the vertical thickness of a function plot in mathematical terms.",
     "url": "articles/vertical-thickness-function-plots.html",
@@ -201,12 +208,5 @@
     "url": "articles/infinite-perfect-square-pairs.html",
     "date": "June 6, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Exploring the Homotopy Type of Manifolds: A Deep Dive",
-    "summary": "Explore the homotopy equivalence of compact smooth manifolds and their divisors with normal crossings.",
-    "url": "articles/homotopy-types-manifolds.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
   }
 ]
