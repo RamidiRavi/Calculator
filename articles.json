@@ -1,5 +1,12 @@
 [
   {
+    "title": "Investigating the Club Filter's Normality under AD",
+    "summary": "Exploring if the club filter on ω₁ is normal under AD without the need for DC.",
+    "url": "articles/club-filter-normality-omega1-ad.html",
+    "date": "June 7, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering the Point-Normal Form of a Plane Equation",
     "summary": "Explore the derivation of the point-normal form of a plane and troubleshoot common issues in mathematical calculations.",
     "url": "articles/understanding-point-normal-plane-form.html",
@@ -199,13 +206,6 @@
     "title": "Demystifying Solution Verification in Set Theory",
     "summary": "Explore the significance of solution verification in set theory and its implications in mathematics.",
     "url": "articles/understanding-solution-verification-in-set-theory.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring Terminology for Jordan Measurable Sets",
-    "summary": "Explore the debate on terminology for Jordan measurable sets as discussed by Munkres and Edwards.",
-    "url": "articles/jordan-measurable-sets-terminology.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
