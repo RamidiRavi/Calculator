@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Point-Normal Form of a Plane Equation",
+    "summary": "Explore the derivation of the point-normal form of a plane and troubleshoot common issues in mathematical calculations.",
+    "url": "articles/understanding-point-normal-plane-form.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating the Complexities of Nonlinear Estimates in KdV",
     "summary": "Explore the complexities of nonlinear estimates in the 5th order KdV equation and key insights from recent mathematical proofs.",
     "url": "articles/understanding-nonlinear-estimates-for-the-5th-order-kdv.html",
@@ -199,13 +206,6 @@
     "title": "Exploring Terminology for Jordan Measurable Sets",
     "summary": "Explore the debate on terminology for Jordan measurable sets as discussed by Munkres and Edwards.",
     "url": "articles/jordan-measurable-sets-terminology.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Linear Trigonometric Equations: A Step-by-Step Guide",
-    "summary": "Discover techniques for solving linear trigonometric equations in two unknown angles with our comprehensive guide.",
-    "url": "articles/solving-trigonometric-equations.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
