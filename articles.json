@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Types of Differential Equations",
+    "summary": "Learn about the various types of differential equations beyond just ODEs and PDEs, including unique categories and examples.",
+    "url": "articles/exploring-types-of-differential-equations.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Eremey-Sobolev Spaces",
     "summary": "Explore the Eremey-Sobolev space and its role in quantifying topological structures through mathematical frameworks.",
     "url": "articles/understanding-eremey-sobolev-spaces.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking Efficiency: Bevco's Oranj Production Optimization",
     "summary": "Explore how Bevco can optimize Oranj production using linear programming for cost efficiency.",
     "url": "articles/bevco-oranj-production-optimization.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mystery of Diagonal Transformations in Linear Algebra",
-    "summary": "Explore the necessary conditions under which a polynomial transformation implies diagonalizability of its operator.",
-    "url": "articles/understanding-diagonalizability-key-condition-revealed.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
