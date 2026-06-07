@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Intricacies of Unstable Equilibria in Dynamical Systems",
+    "summary": "Explore the dynamics of unstable equilibria and how increasing functions affect stability.",
+    "url": "articles/unstable-equilibria-dynamical-systems.html",
+    "date": "June 7, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Mysteries of Homotopy Colimits",
     "summary": "Dive into the intricacies of homotopy colimits, chain complexes, and their implications in algebraic topology.",
     "url": "articles/homotopy-colimits-algebraic-topology.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Semilinear PDEs: A Step-by-Step Approach",
     "summary": "Discover how to tackle a semilinear system of first-order PDEs with two dependent and independent variables.",
     "url": "articles/solving-semilinear-pdes.html",
-    "date": "June 6, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mystery of Exponents: The Power of Zero",
-    "summary": "Explore the intriguing concept of exponents and why any number raised to the power of 0 equals 1.",
-    "url": "articles/understanding-why-any-number-to-the-power-of-0-equals-1.html",
     "date": "June 6, 2026",
     "category": "Productivity"
   }
