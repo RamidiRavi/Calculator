@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Conditional Probability in a Unique Card Game",
+    "summary": "Discover the impact of conditional probability on a cyclic card game and how it evolves with consecutive reveals.",
+    "url": "articles/conditional-probability-card-game.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mystery of Cartier Divisor Intersection Numbers",
     "summary": "Explore the necessary conditions for intersection numbers of Cartier divisors to equal the dimensions of global sections in algebraic geometry.",
     "url": "articles/conditions-cartier-divisor-intersection-numbers.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Enigmatic Shape of Kissing Circles",
     "summary": "Discover the fascinating geometry of the shape formed by kissing circles and explore its unique properties.",
     "url": "articles/kissing-circles-geometry.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Non-Real Roots in Quadratics",
-    "summary": "Explore the conditions for non-real roots in quadratic equations and their implications for mathematics.",
-    "url": "articles/understanding-non-real-roots-quadratics.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
