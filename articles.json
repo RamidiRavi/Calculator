@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unearthing the Mysteries of a Sparse Prime Sequence",
+    "summary": "Dive into the intriguing characteristics of a newly discovered sparse prime sequence and its implications for number theory.",
+    "url": "articles/exploring-sparse-prime-sequence.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "The Truth About R-squared: Single vs. Multiple Regression",
     "summary": "Explore the relationship between R-squared and the Pearson correlation coefficient, and why this equality fails in multiple regression.",
     "url": "articles/understanding-r-squared-in-regression.html",
@@ -199,13 +206,6 @@
     "title": "Why Do We Call Special Numbers 'Mathematical Constants'?",
     "summary": "Explore the reasons behind calling special numbers mathematical constants instead of special numbers.",
     "url": "articles/understanding-mathematical-constants.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering the Concept of Vertical Thickness in Function Graphs",
-    "summary": "Learn how to calculate the vertical thickness of a function plot in mathematical terms.",
-    "url": "articles/vertical-thickness-function-plots.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
