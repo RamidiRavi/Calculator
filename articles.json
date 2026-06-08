@@ -1,5 +1,12 @@
 [
   {
+    "title": "Savor the Flavor of Healthy Mushroom and Spinach Phyllo Triangles",
+    "summary": "Enjoy healthy Mushroom and Spinach Phyllo Triangles with great taste and nutrition. Perfect for meal prep and freezing!",
+    "url": "articles/mushroom-spinach-phyllo-triangles.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Unlocking the Secrets of Near-Square Rectangles in Geometry",
     "summary": "Discover the intriguing properties of near-square rectangles and their mathematical significance in geometry.",
     "url": "articles/mathematical-properties-near-square-rectangles.html",
@@ -199,13 +206,6 @@
     "title": "Can Vectors in 3D Space Reach Every Point? Unraveling the Mystery",
     "summary": "Discover how combinations of vectors in 3D space can span all dimensions and solve intriguing linear algebra questions.",
     "url": "articles/exploring-reach-of-vectors-3d.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering the Construction of Cauchy Sequences",
-    "summary": "Learn how to construct Cauchy sequences from elements in the realm of pro-p analysis.",
-    "url": "articles/constructing-cauchy-sequences-in-pro-p-analysis.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
