@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Dual Space of Sobolev Spaces",
+    "summary": "Explore why the dual space of \\( H_0^1(U) \\) is not \\( H_0^1(U) \\) in functional analysis and its implications.",
+    "url": "articles/dual-space-of-h0-1-u.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Elevate Your Dinner Parties with a Savory Strudel",
     "summary": "Explore a savory vegetarian mushroom and chestnut strudel recipe that's perfect for dinner parties and calorie-conscious eaters.",
     "url": "articles/mushroom-chestnut-savory-strudel-recipe.html",
@@ -199,13 +206,6 @@
     "title": "Discover an Innovative Approach to Approximating Pi",
     "summary": "Explore a new method of approximating pi through statistical distributions and coin flips.",
     "url": "articles/unique-pi-approximation-coin-flips.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of $\\Sigma_{3}$: Covering Spaces in Topology",
-    "summary": "Delve into k-sheeted covering spaces of $\\Sigma_{3}$, a cornerstone of topology, and understand their fascinating properties.",
-    "url": "articles/topology-genus-3-covering-spaces.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
