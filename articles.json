@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Enigmatic Shape of Kissing Circles",
+    "summary": "Discover the fascinating geometry of the shape formed by kissing circles and explore its unique properties.",
+    "url": "articles/kissing-circles-geometry.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Non-Real Roots in Quadratics",
     "summary": "Explore the conditions for non-real roots in quadratic equations and their implications for mathematics.",
     "url": "articles/understanding-non-real-roots-quadratics.html",
@@ -201,12 +208,5 @@
     "url": "articles/mathematical-script-small-letters.html",
     "date": "June 7, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Mystery of Distinct Good Sequences",
-    "summary": "Dive into the intriguing problem of distinct good sequences and their mathematical implications.",
-    "url": "articles/distinct-good-sequences-mathematics.html",
-    "date": "June 7, 2026",
-    "category": "Finance"
   }
 ]
