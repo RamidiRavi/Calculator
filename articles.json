@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Construction of Cauchy Sequences",
+    "summary": "Learn how to construct Cauchy sequences from elements in the realm of pro-p analysis.",
+    "url": "articles/constructing-cauchy-sequences-in-pro-p-analysis.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Should We Teach Vectors with Abstract Definitions in Calculus?",
     "summary": "Exploring the starting point for teaching vectors in calculus and its implications.",
     "url": "articles/rethinking-vector-instruction-in-calculus-classes.html",
@@ -201,12 +208,5 @@
     "url": "articles/club-filter-normality-omega1-ad.html",
     "date": "June 7, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering the Point-Normal Form of a Plane Equation",
-    "summary": "Explore the derivation of the point-normal form of a plane and troubleshoot common issues in mathematical calculations.",
-    "url": "articles/understanding-point-normal-plane-form.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
   }
 ]
