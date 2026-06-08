@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Elliptic Curve Mysteries: The Quest for Rational Solutions",
+    "summary": "Dive into the complexities of the elliptic curve for $x_1^5+x_2^5+x_3^5=y_1^5+2y_2^5$ and its implications.",
+    "url": "articles/unlocking-elliptic-curve-mysteries.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling Geometric Intersections in Tangents and Hyperbolas",
     "summary": "Explore the geometric relationship between tangents and hyperbolas.",
     "url": "articles/geometric-intersections-tangents-hyperbolas.html",
@@ -201,12 +208,5 @@
     "url": "articles/navigating-tax-implications-inherited-iras.html",
     "date": "June 7, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Connection Between Finitely Generated Modules and Local Rings",
-    "summary": "Explore the relationship between finitely generated modules and local rings through Nakayama's lemma.",
-    "url": "articles/modules-local-rings-nakayama-lemma.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
   }
 ]
