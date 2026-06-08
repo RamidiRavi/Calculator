@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Cotangent Complex: A Direct Calculation Approach",
+    "summary": "Explore the direct calculations of the cotangent complex and its implications in algebra.",
+    "url": "articles/cotangent-complex-direct-calculation.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlock the Secrets of Mathematical Induction",
     "summary": "Struggling with induction proofs? Learn how to prove the formula for geometric series with our comprehensive guide.",
     "url": "articles/mastering-induction-proof-techniques.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mysteries of Eremey-Sobolev Spaces",
     "summary": "Explore the Eremey-Sobolev space and its role in quantifying topological structures through mathematical frameworks.",
     "url": "articles/understanding-eremey-sobolev-spaces.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mystery of π: The Circle’s Timeless Ratio",
-    "summary": "Explore the intuitive reasoning behind π as the ratio of a circle's circumference to its diameter, revealing its universal significance.",
-    "url": "articles/understanding-pi-circle-constant.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
