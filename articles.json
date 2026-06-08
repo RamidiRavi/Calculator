@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of (a^2+b)(b^2+a)=(a-b)^4",
+    "summary": "Dive into solving the equation (a^2+b)(b^2+a)=(a-b)^4 for natural numbers a and b.",
+    "url": "articles/solving-natural-numbers-equation.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Rocket Lab CEO Highlights the Competitive Landscape in Space",
     "summary": "Explore insights from Rocket Lab CEO Peter Beck on the space launch industry and the future of competing companies.",
     "url": "articles/space-launch-market-insights.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-prime-generating-polynomials.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unearthing the Mysteries of a Sparse Prime Sequence",
-    "summary": "Dive into the intriguing characteristics of a newly discovered sparse prime sequence and its implications for number theory.",
-    "url": "articles/exploring-sparse-prime-sequence.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
   }
 ]
