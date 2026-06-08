@@ -1,5 +1,12 @@
 [
   {
+    "title": "Should We Teach Vectors with Abstract Definitions in Calculus?",
+    "summary": "Exploring the starting point for teaching vectors in calculus and its implications.",
+    "url": "articles/rethinking-vector-instruction-in-calculus-classes.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Isomorphism Conundrum in Monoid Rings",
     "summary": "Discover insights into the isomorphism problem for integral monoid rings and the quest for easy counterexamples.",
     "url": "articles/counterexamples-in-monoid-rings.html",
@@ -200,13 +207,6 @@
     "summary": "Explore the derivation of the point-normal form of a plane and troubleshoot common issues in mathematical calculations.",
     "url": "articles/understanding-point-normal-plane-form.html",
     "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Navigating the Complexities of Nonlinear Estimates in KdV",
-    "summary": "Explore the complexities of nonlinear estimates in the 5th order KdV equation and key insights from recent mathematical proofs.",
-    "url": "articles/understanding-nonlinear-estimates-for-the-5th-order-kdv.html",
-    "date": "June 6, 2026",
     "category": "Productivity"
   }
 ]
