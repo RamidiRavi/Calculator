@@ -1,5 +1,12 @@
 [
   {
+    "title": "Savor the Taste: No-Bake Vegan Lemon Cheesecake",
+    "summary": "Indulge in a creamy, dairy-free cheesecake that's easy to make and packed with flavor.",
+    "url": "articles/no-bake-vegan-lemon-cheesecake.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Elevate Your Weeknight Dinner with Shrimp Rolls",
     "summary": "Enjoy making New England-inspired shrimp rolls in just 15 minutes, a healthy twist on the classic lobster roll!",
     "url": "articles/new-england-inspired-shrimp-rolls.html",
@@ -199,13 +206,6 @@
     "title": "Finding Your True Calling in the World of Math and Data Science",
     "summary": "A guide for those pondering a career in Math or Data Science, addressing motivation and direction amidst AI advancements.",
     "url": "articles/navigating-math-data-science-career-path.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Intriguing Link Between e and π Through Infinite Products",
-    "summary": "Unravel the fascinating infinite product linking e and π, exploring its derivation and implications in mathematics.",
-    "url": "articles/infinite-product-e-pi.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
