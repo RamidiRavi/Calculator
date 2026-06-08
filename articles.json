@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Rational Roots in Polynomial Permutations",
+    "summary": "Dive into the challenge of finding permutations that yield rational roots in polynomial equations and uncover potential solutions.",
+    "url": "articles/permutations-polynomial-roots-challenge.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Can Vectors in 3D Space Reach Every Point? Unraveling the Mystery",
     "summary": "Discover how combinations of vectors in 3D space can span all dimensions and solve intriguing linear algebra questions.",
     "url": "articles/exploring-reach-of-vectors-3d.html",
@@ -199,13 +206,6 @@
     "title": "Can One-Sided L-Pentominoes Tile 10k+5 Squares?",
     "summary": "Delve into the complexities of tiling with one-sided L-pentominoes and the unresolved cases of specific sized squares.",
     "url": "articles/one-sided-l-pentomino-tiling.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Infinite Sets: Proving Cardinality with AC",
-    "summary": "Dive into the fascinating world of set theory and learn how to prove that the cardinality of an infinite set is equal to its square.",
-    "url": "articles/understanding-cardinality-infinite-sets.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
