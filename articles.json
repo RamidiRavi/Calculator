@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is the Last Digit Argument for Twin Primes Mathematically Sound?",
+    "summary": "An analysis of the argument surrounding the last digit recurrence for the Twin Prime Conjecture and its mathematical implications.",
+    "url": "articles/twin-prime-conjecture-last-digit-argument.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Finding Your True Calling in the World of Math and Data Science",
     "summary": "A guide for those pondering a career in Math or Data Science, addressing motivation and direction amidst AI advancements.",
     "url": "articles/navigating-math-data-science-career-path.html",
@@ -201,12 +208,5 @@
     "url": "articles/cohomology-outshines-homology-in-topology.html",
     "date": "June 7, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Role of Finite Intrinsic Composability in Mathematics",
-    "summary": "Exploring implications of finite intrinsic composability in mathematical frameworks and its connection to compact Lie groups.",
-    "url": "articles/finite-intrinsic-composability-group-theory.html",
-    "date": "June 7, 2026",
-    "category": "Finance"
   }
 ]
