@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Prime-Generating Polynomials",
+    "summary": "Exploring the existence of bounded-height polynomials that yield prime values.",
+    "url": "articles/exploring-prime-generating-polynomials.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unearthing the Mysteries of a Sparse Prime Sequence",
     "summary": "Dive into the intriguing characteristics of a newly discovered sparse prime sequence and its implications for number theory.",
     "url": "articles/exploring-sparse-prime-sequence.html",
@@ -199,13 +206,6 @@
     "title": "Achieve High Numerical Accuracy in Log Ratio Calculation",
     "summary": "Explore the most accurate methods for calculating log ratios between close numbers and avoid precision loss.",
     "url": "articles/precision-in-log-ratio-calculations.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Why Do We Call Special Numbers 'Mathematical Constants'?",
-    "summary": "Explore the reasons behind calling special numbers mathematical constants instead of special numbers.",
-    "url": "articles/understanding-mathematical-constants.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
