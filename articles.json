@@ -1,5 +1,12 @@
 [
   {
+    "title": "Rocket Lab CEO Highlights the Competitive Landscape in Space",
+    "summary": "Explore insights from Rocket Lab CEO Peter Beck on the space launch industry and the future of competing companies.",
+    "url": "articles/space-launch-market-insights.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Revisiting the Connection: Induction vs. Well-Ordering Principles",
     "summary": "Delve into the nuances between induction and well-ordering in mathematics as misconstrued by Öhman.",
     "url": "articles/exploring-induction-and-well-ordering-misconceptions.html",
@@ -199,13 +206,6 @@
     "title": "Unearthing the Mysteries of a Sparse Prime Sequence",
     "summary": "Dive into the intriguing characteristics of a newly discovered sparse prime sequence and its implications for number theory.",
     "url": "articles/exploring-sparse-prime-sequence.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "The Truth About R-squared: Single vs. Multiple Regression",
-    "summary": "Explore the relationship between R-squared and the Pearson correlation coefficient, and why this equality fails in multiple regression.",
-    "url": "articles/understanding-r-squared-in-regression.html",
     "date": "June 8, 2026",
     "category": "Finance"
   }
