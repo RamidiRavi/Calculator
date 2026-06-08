@@ -1,5 +1,12 @@
 [
   {
+    "title": "Elevate Your Dinner Parties with a Savory Strudel",
+    "summary": "Explore a savory vegetarian mushroom and chestnut strudel recipe that's perfect for dinner parties and calorie-conscious eaters.",
+    "url": "articles/mushroom-chestnut-savory-strudel-recipe.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Indulge in Health: Multigrain Blueberry Muffins Recipe",
     "summary": "Try our wholesome multigrain blueberry muffins packed with protein and flavor—perfect for a nutritious snack!",
     "url": "articles/multigrain-blueberry-muffins.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of $\\Sigma_{3}$: Covering Spaces in Topology",
     "summary": "Delve into k-sheeted covering spaces of $\\Sigma_{3}$, a cornerstone of topology, and understand their fascinating properties.",
     "url": "articles/topology-genus-3-covering-spaces.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Mysteries of the Hyperbolic Metric",
-    "summary": "Dive into the fascinating world of hyperbolic metrics in complex analysis, focusing on special points in the domain.",
-    "url": "articles/hyperbolic-metric-complex-analysis.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
