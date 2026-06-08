@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Power of Group Theory in Topology",
+    "summary": "Explore how group theory enhances our understanding of topology and manifolds, connecting abstract math with practical applications.",
+    "url": "articles/group-theory-in-topology-and-manifolds.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Prime-Generating Polynomials",
     "summary": "Exploring the existence of bounded-height polynomials that yield prime values.",
     "url": "articles/exploring-prime-generating-polynomials.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mystery of Congruent Lines in Geometry",
     "summary": "Explore a geometric proof for demonstrating the congruence of lines AX, BY, and CZ in triangle ABC formed by tangent circles.",
     "url": "articles/proving-congruent-lines-in-triangle-abc.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Achieve High Numerical Accuracy in Log Ratio Calculation",
-    "summary": "Explore the most accurate methods for calculating log ratios between close numbers and avoid precision loss.",
-    "url": "articles/precision-in-log-ratio-calculations.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
