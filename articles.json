@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Conclusiveness in Algebraic Proofs",
+    "summary": "Learn how to effectively conclude algebraic proofs, focusing on key propositions and their applications.",
+    "url": "articles/concluding-algebraic-proofs-effectively.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Mystery of the Borwein Integral",
     "summary": "Discover the fascinating world of the Borwein integral and its unexpected connections to infinity and numerical methods.",
     "url": "articles/exploring-borwein-integral.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Isomorphism Conundrum in Monoid Rings",
     "summary": "Discover insights into the isomorphism problem for integral monoid rings and the quest for easy counterexamples.",
     "url": "articles/counterexamples-in-monoid-rings.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Intersection of Mathematics and Continuity in Topology",
-    "summary": "A deep dive into topology, continuity, and discontinuous inverses in higher dimensions.",
-    "url": "articles/continuity-in-higher-dimensions.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
