@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Distribution Support through Measures",
+    "summary": "Delve into the interplay between essential support of functions and distributions defined by Hausdorff measures.",
+    "url": "articles/exploring-distribution-support.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering Conclusiveness in Algebraic Proofs",
     "summary": "Learn how to effectively conclude algebraic proofs, focusing on key propositions and their applications.",
     "url": "articles/concluding-algebraic-proofs-effectively.html",
@@ -200,13 +207,6 @@
     "summary": "Exploring the starting point for teaching vectors in calculus and its implications.",
     "url": "articles/rethinking-vector-instruction-in-calculus-classes.html",
     "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Isomorphism Conundrum in Monoid Rings",
-    "summary": "Discover insights into the isomorphism problem for integral monoid rings and the quest for easy counterexamples.",
-    "url": "articles/counterexamples-in-monoid-rings.html",
-    "date": "June 7, 2026",
     "category": "Productivity"
   }
 ]
