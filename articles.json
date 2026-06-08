@@ -1,5 +1,12 @@
 [
   {
+    "title": "Savor the Flavor: Mini Vegan Pumpkin Pies for Your Fall Table",
+    "summary": "Discover the delightful mini vegan pumpkin pies that are healthy, delicious, and easy to make!",
+    "url": "articles/mini-vegan-pumpkin-pies.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Quick and Healthy Mini Flatbread Pizzas That Satisfy",
     "summary": "Whip up mini flatbread pizzas in 15 mins, loaded with flavor and nutrition, perfect for your pizza cravings.",
     "url": "articles/mini-flatbread-pizzas.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Stone Duality in Mathematics",
     "summary": "Explore the intricacies of Stone duality and its proof within category theory, focusing on spectral spaces and distributive lattices.",
     "url": "articles/understanding-stone-duality.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Types of Differential Equations",
-    "summary": "Learn about the various types of differential equations beyond just ODEs and PDEs, including unique categories and examples.",
-    "url": "articles/exploring-types-of-differential-equations.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
