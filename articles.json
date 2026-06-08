@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Nuclear Norm Minimization through Proximal Gradients",
+    "summary": "Explore the relationship between soft thresholding and nuclear norm optimization in computer vision.",
+    "url": "articles/nuclear-norm-minimization-soft-thresholding.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Savor the Flavor of Healthy Mushroom and Spinach Phyllo Triangles",
     "summary": "Enjoy healthy Mushroom and Spinach Phyllo Triangles with great taste and nutrition. Perfect for meal prep and freezing!",
     "url": "articles/mushroom-spinach-phyllo-triangles.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mystery of Rational Roots in Polynomial Permutations",
     "summary": "Dive into the challenge of finding permutations that yield rational roots in polynomial equations and uncover potential solutions.",
     "url": "articles/permutations-polynomial-roots-challenge.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Can Vectors in 3D Space Reach Every Point? Unraveling the Mystery",
-    "summary": "Discover how combinations of vectors in 3D space can span all dimensions and solve intriguing linear algebra questions.",
-    "url": "articles/exploring-reach-of-vectors-3d.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
