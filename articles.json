@@ -1,5 +1,12 @@
 [
   {
+    "title": "Elevate Your Weeknight Dinner with Shrimp Rolls",
+    "summary": "Enjoy making New England-inspired shrimp rolls in just 15 minutes, a healthy twist on the classic lobster roll!",
+    "url": "articles/new-england-inspired-shrimp-rolls.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Unlocking the Mystery of (a^2+b)(b^2+a)=(a-b)^4",
     "summary": "Dive into solving the equation (a^2+b)(b^2+a)=(a-b)^4 for natural numbers a and b.",
     "url": "articles/solving-natural-numbers-equation.html",
@@ -199,13 +206,6 @@
     "title": "The Intriguing Link Between e and π Through Infinite Products",
     "summary": "Unravel the fascinating infinite product linking e and π, exploring its derivation and implications in mathematics.",
     "url": "articles/infinite-product-e-pi.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Prime-Generating Polynomials",
-    "summary": "Exploring the existence of bounded-height polynomials that yield prime values.",
-    "url": "articles/exploring-prime-generating-polynomials.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
