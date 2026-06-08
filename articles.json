@@ -1,5 +1,12 @@
 [
   {
+    "title": "Grocery Shopping Made Easy: Low Sodium Options that Save You Money",
+    "summary": "Discover low sodium grocery options that fit your budget and health. Learn tips for making better food choices without overspending.",
+    "url": "articles/budget-friendly-low-sodium-grocery-shopping-tips.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Maximize Your Trigonometry Skills for JEE Mains and Advanced",
     "summary": "Unlock the secrets of compound angle formulas in trigonometry to excel in JEE Mains and Advanced.",
     "url": "articles/mastering-compound-angle-formulas-jee.html",
@@ -199,13 +206,6 @@
     "title": "Demystifying Subgroup Existence in Finite Group Theory",
     "summary": "Explore how group centers lead to subgroups of finite groups of power two and enhance your understanding of group theory.",
     "url": "articles/unraveling-subgroups-finite-groups-order-2n.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Why Lebesgue Integrals Supercede Riemann for Higher Dimensions",
-    "summary": "Explore why Lebesgue integrals are vital for multidimensional calculus and how they handle irregular functions better than Riemann integrals.",
-    "url": "articles/importance-of-lebesgue-integrals.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
