@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Energy Estimates in Fifth Order KdV Equations",
+    "summary": "A deep dive into the proof of Lemma 5.2 concerning energy estimates for 5th order KdV solutions.",
+    "url": "articles/energy-estimates-kdv-solutions.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Intriguing Connection Between Minkowski and Frobenius Products",
     "summary": "Explore the relationship between Minkowski embedding and Frobenius inner product in number theory.",
     "url": "articles/minkowski-frobenius-inner-product.html",
@@ -201,12 +208,5 @@
     "url": "articles/unstable-equilibria-dynamical-systems.html",
     "date": "June 7, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Mysteries of Homotopy Colimits",
-    "summary": "Dive into the intricacies of homotopy colimits, chain complexes, and their implications in algebraic topology.",
-    "url": "articles/homotopy-colimits-algebraic-topology.html",
-    "date": "June 7, 2026",
-    "category": "Finance"
   }
 ]
