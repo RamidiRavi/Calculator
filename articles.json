@@ -1,5 +1,12 @@
 [
   {
+    "title": "Indulge Guilt-Free with Neapolitan Nice Cream Pops",
+    "summary": "Try these vegan Neapolitan Nice Cream Pops that are not only delicious but also a healthier dessert option!",
+    "url": "articles/neapolitan-nice-cream-pops.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Demystifying Nuclear Norm Minimization through Proximal Gradients",
     "summary": "Explore the relationship between soft thresholding and nuclear norm optimization in computer vision.",
     "url": "articles/nuclear-norm-minimization-soft-thresholding.html",
@@ -201,12 +208,5 @@
     "url": "articles/xrp-recovery-19-month-low.html",
     "date": "June 8, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Mystery of Rational Roots in Polynomial Permutations",
-    "summary": "Dive into the challenge of finding permutations that yield rational roots in polynomial equations and uncover potential solutions.",
-    "url": "articles/permutations-polynomial-roots-challenge.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
