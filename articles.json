@@ -1,5 +1,12 @@
 [
   {
+    "title": "Maximize Your Trigonometry Skills for JEE Mains and Advanced",
+    "summary": "Unlock the secrets of compound angle formulas in trigonometry to excel in JEE Mains and Advanced.",
+    "url": "articles/mastering-compound-angle-formulas-jee.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Dual Space of Sobolev Spaces",
     "summary": "Explore why the dual space of \\( H_0^1(U) \\) is not \\( H_0^1(U) \\) in functional analysis and its implications.",
     "url": "articles/dual-space-of-h0-1-u.html",
@@ -199,13 +206,6 @@
     "title": "Why Lebesgue Integrals Supercede Riemann for Higher Dimensions",
     "summary": "Explore why Lebesgue integrals are vital for multidimensional calculus and how they handle irregular functions better than Riemann integrals.",
     "url": "articles/importance-of-lebesgue-integrals.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Discover an Innovative Approach to Approximating Pi",
-    "summary": "Explore a new method of approximating pi through statistical distributions and coin flips.",
-    "url": "articles/unique-pi-approximation-coin-flips.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
