@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Intricacies of Compact Operators in Hilbert Spaces",
+    "summary": "Explore the nuances of compact operators defined on subspaces of Hilbert spaces and their characterizations.",
+    "url": "articles/compact-operators-hilbert-spaces.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Conditional Probability in a Unique Card Game",
     "summary": "Discover the impact of conditional probability on a cyclic card game and how it evolves with consecutive reveals.",
     "url": "articles/conditional-probability-card-game.html",
@@ -199,13 +206,6 @@
     "title": "Unlock the Secrets of Mathematical Induction",
     "summary": "Struggling with induction proofs? Learn how to prove the formula for geometric series with our comprehensive guide.",
     "url": "articles/mastering-induction-proof-techniques.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring the Enigmatic Shape of Kissing Circles",
-    "summary": "Discover the fascinating geometry of the shape formed by kissing circles and explore its unique properties.",
-    "url": "articles/kissing-circles-geometry.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
