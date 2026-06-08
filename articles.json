@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can Vectors in 3D Space Reach Every Point? Unraveling the Mystery",
+    "summary": "Discover how combinations of vectors in 3D space can span all dimensions and solve intriguing linear algebra questions.",
+    "url": "articles/exploring-reach-of-vectors-3d.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering the Construction of Cauchy Sequences",
     "summary": "Learn how to construct Cauchy sequences from elements in the realm of pro-p analysis.",
     "url": "articles/constructing-cauchy-sequences-in-pro-p-analysis.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-cardinality-infinite-sets.html",
     "date": "June 7, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Investigating the Club Filter's Normality under AD",
-    "summary": "Exploring if the club filter on ω₁ is normal under AD without the need for DC.",
-    "url": "articles/club-filter-normality-omega1-ad.html",
-    "date": "June 7, 2026",
-    "category": "Finance"
   }
 ]
