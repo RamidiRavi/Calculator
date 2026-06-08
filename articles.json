@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Intriguing Connection Between Lattices and Topology",
+    "summary": "Explore the relationship between distributive lattices and Stone spaces, focusing on principal prime filters.",
+    "url": "articles/distributive-lattices-stone-spaces.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Mysteries of Integral Relations",
     "summary": "Dive into the fascinating world of advanced integrals and their interrelations, with insights on proving identities without calculation.",
     "url": "articles/advanced-integrals-exploration.html",
@@ -201,12 +208,5 @@
     "url": "articles/homotopy-colimits-algebraic-topology.html",
     "date": "June 7, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unraveling the Krull Dimension in Distributive Lattices",
-    "summary": "Explore the nuances of the Krull dimension in distributive lattices and the characterization of maximal filters.",
-    "url": "articles/understanding-krull-dimension-distributive-lattices.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
   }
 ]
