@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Truth About R-squared: Single vs. Multiple Regression",
+    "summary": "Explore the relationship between R-squared and the Pearson correlation coefficient, and why this equality fails in multiple regression.",
+    "url": "articles/understanding-r-squared-in-regression.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "XRP's 19-Month Low: Can Recovery Be Achieved?",
     "summary": "Explore XRP's recent decline and its potential for recovery amid market challenges and institutional interest.",
     "url": "articles/xrp-recovery-19-month-low.html",
@@ -199,13 +206,6 @@
     "title": "Mastering the Concept of Vertical Thickness in Function Graphs",
     "summary": "Learn how to calculate the vertical thickness of a function plot in mathematical terms.",
     "url": "articles/vertical-thickness-function-plots.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring the Inequality: When is x^y Greater than y^x?",
-    "summary": "Discover patterns and insights on the inequality x^y > y^x, and explore the proofs and conjectures surrounding it.",
-    "url": "articles/when-x-to-the-y-is-greater-than-y-to-the-x.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
