@@ -1,5 +1,12 @@
 [
   {
+    "title": "Quick and Healthy Mini Flatbread Pizzas That Satisfy",
+    "summary": "Whip up mini flatbread pizzas in 15 mins, loaded with flavor and nutrition, perfect for your pizza cravings.",
+    "url": "articles/mini-flatbread-pizzas.html",
+    "date": "June 8, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Master Exponentiation: Unveiling Simple Calculation Patterns",
     "summary": "Unlock the secrets of exponentiation with simple patterns to make calculations easier than ever.",
     "url": "articles/easy-exponentiation-calculations.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Types of Differential Equations",
     "summary": "Learn about the various types of differential equations beyond just ODEs and PDEs, including unique categories and examples.",
     "url": "articles/exploring-types-of-differential-equations.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Eremey-Sobolev Spaces",
-    "summary": "Explore the Eremey-Sobolev space and its role in quantifying topological structures through mathematical frameworks.",
-    "url": "articles/understanding-eremey-sobolev-spaces.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
