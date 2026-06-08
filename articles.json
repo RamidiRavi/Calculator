@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Integral Relations",
+    "summary": "Dive into the fascinating world of advanced integrals and their interrelations, with insights on proving identities without calculation.",
+    "url": "articles/advanced-integrals-exploration.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Elliptic Curve Mysteries: The Quest for Rational Solutions",
     "summary": "Dive into the complexities of the elliptic curve for $x_1^5+x_2^5+x_3^5=y_1^5+2y_2^5$ and its implications.",
     "url": "articles/unlocking-elliptic-curve-mysteries.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-krull-dimension-distributive-lattices.html",
     "date": "June 7, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Avoid Massive Tax Bills on Inherited IRAs: Essential Tips",
-    "summary": "Learn how to avoid hefty taxes on inherited IRAs with smart decisions and proper planning.",
-    "url": "articles/navigating-tax-implications-inherited-iras.html",
-    "date": "June 7, 2026",
-    "category": "Finance"
   }
 ]
