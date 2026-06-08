@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unpacking Derivative Validation in Statistical Models",
+    "summary": "Dive into validating second derivatives in the zero-truncated negative binomial model for accurate statistical analysis.",
+    "url": "articles/second-derivatives-ztnb-model.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Is Your Polynomial Reducible? Learn Key Techniques!",
     "summary": "Explore the techniques to determine polynomial reducibility in rational numbers and solve common problems in ring theory.",
     "url": "articles/understanding-reducibility-of-polynomials-over-q.html",
@@ -199,13 +206,6 @@
     "title": "Mastering the Construction of Cauchy Sequences",
     "summary": "Learn how to construct Cauchy sequences from elements in the realm of pro-p analysis.",
     "url": "articles/constructing-cauchy-sequences-in-pro-p-analysis.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Should We Teach Vectors with Abstract Definitions in Calculus?",
-    "summary": "Exploring the starting point for teaching vectors in calculus and its implications.",
-    "url": "articles/rethinking-vector-instruction-in-calculus-classes.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
