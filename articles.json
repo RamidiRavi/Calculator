@@ -1,5 +1,12 @@
 [
   {
+    "title": "Revisiting the Connection: Induction vs. Well-Ordering Principles",
+    "summary": "Delve into the nuances between induction and well-ordering in mathematics as misconstrued by Öhman.",
+    "url": "articles/exploring-induction-and-well-ordering-misconceptions.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Indulge Guilt-Free with Neapolitan Nice Cream Pops",
     "summary": "Try these vegan Neapolitan Nice Cream Pops that are not only delicious but also a healthier dessert option!",
     "url": "articles/neapolitan-nice-cream-pops.html",
@@ -199,13 +206,6 @@
     "title": "The Truth About R-squared: Single vs. Multiple Regression",
     "summary": "Explore the relationship between R-squared and the Pearson correlation coefficient, and why this equality fails in multiple regression.",
     "url": "articles/understanding-r-squared-in-regression.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "XRP's 19-Month Low: Can Recovery Be Achieved?",
-    "summary": "Explore XRP's recent decline and its potential for recovery amid market challenges and institutional interest.",
-    "url": "articles/xrp-recovery-19-month-low.html",
     "date": "June 8, 2026",
     "category": "Finance"
   }
