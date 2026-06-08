@@ -1,5 +1,12 @@
 [
   {
+    "title": "XRP's 19-Month Low: Can Recovery Be Achieved?",
+    "summary": "Explore XRP's recent decline and its potential for recovery amid market challenges and institutional interest.",
+    "url": "articles/xrp-recovery-19-month-low.html",
+    "date": "June 8, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Mystery of Rational Roots in Polynomial Permutations",
     "summary": "Dive into the challenge of finding permutations that yield rational roots in polynomial equations and uncover potential solutions.",
     "url": "articles/permutations-polynomial-roots-challenge.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Inequality: When is x^y Greater than y^x?",
     "summary": "Discover patterns and insights on the inequality x^y > y^x, and explore the proofs and conjectures surrounding it.",
     "url": "articles/when-x-to-the-y-is-greater-than-y-to-the-x.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Can One-Sided L-Pentominoes Tile 10k+5 Squares?",
-    "summary": "Delve into the complexities of tiling with one-sided L-pentominoes and the unresolved cases of specific sized squares.",
-    "url": "articles/one-sided-l-pentomino-tiling.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
