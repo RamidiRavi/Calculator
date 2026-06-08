@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Mystery of the Borwein Integral",
+    "summary": "Discover the fascinating world of the Borwein integral and its unexpected connections to infinity and numerical methods.",
+    "url": "articles/exploring-borwein-integral.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Energy Estimates in Fifth Order KdV Equations",
     "summary": "A deep dive into the proof of Lemma 5.2 concerning energy estimates for 5th order KdV solutions.",
     "url": "articles/energy-estimates-kdv-solutions.html",
@@ -199,13 +206,6 @@
     "title": "The Intersection of Mathematics and Continuity in Topology",
     "summary": "A deep dive into topology, continuity, and discontinuous inverses in higher dimensions.",
     "url": "articles/continuity-in-higher-dimensions.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Intricacies of Unstable Equilibria in Dynamical Systems",
-    "summary": "Explore the dynamics of unstable equilibria and how increasing functions affect stability.",
-    "url": "articles/unstable-equilibria-dynamical-systems.html",
     "date": "June 7, 2026",
     "category": "Productivity"
   }
