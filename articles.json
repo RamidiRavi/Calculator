@@ -1,5 +1,12 @@
 [
   {
+    "title": "Finding Your True Calling in the World of Math and Data Science",
+    "summary": "A guide for those pondering a career in Math or Data Science, addressing motivation and direction amidst AI advancements.",
+    "url": "articles/navigating-math-data-science-career-path.html",
+    "date": "June 8, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Intriguing Link Between e and π Through Infinite Products",
     "summary": "Unravel the fascinating infinite product linking e and π, exploring its derivation and implications in mathematics.",
     "url": "articles/infinite-product-e-pi.html",
@@ -201,12 +208,5 @@
     "url": "articles/finite-intrinsic-composability-group-theory.html",
     "date": "June 7, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Mystery of Congruent Lines in Geometry",
-    "summary": "Explore a geometric proof for demonstrating the congruence of lines AX, BY, and CZ in triangle ABC formed by tangent circles.",
-    "url": "articles/proving-congruent-lines-in-triangle-abc.html",
-    "date": "June 7, 2026",
-    "category": "Productivity"
   }
 ]
