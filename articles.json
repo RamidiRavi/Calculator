@@ -1,5 +1,12 @@
 [
   {
+    "title": "Delving into Roots and Their Sum of Squares",
+    "summary": "Unlock the secrets of equations with roots of opposite signs and their squares.",
+    "url": "articles/exploring-roots-and-their-sums-of-squares.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Collatz Conjecture: A Proof by Contradiction",
     "summary": "Exploring a new proof by contradiction concerning the Collatz Conjecture dynamics and its implications.",
     "url": "articles/collatz-conjecture-proof-insights.html",
@@ -201,12 +208,5 @@
     "url": "articles/conditions-cartier-divisor-intersection-numbers.html",
     "date": "June 8, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Elevate Your Summer Dishes with No-Cook Tomato Sauce",
-    "summary": "Discover a refreshing no-cook tomato sauce with zucchini ribbons, perfect for summer meals. Quick, simple, and nutritious!",
-    "url": "articles/no-cook-tomato-sauce-zucchini.html",
-    "date": "June 8, 2026",
-    "category": "Health"
   }
 ]
