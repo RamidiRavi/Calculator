@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Calculation of Tangents in Projective Geometry",
+    "summary": "Deep dive into finding tangents to projective curves at non-singular points.",
+    "url": "articles/projective-curve-tangents.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Are Regular Conditional Distributions Pushforward Measures?",
     "summary": "Delving into the relationship between regular conditional distributions and pushforward measures in probability theory.",
     "url": "articles/pushforward-measures-in-probability-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/mathematical-properties-near-square-rectangles.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is Your Polynomial Reducible? Learn Key Techniques!",
-    "summary": "Explore the techniques to determine polynomial reducibility in rational numbers and solve common problems in ring theory.",
-    "url": "articles/understanding-reducibility-of-polynomials-over-q.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
   }
 ]
