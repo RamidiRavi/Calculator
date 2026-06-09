@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Edges of a Circular Sector",
+    "summary": "Discover the specific term for the outermost radii of a circular sector in geometry.",
+    "url": "articles/bounding-radii-circular-sector.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Master the Six-Degree Polynomial Analysis with These Tips",
     "summary": "Explore methods to solve a complex six-degree polynomial in physics applications, focusing on exact solutions.",
     "url": "articles/six-degree-polynomial-analysis.html",
@@ -201,12 +208,5 @@
     "url": "articles/energy-estimates-kdv-solutions.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "The Intriguing Connection Between Minkowski and Frobenius Products",
-    "summary": "Explore the relationship between Minkowski embedding and Frobenius inner product in number theory.",
-    "url": "articles/minkowski-frobenius-inner-product.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
   }
 ]
