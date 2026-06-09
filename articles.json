@@ -1,5 +1,12 @@
 [
   {
+    "title": "Borel Density Theorem: A Deep Dive into SL_n(Q)",
+    "summary": "Understanding the Zariski density of SL_n(Q) subgroups.",
+    "url": "articles/borel-density-in-sl_n_q.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Revitalize Your Diet with Oatmeal Chicken Caldo",
     "summary": "Discover the nutritious Oatmeal Chicken Caldo recipe, a healthy twist on a Filipino classic that's perfect for any meal.",
     "url": "articles/oatmeal-chicken-caldo-recipe.html",
@@ -201,12 +208,5 @@
     "url": "articles/dual-space-of-h0-1-u.html",
     "date": "June 8, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Elevate Your Dinner Parties with a Savory Strudel",
-    "summary": "Explore a savory vegetarian mushroom and chestnut strudel recipe that's perfect for dinner parties and calorie-conscious eaters.",
-    "url": "articles/mushroom-chestnut-savory-strudel-recipe.html",
-    "date": "June 8, 2026",
-    "category": "Health"
   }
 ]
