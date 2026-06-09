@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Rigidity in Metrics on CP²",
+    "summary": "An insightful look into rigidity theorems for metrics on complex projective planes.",
+    "url": "articles/rigidity-metrics-cp2.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering the Calculation of Tangents in Projective Geometry",
     "summary": "Deep dive into finding tangents to projective curves at non-singular points.",
     "url": "articles/projective-curve-tangents.html",
@@ -201,12 +208,5 @@
     "url": "articles/mushroom-spinach-phyllo-triangles.html",
     "date": "June 8, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlocking the Secrets of Near-Square Rectangles in Geometry",
-    "summary": "Discover the intriguing properties of near-square rectangles and their mathematical significance in geometry.",
-    "url": "articles/mathematical-properties-near-square-rectangles.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
