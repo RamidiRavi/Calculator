@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding Probability: Balls, Boxes, and Combinatorial Confusion",
+    "summary": "Learn when to apply stars and bars and how order impacts your probability calculations with balls and boxes.",
+    "url": "articles/stars-bars-order-balls-boxes.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Mystery of Triangular Numbers and Their Unique Products",
     "summary": "Dive into a fascinating conjecture regarding triangular numbers expressible as products of integers.",
     "url": "articles/triangular-numbers-conjecture.html",
@@ -199,13 +206,6 @@
     "title": "Navigating the Intricacies of Closed Sets in Strict LF Topologies",
     "summary": "Explore the nuances of closed sets and net convergence in strict LF topologies.",
     "url": "articles/understanding-closed-sets-in-lf-topologies.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring Homeomorphic Relationships in Topology",
-    "summary": "Discover the intriguing connections between various topological spaces and their homeomorphism properties.",
-    "url": "articles/understanding-homeomorphism-topology.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
