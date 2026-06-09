@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Collatz Conjecture: A Proof by Contradiction",
+    "summary": "Exploring a new proof by contradiction concerning the Collatz Conjecture dynamics and its implications.",
+    "url": "articles/collatz-conjecture-proof-insights.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Double-Odd Real Analytic Functions",
     "summary": "Discover the intriguing world of double-odd real analytic functions and their unique properties.",
     "url": "articles/exploring-double-odd-functions.html",
@@ -199,13 +206,6 @@
     "title": "Elevate Your Summer Dishes with No-Cook Tomato Sauce",
     "summary": "Discover a refreshing no-cook tomato sauce with zucchini ribbons, perfect for summer meals. Quick, simple, and nutritious!",
     "url": "articles/no-cook-tomato-sauce-zucchini.html",
-    "date": "June 8, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Savor the Taste: No-Bake Vegan Lemon Cheesecake",
-    "summary": "Indulge in a creamy, dairy-free cheesecake that's easy to make and packed with flavor.",
-    "url": "articles/no-bake-vegan-lemon-cheesecake.html",
     "date": "June 8, 2026",
     "category": "Health"
   }
