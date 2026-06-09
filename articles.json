@@ -1,5 +1,12 @@
 [
   {
+    "title": "Elevate Your Dinner with Norwegian Seafood Burgers",
+    "summary": "Try our Norwegian seafood burgers for a nutritious twist on burgers, rich in protein and omega-3s. Perfect for health-conscious eaters!",
+    "url": "articles/norwegian-seafood-burgers.html",
+    "date": "June 9, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Unlock the Secrets of U-Substitution in Integration",
     "summary": "Learn how to correctly apply U-substitution in calculus for integrals involving square roots and fractional exponents.",
     "url": "articles/mastering-u-substitution-in-calculus.html",
@@ -199,13 +206,6 @@
     "title": "Savor the Flavor: Mini Vegan Pumpkin Pies for Your Fall Table",
     "summary": "Discover the delightful mini vegan pumpkin pies that are healthy, delicious, and easy to make!",
     "url": "articles/mini-vegan-pumpkin-pies.html",
-    "date": "June 8, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Quick and Healthy Mini Flatbread Pizzas That Satisfy",
-    "summary": "Whip up mini flatbread pizzas in 15 mins, loaded with flavor and nutrition, perfect for your pizza cravings.",
-    "url": "articles/mini-flatbread-pizzas.html",
     "date": "June 8, 2026",
     "category": "Health"
   }
