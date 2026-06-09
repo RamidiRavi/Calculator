@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Optimization in Complex Vector Calculations",
+    "summary": "Learn how to minimize sums of absolute squared terms in complex vectors for efficient scientific computations.",
+    "url": "articles/optimize-complex-systems-abs-squared-sum.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Rigidity in Metrics on CP²",
     "summary": "An insightful look into rigidity theorems for metrics on complex projective planes.",
     "url": "articles/rigidity-metrics-cp2.html",
@@ -201,12 +208,5 @@
     "url": "articles/nuclear-norm-minimization-soft-thresholding.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Savor the Flavor of Healthy Mushroom and Spinach Phyllo Triangles",
-    "summary": "Enjoy healthy Mushroom and Spinach Phyllo Triangles with great taste and nutrition. Perfect for meal prep and freezing!",
-    "url": "articles/mushroom-spinach-phyllo-triangles.html",
-    "date": "June 8, 2026",
-    "category": "Health"
   }
 ]
