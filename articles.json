@@ -1,5 +1,12 @@
 [
   {
+    "title": "Are Regular Conditional Distributions Pushforward Measures?",
+    "summary": "Delving into the relationship between regular conditional distributions and pushforward measures in probability theory.",
+    "url": "articles/pushforward-measures-in-probability-theory.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding the Intersection of Subgroups in the Grigorchuk Group",
     "summary": "Unraveling the intersections of index-2^n subgroups in the Grigorchuk group for deeper group theory insights.",
     "url": "articles/grigorchuk-group-subgroup-structures.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-reducibility-of-polynomials-over-q.html",
     "date": "June 8, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering Conclusiveness in Algebraic Proofs",
-    "summary": "Learn how to effectively conclude algebraic proofs, focusing on key propositions and their applications.",
-    "url": "articles/concluding-algebraic-proofs-effectively.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
