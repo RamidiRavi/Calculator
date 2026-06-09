@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Your LCM Tuple Counting Formula a Game-Changer?",
+    "summary": "A discussion on the originality of a new LCM tuple counting derivation and its implications for combinatorial mathematics.",
+    "url": "articles/lcm-tuple-counting-derivation-novelty.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unleashing the Power of Improper Integrals in Computing",
     "summary": "Discover the significance of improper integrals in Computer Science through practical examples.",
     "url": "articles/improper-integrals-in-computer-science.html",
@@ -201,12 +208,5 @@
     "url": "articles/solving-natural-numbers-equation.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Rocket Lab CEO Highlights the Competitive Landscape in Space",
-    "summary": "Explore insights from Rocket Lab CEO Peter Beck on the space launch industry and the future of competing companies.",
-    "url": "articles/space-launch-market-insights.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
   }
 ]
