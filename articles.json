@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is It Possible to Combine Filter Functions? A Mathematical Inquiry",
+    "summary": "A detailed inquiry into the existence of a function combining two specified functions in mathematical analysis.",
+    "url": "articles/function-combinations-mathematics.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Delving into Roots and Their Sum of Squares",
     "summary": "Unlock the secrets of equations with roots of opposite signs and their squares.",
     "url": "articles/exploring-roots-and-their-sums-of-squares.html",
@@ -201,12 +208,5 @@
     "url": "articles/conditional-probability-card-game.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mystery of Cartier Divisor Intersection Numbers",
-    "summary": "Explore the necessary conditions for intersection numbers of Cartier divisors to equal the dimensions of global sections in algebraic geometry.",
-    "url": "articles/conditions-cartier-divisor-intersection-numbers.html",
-    "date": "June 8, 2026",
-    "category": "Finance"
   }
 ]
