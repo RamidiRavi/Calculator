@@ -1,5 +1,12 @@
 [
   {
+    "title": "Master the Six-Degree Polynomial Analysis with These Tips",
+    "summary": "Explore methods to solve a complex six-degree polynomial in physics applications, focusing on exact solutions.",
+    "url": "articles/six-degree-polynomial-analysis.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Floor Functions in Mathematics",
     "summary": "Explore the intricacies of floor functions and prove inequalities related to divisors in mathematics.",
     "url": "articles/floor-functions-divisor-sums.html",
@@ -201,12 +208,5 @@
     "url": "articles/minkowski-frobenius-inner-product.html",
     "date": "June 8, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Mysteries of Integral Relations",
-    "summary": "Dive into the fascinating world of advanced integrals and their interrelations, with insights on proving identities without calculation.",
-    "url": "articles/advanced-integrals-exploration.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
