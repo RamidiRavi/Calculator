@@ -1,5 +1,12 @@
 [
   {
+    "title": "DIY Nutty Granola: A Nutritious Alternative to Store-Bought Snacks",
+    "summary": "Make your own nutty granola in just 35 minutes! Discover healthy benefits and a simple recipe packed with nutrition.",
+    "url": "articles/nutty-granola-recipe.html",
+    "date": "June 9, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Elevate Your Dinner with Norwegian Seafood Burgers",
     "summary": "Try our Norwegian seafood burgers for a nutritious twist on burgers, rich in protein and omega-3s. Perfect for health-conscious eaters!",
     "url": "articles/norwegian-seafood-burgers.html",
@@ -199,13 +206,6 @@
     "title": "Indulge in Health: Multigrain Blueberry Muffins Recipe",
     "summary": "Try our wholesome multigrain blueberry muffins packed with protein and flavor—perfect for a nutritious snack!",
     "url": "articles/multigrain-blueberry-muffins.html",
-    "date": "June 8, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Savor the Flavor: Mini Vegan Pumpkin Pies for Your Fall Table",
-    "summary": "Discover the delightful mini vegan pumpkin pies that are healthy, delicious, and easy to make!",
-    "url": "articles/mini-vegan-pumpkin-pies.html",
     "date": "June 8, 2026",
     "category": "Health"
   }
