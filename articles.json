@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Double-Odd Real Analytic Functions",
+    "summary": "Discover the intriguing world of double-odd real analytic functions and their unique properties.",
+    "url": "articles/exploring-double-odd-functions.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Inverse Laplace Transforms",
     "summary": "Explore techniques for performing inverse Laplace transforms on complex expressions in ODEs without error functions.",
     "url": "articles/mastering-inverse-laplace-transforms-in-odes.html",
@@ -199,13 +206,6 @@
     "title": "Savor the Taste: No-Bake Vegan Lemon Cheesecake",
     "summary": "Indulge in a creamy, dairy-free cheesecake that's easy to make and packed with flavor.",
     "url": "articles/no-bake-vegan-lemon-cheesecake.html",
-    "date": "June 8, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Elevate Your Weeknight Dinner with Shrimp Rolls",
-    "summary": "Enjoy making New England-inspired shrimp rolls in just 15 minutes, a healthy twist on the classic lobster roll!",
-    "url": "articles/new-england-inspired-shrimp-rolls.html",
     "date": "June 8, 2026",
     "category": "Health"
   }
