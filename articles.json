@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the Intricacies of Closed Sets in Strict LF Topologies",
+    "summary": "Explore the nuances of closed sets and net convergence in strict LF topologies.",
+    "url": "articles/understanding-closed-sets-in-lf-topologies.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring Homeomorphic Relationships in Topology",
     "summary": "Discover the intriguing connections between various topological spaces and their homeomorphism properties.",
     "url": "articles/understanding-homeomorphism-topology.html",
@@ -201,12 +208,5 @@
     "url": "articles/budget-friendly-low-sodium-grocery-shopping-tips.html",
     "date": "June 8, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Maximize Your Trigonometry Skills for JEE Mains and Advanced",
-    "summary": "Unlock the secrets of compound angle formulas in trigonometry to excel in JEE Mains and Advanced.",
-    "url": "articles/mastering-compound-angle-formulas-jee.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
