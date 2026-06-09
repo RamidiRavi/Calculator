@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of the Sum of n^-n and Transcendence",
+    "summary": "Exploring the enigma of n^-n and its relation to transcendental numbers.",
+    "url": "articles/mystique-of-n-n.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding the Stability of Leading Laurent Terms Under Perturbations",
     "summary": "Discover insights into the stability of leading Laurent terms and their implications in polynomial coordinates in mathematics.",
     "url": "articles/stability-laurent-terms-polynomial-coordinates.html",
@@ -199,13 +206,6 @@
     "title": "DIY Nutty Granola: A Nutritious Alternative to Store-Bought Snacks",
     "summary": "Make your own nutty granola in just 35 minutes! Discover healthy benefits and a simple recipe packed with nutrition.",
     "url": "articles/nutty-granola-recipe.html",
-    "date": "June 9, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Elevate Your Dinner with Norwegian Seafood Burgers",
-    "summary": "Try our Norwegian seafood burgers for a nutritious twist on burgers, rich in protein and omega-3s. Perfect for health-conscious eaters!",
-    "url": "articles/norwegian-seafood-burgers.html",
     "date": "June 9, 2026",
     "category": "Health"
   }
