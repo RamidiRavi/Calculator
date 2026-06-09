@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlock the Secrets of U-Substitution in Integration",
+    "summary": "Learn how to correctly apply U-substitution in calculus for integrals involving square roots and fractional exponents.",
+    "url": "articles/mastering-u-substitution-in-calculus.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "A New Mathematical Breakthrough from a Brilliant Student",
     "summary": "Discover the groundbreaking ideas behind the new Superposition-Collapse Operator proposed by a young Korean student.",
     "url": "articles/superposition-collapse-operator.html",
@@ -201,12 +208,5 @@
     "url": "articles/mini-flatbread-pizzas.html",
     "date": "June 8, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Master Exponentiation: Unveiling Simple Calculation Patterns",
-    "summary": "Unlock the secrets of exponentiation with simple patterns to make calculations easier than ever.",
-    "url": "articles/easy-exponentiation-calculations.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
