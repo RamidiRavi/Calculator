@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Intrigues of Prime Numbers via Difference Operators",
+    "summary": "Delve into the iterated forward difference operator applied to primes; discover intriguing patterns and potential questions in number theory.",
+    "url": "articles/iterated-forward-difference-primes.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Proving Function Positivity Near the Origin: A Step-by-Step Guide",
     "summary": "Explore how to demonstrate positivity of a function near the origin using rigorous analysis of mathematical expressions.",
     "url": "articles/function-positivity-near-origin.html",
@@ -201,12 +208,5 @@
     "url": "articles/borel-density-in-sl_n_q.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Revitalize Your Diet with Oatmeal Chicken Caldo",
-    "summary": "Discover the nutritious Oatmeal Chicken Caldo recipe, a healthy twist on a Filipino classic that's perfect for any meal.",
-    "url": "articles/oatmeal-chicken-caldo-recipe.html",
-    "date": "June 9, 2026",
-    "category": "Health"
   }
 ]
