@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Multivariate Calculus: Finding Function Minima",
+    "summary": "Discover how to apply multivariate calculus to find the minimum of a complex function in an open region.",
+    "url": "articles/multivariate-calculus-function-minimization.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Smooth Manifolds: A Deep Dive into Mathematical Concepts",
     "summary": "Dive into the concept of smooth manifolds in mathematics, exploring fundamental definitions and implications.",
     "url": "articles/exploring-smooth-manifolds.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-induction-and-well-ordering-misconceptions.html",
     "date": "June 8, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Indulge Guilt-Free with Neapolitan Nice Cream Pops",
-    "summary": "Try these vegan Neapolitan Nice Cream Pops that are not only delicious but also a healthier dessert option!",
-    "url": "articles/neapolitan-nice-cream-pops.html",
-    "date": "June 8, 2026",
-    "category": "Health"
   }
 ]
