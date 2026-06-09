@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling Hidden Structures from Riemann Zeros",
+    "summary": "Delve into research on the statistical implications of Riemann zeros and their deeper mathematical structures.",
+    "url": "articles/statistical-insights-of-riemann-zeros.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding Probability: Balls, Boxes, and Combinatorial Confusion",
     "summary": "Learn when to apply stars and bars and how order impacts your probability calculations with balls and boxes.",
     "url": "articles/stars-bars-order-balls-boxes.html",
@@ -201,12 +208,5 @@
     "url": "articles/top-etfs-japan-europe.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Navigating the Intricacies of Closed Sets in Strict LF Topologies",
-    "summary": "Explore the nuances of closed sets and net convergence in strict LF topologies.",
-    "url": "articles/understanding-closed-sets-in-lf-topologies.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
