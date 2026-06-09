@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the Rising Interest Rate Landscape: A Guide for Borrowers",
+    "summary": "Understanding interest rates and their impact on loans is essential for borrowers navigating the current financial landscape.",
+    "url": "articles/interest-rate-signals-borrowers-guide.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unraveling the Complex Interactions of Adjoint Functors",
     "summary": "Delve into the rich tapestry of adjoint functors and their interrelations in category theory.",
     "url": "articles/exploring-interactions-adjoint-functors.html",
@@ -199,13 +206,6 @@
     "title": "A New Mathematical Breakthrough from a Brilliant Student",
     "summary": "Discover the groundbreaking ideas behind the new Superposition-Collapse Operator proposed by a young Korean student.",
     "url": "articles/superposition-collapse-operator.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Intricacies of Compact Operators in Hilbert Spaces",
-    "summary": "Explore the nuances of compact operators defined on subspaces of Hilbert spaces and their characterizations.",
-    "url": "articles/compact-operators-hilbert-spaces.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
