@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Intersection of Subgroups in the Grigorchuk Group",
+    "summary": "Unraveling the intersections of index-2^n subgroups in the Grigorchuk group for deeper group theory insights.",
+    "url": "articles/grigorchuk-group-subgroup-structures.html",
+    "date": "June 9, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Exploring the Equivalence of Lebesgue Measurability Definitions",
     "summary": "Explore the equivalence of Lebesgue measurability through the Caratheodory criterion and Lebesgue outer measure additivity.",
     "url": "articles/lebesgue-measurability-equivalence.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Conclusiveness in Algebraic Proofs",
     "summary": "Learn how to effectively conclude algebraic proofs, focusing on key propositions and their applications.",
     "url": "articles/concluding-algebraic-proofs-effectively.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Mystery of the Borwein Integral",
-    "summary": "Discover the fascinating world of the Borwein integral and its unexpected connections to infinity and numerical methods.",
-    "url": "articles/exploring-borwein-integral.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
