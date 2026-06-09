@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Stability of Leading Laurent Terms Under Perturbations",
+    "summary": "Discover insights into the stability of leading Laurent terms and their implications in polynomial coordinates in mathematics.",
+    "url": "articles/stability-laurent-terms-polynomial-coordinates.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Investigating Triangulations of Convex n-gons: A New Insight",
     "summary": "Can every triangulation of a convex n-gon be modeled as a binary forest? Delve into this intriguing lemma and its implications.",
     "url": "articles/triangulations-diagonal-spans-binary-forest.html",
@@ -201,12 +208,5 @@
     "url": "articles/norwegian-seafood-burgers.html",
     "date": "June 9, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlock the Secrets of U-Substitution in Integration",
-    "summary": "Learn how to correctly apply U-substitution in calculus for integrals involving square roots and fractional exponents.",
-    "url": "articles/mastering-u-substitution-in-calculus.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
