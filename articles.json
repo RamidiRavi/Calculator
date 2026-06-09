@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Complex Interactions of Adjoint Functors",
+    "summary": "Delve into the rich tapestry of adjoint functors and their interrelations in category theory.",
+    "url": "articles/exploring-interactions-adjoint-functors.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is It Possible to Combine Filter Functions? A Mathematical Inquiry",
     "summary": "A detailed inquiry into the existence of a function combining two specified functions in mathematical analysis.",
     "url": "articles/function-combinations-mathematics.html",
@@ -199,13 +206,6 @@
     "title": "The Intricacies of Compact Operators in Hilbert Spaces",
     "summary": "Explore the nuances of compact operators defined on subspaces of Hilbert spaces and their characterizations.",
     "url": "articles/compact-operators-hilbert-spaces.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Conditional Probability in a Unique Card Game",
-    "summary": "Discover the impact of conditional probability on a cyclic card game and how it evolves with consecutive reveals.",
-    "url": "articles/conditional-probability-card-game.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
