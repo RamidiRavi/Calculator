@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Floor Functions in Mathematics",
+    "summary": "Explore the intricacies of floor functions and prove inequalities related to divisors in mathematics.",
+    "url": "articles/floor-functions-divisor-sums.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Transforming Algebra with the Superposition Crystallization Operator",
     "summary": "An innovative exploration of the Superposition Crystallization Operator and its groundbreaking implications in advanced mathematics.",
     "url": "articles/superposition-crystallization-operator.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mysteries of Integral Relations",
     "summary": "Dive into the fascinating world of advanced integrals and their interrelations, with insights on proving identities without calculation.",
     "url": "articles/advanced-integrals-exploration.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Elliptic Curve Mysteries: The Quest for Rational Solutions",
-    "summary": "Dive into the complexities of the elliptic curve for $x_1^5+x_2^5+x_3^5=y_1^5+2y_2^5$ and its implications.",
-    "url": "articles/unlocking-elliptic-curve-mysteries.html",
     "date": "June 8, 2026",
     "category": "Productivity"
   }
