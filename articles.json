@@ -1,5 +1,12 @@
 [
   {
+    "title": "Investigating Triangulations of Convex n-gons: A New Insight",
+    "summary": "Can every triangulation of a convex n-gon be modeled as a binary forest? Delve into this intriguing lemma and its implications.",
+    "url": "articles/triangulations-diagonal-spans-binary-forest.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating the Rising Interest Rate Landscape: A Guide for Borrowers",
     "summary": "Understanding interest rates and their impact on loans is essential for borrowers navigating the current financial landscape.",
     "url": "articles/interest-rate-signals-borrowers-guide.html",
@@ -200,13 +207,6 @@
     "summary": "Learn how to correctly apply U-substitution in calculus for integrals involving square roots and fractional exponents.",
     "url": "articles/mastering-u-substitution-in-calculus.html",
     "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "A New Mathematical Breakthrough from a Brilliant Student",
-    "summary": "Discover the groundbreaking ideas behind the new Superposition-Collapse Operator proposed by a young Korean student.",
-    "url": "articles/superposition-collapse-operator.html",
-    "date": "June 8, 2026",
     "category": "Productivity"
   }
 ]
