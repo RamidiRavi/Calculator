@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Inverse Laplace Transforms",
+    "summary": "Explore techniques for performing inverse Laplace transforms on complex expressions in ODEs without error functions.",
+    "url": "articles/mastering-inverse-laplace-transforms-in-odes.html",
+    "date": "June 9, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is Your LCM Tuple Counting Formula a Game-Changer?",
     "summary": "A discussion on the originality of a new LCM tuple counting derivation and its implications for combinatorial mathematics.",
     "url": "articles/lcm-tuple-counting-derivation-novelty.html",
@@ -201,12 +208,5 @@
     "url": "articles/new-england-inspired-shrimp-rolls.html",
     "date": "June 8, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlocking the Mystery of (a^2+b)(b^2+a)=(a-b)^4",
-    "summary": "Dive into solving the equation (a^2+b)(b^2+a)=(a-b)^4 for natural numbers a and b.",
-    "url": "articles/solving-natural-numbers-equation.html",
-    "date": "June 8, 2026",
-    "category": "Productivity"
   }
 ]
