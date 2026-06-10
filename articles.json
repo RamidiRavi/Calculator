@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating 3D File Imports: Insights from Recent Testing",
+    "summary": "Explore why MMA, PARAVIEW, and CAD ASSISTANT handle 3D file imports differently and the implications for FEM analysis.",
+    "url": "articles/3d-file-import-discrepancies-cad-software.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Delving into a Fascinating Mathematical Inequality",
     "summary": "Unravel the intriguing inequality involving non-negative reals and learn about its proof.",
     "url": "articles/exploring-mathematical-inequality.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Equivalence of Lebesgue Measurability Definitions",
     "summary": "Explore the equivalence of Lebesgue measurability through the Caratheodory criterion and Lebesgue outer measure additivity.",
     "url": "articles/lebesgue-measurability-equivalence.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Edges of a Circular Sector",
-    "summary": "Discover the specific term for the outermost radii of a circular sector in geometry.",
-    "url": "articles/bounding-radii-circular-sector.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
