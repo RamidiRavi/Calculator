@@ -1,5 +1,12 @@
 [
   {
+    "title": "Harnessing Kolmogorov Complexity to Uncover Change Points",
+    "summary": "Explore how Kolmogorov complexity can identify abrupt changes in functions, enhancing analytical capabilities in various fields.",
+    "url": "articles/kolmogorov-complexity-change-points.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Power of Symmetric Polynomials in Equations",
     "summary": "A deep dive into polynomial equations with symmetric constraints.",
     "url": "articles/symmetric-polynomials-exploration.html",
@@ -199,13 +206,6 @@
     "title": "Understanding the Stability of Leading Laurent Terms Under Perturbations",
     "summary": "Discover insights into the stability of leading Laurent terms and their implications in polynomial coordinates in mathematics.",
     "url": "articles/stability-laurent-terms-polynomial-coordinates.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Investigating Triangulations of Convex n-gons: A New Insight",
-    "summary": "Can every triangulation of a convex n-gon be modeled as a binary forest? Delve into this intriguing lemma and its implications.",
-    "url": "articles/triangulations-diagonal-spans-binary-forest.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
