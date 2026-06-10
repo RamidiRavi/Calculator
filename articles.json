@@ -1,5 +1,12 @@
 [
   {
+    "title": "Deciding Between QQQ and QQQM: Which ETF Fits Your Strategy?",
+    "summary": "Explore the key differences between QQQ and QQQM ETFs for smart investing.",
+    "url": "articles/qqq-vs-qqqm-investment-strategy.html",
+    "date": "June 10, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of $\\Pi$-Orbits in Elliptic Curves",
     "summary": "Delve into the fascinating world of $\\Pi$-orbits and their implications on elliptic curves.",
     "url": "articles/exploring-pi-orbits-elliptic-curves.html",
@@ -199,13 +206,6 @@
     "title": "Exploring Practical Applications of Counting Configurations Under Permutation and Cyclic Shifts",
     "summary": "Explore the applications of counting configurations in mathematics and information processing.",
     "url": "articles/counting-configurations-applications.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Why Are Certain Expressions Considered First Integrals?",
-    "summary": "Explore why certain expressions like u²-v² are considered first integrals in mathematical analysis.",
-    "url": "articles/understanding-first-integrals-in-differential-equations.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
