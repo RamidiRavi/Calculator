@@ -1,5 +1,12 @@
 [
   {
+    "title": "Master the Art of Variable Elimination in Algebra",
+    "summary": "Explore methods for eliminating variables in algebraic equations and uncover functional relations involving constants.",
+    "url": "articles/eliminating-variables-algebraic-systems.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Geometry: Finding the Perfect Pyramid Apex",
     "summary": "Explore efficient methods to define a pyramid apex with given dihedral angles from a convex quadrilateral base.",
     "url": "articles/geometry-pyramid-apex-calculation.html",
@@ -201,12 +208,5 @@
     "url": "articles/stars-bars-order-balls-boxes.html",
     "date": "June 9, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Mystery of Triangular Numbers and Their Unique Products",
-    "summary": "Dive into a fascinating conjecture regarding triangular numbers expressible as products of integers.",
-    "url": "articles/triangular-numbers-conjecture.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
   }
 ]
