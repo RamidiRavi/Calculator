@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Hyperbolic and Conformal Geometry",
+    "summary": "Discover the connection between hyperbolic geometry and its conformal boundary. Learn how one can inform the other.",
+    "url": "articles/hyperbolic-conformal-geometry-relationship.html",
+    "date": "June 10, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Discovering New Identities in Elementary Symmetric Polynomials",
     "summary": "Explore how dot products reveal new identities for elementary symmetric polynomials.",
     "url": "articles/unveiling-elementary-symmetric-polynomials.html",
@@ -199,13 +206,6 @@
     "title": "Are Regular Conditional Distributions Pushforward Measures?",
     "summary": "Delving into the relationship between regular conditional distributions and pushforward measures in probability theory.",
     "url": "articles/pushforward-measures-in-probability-theory.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Understanding the Intersection of Subgroups in the Grigorchuk Group",
-    "summary": "Unraveling the intersections of index-2^n subgroups in the Grigorchuk group for deeper group theory insights.",
-    "url": "articles/grigorchuk-group-subgroup-structures.html",
     "date": "June 9, 2026",
     "category": "Finance"
   }
