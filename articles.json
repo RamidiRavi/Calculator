@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Power of Symmetric Polynomials in Equations",
+    "summary": "A deep dive into polynomial equations with symmetric constraints.",
+    "url": "articles/symmetric-polynomials-exploration.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding a Unique Division Method in Mathematics",
     "summary": "Explore a unique division method and its notations. Learn what ) and ( signify in mathematical operations.",
     "url": "articles/understanding-division-methods-mathematics.html",
@@ -201,12 +208,5 @@
     "url": "articles/triangulations-diagonal-spans-binary-forest.html",
     "date": "June 9, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Navigating the Rising Interest Rate Landscape: A Guide for Borrowers",
-    "summary": "Understanding interest rates and their impact on loans is essential for borrowers navigating the current financial landscape.",
-    "url": "articles/interest-rate-signals-borrowers-guide.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
   }
 ]
