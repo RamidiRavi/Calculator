@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Fascinating Intersection of Countable and Uncountable Infinities",
+    "summary": "Explore why the Sophomore's Dream connects different sizes of infinity in mathematical functions.",
+    "url": "articles/sophomores-dream-infinity.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling Maximal Ideals in Infinite-Dimensional Vector Spaces",
     "summary": "Investigating the existence of certain ideals in the endomorphism ring of infinite-dimensional vector spaces.",
     "url": "articles/maximal-ideals-in-endomorphism-rings.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Inverse Laplace Transforms",
     "summary": "Explore techniques for performing inverse Laplace transforms on complex expressions in ODEs without error functions.",
     "url": "articles/mastering-inverse-laplace-transforms-in-odes.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Is Your LCM Tuple Counting Formula a Game-Changer?",
-    "summary": "A discussion on the originality of a new LCM tuple counting derivation and its implications for combinatorial mathematics.",
-    "url": "articles/lcm-tuple-counting-derivation-novelty.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
