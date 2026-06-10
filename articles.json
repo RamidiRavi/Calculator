@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Every Finite Subgroup of Homeomorphisms of S² Conjugate to an Isometry Group?",
+    "summary": "Understanding finite subgroups of homeomorphisms and their connection to isometry groups of S².",
+    "url": "articles/finite-subgroups-homeomorphisms-s2.html",
+    "date": "June 10, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Master the Art of Variable Elimination in Algebra",
     "summary": "Explore methods for eliminating variables in algebraic equations and uncover functional relations involving constants.",
     "url": "articles/eliminating-variables-algebraic-systems.html",
@@ -201,12 +208,5 @@
     "url": "articles/statistical-insights-of-riemann-zeros.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Decoding Probability: Balls, Boxes, and Combinatorial Confusion",
-    "summary": "Learn when to apply stars and bars and how order impacts your probability calculations with balls and boxes.",
-    "url": "articles/stars-bars-order-balls-boxes.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
