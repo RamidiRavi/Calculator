@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Strong Dual Topology: Definitions and Implications",
+    "summary": "A deep dive into the debate surrounding the definitions of strong dual topology in topological vector spaces.",
+    "url": "articles/strong-dual-topology-explained.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Intricacies of Hyperbolic Geometry",
     "summary": "Uncover the relationship between hyperbolic space and its boundary geometry.",
     "url": "articles/hyperbolic-geometry-boundary-study.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Multivariate Calculus: Finding Function Minima",
     "summary": "Discover how to apply multivariate calculus to find the minimum of a complex function in an open region.",
     "url": "articles/multivariate-calculus-function-minimization.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Smooth Manifolds: A Deep Dive into Mathematical Concepts",
-    "summary": "Dive into the concept of smooth manifolds in mathematics, exploring fundamental definitions and implications.",
-    "url": "articles/exploring-smooth-manifolds.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
