@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of $\\Pi$-Orbits in Elliptic Curves",
+    "summary": "Delve into the fascinating world of $\\Pi$-orbits and their implications on elliptic curves.",
+    "url": "articles/exploring-pi-orbits-elliptic-curves.html",
+    "date": "June 10, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Do Axiom of Specification and Replacement Go Hand in Hand?",
     "summary": "Discover the fascinating relationship between the axioms of specification and replacement in set theory.",
     "url": "articles/axiom-specification-replacement.html",
@@ -199,13 +206,6 @@
     "title": "Why Are Certain Expressions Considered First Integrals?",
     "summary": "Explore why certain expressions like u²-v² are considered first integrals in mathematical analysis.",
     "url": "articles/understanding-first-integrals-in-differential-equations.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Integration on the Sphere",
-    "summary": "Dive into the intriguing concept of exchange of integration on the round 2-sphere and its implications for mathematical analysis.",
-    "url": "articles/exploring-integration-on-the-sphere.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
