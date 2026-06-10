@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlock the Mysteries of Easter Date Calculation Using Gauss",
+    "summary": "Uncover the secrets of Gauss's algorithm for calculating Easter dates with ease. Simplify your understanding and application.",
+    "url": "articles/gauss-algorithm-easter-calculation.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Mysteries of Set Theory's Lower Bound",
     "summary": "Explore recent developments in set theory focusing on lower bounds for generated sets.",
     "url": "articles/new-insights-on-set-theory-boundaries.html",
@@ -201,12 +208,5 @@
     "url": "articles/function-combinations-mathematics.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Delving into Roots and Their Sum of Squares",
-    "summary": "Unlock the secrets of equations with roots of opposite signs and their squares.",
-    "url": "articles/exploring-roots-and-their-sums-of-squares.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
