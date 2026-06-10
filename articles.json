@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding a Unique Division Method in Mathematics",
+    "summary": "Explore a unique division method and its notations. Learn what ) and ( signify in mathematical operations.",
+    "url": "articles/understanding-division-methods-mathematics.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Poissonized Permutations and Their Applications",
     "summary": "Dive into the intriguing mathematics of Poissonized permutations and their relation to longest increasing subsequences.",
     "url": "articles/poissonized-permutations-lis-lengths.html",
@@ -201,12 +208,5 @@
     "url": "articles/interest-rate-signals-borrowers-guide.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unraveling the Complex Interactions of Adjoint Functors",
-    "summary": "Delve into the rich tapestry of adjoint functors and their interrelations in category theory.",
-    "url": "articles/exploring-interactions-adjoint-functors.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
