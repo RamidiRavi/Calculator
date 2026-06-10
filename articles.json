@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Link Between Hyperbolic and Conformal Geometry",
+    "summary": "Unveil the relationship between hyperbolic geometry and its boundary's conformal geometry in this insightful exploration.",
+    "url": "articles/hyperbolic-conformal-geometry-connection.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Hyperbolic and Conformal Geometry",
     "summary": "Discover the connection between hyperbolic geometry and its conformal boundary. Learn how one can inform the other.",
     "url": "articles/hyperbolic-conformal-geometry-relationship.html",
@@ -201,12 +208,5 @@
     "url": "articles/projective-curve-tangents.html",
     "date": "June 9, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Are Regular Conditional Distributions Pushforward Measures?",
-    "summary": "Delving into the relationship between regular conditional distributions and pushforward measures in probability theory.",
-    "url": "articles/pushforward-measures-in-probability-theory.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
   }
 ]
