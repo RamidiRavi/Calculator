@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Integration on the Sphere",
+    "summary": "Dive into the intriguing concept of exchange of integration on the round 2-sphere and its implications for mathematical analysis.",
+    "url": "articles/exploring-integration-on-the-sphere.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling Hidden Structures from Riemann Zeros",
     "summary": "Delve into research on the statistical implications of Riemann zeros and their deeper mathematical structures.",
     "url": "articles/statistical-insights-of-riemann-zeros.html",
@@ -201,12 +208,5 @@
     "url": "articles/superposition-crystallization-operator.html",
     "date": "June 9, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Maximize Your Gains: Best ETFs for Japan and Europe",
-    "summary": "Explore the best ETFs for gaining exposure to Japan and Europe, maximizing your international investment strategy.",
-    "url": "articles/top-etfs-japan-europe.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
   }
 ]
