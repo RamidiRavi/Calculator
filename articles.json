@@ -1,5 +1,12 @@
 [
   {
+    "title": "Essential Order Theory Texts for Serious Study",
+    "summary": "Discover essential texts in order theory focusing on mathematical rigor and depth.",
+    "url": "articles/top-order-theory-texts-serious-learners.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Resolving Differences in Quadratic Forms: A Deep Dive",
     "summary": "Dive into the nuances of quadratic forms and their equations in Iwaniec and Kowalski's work, highlighting critical differences in calculations.",
     "url": "articles/understanding-quadratic-forms-discrepancies.html",
@@ -201,12 +208,5 @@
     "url": "articles/iterated-forward-difference-primes.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Proving Function Positivity Near the Origin: A Step-by-Step Guide",
-    "summary": "Explore how to demonstrate positivity of a function near the origin using rigorous analysis of mathematical expressions.",
-    "url": "articles/function-positivity-near-origin.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
