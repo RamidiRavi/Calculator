@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating Convergence in $X^*$: Key Insights",
+    "summary": "Clarifying convergence definitions in Hausdorff locally convex spaces and their implications for functional analysis.",
+    "url": "articles/understanding-convergence-locally-convex-spaces.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Link Between Hyperbolic and Conformal Geometry",
     "summary": "Unveil the relationship between hyperbolic geometry and its boundary's conformal geometry in this insightful exploration.",
     "url": "articles/hyperbolic-conformal-geometry-connection.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Rigidity in Metrics on CP²",
     "summary": "An insightful look into rigidity theorems for metrics on complex projective planes.",
     "url": "articles/rigidity-metrics-cp2.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering the Calculation of Tangents in Projective Geometry",
-    "summary": "Deep dive into finding tangents to projective curves at non-singular points.",
-    "url": "articles/projective-curve-tangents.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
