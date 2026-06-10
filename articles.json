@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring Stopped Local Martingales and Their Martingale Properties",
+    "summary": "Dive into the concept of local martingales and their properties in stochastic processes, focusing on $M^2 - [M]$.",
+    "url": "articles/understanding-local-martingales.html",
+    "date": "June 10, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding Clopen Subsets in the Stone Space of Lattices",
     "summary": "Dive into the properties of clopen subsets within the Stone space of a specific lattice. Insights on prime filters and open subsets included.",
     "url": "articles/exploring-clopen-subsets-in-stone-spaces.html",
@@ -201,12 +208,5 @@
     "url": "articles/pfizer-stock-prediction-2031.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Delving into a Fascinating Mathematical Inequality",
-    "summary": "Unravel the intriguing inequality involving non-negative reals and learn about its proof.",
-    "url": "articles/exploring-mathematical-inequality.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
