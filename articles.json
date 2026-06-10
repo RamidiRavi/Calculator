@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Poissonized Permutations and Their Applications",
+    "summary": "Dive into the intriguing mathematics of Poissonized permutations and their relation to longest increasing subsequences.",
+    "url": "articles/poissonized-permutations-lis-lengths.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlock the Mysteries of Easter Date Calculation Using Gauss",
     "summary": "Uncover the secrets of Gauss's algorithm for calculating Easter dates with ease. Simplify your understanding and application.",
     "url": "articles/gauss-algorithm-easter-calculation.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-interactions-adjoint-functors.html",
     "date": "June 9, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is It Possible to Combine Filter Functions? A Mathematical Inquiry",
-    "summary": "A detailed inquiry into the existence of a function combining two specified functions in mathematical analysis.",
-    "url": "articles/function-combinations-mathematics.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
   }
 ]
