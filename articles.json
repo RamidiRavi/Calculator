@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Intricacies of Hyperbolic Geometry",
+    "summary": "Uncover the relationship between hyperbolic space and its boundary geometry.",
+    "url": "articles/hyperbolic-geometry-boundary-study.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Desymmetrization Lemma: A New Perspective",
     "summary": "Delve into the nuances of a new desymmetrization lemma affecting stochastic processes and dependence.",
     "url": "articles/exploring-desymmetrization-lemma-stochastic-processes.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Smooth Manifolds: A Deep Dive into Mathematical Concepts",
     "summary": "Dive into the concept of smooth manifolds in mathematics, exploring fundamental definitions and implications.",
     "url": "articles/exploring-smooth-manifolds.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Optimization in Complex Vector Calculations",
-    "summary": "Learn how to minimize sums of absolute squared terms in complex vectors for efficient scientific computations.",
-    "url": "articles/optimize-complex-systems-abs-squared-sum.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
