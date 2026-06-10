@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can Semi Open and Alpha Open Sets Coincide Without Being Open?",
+    "summary": "Investigating conditions for semi open and alpha open sets to coincide in topology while remaining distinct from open sets.",
+    "url": "articles/semi-open-alpha-open-topology.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating Convergence in $X^*$: Key Insights",
     "summary": "Clarifying convergence definitions in Hausdorff locally convex spaces and their implications for functional analysis.",
     "url": "articles/understanding-convergence-locally-convex-spaces.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Optimization in Complex Vector Calculations",
     "summary": "Learn how to minimize sums of absolute squared terms in complex vectors for efficient scientific computations.",
     "url": "articles/optimize-complex-systems-abs-squared-sum.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Rigidity in Metrics on CP²",
-    "summary": "An insightful look into rigidity theorems for metrics on complex projective planes.",
-    "url": "articles/rigidity-metrics-cp2.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
