@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Distance Formula: Unveiling Its Geometric Roots",
+    "summary": "Unravel the distance formula's connection to the coordinate plane and the Pythagorean theorem.",
+    "url": "articles/understanding-distance-formula-geometry.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Strong Dual Topology: Definitions and Implications",
     "summary": "A deep dive into the debate surrounding the definitions of strong dual topology in topological vector spaces.",
     "url": "articles/strong-dual-topology-explained.html",
@@ -199,13 +206,6 @@
     "title": "Unleashing the Power of Improper Integrals in Computing",
     "summary": "Discover the significance of improper integrals in Computer Science through practical examples.",
     "url": "articles/improper-integrals-in-computer-science.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Multivariate Calculus: Finding Function Minima",
-    "summary": "Discover how to apply multivariate calculus to find the minimum of a complex function in an open region.",
-    "url": "articles/multivariate-calculus-function-minimization.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
