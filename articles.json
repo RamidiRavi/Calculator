@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Point2Space the Next Step After RoboGebra?",
+    "summary": "Discover the current alternatives to RoboGebra for animating mathematical handwriting, including Point2Space and other tools.",
+    "url": "articles/point2space-successor-to-robogebra.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Fascinating Limit of Logarithmic Expressions Unveiled",
     "summary": "Dive into the intriguing limit involving logarithms and their convergence as n approaches infinity.",
     "url": "articles/logarithmic-sums-limit-exploration.html",
@@ -201,12 +208,5 @@
     "url": "articles/collatz-conjecture-proof-insights.html",
     "date": "June 9, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Double-Odd Real Analytic Functions",
-    "summary": "Discover the intriguing world of double-odd real analytic functions and their unique properties.",
-    "url": "articles/exploring-double-odd-functions.html",
-    "date": "June 9, 2026",
-    "category": "Finance"
   }
 ]
