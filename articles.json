@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Existence of MOLS(n): What's Next?",
+    "summary": "Explore the relationship between MOLS(n) and their implications in combinatorial design.",
+    "url": "articles/understanding-mols-n.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is Point2Space the Next Step After RoboGebra?",
     "summary": "Discover the current alternatives to RoboGebra for animating mathematical handwriting, including Point2Space and other tools.",
     "url": "articles/point2space-successor-to-robogebra.html",
@@ -199,13 +206,6 @@
     "title": "Delving into Roots and Their Sum of Squares",
     "summary": "Unlock the secrets of equations with roots of opposite signs and their squares.",
     "url": "articles/exploring-roots-and-their-sums-of-squares.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Collatz Conjecture: A Proof by Contradiction",
-    "summary": "Exploring a new proof by contradiction concerning the Collatz Conjecture dynamics and its implications.",
-    "url": "articles/collatz-conjecture-proof-insights.html",
     "date": "June 9, 2026",
     "category": "Productivity"
   }
