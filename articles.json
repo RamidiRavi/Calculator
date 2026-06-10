@@ -1,5 +1,12 @@
 [
   {
+    "title": "Discovering New Identities in Elementary Symmetric Polynomials",
+    "summary": "Explore how dot products reveal new identities for elementary symmetric polynomials.",
+    "url": "articles/unveiling-elementary-symmetric-polynomials.html",
+    "date": "June 10, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is Pfizer Poised for a Comeback? Predictions Through 2031",
     "summary": "Explore the potential for Pfizer's stock to double by 2031, examining growth drivers and market challenges.",
     "url": "articles/pfizer-stock-prediction-2031.html",
@@ -201,12 +208,5 @@
     "url": "articles/grigorchuk-group-subgroup-structures.html",
     "date": "June 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Exploring the Equivalence of Lebesgue Measurability Definitions",
-    "summary": "Explore the equivalence of Lebesgue measurability through the Caratheodory criterion and Lebesgue outer measure additivity.",
-    "url": "articles/lebesgue-measurability-equivalence.html",
-    "date": "June 9, 2026",
-    "category": "Productivity"
   }
 ]
