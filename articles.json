@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the Complexities of Cosets and Homomorphisms",
+    "summary": "Explore the relationship between cosets and group homomorphisms in abstract algebra.",
+    "url": "articles/understanding-cosets-and-group-homomorphisms.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Persistence Modules: Key Insights & Clarifications",
     "summary": "Explore essential questions and concepts regarding persistence modules, including identity maps and interval actions.",
     "url": "articles/understanding-persistence-modules-key-questions-answered.html",
@@ -199,13 +206,6 @@
     "title": "Navigating Convergence in $X^*$: Key Insights",
     "summary": "Clarifying convergence definitions in Hausdorff locally convex spaces and their implications for functional analysis.",
     "url": "articles/understanding-convergence-locally-convex-spaces.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Link Between Hyperbolic and Conformal Geometry",
-    "summary": "Unveil the relationship between hyperbolic geometry and its boundary's conformal geometry in this insightful exploration.",
-    "url": "articles/hyperbolic-conformal-geometry-connection.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
