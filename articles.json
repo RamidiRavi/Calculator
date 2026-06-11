@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Persistence Modules: Key Insights & Clarifications",
+    "summary": "Explore essential questions and concepts regarding persistence modules, including identity maps and interval actions.",
+    "url": "articles/understanding-persistence-modules-key-questions-answered.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is the Sieve of Eratosthenes a Breadth First Search Algorithm?",
     "summary": "Understanding if the Sieve of Eratosthenes can be viewed as a breadth-first search algorithm.",
     "url": "articles/sieve-of-eratosthenes-graph-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/hyperbolic-conformal-geometry-connection.html",
     "date": "June 10, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Hyperbolic and Conformal Geometry",
-    "summary": "Discover the connection between hyperbolic geometry and its conformal boundary. Learn how one can inform the other.",
-    "url": "articles/hyperbolic-conformal-geometry-relationship.html",
-    "date": "June 10, 2026",
-    "category": "Health"
   }
 ]
