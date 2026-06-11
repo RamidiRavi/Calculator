@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Growth: Pfizer's $25 Billion Acquisition and Its Impact on Investors",
+    "summary": "Explore how Pfizer's $25 billion acquisition could benefit income investors and retirees.",
+    "url": "articles/pfizer-acquisition-growth-investors.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Digit Power Inequalities",
     "summary": "Explore the proof for the digit power difference inequality and the conditions for equality.",
     "url": "articles/digit-power-differences.html",
@@ -199,13 +206,6 @@
     "title": "Master the Art of Variable Elimination in Algebra",
     "summary": "Explore methods for eliminating variables in algebraic equations and uncover functional relations involving constants.",
     "url": "articles/eliminating-variables-algebraic-systems.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Geometry: Finding the Perfect Pyramid Apex",
-    "summary": "Explore efficient methods to define a pyramid apex with given dihedral angles from a convex quadrilateral base.",
-    "url": "articles/geometry-pyramid-apex-calculation.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
