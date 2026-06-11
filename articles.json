@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Goldberg Polyhedra Face Shapes",
+    "summary": "Discover how to determine unique face shapes in Goldberg polyhedra, and learn methods to tackle geometric challenges.",
+    "url": "articles/goldberg-polyhedra-unique-face-shapes.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding Lemma 5.7: Insights into 5th Order KdV",
     "summary": "Explore the intricacies of energy estimates in the KdV equation and the significance of Lemma 5.7 in mathematical physics.",
     "url": "articles/understanding-energy-estimates-5th-order-kdv.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Poissonized Permutations and Their Applications",
     "summary": "Dive into the intriguing mathematics of Poissonized permutations and their relation to longest increasing subsequences.",
     "url": "articles/poissonized-permutations-lis-lengths.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlock the Mysteries of Easter Date Calculation Using Gauss",
-    "summary": "Uncover the secrets of Gauss's algorithm for calculating Easter dates with ease. Simplify your understanding and application.",
-    "url": "articles/gauss-algorithm-easter-calculation.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
