@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Understanding Soft Thresholding in Nuclear Norm Optimization - InterestCalcs</title>
@@ -56,7 +60,9 @@
         <article class="article-body">
           <p>The process of minimizing the nuclear norm in optimization is a vital aspect of computer vision techniques, particularly in matrix completion and low-rank approximation. A common approach is through proximal gradient methods, which allow us to handle constraints elegantly. At the heart of this approach lies the proximal operator defined for the nuclear norm, expressed mathematically as:</p>
 
-<p><span class="math-container">$prox_{\lambda_N ||\cdot||_*}\left(Xight) = argmin_x\left(\lambda_N ||x||_*+rac{1}{2}||x-X||_F^2ight)$</span></p>
+<p><span class="math-container">$prox_{\lambda_N ||\cdot||_*}\left(X
+ight) = argmin_x\left(\lambda_N ||x||_*+rac{1}{2}||x-X||_F^2
+ight)$</span></p>
 
 <p>Similar to the l1 norm's proximal operator that produces a soft thresholding effect on individual components, the proximal operator for the nuclear norm offers a related, yet distinct, soft thresholding on the singular values of a matrix. At first glance, the process of singular value decomposition (SVD) may appear complex, but the relationship between the singular values and the soft thresholding can be understood more deeply.</p>
 
