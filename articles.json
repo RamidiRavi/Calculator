@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Limits: A Step-by-Step Guide to Finding Delta",
+    "summary": "Learn how to find the largest delta for the function f(x) = 1/(x-1) for precise conditions.",
+    "url": "articles/finding-largest-delta-in-functions.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring Non-Concentric Circles and Euclidean Geometry",
     "summary": "Explore how non-concentric circles can have equivalent projections and its implications on Euclidean constructions.",
     "url": "articles/understanding-non-concentric-circle-projections.html",
@@ -201,12 +208,5 @@
     "url": "articles/sieve-of-eratosthenes-graph-theory.html",
     "date": "June 11, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is There a Linear Relationship Between Pollution and Conductivity?",
-    "summary": "Examining the validity of exploratory analyses on pollution claims and their implications for environmental accountability.",
-    "url": "articles/evaluating-pollution-claims-analyses.html",
-    "date": "June 10, 2026",
-    "category": "Health"
   }
 ]
