@@ -1,5 +1,12 @@
 [
   {
+    "title": "Clarifying Canonical Isomorphisms in Mathematics",
+    "summary": "Explore the nuances of canonical isomorphisms in category theory and their implications for mathematical proofs.",
+    "url": "articles/canonical-isomorphisms-category-theory.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating Market Shifts: Commodities and Staples Over AI Stocks",
     "summary": "Explore Peter Boockvar's insights on investing in commodities and consumer staples over AI stocks.",
     "url": "articles/wall-street-cio-shift-to-commodities-staples.html",
@@ -201,12 +208,5 @@
     "url": "articles/maximal-ideals-in-endomorphism-rings.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "The Distance Formula: Unveiling Its Geometric Roots",
-    "summary": "Unravel the distance formula's connection to the coordinate plane and the Pythagorean theorem.",
-    "url": "articles/understanding-distance-formula-geometry.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
