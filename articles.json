@@ -1,5 +1,12 @@
 [
   {
+    "title": "Designing a Game Tournament Bracket: A Step-by-Step Guide",
+    "summary": "Learn how to design an efficient game tournament bracket for 8 teams playing simultaneously with best practices.",
+    "url": "articles/designing-game-tournament-bracket.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Power of Sieves in Defining Sheaves",
     "summary": "Exploring the advantages of defining sheaves via sieves in category theory.",
     "url": "articles/sieves-sheaf-theory-benefits.html",
@@ -201,12 +208,5 @@
     "url": "articles/new-insights-on-set-theory-boundaries.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Is Point2Space the Next Step After RoboGebra?",
-    "summary": "Discover the current alternatives to RoboGebra for animating mathematical handwriting, including Point2Space and other tools.",
-    "url": "articles/point2space-successor-to-robogebra.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
