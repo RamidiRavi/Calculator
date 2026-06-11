@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Asymptotic Behavior in Multiplicative Functions",
+    "summary": "Explore advanced concepts in multiplicative functions and their asymptotic behaviors, providing clarity on crucial mathematical properties.",
+    "url": "articles/asymptotic-formulas-multiplicative-functions.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Navigating the Complexities of Cosets and Homomorphisms",
     "summary": "Explore the relationship between cosets and group homomorphisms in abstract algebra.",
     "url": "articles/understanding-cosets-and-group-homomorphisms.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-desymmetrization-lemma-stochastic-processes.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Navigating Convergence in $X^*$: Key Insights",
-    "summary": "Clarifying convergence definitions in Hausdorff locally convex spaces and their implications for functional analysis.",
-    "url": "articles/understanding-convergence-locally-convex-spaces.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
