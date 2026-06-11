@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Metric Spaces and Categories",
+    "summary": "Dive into the intriguing relationship between metric spaces and categorical theory to uncover new perspectives in mathematics.",
+    "url": "articles/exploring-naturality-metrics-categorical-theory.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Dichotomy of Skip-Free Random Walks Explained",
     "summary": "Explore the implications of the dichotomy in skip-free random walks and their probability distributions.",
     "url": "articles/understanding-dichotomy-skip-free-random-walks.html",
@@ -199,13 +206,6 @@
     "title": "Deciding Between QQQ and QQQM: Which ETF Fits Your Strategy?",
     "summary": "Explore the key differences between QQQ and QQQM ETFs for smart investing.",
     "url": "articles/qqq-vs-qqqm-investment-strategy.html",
-    "date": "June 10, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of $\\Pi$-Orbits in Elliptic Curves",
-    "summary": "Delve into the fascinating world of $\\Pi$-orbits and their implications on elliptic curves.",
-    "url": "articles/exploring-pi-orbits-elliptic-curves.html",
     "date": "June 10, 2026",
     "category": "Finance"
   }
