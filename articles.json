@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Mathematical Mystery: Intransitive Diophantine Equations",
+    "summary": "Discover how intransitivity can prove Diophantine equations have no solutions.",
+    "url": "articles/intransitive-diophantine-equations.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Can a 1D Balanced Random Walk Be Transient? A Deep Dive",
     "summary": "Exploring if balanced random walks can be transient in one dimension.",
     "url": "articles/curious-case-of-transient-random-walks.html",
@@ -201,12 +208,5 @@
     "url": "articles/evaluating-pollution-claims-analyses.html",
     "date": "June 10, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Exploring Stopped Local Martingales and Their Martingale Properties",
-    "summary": "Dive into the concept of local martingales and their properties in stochastic processes, focusing on $M^2 - [M]$.",
-    "url": "articles/understanding-local-martingales.html",
-    "date": "June 10, 2026",
-    "category": "Finance"
   }
 ]
