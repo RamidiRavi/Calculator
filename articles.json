@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can a 1D Balanced Random Walk Be Transient? A Deep Dive",
+    "summary": "Exploring if balanced random walks can be transient in one dimension.",
+    "url": "articles/curious-case-of-transient-random-walks.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "When Are Quadratic Forms Surjective from R^n to R^n?",
     "summary": "Dive into the conditions under which quadratic forms in R^n are surjective and learn how to solve the associated equations.",
     "url": "articles/quadratic-forms-surjectivity.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-local-martingales.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding Clopen Subsets in the Stone Space of Lattices",
-    "summary": "Dive into the properties of clopen subsets within the Stone space of a specific lattice. Insights on prime filters and open subsets included.",
-    "url": "articles/exploring-clopen-subsets-in-stone-spaces.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
