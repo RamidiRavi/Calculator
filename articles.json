@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Exact Differential Equations: Techniques and Tips",
+    "summary": "Learn how to solve exact differential equations effectively with partial differentiation and integration techniques.",
+    "url": "articles/solving-exact-differential-equations.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Finitary and n-ary Relations: A Deep Dive",
     "summary": "Explore the nuances between finitary and n-ary relations in mathematics. Are they the same or different?",
     "url": "articles/finitary-n-ary-relations-explained.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-quadratic-forms-discrepancies.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding T2 Spaces and Their Role in Transformations",
-    "summary": "Exploring the implications of T2 spaces on local flows and transformations.",
-    "url": "articles/do-non-hausdorff-spaces-allow-group-transformations.html",
-    "date": "June 10, 2026",
-    "category": "Health"
   }
 ]
