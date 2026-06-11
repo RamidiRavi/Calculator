@@ -1,5 +1,12 @@
 [
   {
+    "title": "When Are Quadratic Forms Surjective from R^n to R^n?",
+    "summary": "Dive into the conditions under which quadratic forms in R^n are surjective and learn how to solve the associated equations.",
+    "url": "articles/quadratic-forms-surjectivity.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Metric Spaces and Categories",
     "summary": "Dive into the intriguing relationship between metric spaces and categorical theory to uncover new perspectives in mathematics.",
     "url": "articles/exploring-naturality-metrics-categorical-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-clopen-subsets-in-stone-spaces.html",
     "date": "June 10, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Deciding Between QQQ and QQQM: Which ETF Fits Your Strategy?",
-    "summary": "Explore the key differences between QQQ and QQQM ETFs for smart investing.",
-    "url": "articles/qqq-vs-qqqm-investment-strategy.html",
-    "date": "June 10, 2026",
-    "category": "Finance"
   }
 ]
