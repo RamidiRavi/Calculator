@@ -1,5 +1,12 @@
 [
   {
+    "title": "Seeking Elegance in the 6-Dimensional Representation of 6.A7",
+    "summary": "Discover approaches to find unitary representations for the 6-dimensional representation of 6.A7, including geometric insights and constructive methods.",
+    "url": "articles/unitary-representations-6-a7.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking Growth: Pfizer's $25 Billion Acquisition and Its Impact on Investors",
     "summary": "Explore how Pfizer's $25 billion acquisition could benefit income investors and retirees.",
     "url": "articles/pfizer-acquisition-growth-investors.html",
@@ -201,12 +208,5 @@
     "url": "articles/finite-subgroups-homeomorphisms-s2.html",
     "date": "June 10, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Master the Art of Variable Elimination in Algebra",
-    "summary": "Explore methods for eliminating variables in algebraic equations and uncover functional relations involving constants.",
-    "url": "articles/eliminating-variables-algebraic-systems.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
