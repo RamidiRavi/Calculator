@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is the Sieve of Eratosthenes a Breadth First Search Algorithm?",
+    "summary": "Understanding if the Sieve of Eratosthenes can be viewed as a breadth-first search algorithm.",
+    "url": "articles/sieve-of-eratosthenes-graph-theory.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is There a Linear Relationship Between Pollution and Conductivity?",
     "summary": "Examining the validity of exploratory analyses on pollution claims and their implications for environmental accountability.",
     "url": "articles/evaluating-pollution-claims-analyses.html",
@@ -201,12 +208,5 @@
     "url": "articles/hyperbolic-conformal-geometry-relationship.html",
     "date": "June 10, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Discovering New Identities in Elementary Symmetric Polynomials",
-    "summary": "Explore how dot products reveal new identities for elementary symmetric polynomials.",
-    "url": "articles/unveiling-elementary-symmetric-polynomials.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
