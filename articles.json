@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Black-Scholes Model: A Guide to Portfolio Value",
+    "summary": "Explore the nuances of the Black-Scholes model and its implications for portfolio valuation and hedging.",
+    "url": "articles/black-scholes-model-portfolio-valuation.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Exploring the Probabilistic Nature of Market Distress",
     "summary": "Dive into the details of asymptotic market distress frequency and its implications in systemic risk analysis.",
     "url": "articles/asymptotic-market-distress-frequency.html",
@@ -199,13 +206,6 @@
     "title": "Harnessing Kolmogorov Complexity to Uncover Change Points",
     "summary": "Explore how Kolmogorov complexity can identify abrupt changes in functions, enhancing analytical capabilities in various fields.",
     "url": "articles/kolmogorov-complexity-change-points.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Power of Symmetric Polynomials in Equations",
-    "summary": "A deep dive into polynomial equations with symmetric constraints.",
-    "url": "articles/symmetric-polynomials-exploration.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
