@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Digit Power Inequalities",
+    "summary": "Explore the proof for the digit power difference inequality and the conditions for equality.",
+    "url": "articles/digit-power-differences.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Role of Morphism Types in Universal Mapping Issues",
     "summary": "Delve into the nuances of universal mapping problems and their implications in mathematics.",
     "url": "articles/universal-mapping-problems-in-mathematics.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Geometry: Finding the Perfect Pyramid Apex",
     "summary": "Explore efficient methods to define a pyramid apex with given dihedral angles from a convex quadrilateral base.",
     "url": "articles/geometry-pyramid-apex-calculation.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Essential Order Theory Texts for Serious Study",
-    "summary": "Discover essential texts in order theory focusing on mathematical rigor and depth.",
-    "url": "articles/top-order-theory-texts-serious-learners.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
