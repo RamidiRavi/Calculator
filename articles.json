@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is the Epps-Pulley Test Suitable for Uniform Distribution Testing?",
+    "summary": "Can the Epps-Pulley test be adapted for uniform distribution goodness of fit? Dive into statistical insights.",
+    "url": "articles/epps-pulley-test-uniform-distribution-fit.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of PDEs: A Comprehensive Guide",
     "summary": "Explore key topics and textbooks needed to understand partial differential equations (PDEs) for effective research comprehension.",
     "url": "articles/mastering-pdes-and-their-applications.html",
@@ -201,12 +208,5 @@
     "url": "articles/logarithmic-sums-limit-exploration.html",
     "date": "June 10, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "The Fascinating Intersection of Countable and Uncountable Infinities",
-    "summary": "Explore why the Sophomore's Dream connects different sizes of infinity in mathematical functions.",
-    "url": "articles/sophomores-dream-infinity.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
   }
 ]
