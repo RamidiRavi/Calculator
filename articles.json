@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mystery of the Exponential Series Inequality",
+    "summary": "Looking for references on an inequality involving exponential series? Discover insights on its origins and significance.",
+    "url": "articles/unique-inequality-exponential-series.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unpacking Induced Representations: Trivial Irrep Insights",
     "summary": "Dive into the world of induced representations in group theory and unravel the complexities between subgroups and their irreducible representations.",
     "url": "articles/induced-representations-group-theory.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Power of Symmetric Polynomials in Equations",
     "summary": "A deep dive into polynomial equations with symmetric constraints.",
     "url": "articles/symmetric-polynomials-exploration.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding a Unique Division Method in Mathematics",
-    "summary": "Explore a unique division method and its notations. Learn what ) and ( signify in mathematical operations.",
-    "url": "articles/understanding-division-methods-mathematics.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
