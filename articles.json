@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Proof of Clive Bach's Square Root Definition",
+    "summary": "Explore how to prove Clive Bach's definition of the square root of surreal numbers and enhance your mathematical understanding.",
+    "url": "articles/proving-clive-bach-square-root-definition.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mystery of Time of Flight in Projectile Motion",
     "summary": "Explore why projectile time of flight follows specific velocity equations, even with air resistance.",
     "url": "articles/projectile-motion-time-of-flight.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Strong Dual Topology: Definitions and Implications",
     "summary": "A deep dive into the debate surrounding the definitions of strong dual topology in topological vector spaces.",
     "url": "articles/strong-dual-topology-explained.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Intricacies of Hyperbolic Geometry",
-    "summary": "Uncover the relationship between hyperbolic space and its boundary geometry.",
-    "url": "articles/hyperbolic-geometry-boundary-study.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
