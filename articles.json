@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating Market Shifts: Commodities and Staples Over AI Stocks",
+    "summary": "Explore Peter Boockvar's insights on investing in commodities and consumer staples over AI stocks.",
+    "url": "articles/wall-street-cio-shift-to-commodities-staples.html",
+    "date": "June 11, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering the Proof of Clive Bach's Square Root Definition",
     "summary": "Explore how to prove Clive Bach's definition of the square root of surreal numbers and enhance your mathematical understanding.",
     "url": "articles/proving-clive-bach-square-root-definition.html",
@@ -199,13 +206,6 @@
     "title": "The Distance Formula: Unveiling Its Geometric Roots",
     "summary": "Unravel the distance formula's connection to the coordinate plane and the Pythagorean theorem.",
     "url": "articles/understanding-distance-formula-geometry.html",
-    "date": "June 10, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Strong Dual Topology: Definitions and Implications",
-    "summary": "A deep dive into the debate surrounding the definitions of strong dual topology in topological vector spaces.",
-    "url": "articles/strong-dual-topology-explained.html",
     "date": "June 10, 2026",
     "category": "Productivity"
   }
