@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Power of Sieves in Defining Sheaves",
+    "summary": "Exploring the advantages of defining sheaves via sieves in category theory.",
+    "url": "articles/sieves-sheaf-theory-benefits.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is the Epps-Pulley Test Suitable for Uniform Distribution Testing?",
     "summary": "Can the Epps-Pulley test be adapted for uniform distribution goodness of fit? Dive into statistical insights.",
     "url": "articles/epps-pulley-test-uniform-distribution-fit.html",
@@ -201,12 +208,5 @@
     "url": "articles/point2space-successor-to-robogebra.html",
     "date": "June 10, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "The Fascinating Limit of Logarithmic Expressions Unveiled",
-    "summary": "Dive into the intriguing limit involving logarithms and their convergence as n approaches infinity.",
-    "url": "articles/logarithmic-sums-limit-exploration.html",
-    "date": "June 10, 2026",
-    "category": "Finance"
   }
 ]
