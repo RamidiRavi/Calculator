@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Objects in $\\infty$-Groupoids and Higher Categories",
+    "summary": "Delve into $\\infty$-groupoids and understand the concept of underlying sets in higher category theory.",
+    "url": "articles/infinity-groupoids-objects-and-underlying-sets.html",
+    "date": "June 11, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Limits: A Step-by-Step Guide to Finding Delta",
     "summary": "Learn how to find the largest delta for the function f(x) = 1/(x-1) for precise conditions.",
     "url": "articles/finding-largest-delta-in-functions.html",
@@ -199,13 +206,6 @@
     "title": "Demystifying Persistence Modules: Key Insights & Clarifications",
     "summary": "Explore essential questions and concepts regarding persistence modules, including identity maps and interval actions.",
     "url": "articles/understanding-persistence-modules-key-questions-answered.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Is the Sieve of Eratosthenes a Breadth First Search Algorithm?",
-    "summary": "Understanding if the Sieve of Eratosthenes can be viewed as a breadth-first search algorithm.",
-    "url": "articles/sieve-of-eratosthenes-graph-theory.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
