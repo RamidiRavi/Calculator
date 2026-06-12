@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Intuition Behind Expectation in Probability",
+    "summary": "Explore the intuition behind linearity of expectation with negative hypergeometric distribution in sampling without replacement.",
+    "url": "articles/understanding-linearity-of-expectation-in-sampling.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding Lubin-Tate Theory in Mathematical Context",
     "summary": "Is the connection between Lubin-Tate theory and roots of unity valid? Let's delve into this intriguing relationship.",
     "url": "articles/exploring-lubin-tate-theory.html",
@@ -199,13 +206,6 @@
     "title": "Can a 1D Balanced Random Walk Be Transient? A Deep Dive",
     "summary": "Exploring if balanced random walks can be transient in one dimension.",
     "url": "articles/curious-case-of-transient-random-walks.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "When Are Quadratic Forms Surjective from R^n to R^n?",
-    "summary": "Dive into the conditions under which quadratic forms in R^n are surjective and learn how to solve the associated equations.",
-    "url": "articles/quadratic-forms-surjectivity.html",
     "date": "June 11, 2026",
     "category": "Finance"
   }
