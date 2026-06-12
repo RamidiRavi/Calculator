@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Mysteries of Algebraic Homogeneity",
+    "summary": "Delve into the intricacies of algebraic homogeneity in countable saturated models and its implications.",
+    "url": "articles/algebraic-homogeneity-saturated-models.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Discover the Surprising Nutrition of Oats with Tuna & Seaweed",
     "summary": "Discover the nutritious benefits of Oats with Tuna & Seaweed, a quick meal packed with protein and essential vitamins.",
     "url": "articles/oats-with-tuna-seaweed-recipe.html",
@@ -201,12 +208,5 @@
     "url": "articles/essential-protein-strategies-for-mens-health.html",
     "date": "June 12, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Understanding Objects in $\\infty$-Groupoids and Higher Categories",
-    "summary": "Delve into $\\infty$-groupoids and understand the concept of underlying sets in higher category theory.",
-    "url": "articles/infinity-groupoids-objects-and-underlying-sets.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
   }
 ]
