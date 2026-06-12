@@ -1,5 +1,12 @@
 [
   {
+    "title": "Revolutionize Your Weeknight Dinners with One-Pot Farro",
+    "summary": "Discover a nutritious one-pot farro recipe that’s quick, healthy, and perfect for weeknight dinners. Packed with flavor and fiber!",
+    "url": "articles/healthy-one-pot-farro-recipe.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Nutritious and Delicious: One-Pot Chicken & Butternut Squash Stew",
     "summary": "Explore this one-pot chicken stew recipe that's nutritious and perfect for fall!",
     "url": "articles/one-pot-chicken-butternut-squash-stew.html",
@@ -201,12 +208,5 @@
     "url": "articles/clarifying-yoneda-lemma-proof-confusion.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Maximizing Muscle Health: The Men’s High Protein Diet Guide",
-    "summary": "Discover how men can effectively manage protein intake for optimal muscle health.",
-    "url": "articles/essential-protein-strategies-for-mens-health.html",
-    "date": "June 12, 2026",
-    "category": "Health"
   }
 ]
