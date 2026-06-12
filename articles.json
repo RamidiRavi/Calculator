@@ -1,5 +1,12 @@
 [
   {
+    "title": "Maximizing Muscle Health: The Men’s High Protein Diet Guide",
+    "summary": "Discover how men can effectively manage protein intake for optimal muscle health.",
+    "url": "articles/essential-protein-strategies-for-mens-health.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Understanding Objects in $\\infty$-Groupoids and Higher Categories",
     "summary": "Delve into $\\infty$-groupoids and understand the concept of underlying sets in higher category theory.",
     "url": "articles/infinity-groupoids-objects-and-underlying-sets.html",
@@ -199,13 +206,6 @@
     "title": "Navigating the Complexities of Cosets and Homomorphisms",
     "summary": "Explore the relationship between cosets and group homomorphisms in abstract algebra.",
     "url": "articles/understanding-cosets-and-group-homomorphisms.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Demystifying Persistence Modules: Key Insights & Clarifications",
-    "summary": "Explore essential questions and concepts regarding persistence modules, including identity maps and interval actions.",
-    "url": "articles/understanding-persistence-modules-key-questions-answered.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
