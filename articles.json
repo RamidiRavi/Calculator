@@ -1,5 +1,12 @@
 [
   {
+    "title": "Revitalize Your Breakfast with Nutritious Oats Uttapam Pancakes",
+    "summary": "Discover a healthy twist on pancakes with Oats Uttapam, packed with veggies and protein for a nutritious meal.",
+    "url": "articles/oats-uttapam-pancakes-nutrition.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Exploring the Dynamics of the GCD Map on Z/nZ",
     "summary": "Discover the insights into the GCD map on Z/nZ, its orbits, and mathematical implications.",
     "url": "articles/gcd-map-z-nz-dynamics.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Limits: A Step-by-Step Guide to Finding Delta",
     "summary": "Learn how to find the largest delta for the function f(x) = 1/(x-1) for precise conditions.",
     "url": "articles/finding-largest-delta-in-functions.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring Non-Concentric Circles and Euclidean Geometry",
-    "summary": "Explore how non-concentric circles can have equivalent projections and its implications on Euclidean constructions.",
-    "url": "articles/understanding-non-concentric-circle-projections.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
