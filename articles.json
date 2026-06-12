@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unequal Variance in Similar Stopping Times Explained",
+    "summary": "Explore the intuition behind the unequal variance of stopping times in stochastic processes.",
+    "url": "articles/stochastic-stopping-times-variance.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Navigating Common Refinements of Partitions in Constructive Analysis",
     "summary": "Discover how to establish common refinements of partitions without linear ordering in real analysis.",
     "url": "articles/common-refinements-partitions-constructive-analysis.html",
@@ -199,13 +206,6 @@
     "title": "Defining 'Curved Edge' in Advanced Mathematics",
     "summary": "Explore the official terms used in math for curved edges like circles and ellipses.",
     "url": "articles/understanding-curved-edge-mathematics.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Do Directed Graphs Always Have Source Vertices?",
-    "summary": "Can a directed graph have a sink without a source? Discover the relationship between sinks and sources in directed graphs.",
-    "url": "articles/sinks-sources-directed-graphs.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
