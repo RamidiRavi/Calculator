@@ -1,5 +1,12 @@
 [
   {
+    "title": "Delving into the Proof: Term Sets and Signatures Explained",
+    "summary": "Explore the mathematical proof demonstrating boundaries of term sets derived from signatures in formal systems.",
+    "url": "articles/understanding-boundaries-term-sets-signatures.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling Algebraic Equations of Genus 2 Riemann Surfaces",
     "summary": "Discover the algebraic equations corresponding to genus 2 Riemann surfaces with regular octagonal domains.",
     "url": "articles/genus-2-riemann-surfaces-octagons-equations.html",
@@ -199,13 +206,6 @@
     "title": "Understanding What Makes Matrix Operations Associative",
     "summary": "Dive into the criteria for associativity in matrix operations beyond multiplication.",
     "url": "articles/associative-properties-matrix-operations.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mystery: Why $(AB)C = A(BC)$?",
-    "summary": "Explore the reasoning behind the associative property of matrix multiplication.",
-    "url": "articles/understanding-matrix-multiplication-associativity.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
