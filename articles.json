@@ -1,5 +1,12 @@
 [
   {
+    "title": "Nourish Your Body with Oats Avial: A Savory Delight",
+    "summary": "Discover the nutritious Oats Avial, a delicious South Indian dish blending veggies, coconut, and yogurt for a healthy meal.",
+    "url": "articles/oats-avial-recipe.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Unlocking Closed-Form Solutions for Complex Integrals",
     "summary": "Explore methods for evaluating the integral involving cosh and sinh functions with analytical techniques.",
     "url": "articles/evaluating-complex-integrals.html",
@@ -201,12 +208,5 @@
     "url": "articles/finitary-n-ary-relations-explained.html",
     "date": "June 11, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Decoding the Black-Scholes Model: A Guide to Portfolio Value",
-    "summary": "Explore the nuances of the Black-Scholes model and its implications for portfolio valuation and hedging.",
-    "url": "articles/black-scholes-model-portfolio-valuation.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
   }
 ]
