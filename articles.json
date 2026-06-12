@@ -1,5 +1,12 @@
 [
   {
+    "title": "Deliciously Healthy: A Nutritional Take on Oatmeal Strawberry Cookie Pie",
+    "summary": "Indulge in a nutritious twist with this delicious Oatmeal Strawberry Cookie Pie, blending health and taste effortlessly.",
+    "url": "articles/oatmeal-strawberry-cookie-pie.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Understanding What Makes Matrix Operations Associative",
     "summary": "Dive into the criteria for associativity in matrix operations beyond multiplication.",
     "url": "articles/associative-properties-matrix-operations.html",
@@ -199,13 +206,6 @@
     "title": "Decoding the Black-Scholes Model: A Guide to Portfolio Value",
     "summary": "Explore the nuances of the Black-Scholes model and its implications for portfolio valuation and hedging.",
     "url": "articles/black-scholes-model-portfolio-valuation.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Exploring the Probabilistic Nature of Market Distress",
-    "summary": "Dive into the details of asymptotic market distress frequency and its implications in systemic risk analysis.",
-    "url": "articles/asymptotic-market-distress-frequency.html",
     "date": "June 11, 2026",
     "category": "Finance"
   }
