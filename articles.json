@@ -1,5 +1,12 @@
 [
   {
+    "title": "Examining Structure in Finite Groups: A Detailed Inquiry",
+    "summary": "Analyzing if finite groups with cyclic Sylow 2-subgroups must have unique or characteristic subgroups of index 2.",
+    "url": "articles/finite-groups-cyclic-sylow-2-subgroups.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding Epimorphisms and Monomorphisms in Distributive Lattices",
     "summary": "Explore the relationship between epimorphisms and monomorphisms in distributive lattices, enhancing your mathematical understanding.",
     "url": "articles/epimorphisms-monomorphisms-distributive-lattices.html",
@@ -199,13 +206,6 @@
     "title": "Decoding Lemma 5.7: Insights into 5th Order KdV",
     "summary": "Explore the intricacies of energy estimates in the KdV equation and the significance of Lemma 5.7 in mathematical physics.",
     "url": "articles/understanding-energy-estimates-5th-order-kdv.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Designing a Game Tournament Bracket: A Step-by-Step Guide",
-    "summary": "Learn how to design an efficient game tournament bracket for 8 teams playing simultaneously with best practices.",
-    "url": "articles/designing-game-tournament-bracket.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
