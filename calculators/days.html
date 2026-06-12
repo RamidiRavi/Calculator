@@ -16,8 +16,8 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Days Between Dates Calculator - InterestCalcs</title>
-  <meta name="description" content="Calculate the exact count of days, weeks, or working business days between any two calendar dates. Exclude weekends automatically.">
+  <title>Days Between Dates Calculator | Days Since & Gap - InterestCalcs</title>
+  <meta name="description" content="Calculate the exact count of days between two calendar dates, business days, days since a past event, or day gap. Free online days duration calculator.">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📅</text></svg>">
 </head>
@@ -74,6 +74,14 @@
             <label for="include-end" style="cursor: pointer; font-size: 13.5px; color: var(--text-secondary);">Include end date (+1 day)</label>
           </div>
         </div>
+
+        <div style="margin-top: 16px; border-top: 1px solid var(--border-color); padding-top: 12px;">
+          <span style="font-size: 11.5px; font-weight: 700; color: var(--text-muted); display: block; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px;">Quick Presets</span>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-set-start-today" style="padding: 6px 10px; font-size: 12px; font-weight: 500;">Set Start to Today</button>
+            <button type="button" class="btn btn-secondary btn-sm" id="btn-set-end-today" style="padding: 6px 10px; font-size: 12px; font-weight: 500;">Set End to Today</button>
+          </div>
+        </div>
       </div>
 
       <!-- Results -->
@@ -108,9 +116,12 @@
     <!-- SEO Content -->
     <section class="article-page" style="margin-top: 0;">
       <article class="article-body">
-        <h2>Calculating Time Spans Accurately</h2>
-        <p>Whether tracking shipping timelines, contract milestones, or project phases, establishing date calculations ensures deadline accuracy.</p>
+        <h2>Calculating Time Spans & Days Gap Accurately</h2>
+        <p>Whether tracking shipping timelines, contract milestones, or project phases, establishing date calculations ensures deadline accuracy. A precise <strong>days gap calculator</strong> is essential for counting the exact number of nights, days, or calendar weeks between events.</p>
         
+        <h3>How to Calculate Days Since a Date</h3>
+        <p>If you want to determine the total <strong>days since</strong> a past historic event, milestone, or birthdate, simply set the start date to your past event and the end date to today. This lets you track elapsed duration instantly.</p>
+
         <h3>Why Weekend Exclusion Matters</h3>
         <p>Standard calendar formulas count absolute durations, but most business contracts dictate deadlines based on working business days (excluding Saturdays and Sundays). Our calculator runs checks across the entire date range, identifying days of the week to subtract weekends.</p>
       </article>
@@ -217,6 +228,15 @@
     startDateInput.addEventListener('change', calculateDates);
     endDateInput.addEventListener('change', calculateDates);
     includeEndInput.addEventListener('change', calculateDates);
+
+    document.getElementById('btn-set-start-today').addEventListener('click', () => {
+      startDateInput.value = formatDateStr(new Date());
+      calculateDates();
+    });
+    document.getElementById('btn-set-end-today').addEventListener('click', () => {
+      endDateInput.value = formatDateStr(new Date());
+      calculateDates();
+    });
 
     calculateDates();
   </script>
