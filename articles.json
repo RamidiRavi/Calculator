@@ -1,5 +1,12 @@
 [
   {
+    "title": "Should You Buy, Sell, or Hold the Big Three Oil Companies?",
+    "summary": "Get insights on whether to buy, sell, or hold shares in Chevron, Exxon Mobil, and Occidental Petroleum.",
+    "url": "articles/oil-giants-analysis-buy-sell-or-hold.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding the Domains: Negative Power Functions Explained",
     "summary": "Explore the domains of negative power functions and clarify common misconceptions.",
     "url": "articles/understanding-domain-negative-power-functions.html",
@@ -201,12 +208,5 @@
     "url": "articles/shifrin-multivariable-proposition.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Mystery of Compact Lie Groups in Topology",
-    "summary": "Discover which compact Lie groups have finitely many non-zero homotopy groups. A deep dive into algebraic topology concepts.",
-    "url": "articles/compact-lie-groups-homotopy.html",
-    "date": "June 12, 2026",
-    "category": "Health"
   }
 ]
