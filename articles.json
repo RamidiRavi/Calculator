@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Domains: Negative Power Functions Explained",
+    "summary": "Explore the domains of negative power functions and clarify common misconceptions.",
+    "url": "articles/understanding-domain-negative-power-functions.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Savor the Goodness: Baked Eggs with Spinach & Bacon",
     "summary": "Enjoy a nutritious oven-baked egg dish with spinach and bacon in under 30 minutes, great for low-carb diets.",
     "url": "articles/oven-baked-egg-spinach-bacon.html",
@@ -201,12 +208,5 @@
     "url": "articles/compact-lie-groups-homotopy.html",
     "date": "June 12, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Is Prometheus the Next Big Thing After Amazon?",
-    "summary": "Discover how Jeff Bezos' startup Prometheus aims to transform invention and drive civilizational wealth.",
-    "url": "articles/bezos-new-venture-revolutionizing-invention.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
   }
 ]
