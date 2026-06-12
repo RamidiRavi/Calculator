@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling Algebraic Equations of Genus 2 Riemann Surfaces",
+    "summary": "Discover the algebraic equations corresponding to genus 2 Riemann surfaces with regular octagonal domains.",
+    "url": "articles/genus-2-riemann-surfaces-octagons-equations.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Exploring the Irreducibility of Möbius Function-Based Polynomials",
     "summary": "Explore the conditions under which polynomials involving the Möbius function are irreducible over rational numbers.",
     "url": "articles/irreducibility-mobius-function-polynomials.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mystery: Why $(AB)C = A(BC)$?",
     "summary": "Explore the reasoning behind the associative property of matrix multiplication.",
     "url": "articles/understanding-matrix-multiplication-associativity.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Spectral Decomposition in Mathematics",
-    "summary": "Explore the spectral decomposition of compact linear operators in Banach spaces and how to derive their spectral properties.",
-    "url": "articles/spectral-decomposition-compact-operators.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
