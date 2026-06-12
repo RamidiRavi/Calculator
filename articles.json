@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating Common Refinements of Partitions in Constructive Analysis",
+    "summary": "Discover how to establish common refinements of partitions without linear ordering in real analysis.",
+    "url": "articles/common-refinements-partitions-constructive-analysis.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Can Dependent Choice Hold for Orbit Graphs, but Fail in General?",
     "summary": "Investigating how dependent choice holds for orbit graphs and its implications in set theory.",
     "url": "articles/dependent-choice-orbit-graphs.html",
@@ -199,13 +206,6 @@
     "title": "Do Directed Graphs Always Have Source Vertices?",
     "summary": "Can a directed graph have a sink without a source? Discover the relationship between sinks and sources in directed graphs.",
     "url": "articles/sinks-sources-directed-graphs.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Dive Deeper into Weighted Binomial Distributions",
-    "summary": "Explore the mean and variance of weighted sums of iid binomial distributions to enhance your statistical analysis.",
-    "url": "articles/weighted-sums-binomial-distributions.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
