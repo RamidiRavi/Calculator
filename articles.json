@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Spectral Decomposition in Mathematics",
+    "summary": "Explore the spectral decomposition of compact linear operators in Banach spaces and how to derive their spectral properties.",
+    "url": "articles/spectral-decomposition-compact-operators.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Examining Structure in Finite Groups: A Detailed Inquiry",
     "summary": "Analyzing if finite groups with cyclic Sylow 2-subgroups must have unique or characteristic subgroups of index 2.",
     "url": "articles/finite-groups-cyclic-sylow-2-subgroups.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Goldberg Polyhedra Face Shapes",
     "summary": "Discover how to determine unique face shapes in Goldberg polyhedra, and learn methods to tackle geometric challenges.",
     "url": "articles/goldberg-polyhedra-unique-face-shapes.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding Lemma 5.7: Insights into 5th Order KdV",
-    "summary": "Explore the intricacies of energy estimates in the KdV equation and the significance of Lemma 5.7 in mathematical physics.",
-    "url": "articles/understanding-energy-estimates-5th-order-kdv.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
