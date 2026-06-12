@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Set Theory Ready for a Paradigm Shift?",
+    "summary": "A thought-provoking look at a new idea in set theory that questions established mathematical principles.",
+    "url": "articles/set-theory-thought-experiment.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mystery: Why $(AB)C = A(BC)$?",
     "summary": "Explore the reasoning behind the associative property of matrix multiplication.",
     "url": "articles/understanding-matrix-multiplication-associativity.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Probabilistic Nature of Market Distress",
     "summary": "Dive into the details of asymptotic market distress frequency and its implications in systemic risk analysis.",
     "url": "articles/asymptotic-market-distress-frequency.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unpacking Induced Representations: Trivial Irrep Insights",
-    "summary": "Dive into the world of induced representations in group theory and unravel the complexities between subgroups and their irreducible representations.",
-    "url": "articles/induced-representations-group-theory.html",
     "date": "June 11, 2026",
     "category": "Finance"
   }
