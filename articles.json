@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unpacking the Yoneda Lemma: Notational Challenges Revealed",
+    "summary": "An analysis of a potential inconsistency in the Yoneda Lemma proof from Riehl's work, addressing notation and clarity.",
+    "url": "articles/clarifying-yoneda-lemma-proof-confusion.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Maximizing Muscle Health: The Men’s High Protein Diet Guide",
     "summary": "Discover how men can effectively manage protein intake for optimal muscle health.",
     "url": "articles/essential-protein-strategies-for-mens-health.html",
@@ -201,12 +208,5 @@
     "url": "articles/asymptotic-formulas-multiplicative-functions.html",
     "date": "June 11, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Navigating the Complexities of Cosets and Homomorphisms",
-    "summary": "Explore the relationship between cosets and group homomorphisms in abstract algebra.",
-    "url": "articles/understanding-cosets-and-group-homomorphisms.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
   }
 ]
