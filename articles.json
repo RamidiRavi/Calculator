@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Potential of Anisotropic Bilinear Estimates",
+    "summary": "Explore bilinear estimates in Fourier multipliers and their implications in mathematical analysis.",
+    "url": "articles/anisotropic-bilinear-estimates-fourier-analysis.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Are All Inscribed Squares in Convex Polygons Large?",
     "summary": "Can every convex polygon with a circle inscribe only large squares? Discover insights on this intriguing geometric problem.",
     "url": "articles/inscribed-squares-in-convex-polygons.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-dichotomy-skip-free-random-walks.html",
     "date": "June 11, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Decoding Injective Monotone Maps: Are Chains Always Finite?",
-    "summary": "Explore the relationship between injective monotone maps and chains in posets, clarifying common misconceptions.",
-    "url": "articles/injective-monotone-maps-and-posets.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
   }
 ]
