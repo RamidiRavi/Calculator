@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Dynamics of the GCD Map on Z/nZ",
+    "summary": "Discover the insights into the GCD map on Z/nZ, its orbits, and mathematical implications.",
+    "url": "articles/gcd-map-z-nz-dynamics.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Intuition Behind Expectation in Probability",
     "summary": "Explore the intuition behind linearity of expectation with negative hypergeometric distribution in sampling without replacement.",
     "url": "articles/understanding-linearity-of-expectation-in-sampling.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-non-concentric-circle-projections.html",
     "date": "June 11, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Can a 1D Balanced Random Walk Be Transient? A Deep Dive",
-    "summary": "Exploring if balanced random walks can be transient in one dimension.",
-    "url": "articles/curious-case-of-transient-random-walks.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
   }
 ]
