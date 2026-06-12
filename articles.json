@@ -1,5 +1,12 @@
 [
   {
+    "title": "Dive Deeper into Weighted Binomial Distributions",
+    "summary": "Explore the mean and variance of weighted sums of iid binomial distributions to enhance your statistical analysis.",
+    "url": "articles/weighted-sums-binomial-distributions.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Depths of Multivariable Calculus with Shifrin's Insights",
     "summary": "Dive into the foundations of Shifrin's Multivariable Mathematics and learn about the proposition and its implications.",
     "url": "articles/shifrin-multivariable-proposition.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of PDEs: A Comprehensive Guide",
     "summary": "Explore key topics and textbooks needed to understand partial differential equations (PDEs) for effective research comprehension.",
     "url": "articles/mastering-pdes-and-their-applications.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Clarifying Canonical Isomorphisms in Mathematics",
-    "summary": "Explore the nuances of canonical isomorphisms in category theory and their implications for mathematical proofs.",
-    "url": "articles/canonical-isomorphisms-category-theory.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
