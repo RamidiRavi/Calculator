@@ -1,5 +1,12 @@
 [
   {
+    "title": "Discover the Surprising Nutrition of Oats with Tuna & Seaweed",
+    "summary": "Discover the nutritious benefits of Oats with Tuna & Seaweed, a quick meal packed with protein and essential vitamins.",
+    "url": "articles/oats-with-tuna-seaweed-recipe.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Revitalize Your Breakfast with Nutritious Oats Uttapam Pancakes",
     "summary": "Discover a healthy twist on pancakes with Oats Uttapam, packed with veggies and protein for a nutritious meal.",
     "url": "articles/oats-uttapam-pancakes-nutrition.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Objects in $\\infty$-Groupoids and Higher Categories",
     "summary": "Delve into $\\infty$-groupoids and understand the concept of underlying sets in higher category theory.",
     "url": "articles/infinity-groupoids-objects-and-underlying-sets.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Limits: A Step-by-Step Guide to Finding Delta",
-    "summary": "Learn how to find the largest delta for the function f(x) = 1/(x-1) for precise conditions.",
-    "url": "articles/finding-largest-delta-in-functions.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
