@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Mysteries of Power Sum Identities",
+    "summary": "Delving into a new double summation identity for power sums and its implications in combinatorics.",
+    "url": "articles/exploring-double-summation-identities-power-sums.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unveiling the Popularity of Tigerexch Among Sports Fans",
     "summary": "Discover why sports fans love Tigerexch for live updates and seamless experience.",
     "url": "articles/tigerexch-popularity-among-sports-enthusiasts.html",
@@ -201,12 +208,5 @@
     "url": "articles/pfizer-acquisition-growth-investors.html",
     "date": "June 11, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of Digit Power Inequalities",
-    "summary": "Explore the proof for the digit power difference inequality and the conditions for equality.",
-    "url": "articles/digit-power-differences.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
   }
 ]
