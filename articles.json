@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Depths of Multivariable Calculus with Shifrin's Insights",
+    "summary": "Dive into the foundations of Shifrin's Multivariable Mathematics and learn about the proposition and its implications.",
+    "url": "articles/shifrin-multivariable-proposition.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Mystery of Compact Lie Groups in Topology",
     "summary": "Discover which compact Lie groups have finitely many non-zero homotopy groups. A deep dive into algebraic topology concepts.",
     "url": "articles/compact-lie-groups-homotopy.html",
@@ -201,12 +208,5 @@
     "url": "articles/canonical-isomorphisms-category-theory.html",
     "date": "June 11, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Navigating Market Shifts: Commodities and Staples Over AI Stocks",
-    "summary": "Explore Peter Boockvar's insights on investing in commodities and consumer staples over AI stocks.",
-    "url": "articles/wall-street-cio-shift-to-commodities-staples.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
   }
 ]
