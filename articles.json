@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Static Schrödinger Operator Spectral Theorem",
+    "summary": "Explore the significance of the Static Schrödinger operator spectral theorem and its implications in quantum mechanics.",
+    "url": "articles/static-schrodinger-operator-spectral-theorem.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Transform Your Breakfast with Oats Masala Pancakes",
     "summary": "Discover nutritious Oats Masala Pancakes that are flavorful, healthy, and perfect for calorie-conscious breakfasts.",
     "url": "articles/healthy-oats-masala-pancakes.html",
@@ -201,12 +208,5 @@
     "url": "articles/universal-mapping-problems-in-mathematics.html",
     "date": "June 11, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering Exact Differential Equations: Techniques and Tips",
-    "summary": "Learn how to solve exact differential equations effectively with partial differentiation and integration techniques.",
-    "url": "articles/solving-exact-differential-equations.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
   }
 ]
