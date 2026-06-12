@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Irreducibility of Möbius Function-Based Polynomials",
+    "summary": "Explore the conditions under which polynomials involving the Möbius function are irreducible over rational numbers.",
+    "url": "articles/irreducibility-mobius-function-polynomials.html",
+    "date": "June 12, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding Q-Binomial Convolutions: A Mathematical Breakthrough",
     "summary": "Delve into the solution of q-binomial convolutions and recurrence equations in mathematics.",
     "url": "articles/exploring-q-binomial-convolution.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Spectral Decomposition in Mathematics",
     "summary": "Explore the spectral decomposition of compact linear operators in Banach spaces and how to derive their spectral properties.",
     "url": "articles/spectral-decomposition-compact-operators.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Examining Structure in Finite Groups: A Detailed Inquiry",
-    "summary": "Analyzing if finite groups with cyclic Sylow 2-subgroups must have unique or characteristic subgroups of index 2.",
-    "url": "articles/finite-groups-cyclic-sylow-2-subgroups.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
