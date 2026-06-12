@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Cardinal Sine Integral: A Deeper Look",
+    "summary": "Uncover the implications of the upper bound to the cardinal sine integral and its mathematical significance.",
+    "url": "articles/upper-bound-cardinal-sine-integral.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Do Directed Graphs Always Have Source Vertices?",
     "summary": "Can a directed graph have a sink without a source? Discover the relationship between sinks and sources in directed graphs.",
     "url": "articles/sinks-sources-directed-graphs.html",
@@ -201,12 +208,5 @@
     "url": "articles/sieves-sheaf-theory-benefits.html",
     "date": "June 11, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is the Epps-Pulley Test Suitable for Uniform Distribution Testing?",
-    "summary": "Can the Epps-Pulley test be adapted for uniform distribution goodness of fit? Dive into statistical insights.",
-    "url": "articles/epps-pulley-test-uniform-distribution-fit.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
   }
 ]
