@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can Dependent Choice Hold for Orbit Graphs, but Fail in General?",
+    "summary": "Investigating how dependent choice holds for orbit graphs and its implications in set theory.",
+    "url": "articles/dependent-choice-orbit-graphs.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Should You Buy, Sell, or Hold the Big Three Oil Companies?",
     "summary": "Get insights on whether to buy, sell, or hold shares in Chevron, Exxon Mobil, and Occidental Petroleum.",
     "url": "articles/oil-giants-analysis-buy-sell-or-hold.html",
@@ -199,13 +206,6 @@
     "title": "Dive Deeper into Weighted Binomial Distributions",
     "summary": "Explore the mean and variance of weighted sums of iid binomial distributions to enhance your statistical analysis.",
     "url": "articles/weighted-sums-binomial-distributions.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Depths of Multivariable Calculus with Shifrin's Insights",
-    "summary": "Dive into the foundations of Shifrin's Multivariable Mathematics and learn about the proposition and its implications.",
-    "url": "articles/shifrin-multivariable-proposition.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
