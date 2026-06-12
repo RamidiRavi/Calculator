@@ -1,5 +1,12 @@
 [
   {
+    "title": "Master the Art of L-Tromino Arrangements: A Deep Dive",
+    "summary": "Discover the fascinating world of counting arrangements of L-tromino pieces on a board and learn strategic approaches to complex combinatorial problems.",
+    "url": "articles/l-tromino-arrangements.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Infinite Family of Prime-Free Quadratic Sequences",
     "summary": "Delve into the infinite family of prime-free quadratic sequences derived from the transposed triangular grid.",
     "url": "articles/prime-free-quadratic-sequences.html",
@@ -199,13 +206,6 @@
     "title": "Mastering the Proof of Clive Bach's Square Root Definition",
     "summary": "Explore how to prove Clive Bach's definition of the square root of surreal numbers and enhance your mathematical understanding.",
     "url": "articles/proving-clive-bach-square-root-definition.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mystery of Time of Flight in Projectile Motion",
-    "summary": "Explore why projectile time of flight follows specific velocity equations, even with air resistance.",
-    "url": "articles/projectile-motion-time-of-flight.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
