@@ -1,5 +1,12 @@
 [
   {
+    "title": "Transform Your Breakfast with Oats Masala Pancakes",
+    "summary": "Discover nutritious Oats Masala Pancakes that are flavorful, healthy, and perfect for calorie-conscious breakfasts.",
+    "url": "articles/healthy-oats-masala-pancakes.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Nourish Your Body with Oats Avial: A Savory Delight",
     "summary": "Discover the nutritious Oats Avial, a delicious South Indian dish blending veggies, coconut, and yogurt for a healthy meal.",
     "url": "articles/oats-avial-recipe.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Exact Differential Equations: Techniques and Tips",
     "summary": "Learn how to solve exact differential equations effectively with partial differentiation and integration techniques.",
     "url": "articles/solving-exact-differential-equations.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Finitary and n-ary Relations: A Deep Dive",
-    "summary": "Explore the nuances between finitary and n-ary relations in mathematics. Are they the same or different?",
-    "url": "articles/finitary-n-ary-relations-explained.html",
     "date": "June 11, 2026",
     "category": "Productivity"
   }
