@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Series Summation Techniques: A Deep Dive",
+    "summary": "Discover how to evaluate the series involving \\( k^2 (1-p)^{k-1} \\) over \\( k=1 \\) to infinity.",
+    "url": "articles/evaluating-series-k2-1-p-k-1.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unequal Variance in Similar Stopping Times Explained",
     "summary": "Explore the intuition behind the unequal variance of stopping times in stochastic processes.",
     "url": "articles/stochastic-stopping-times-variance.html",
@@ -199,13 +206,6 @@
     "title": "Decoding Epimorphisms and Monomorphisms in Distributive Lattices",
     "summary": "Explore the relationship between epimorphisms and monomorphisms in distributive lattices, enhancing your mathematical understanding.",
     "url": "articles/epimorphisms-monomorphisms-distributive-lattices.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Defining 'Curved Edge' in Advanced Mathematics",
-    "summary": "Explore the official terms used in math for curved edges like circles and ellipses.",
-    "url": "articles/understanding-curved-edge-mathematics.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
