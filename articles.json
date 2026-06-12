@@ -1,5 +1,12 @@
 [
   {
+    "title": "Uncovering the Link Between Factorization Disorder and Primes",
+    "summary": "Explore how prime factorization may signal nearby prime numbers through disorder in their structures.",
+    "url": "articles/patterns-in-prime-factorization.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Series Summation Techniques: A Deep Dive",
     "summary": "Discover how to evaluate the series involving \\( k^2 (1-p)^{k-1} \\) over \\( k=1 \\) to infinity.",
     "url": "articles/evaluating-series-k2-1-p-k-1.html",
@@ -199,13 +206,6 @@
     "title": "Examining Structure in Finite Groups: A Detailed Inquiry",
     "summary": "Analyzing if finite groups with cyclic Sylow 2-subgroups must have unique or characteristic subgroups of index 2.",
     "url": "articles/finite-groups-cyclic-sylow-2-subgroups.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding Epimorphisms and Monomorphisms in Distributive Lattices",
-    "summary": "Explore the relationship between epimorphisms and monomorphisms in distributive lattices, enhancing your mathematical understanding.",
-    "url": "articles/epimorphisms-monomorphisms-distributive-lattices.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
