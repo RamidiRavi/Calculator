@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Double-Even Functions: A Dive into Real Analysis",
+    "summary": "Discover the concept of double-even functions and their unique properties in real analysis.",
+    "url": "articles/understanding-double-even-functions.html",
+    "date": "June 12, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Mysteries of Power Sum Identities",
     "summary": "Delving into a new double summation identity for power sums and its implications in combinatorics.",
     "url": "articles/exploring-double-summation-identities-power-sums.html",
@@ -199,13 +206,6 @@
     "title": "Seeking Elegance in the 6-Dimensional Representation of 6.A7",
     "summary": "Discover approaches to find unitary representations for the 6-dimensional representation of 6.A7, including geometric insights and constructive methods.",
     "url": "articles/unitary-representations-6-a7.html",
-    "date": "June 11, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unlocking Growth: Pfizer's $25 Billion Acquisition and Its Impact on Investors",
-    "summary": "Explore how Pfizer's $25 billion acquisition could benefit income investors and retirees.",
-    "url": "articles/pfizer-acquisition-growth-investors.html",
     "date": "June 11, 2026",
     "category": "Finance"
   }
