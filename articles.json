@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mystery of Compact Lie Groups in Topology",
+    "summary": "Discover which compact Lie groups have finitely many non-zero homotopy groups. A deep dive into algebraic topology concepts.",
+    "url": "articles/compact-lie-groups-homotopy.html",
+    "date": "June 12, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Is Prometheus the Next Big Thing After Amazon?",
     "summary": "Discover how Jeff Bezos' startup Prometheus aims to transform invention and drive civilizational wealth.",
     "url": "articles/bezos-new-venture-revolutionizing-invention.html",
@@ -201,12 +208,5 @@
     "url": "articles/wall-street-cio-shift-to-commodities-staples.html",
     "date": "June 11, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering the Proof of Clive Bach's Square Root Definition",
-    "summary": "Explore how to prove Clive Bach's definition of the square root of surreal numbers and enhance your mathematical understanding.",
-    "url": "articles/proving-clive-bach-square-root-definition.html",
-    "date": "June 11, 2026",
-    "category": "Productivity"
   }
 ]
