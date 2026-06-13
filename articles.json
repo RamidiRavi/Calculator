@@ -1,5 +1,12 @@
 [
   {
+    "title": "SETM's 150% Surge: Lessons for Investors",
+    "summary": "Explore the dramatic outperformance of Sprott Critical Materials ETF (SETM) compared to S&P 500 and what it means for investors.",
+    "url": "articles/setm-outperformance-vs-sp-500.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unraveling the Constraints of Distinct Real Numbers",
     "summary": "Explore how to find the minimum value of |a-b| given specific conditions in real numbers.",
     "url": "articles/minimum-value-of-a-b.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling Algebraic Equations of Genus 2 Riemann Surfaces",
     "summary": "Discover the algebraic equations corresponding to genus 2 Riemann surfaces with regular octagonal domains.",
     "url": "articles/genus-2-riemann-surfaces-octagons-equations.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Exploring the Irreducibility of Möbius Function-Based Polynomials",
-    "summary": "Explore the conditions under which polynomials involving the Möbius function are irreducible over rational numbers.",
-    "url": "articles/irreducibility-mobius-function-polynomials.html",
     "date": "June 12, 2026",
     "category": "Finance"
   }
