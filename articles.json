@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Mechanics of Joint Scores in MRFs",
+    "summary": "Explore why multiplying potentials in Markov Random Fields yields correct joint scores and the pitfalls of pairwise probabilities.",
+    "url": "articles/understanding-joint-scores-in-mrfs.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decomposing Orthogonal Matrices: A New Perspective",
     "summary": "Explore the decomposition of orthogonal matrices using rotations and permutations.",
     "url": "articles/orthogonal-matrix-decomposition.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-domain-negative-power-functions.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Savor the Goodness: Baked Eggs with Spinach & Bacon",
-    "summary": "Enjoy a nutritious oven-baked egg dish with spinach and bacon in under 30 minutes, great for low-carb diets.",
-    "url": "articles/oven-baked-egg-spinach-bacon.html",
-    "date": "June 12, 2026",
-    "category": "Health"
   }
 ]
