@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlock the Secrets to Maximizing Quadratic Functions",
+    "summary": "Learn how to maximize your quadratic function with our expert tips and insights.",
+    "url": "articles/maximizing-quadratic-functions.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Who is Right in the Algebra Dilemma? A Closer Look",
     "summary": "Explore the conflicting answers in a high school algebra test and understand the reasoning behind each response.",
     "url": "articles/understanding-algebraic-confusion.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-boundaries-term-sets-signatures.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unveiling Algebraic Equations of Genus 2 Riemann Surfaces",
-    "summary": "Discover the algebraic equations corresponding to genus 2 Riemann surfaces with regular octagonal domains.",
-    "url": "articles/genus-2-riemann-surfaces-octagons-equations.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
   }
 ]
