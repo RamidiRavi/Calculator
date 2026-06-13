@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Potential of 'Terry’s Triangle': A New Finite-Difference Method",
+    "summary": "Insights on Terry's Triangle and its uniqueness in finite-difference methodologies.",
+    "url": "articles/harmonic-finite-difference-framework.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Quotient Topology: A Deep Dive",
     "summary": "Explore the concept of quotient topology and clarify common confusions with insights from Munkres' textbook.",
     "url": "articles/understanding-quotient-topology.html",
@@ -199,13 +206,6 @@
     "title": "Navigating Common Refinements of Partitions in Constructive Analysis",
     "summary": "Discover how to establish common refinements of partitions without linear ordering in real analysis.",
     "url": "articles/common-refinements-partitions-constructive-analysis.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Can Dependent Choice Hold for Orbit Graphs, but Fail in General?",
-    "summary": "Investigating how dependent choice holds for orbit graphs and its implications in set theory.",
-    "url": "articles/dependent-choice-orbit-graphs.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
