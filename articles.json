@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Constraints of Distinct Real Numbers",
+    "summary": "Explore how to find the minimum value of |a-b| given specific conditions in real numbers.",
+    "url": "articles/minimum-value-of-a-b.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering the Art of Simultaneous Diagonalization",
     "summary": "Explore the requirements for simultaneously diagonalizing commuting Hermitian operators in quantum mechanics with clear explanations.",
     "url": "articles/simultaneous-diagonalization-of-operators.html",
@@ -201,12 +208,5 @@
     "url": "articles/irreducibility-mobius-function-polynomials.html",
     "date": "June 12, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding Q-Binomial Convolutions: A Mathematical Breakthrough",
-    "summary": "Delve into the solution of q-binomial convolutions and recurrence equations in mathematics.",
-    "url": "articles/exploring-q-binomial-convolution.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
   }
 ]
