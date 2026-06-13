@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlock the World of Group Theory: A Free Resource on Wikiversity",
+    "summary": "Explore the free group theory course available on French Wikiversity, featuring 49 chapters and fully solved exercises.",
+    "url": "articles/group-theory-course-french-wikiversity.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding the Mechanics of Joint Scores in MRFs",
     "summary": "Explore why multiplying potentials in Markov Random Fields yields correct joint scores and the pitfalls of pairwise probabilities.",
     "url": "articles/understanding-joint-scores-in-mrfs.html",
@@ -201,12 +208,5 @@
     "url": "articles/oil-giants-analysis-buy-sell-or-hold.html",
     "date": "June 12, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Decoding the Domains: Negative Power Functions Explained",
-    "summary": "Explore the domains of negative power functions and clarify common misconceptions.",
-    "url": "articles/understanding-domain-negative-power-functions.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
   }
 ]
