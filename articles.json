@@ -1,5 +1,12 @@
 [
   {
+    "title": "Explore Accessible Theories on Positive Measures Integration",
+    "summary": "Discover accessible references for positive measures integration beyond Bourbaki.",
+    "url": "articles/alternative-references-positive-measures-integration.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Delving into the Proof: Term Sets and Signatures Explained",
     "summary": "Explore the mathematical proof demonstrating boundaries of term sets derived from signatures in formal systems.",
     "url": "articles/understanding-boundaries-term-sets-signatures.html",
@@ -201,12 +208,5 @@
     "url": "articles/evaluating-complex-integrals.html",
     "date": "June 12, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding What Makes Matrix Operations Associative",
-    "summary": "Dive into the criteria for associativity in matrix operations beyond multiplication.",
-    "url": "articles/associative-properties-matrix-operations.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
   }
 ]
