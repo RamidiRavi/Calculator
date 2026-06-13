@@ -1,5 +1,12 @@
 [
   {
+    "title": "Will XRP Make a Comeback? Examining Current Market Sentiment",
+    "summary": "Explore the potential for XRP to bounce back following negative sentiment and key market indicators.",
+    "url": "articles/is-xrp-poised-for-a-significant-rebound.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Deciphering the Complexities of \\( W_{-1} \\) Series Expansions",
     "summary": "Delve into the series expansion of \\( W_{-1} \\left(-e^{-(x+1)}\right) \\) around \\( x=a \\) and uncover polynomial identities.",
     "url": "articles/series-expansion-w-function-x-a.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Mysteries of Power Sum Identities",
     "summary": "Delving into a new double summation identity for power sums and its implications in combinatorics.",
     "url": "articles/exploring-double-summation-identities-power-sums.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unveiling the Popularity of Tigerexch Among Sports Fans",
-    "summary": "Discover why sports fans love Tigerexch for live updates and seamless experience.",
-    "url": "articles/tigerexch-popularity-among-sports-enthusiasts.html",
     "date": "June 12, 2026",
     "category": "Finance"
   }
