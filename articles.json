@@ -1,5 +1,12 @@
 [
   {
+    "title": "Deciphering the Complexities of \\( W_{-1} \\) Series Expansions",
+    "summary": "Delve into the series expansion of \\( W_{-1} \\left(-e^{-(x+1)}\right) \\) around \\( x=a \\) and uncover polynomial identities.",
+    "url": "articles/series-expansion-w-function-x-a.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Can Integral Extensions Preserve Maximal Prime Chains?",
     "summary": "Exploring the preservation of maximal chains of prime ideals in integral extensions of rings in commutative algebra.",
     "url": "articles/integral-extensions-prime-chains.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Popularity of Tigerexch Among Sports Fans",
     "summary": "Discover why sports fans love Tigerexch for live updates and seamless experience.",
     "url": "articles/tigerexch-popularity-among-sports-enthusiasts.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Exploring the Static Schrödinger Operator Spectral Theorem",
-    "summary": "Explore the significance of the Static Schrödinger operator spectral theorem and its implications in quantum mechanics.",
-    "url": "articles/static-schrodinger-operator-spectral-theorem.html",
     "date": "June 12, 2026",
     "category": "Finance"
   }
