@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can Integral Extensions Preserve Maximal Prime Chains?",
+    "summary": "Exploring the preservation of maximal chains of prime ideals in integral extensions of rings in commutative algebra.",
+    "url": "articles/integral-extensions-prime-chains.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "The Significance of Line Intersections in Birational Geometry",
     "summary": "Understanding why the intersection of lines argument is crucial in birational geometry.",
     "url": "articles/birationality-in-algebraic-geometry.html",
@@ -201,12 +208,5 @@
     "url": "articles/static-schrodinger-operator-spectral-theorem.html",
     "date": "June 12, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Transform Your Breakfast with Oats Masala Pancakes",
-    "summary": "Discover nutritious Oats Masala Pancakes that are flavorful, healthy, and perfect for calorie-conscious breakfasts.",
-    "url": "articles/healthy-oats-masala-pancakes.html",
-    "date": "June 12, 2026",
-    "category": "Health"
   }
 ]
