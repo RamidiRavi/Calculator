@@ -1,5 +1,12 @@
 [
   {
+    "title": "Proving No $C^1$ Injection from $R^3$ to $R^2$: Insights & Tips",
+    "summary": "Explore why there are no $C^1$ injections from $R^3$ to $R^2$ using the Inverse Function Theorem.",
+    "url": "articles/understanding-c1-injections-proof-insight.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating the Confusion of Medians vs. Totals in Simulations",
     "summary": "Clarifying the differences between summing totals and using medians in simulation studies for accurate results.",
     "url": "articles/understanding-medians-in-simulation-studies.html",
@@ -201,12 +208,5 @@
     "url": "articles/category-identity-in-group-theory.html",
     "date": "June 12, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Potential of Anisotropic Bilinear Estimates",
-    "summary": "Explore bilinear estimates in Fourier multipliers and their implications in mathematical analysis.",
-    "url": "articles/anisotropic-bilinear-estimates-fourier-analysis.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
   }
 ]
