@@ -1,5 +1,12 @@
 [
   {
+    "title": "Clarifying the Nature of Double Integrals in Mathematics",
+    "summary": "Explore the nuances between operators and functionals in double integrals, especially in statistical thermodynamics.",
+    "url": "articles/understanding-double-integrals-operators-vs-functionals.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Will XRP Make a Comeback? Examining Current Market Sentiment",
     "summary": "Explore the potential for XRP to bounce back following negative sentiment and key market indicators.",
     "url": "articles/is-xrp-poised-for-a-significant-rebound.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-double-even-functions.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Mysteries of Power Sum Identities",
-    "summary": "Delving into a new double summation identity for power sums and its implications in combinatorics.",
-    "url": "articles/exploring-double-summation-identities-power-sums.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
   }
 ]
