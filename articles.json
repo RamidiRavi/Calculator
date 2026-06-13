@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling a Conjecture in Conic Sections and Concurrency",
+    "summary": "Delve into the intriguing conjecture on the concurrency of lines formed by conics tangent to a central ellipse.",
+    "url": "articles/concurrency-of-lines-defined-by-conics.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Clarifying the Nature of Double Integrals in Mathematics",
     "summary": "Explore the nuances between operators and functionals in double integrals, especially in statistical thermodynamics.",
     "url": "articles/understanding-double-integrals-operators-vs-functionals.html",
@@ -199,13 +206,6 @@
     "title": "Are All Inscribed Squares in Convex Polygons Large?",
     "summary": "Can every convex polygon with a circle inscribe only large squares? Discover insights on this intriguing geometric problem.",
     "url": "articles/inscribed-squares-in-convex-polygons.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Double-Even Functions: A Dive into Real Analysis",
-    "summary": "Discover the concept of double-even functions and their unique properties in real analysis.",
-    "url": "articles/understanding-double-even-functions.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
