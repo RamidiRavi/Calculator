@@ -1,5 +1,12 @@
 [
   {
+    "title": "Where Did the Argument for $1+2+3+\\cdots=-\\frac{1}{9}$ Go Wrong?",
+    "summary": "Explore common pitfalls in manipulating divergent series and discover where errors can occur.",
+    "url": "articles/divergent-series-summation-errors.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unraveling the Symmedian Point: A Geometric Insight",
     "summary": "Discover the proof that triangles ABC and ABC' share the same symmedian point.",
     "url": "articles/symmedian-map-unique-properties.html",
@@ -201,12 +208,5 @@
     "url": "articles/evaluating-series-k2-1-p-k-1.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unequal Variance in Similar Stopping Times Explained",
-    "summary": "Explore the intuition behind the unequal variance of stopping times in stochastic processes.",
-    "url": "articles/stochastic-stopping-times-variance.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
   }
 ]
