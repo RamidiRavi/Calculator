@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring Maximum No-Guess Solvable Mine Density in 3D Minesweeper",
+    "summary": "Discover the relationship between mine density and solvability in 3D Minesweeper grids. Exploring mathematical limits in gameplay.",
+    "url": "articles/3d-minesweeper-no-guess-density-analysis.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlock the Secrets to Maximizing Quadratic Functions",
     "summary": "Learn how to maximize your quadratic function with our expert tips and insights.",
     "url": "articles/maximizing-quadratic-functions.html",
@@ -200,13 +207,6 @@
     "summary": "Discover accessible references for positive measures integration beyond Bourbaki.",
     "url": "articles/alternative-references-positive-measures-integration.html",
     "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Delving into the Proof: Term Sets and Signatures Explained",
-    "summary": "Explore the mathematical proof demonstrating boundaries of term sets derived from signatures in formal systems.",
-    "url": "articles/understanding-boundaries-term-sets-signatures.html",
-    "date": "June 12, 2026",
     "category": "Productivity"
   }
 ]
