@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying the Role of Prime Ideals in Galois Extensions",
+    "summary": "Exploring the nuances of conjugate prime ideals and their implications in Galois theory.",
+    "url": "articles/conjugacy-prime-ideals-galois-theory.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Alternatives to Extremal Principles in Calculus Limits",
     "summary": "Discover rigorous methods for evaluating limits in calculus without resorting to extremal principles or extreme value theorems.",
     "url": "articles/evaluating-calculus-limits-without-extremal-principles.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Intuition Behind Expectation in Probability",
     "summary": "Explore the intuition behind linearity of expectation with negative hypergeometric distribution in sampling without replacement.",
     "url": "articles/understanding-linearity-of-expectation-in-sampling.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Understanding Lubin-Tate Theory in Mathematical Context",
-    "summary": "Is the connection between Lubin-Tate theory and roots of unity valid? Let's delve into this intriguing relationship.",
-    "url": "articles/exploring-lubin-tate-theory.html",
     "date": "June 12, 2026",
     "category": "Finance"
   }
