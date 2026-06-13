@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Cohomology Maps That Commute with Pushforwards",
+    "summary": "A deep dive into cohomology maps and pushforwards in algebraic topology.",
+    "url": "articles/cohomology-maps-in-algebraic-topology.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Power of Semantic Geometry in Programming",
     "summary": "Investigating how semantic geometry can define program similarity through transformations.",
     "url": "articles/semantic-geometry-symbolic-programming.html",
@@ -201,12 +208,5 @@
     "url": "articles/oats-uttapam-pancakes-nutrition.html",
     "date": "June 12, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Exploring the Dynamics of the GCD Map on Z/nZ",
-    "summary": "Discover the insights into the GCD map on Z/nZ, its orbits, and mathematical implications.",
-    "url": "articles/gcd-map-z-nz-dynamics.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
   }
 ]
