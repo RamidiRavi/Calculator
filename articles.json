@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Art of Simultaneous Diagonalization",
+    "summary": "Explore the requirements for simultaneously diagonalizing commuting Hermitian operators in quantum mechanics with clear explanations.",
+    "url": "articles/simultaneous-diagonalization-of-operators.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Where Did the Argument for $1+2+3+\\cdots=-\\frac{1}{9}$ Go Wrong?",
     "summary": "Explore common pitfalls in manipulating divergent series and discover where errors can occur.",
     "url": "articles/divergent-series-summation-errors.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Q-Binomial Convolutions: A Mathematical Breakthrough",
     "summary": "Delve into the solution of q-binomial convolutions and recurrence equations in mathematics.",
     "url": "articles/exploring-q-binomial-convolution.html",
-    "date": "June 12, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Series Summation Techniques: A Deep Dive",
-    "summary": "Discover how to evaluate the series involving \\( k^2 (1-p)^{k-1} \\) over \\( k=1 \\) to infinity.",
-    "url": "articles/evaluating-series-k2-1-p-k-1.html",
     "date": "June 12, 2026",
     "category": "Productivity"
   }
