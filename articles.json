@@ -1,5 +1,12 @@
 [
   {
+    "title": "Elevate Your Breakfast Routine with Overnight Oats",
+    "summary": "Transform your mornings with nutritious overnight oats. Easy to prepare, customizable, and healthy for your fitness goals!",
+    "url": "articles/overnight-oats-breakfast-delight.html",
+    "date": "June 13, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Understanding Cohomology Maps That Commute with Pushforwards",
     "summary": "A deep dive into cohomology maps and pushforwards in algebraic topology.",
     "url": "articles/cohomology-maps-in-algebraic-topology.html",
@@ -199,13 +206,6 @@
     "title": "Discover the Surprising Nutrition of Oats with Tuna & Seaweed",
     "summary": "Discover the nutritious benefits of Oats with Tuna & Seaweed, a quick meal packed with protein and essential vitamins.",
     "url": "articles/oats-with-tuna-seaweed-recipe.html",
-    "date": "June 12, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Revitalize Your Breakfast with Nutritious Oats Uttapam Pancakes",
-    "summary": "Discover a healthy twist on pancakes with Oats Uttapam, packed with veggies and protein for a nutritious meal.",
-    "url": "articles/oats-uttapam-pancakes-nutrition.html",
     "date": "June 12, 2026",
     "category": "Health"
   }
