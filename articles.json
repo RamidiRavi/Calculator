@@ -1,5 +1,12 @@
 [
   {
+    "title": "Elevate Your Brunch with an Overnight Spring Vegetable Strata",
+    "summary": "Discover a nutritious and easy overnight spring vegetable strata ideal for weekend brunches.",
+    "url": "articles/overnight-spring-vegetable-strata.html",
+    "date": "June 13, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Maximizing Precision: Using Chebyshev's Inequality in Bottle Filling",
     "summary": "Learn how to apply Chebyshev's inequality to analyze the filling volumes of oil bottles effectively.",
     "url": "articles/chebyshev-inequality-oil-filling.html",
@@ -199,13 +206,6 @@
     "title": "30-Minute One-Pot Pasta Dish: Tasty and Nutritious",
     "summary": "Prepare a delicious One-Pot Pasta With Cauliflower in just 30 mins! Perfect for a healthy vegetarian meal.",
     "url": "articles/one-pot-pasta-cauliflower-lemon-olives.html",
-    "date": "June 12, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Nutritious and Delicious: One-Pot Chicken & Butternut Squash Stew",
-    "summary": "Explore this one-pot chicken stew recipe that's nutritious and perfect for fall!",
-    "url": "articles/one-pot-chicken-butternut-squash-stew.html",
     "date": "June 12, 2026",
     "category": "Health"
   }
