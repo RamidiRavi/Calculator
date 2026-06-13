@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Concepts of Bounds in Sets: A Logical Approach",
+    "summary": "Explore logical definitions of greatest lower and least upper bounds in sets for clearer understanding.",
+    "url": "articles/greatest-lower-least-upper-bounds.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlock the World of Group Theory: A Free Resource on Wikiversity",
     "summary": "Explore the free group theory course available on French Wikiversity, featuring 49 chapters and fully solved exercises.",
     "url": "articles/group-theory-course-french-wikiversity.html",
@@ -201,12 +208,5 @@
     "url": "articles/dependent-choice-orbit-graphs.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Should You Buy, Sell, or Hold the Big Three Oil Companies?",
-    "summary": "Get insights on whether to buy, sell, or hold shares in Chevron, Exxon Mobil, and Occidental Petroleum.",
-    "url": "articles/oil-giants-analysis-buy-sell-or-hold.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
   }
 ]
