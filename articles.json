@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decomposing Orthogonal Matrices: A New Perspective",
+    "summary": "Explore the decomposition of orthogonal matrices using rotations and permutations.",
+    "url": "articles/orthogonal-matrix-decomposition.html",
+    "date": "June 13, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Complex Economic Functions",
     "summary": "Explore insights on analyzing complex humpshaped functions for your master's thesis in economics.",
     "url": "articles/analyzing-humpshaped-functions-in-economics-thesis.html",
@@ -199,13 +206,6 @@
     "title": "Savor the Goodness: Baked Eggs with Spinach & Bacon",
     "summary": "Enjoy a nutritious oven-baked egg dish with spinach and bacon in under 30 minutes, great for low-carb diets.",
     "url": "articles/oven-baked-egg-spinach-bacon.html",
-    "date": "June 12, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Warm Up Your Evenings with One-Pot Tortellini Soup",
-    "summary": "Make dinner easy with our one-pot tortellini soup. Bold flavors and quick prep make this meal a weeknight winner.",
-    "url": "articles/quick-delicious-one-pot-tortellini-soup-recipe.html",
     "date": "June 12, 2026",
     "category": "Health"
   }
