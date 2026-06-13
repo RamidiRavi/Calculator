@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Your Integral on the Sphere Finite? Here's How to Find Out!",
+    "summary": "Explore the finiteness of integrals on the sphere and learn how to analyze potential singularities.",
+    "url": "articles/understanding-finite-integrals-on-the-sphere.html",
+    "date": "June 13, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying the Role of Prime Ideals in Galois Extensions",
     "summary": "Exploring the nuances of conjugate prime ideals and their implications in Galois theory.",
     "url": "articles/conjugacy-prime-ideals-galois-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/gcd-map-z-nz-dynamics.html",
     "date": "June 12, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Intuition Behind Expectation in Probability",
-    "summary": "Explore the intuition behind linearity of expectation with negative hypergeometric distribution in sampling without replacement.",
-    "url": "articles/understanding-linearity-of-expectation-in-sampling.html",
-    "date": "June 12, 2026",
-    "category": "Finance"
   }
 ]
