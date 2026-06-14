@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mathematics of Lie Groups in Robotics",
+    "summary": "Explore the role of Lie groups in capturing rotation uncertainties in robotics.",
+    "url": "articles/understanding-lie-groups-robotics.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Connecting Game Theory and Dynamic Programming: Nash & Bellman-Ford",
     "summary": "Discover the intriguing links between Nash Equilibrium in Game Theory and the Bellman-Ford algorithm in Dynamic Programming.",
     "url": "articles/nash-equilibrium-bellman-ford-connection.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Quotient Topology: A Deep Dive",
     "summary": "Explore the concept of quotient topology and clarify common confusions with insights from Munkres' textbook.",
     "url": "articles/understanding-quotient-topology.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlock the World of Group Theory: A Free Resource on Wikiversity",
-    "summary": "Explore the free group theory course available on French Wikiversity, featuring 49 chapters and fully solved exercises.",
-    "url": "articles/group-theory-course-french-wikiversity.html",
     "date": "June 13, 2026",
     "category": "Productivity"
   }
