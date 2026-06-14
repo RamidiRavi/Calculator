@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Derivatives in Complex Functions",
+    "summary": "Learn how to find the derivative of intricate functions like y=e^(e^(x^x)) + x^(e^(x^e)).",
+    "url": "articles/mastering-derivatives-complex-functions.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling Proof by Contradiction: A Deep Dive",
     "summary": "Are arguments like A → ¬A used in proofs? Dive into proof by contradiction and its logical structures.",
     "url": "articles/exploring-contradictions-in-mathematical-proofs.html",
@@ -201,12 +208,5 @@
     "url": "articles/simultaneous-diagonalization-of-operators.html",
     "date": "June 13, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Where Did the Argument for $1+2+3+\\cdots=-\\frac{1}{9}$ Go Wrong?",
-    "summary": "Explore common pitfalls in manipulating divergent series and discover where errors can occur.",
-    "url": "articles/divergent-series-summation-errors.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
