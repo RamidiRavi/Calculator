@@ -1,5 +1,12 @@
 [
   {
+    "title": "Revisiting Ramanujan's Series: New Insights and Methods",
+    "summary": "Explore a new approach to evaluating a series related to Ramanujan's function, questioning traditional methods.",
+    "url": "articles/evaluating-ramanujans-series.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Revolutionizing Mathematics: A Deep Dive into π's Nature",
     "summary": "Explore innovative equations to redefine π's transcendence through calculus and trigonometric identities.",
     "url": "articles/eliminating-trigonometric-transcendence-of-pi.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Power of Semantic Geometry in Programming",
     "summary": "Investigating how semantic geometry can define program similarity through transformations.",
     "url": "articles/semantic-geometry-symbolic-programming.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Demystifying the Role of Prime Ideals in Galois Extensions",
-    "summary": "Exploring the nuances of conjugate prime ideals and their implications in Galois theory.",
-    "url": "articles/conjugacy-prime-ideals-galois-theory.html",
     "date": "June 13, 2026",
     "category": "Productivity"
   }
