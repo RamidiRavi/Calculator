@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Solutions: The Quest to Solve a Functional Equation",
+    "summary": "Explore effective methods to tackle the challenging functional equation $x^2(f(x)+f(y))=(x+y)f(yf(x))$.",
+    "url": "articles/solving-functional-equation.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Geometry of Tetrahedron Construction",
     "summary": "Explore the angle conditions necessary for constructing a tetrahedron with a right isosceles triangle base.",
     "url": "articles/angle-conditions-for-tetrahedron-construction.html",
@@ -201,12 +208,5 @@
     "url": "articles/series-expansion-w-function-x-a.html",
     "date": "June 13, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Can Integral Extensions Preserve Maximal Prime Chains?",
-    "summary": "Exploring the preservation of maximal chains of prime ideals in integral extensions of rings in commutative algebra.",
-    "url": "articles/integral-extensions-prime-chains.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
