@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling a Challenging Functional Equation: Insights and Solutions",
+    "summary": "Dive into the solutions of a complex functional equation and understand the implications of variable behavior.",
+    "url": "articles/solving-functional-equations.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding Logic: What Can We Infer from Graduate Roles?",
     "summary": "Explore logic puzzles derived from graduate roles, coding, and ML expertise.",
     "url": "articles/logic-puzzles-graduate-career-paths.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Symmedian Point: A Geometric Insight",
     "summary": "Discover the proof that triangles ABC and ABC' share the same symmedian point.",
     "url": "articles/symmedian-map-unique-properties.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Potential of 'Terry’s Triangle': A New Finite-Difference Method",
-    "summary": "Insights on Terry's Triangle and its uniqueness in finite-difference methodologies.",
-    "url": "articles/harmonic-finite-difference-framework.html",
     "date": "June 13, 2026",
     "category": "Productivity"
   }
