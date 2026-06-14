@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Geometry of Tetrahedron Construction",
+    "summary": "Explore the angle conditions necessary for constructing a tetrahedron with a right isosceles triangle base.",
+    "url": "articles/angle-conditions-for-tetrahedron-construction.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Transforming String Diagrams into Commutative Diagrams",
     "summary": "Learn how to convert string diagrams to commutative diagrams in 2-categories for better understanding.",
     "url": "articles/string-diagrams-commutative-diagrams.html",
@@ -201,12 +208,5 @@
     "url": "articles/integral-extensions-prime-chains.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "The Significance of Line Intersections in Birational Geometry",
-    "summary": "Understanding why the intersection of lines argument is crucial in birational geometry.",
-    "url": "articles/birationality-in-algebraic-geometry.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
