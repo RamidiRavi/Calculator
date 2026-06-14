@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mysteries of Prime Number Products",
+    "summary": "Discover the intriguing patterns found in the products of small prime numbers and their implications in mathematics.",
+    "url": "articles/patterns-in-small-prime-products.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Dynamics of Group Pair Symmetries",
     "summary": "A deep dive into symmetries in group theory and its implications in mathematics.",
     "url": "articles/configuration-space-group-pair-symmetries.html",
@@ -199,13 +206,6 @@
     "title": "Understanding the Isodynamic Point Transformation and Its Conditions",
     "summary": "A deep dive into the intriguing properties of the first isodynamic point transformation.",
     "url": "articles/exploring-isodynamic-point-transformation.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Lurie's Proof: Essential Surjectivity Demystified",
-    "summary": "Explore the essential surjectivity in Lurie's higher topos theory Proposition 5.5.4.20 and its implications for colimit-preserving functors.",
-    "url": "articles/understanding-essential-surjectivity-to-high-topos-theory.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
