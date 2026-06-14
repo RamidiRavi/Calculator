@@ -1,5 +1,12 @@
 [
   {
+    "title": "Revolutionizing Mathematics: A Deep Dive into π's Nature",
+    "summary": "Explore innovative equations to redefine π's transcendence through calculus and trigonometric identities.",
+    "url": "articles/eliminating-trigonometric-transcendence-of-pi.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is it Acceptable to Omit Outer Parentheses in Math Notation?",
     "summary": "Exploring the usage of notation in families of mathematical objects and its acceptance in the community.",
     "url": "articles/omitting-outer-parentheses-in-math-notation.html",
@@ -201,12 +208,5 @@
     "url": "articles/conjugacy-prime-ideals-galois-theory.html",
     "date": "June 13, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Alternatives to Extremal Principles in Calculus Limits",
-    "summary": "Discover rigorous methods for evaluating limits in calculus without resorting to extremal principles or extreme value theorems.",
-    "url": "articles/evaluating-calculus-limits-without-extremal-principles.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
