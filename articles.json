@@ -1,5 +1,12 @@
 [
   {
+    "title": "Are Conditions for $C^r$ Manifolds Truly Independent?",
+    "summary": "Exploring the independence of conditions for $C^r$ $k$-dimensional parametrized manifolds.",
+    "url": "articles/independence-conditions-cr-manifolds.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Sarasota or Naples: Where Should You Spend Your Retirement Years?",
     "summary": "Explore the retirement potential of Sarasota and Naples based on housing costs, lifestyle, and financial planning.",
     "url": "articles/sarasota-vs-naples-retirement-decision.html",
@@ -200,13 +207,6 @@
     "summary": "Explore the angle conditions necessary for constructing a tetrahedron with a right isosceles triangle base.",
     "url": "articles/angle-conditions-for-tetrahedron-construction.html",
     "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Transforming String Diagrams into Commutative Diagrams",
-    "summary": "Learn how to convert string diagrams to commutative diagrams in 2-categories for better understanding.",
-    "url": "articles/string-diagrams-commutative-diagrams.html",
-    "date": "June 13, 2026",
     "category": "Productivity"
   }
 ]
