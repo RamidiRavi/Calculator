@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Graph Theory: The Dynamic Alpha-4 Game",
+    "summary": "Dive into the strategic elements of the Alpha-4 graph theory game where Alice and Bob challenge each other with vertices and colors.",
+    "url": "articles/exploring-alpha-4-game-strategy.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Expected Maximum in Random Permutations",
     "summary": "Explore the expected maximum value of sums over random permutations and its implications.",
     "url": "articles/expected-maximum-random-permutations.html",
@@ -201,12 +208,5 @@
     "url": "articles/3d-minesweeper-no-guess-density-analysis.html",
     "date": "June 13, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlock the Secrets to Maximizing Quadratic Functions",
-    "summary": "Learn how to maximize your quadratic function with our expert tips and insights.",
-    "url": "articles/maximizing-quadratic-functions.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
