@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Institutional Investors Are Favoring XRP ETFs Over Bitcoin and Ethereum",
+    "summary": "Explore the rising interest in XRP ETFs as institutions withdraw from Bitcoin and Ethereum funds.",
+    "url": "articles/institutional-investing-xrp-etfs.html",
+    "date": "June 14, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding the Isodynamic Point Transformation and Its Conditions",
     "summary": "A deep dive into the intriguing properties of the first isodynamic point transformation.",
     "url": "articles/exploring-isodynamic-point-transformation.html",
@@ -199,13 +206,6 @@
     "title": "Proving No $C^1$ Injection from $R^3$ to $R^2$: Insights & Tips",
     "summary": "Explore why there are no $C^1$ injections from $R^3$ to $R^2$ using the Inverse Function Theorem.",
     "url": "articles/understanding-c1-injections-proof-insight.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Navigating the Confusion of Medians vs. Totals in Simulations",
-    "summary": "Clarifying the differences between summing totals and using medians in simulation studies for accurate results.",
-    "url": "articles/understanding-medians-in-simulation-studies.html",
     "date": "June 13, 2026",
     "category": "Productivity"
   }
