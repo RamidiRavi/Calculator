@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Non-Commutative Financial States",
+    "summary": "Understanding the non-commutativity of temporal morphisms in finance and its implications.",
+    "url": "articles/non-commutativity-financial-categorical-structures.html",
+    "date": "June 14, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering Permutations and Combinations: Find Your Perfect Resources",
     "summary": "Struggling with permutations? Discover essential resources and tips to enhance your understanding of this key mathematical concept.",
     "url": "articles/mastering-permutations-and-combinations.html",
@@ -199,13 +206,6 @@
     "title": "Decomposing Orthogonal Matrices: A New Perspective",
     "summary": "Explore the decomposition of orthogonal matrices using rotations and permutations.",
     "url": "articles/orthogonal-matrix-decomposition.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of Complex Economic Functions",
-    "summary": "Explore insights on analyzing complex humpshaped functions for your master's thesis in economics.",
-    "url": "articles/analyzing-humpshaped-functions-in-economics-thesis.html",
     "date": "June 13, 2026",
     "category": "Finance"
   }
