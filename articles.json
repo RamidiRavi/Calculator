@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Dynamics of Group Pair Symmetries",
+    "summary": "A deep dive into symmetries in group theory and its implications in mathematics.",
+    "url": "articles/configuration-space-group-pair-symmetries.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Delving into Positive Integers and LCM Relations",
     "summary": "Explore the implications of LCM relationships among positive integers.",
     "url": "articles/understanding-lcm-conditions-in-integers.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking Lurie's Proof: Essential Surjectivity Demystified",
     "summary": "Explore the essential surjectivity in Lurie's higher topos theory Proposition 5.5.4.20 and its implications for colimit-preserving functors.",
     "url": "articles/understanding-essential-surjectivity-to-high-topos-theory.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Polygonal Ray Alignment",
-    "summary": "Explore geometric methods to measure ray alignment with polygon edges, enhancing understanding of angles and spatial relationships.",
-    "url": "articles/optimizing-ray-alignment-to-polygon-edges.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
