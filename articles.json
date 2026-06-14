@@ -1,5 +1,12 @@
 [
   {
+    "title": "Examining the Transfer of Differentiable Structures in Homotopy",
+    "summary": "Exploring the challenges in transferring differentiable structures across homotopy equivalent spaces.",
+    "url": "articles/transferring-differentiable-structures.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Optimizing Functions on Riemannian Manifolds with the Simplex Method",
     "summary": "Explore how to optimize functions on Riemannian manifolds using the simplex method.",
     "url": "articles/simplex-method-on-riemannian-manifolds.html",
@@ -201,12 +208,5 @@
     "url": "articles/chebyshev-inequality-oil-filling.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Elevate Your Breakfast Routine with Overnight Oats",
-    "summary": "Transform your mornings with nutritious overnight oats. Easy to prepare, customizable, and healthy for your fitness goals!",
-    "url": "articles/overnight-oats-breakfast-delight.html",
-    "date": "June 13, 2026",
-    "category": "Health"
   }
 ]
