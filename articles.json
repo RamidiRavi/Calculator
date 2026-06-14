@@ -1,5 +1,12 @@
 [
   {
+    "title": "Sarasota or Naples: Where Should You Spend Your Retirement Years?",
+    "summary": "Explore the retirement potential of Sarasota and Naples based on housing costs, lifestyle, and financial planning.",
+    "url": "articles/sarasota-vs-naples-retirement-decision.html",
+    "date": "June 14, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Overcoming Hurdles in Self-Studying Formal Mathematics",
     "summary": "Struggling with formal math? Discover effective strategies to overcome obstacles in self-studying complex topics.",
     "url": "articles/navigating-formal-math-self-study.html",
@@ -201,12 +208,5 @@
     "url": "articles/string-diagrams-commutative-diagrams.html",
     "date": "June 13, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Rethinking Polynomial Roots Through Random Walks",
-    "summary": "Delve into the intriguing connection between random walks and polynomial roots in the context of Erdos 521.",
-    "url": "articles/erdos-521-solved-random-walks-and-roots.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
