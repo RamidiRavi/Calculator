@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling Proof by Contradiction: A Deep Dive",
+    "summary": "Are arguments like A → ¬A used in proofs? Dive into proof by contradiction and its logical structures.",
+    "url": "articles/exploring-contradictions-in-mathematical-proofs.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling a Challenging Functional Equation: Insights and Solutions",
     "summary": "Dive into the solutions of a complex functional equation and understand the implications of variable behavior.",
     "url": "articles/solving-functional-equations.html",
@@ -201,12 +208,5 @@
     "url": "articles/divergent-series-summation-errors.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unraveling the Symmedian Point: A Geometric Insight",
-    "summary": "Discover the proof that triangles ABC and ABC' share the same symmedian point.",
-    "url": "articles/symmedian-map-unique-properties.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
