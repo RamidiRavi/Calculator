@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Isodynamic Point Transformation and Its Conditions",
+    "summary": "A deep dive into the intriguing properties of the first isodynamic point transformation.",
+    "url": "articles/exploring-isodynamic-point-transformation.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Lurie's Proof: Essential Surjectivity Demystified",
     "summary": "Explore the essential surjectivity in Lurie's higher topos theory Proposition 5.5.4.20 and its implications for colimit-preserving functors.",
     "url": "articles/understanding-essential-surjectivity-to-high-topos-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-medians-in-simulation-studies.html",
     "date": "June 13, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unraveling a Conjecture in Conic Sections and Concurrency",
-    "summary": "Delve into the intriguing conjecture on the concurrency of lines formed by conics tangent to a central ellipse.",
-    "url": "articles/concurrency-of-lines-defined-by-conics.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
