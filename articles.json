@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Permutations and Combinations: Find Your Perfect Resources",
+    "summary": "Struggling with permutations? Discover essential resources and tips to enhance your understanding of this key mathematical concept.",
+    "url": "articles/mastering-permutations-and-combinations.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Procedural Graph Node Estimation",
     "summary": "Explore the mathematical foundations behind estimating the number of nodes in a procedurally generated graph.",
     "url": "articles/estimating-node-count-in-procedural-graphs.html",
@@ -201,12 +208,5 @@
     "url": "articles/analyzing-humpshaped-functions-in-economics-thesis.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Elevate Your Brunch with an Overnight Spring Vegetable Strata",
-    "summary": "Discover a nutritious and easy overnight spring vegetable strata ideal for weekend brunches.",
-    "url": "articles/overnight-spring-vegetable-strata.html",
-    "date": "June 13, 2026",
-    "category": "Health"
   }
 ]
