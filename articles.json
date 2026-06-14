@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is it Acceptable to Omit Outer Parentheses in Math Notation?",
+    "summary": "Exploring the usage of notation in families of mathematical objects and its acceptance in the community.",
+    "url": "articles/omitting-outer-parentheses-in-math-notation.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Institutional Investors Are Favoring XRP ETFs Over Bitcoin and Ethereum",
     "summary": "Explore the rising interest in XRP ETFs as institutions withdraw from Bitcoin and Ethereum funds.",
     "url": "articles/institutional-investing-xrp-etfs.html",
@@ -201,12 +208,5 @@
     "url": "articles/evaluating-calculus-limits-without-extremal-principles.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Proving No $C^1$ Injection from $R^3$ to $R^2$: Insights & Tips",
-    "summary": "Explore why there are no $C^1$ injections from $R^3$ to $R^2$ using the Inverse Function Theorem.",
-    "url": "articles/understanding-c1-injections-proof-insight.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
