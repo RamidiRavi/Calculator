@@ -1,5 +1,12 @@
 [
   {
+    "title": "Overcoming Hurdles in Self-Studying Formal Mathematics",
+    "summary": "Struggling with formal math? Discover effective strategies to overcome obstacles in self-studying complex topics.",
+    "url": "articles/navigating-formal-math-self-study.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating Spivak Calculus: Essential Exercises for Success",
     "summary": "Discover key assignments from Spivak Calculus that all self-learners should focus on.",
     "url": "articles/spivak-calculus-essential-exercises.html",
@@ -201,12 +208,5 @@
     "url": "articles/erdos-521-solved-random-walks-and-roots.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Exploring Maximum No-Guess Solvable Mine Density in 3D Minesweeper",
-    "summary": "Discover the relationship between mine density and solvability in 3D Minesweeper grids. Exploring mathematical limits in gameplay.",
-    "url": "articles/3d-minesweeper-no-guess-density-analysis.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
