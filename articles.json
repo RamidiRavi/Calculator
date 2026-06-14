@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Non-Discrete Metrics on ℕ",
+    "summary": "Discover a non-discrete metric on natural numbers and its implications for the UC-property in metric spaces.",
+    "url": "articles/non-discrete-metrics-on-natural-numbers.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mathematics of Lie Groups in Robotics",
     "summary": "Explore the role of Lie groups in capturing rotation uncertainties in robotics.",
     "url": "articles/understanding-lie-groups-robotics.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Potential of 'Terry’s Triangle': A New Finite-Difference Method",
     "summary": "Insights on Terry's Triangle and its uniqueness in finite-difference methodologies.",
     "url": "articles/harmonic-finite-difference-framework.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Quotient Topology: A Deep Dive",
-    "summary": "Explore the concept of quotient topology and clarify common confusions with insights from Munkres' textbook.",
-    "url": "articles/understanding-quotient-topology.html",
     "date": "June 13, 2026",
     "category": "Productivity"
   }
