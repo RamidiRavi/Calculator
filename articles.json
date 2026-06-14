@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Procedural Graph Node Estimation",
+    "summary": "Explore the mathematical foundations behind estimating the number of nodes in a procedurally generated graph.",
+    "url": "articles/estimating-node-count-in-procedural-graphs.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Examining the Transfer of Differentiable Structures in Homotopy",
     "summary": "Exploring the challenges in transferring differentiable structures across homotopy equivalent spaces.",
     "url": "articles/transferring-differentiable-structures.html",
@@ -201,12 +208,5 @@
     "url": "articles/overnight-spring-vegetable-strata.html",
     "date": "June 13, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Maximizing Precision: Using Chebyshev's Inequality in Bottle Filling",
-    "summary": "Learn how to apply Chebyshev's inequality to analyze the filling volumes of oil bottles effectively.",
-    "url": "articles/chebyshev-inequality-oil-filling.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
   }
 ]
