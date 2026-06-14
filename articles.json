@@ -1,5 +1,12 @@
 [
   {
+    "title": "A Revolutionary Step Towards Proving the Riemann Hypothesis",
+    "summary": "Exploring a computer-aided solution to the Riemann Hypothesis using integral functions and prime number calculation.",
+    "url": "articles/riemann-hypothesis-proof-approach.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Derivatives in Complex Functions",
     "summary": "Learn how to find the derivative of intricate functions like y=e^(e^(x^x)) + x^(e^(x^e)).",
     "url": "articles/mastering-derivatives-complex-functions.html",
@@ -201,12 +208,5 @@
     "url": "articles/minimum-value-of-a-b.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering the Art of Simultaneous Diagonalization",
-    "summary": "Explore the requirements for simultaneously diagonalizing commuting Hermitian operators in quantum mechanics with clear explanations.",
-    "url": "articles/simultaneous-diagonalization-of-operators.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
