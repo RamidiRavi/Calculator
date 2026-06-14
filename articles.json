@@ -1,8 +1,8 @@
 [
   {
-    "title": "Unlocking the Mystery of Compact Subsets in CW-Complexes",
-    "summary": "Explore how compacts intersect finitely many cells in CW-complexes, essential for understanding cellular and singular homology.",
-    "url": "articles/compact-intersections-in-cw-complexes.html",
+    "title": "Connecting Game Theory and Dynamic Programming: Nash & Bellman-Ford",
+    "summary": "Discover the intriguing links between Nash Equilibrium in Game Theory and the Bellman-Ford algorithm in Dynamic Programming.",
+    "url": "articles/nash-equilibrium-bellman-ford-connection.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   },
