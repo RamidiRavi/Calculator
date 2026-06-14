@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Polygonal Ray Alignment",
+    "summary": "Explore geometric methods to measure ray alignment with polygon edges, enhancing understanding of angles and spatial relationships.",
+    "url": "articles/optimizing-ray-alignment-to-polygon-edges.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is $\\mathbb{F}_p^1$ Really One-Dimensional? A Closer Look",
     "summary": "Explore the dimension of the affine variety $\\mathbb{F}_p^1$ in classical algebraic geometry and its implications.",
     "url": "articles/dimension-of-fp1-algebraic-geometry.html",
@@ -199,13 +206,6 @@
     "title": "Clarifying the Nature of Double Integrals in Mathematics",
     "summary": "Explore the nuances between operators and functionals in double integrals, especially in statistical thermodynamics.",
     "url": "articles/understanding-double-integrals-operators-vs-functionals.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Will XRP Make a Comeback? Examining Current Market Sentiment",
-    "summary": "Explore the potential for XRP to bounce back following negative sentiment and key market indicators.",
-    "url": "articles/is-xrp-poised-for-a-significant-rebound.html",
     "date": "June 13, 2026",
     "category": "Finance"
   }
