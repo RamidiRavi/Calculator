@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Compact Subsets in CW-Complexes",
+    "summary": "Explore how compacts intersect finitely many cells in CW-complexes, essential for understanding cellular and singular homology.",
+    "url": "articles/compact-intersections-in-cw-complexes.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of the 5th Order KdV Equation",
     "summary": "Dive deep into the energy estimates for the fifth-order KdV equation and understand Proposition 5.3's implications.",
     "url": "articles/energy-estimates-kdv-proposition-5-3.html",
@@ -199,13 +206,6 @@
     "title": "Unlock the World of Group Theory: A Free Resource on Wikiversity",
     "summary": "Explore the free group theory course available on French Wikiversity, featuring 49 chapters and fully solved exercises.",
     "url": "articles/group-theory-course-french-wikiversity.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding the Mechanics of Joint Scores in MRFs",
-    "summary": "Explore why multiplying potentials in Markov Random Fields yields correct joint scores and the pitfalls of pairwise probabilities.",
-    "url": "articles/understanding-joint-scores-in-mrfs.html",
     "date": "June 13, 2026",
     "category": "Productivity"
   }
