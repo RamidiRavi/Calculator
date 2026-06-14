@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mysteries of Derived Lie Groups",
+    "summary": "A fresh perspective on the properties of derived Lie groups, showcasing an elegant proof that's easier to grasp.",
+    "url": "articles/exploring-derived-lie-groups.html",
+    "date": "June 14, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Maximize Your Study Efficiency in Representation Theory",
     "summary": "Struggling with representation theory? Discover effective strategies and resources to tackle complex exercises in no time.",
     "url": "articles/master-representation-theory-students.html",
@@ -199,13 +206,6 @@
     "title": "Is $\\mathbb{F}_p^1$ Really One-Dimensional? A Closer Look",
     "summary": "Explore the dimension of the affine variety $\\mathbb{F}_p^1$ in classical algebraic geometry and its implications.",
     "url": "articles/dimension-of-fp1-algebraic-geometry.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Solutions: The Quest to Solve a Functional Equation",
-    "summary": "Explore effective methods to tackle the challenging functional equation $x^2(f(x)+f(y))=(x+y)f(yf(x))$.",
-    "url": "articles/solving-functional-equation.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
