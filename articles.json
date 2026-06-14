@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Lurie's Proof: Essential Surjectivity Demystified",
+    "summary": "Explore the essential surjectivity in Lurie's higher topos theory Proposition 5.5.4.20 and its implications for colimit-preserving functors.",
+    "url": "articles/understanding-essential-surjectivity-to-high-topos-theory.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Polygonal Ray Alignment",
     "summary": "Explore geometric methods to measure ray alignment with polygon edges, enhancing understanding of angles and spatial relationships.",
     "url": "articles/optimizing-ray-alignment-to-polygon-edges.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling a Conjecture in Conic Sections and Concurrency",
     "summary": "Delve into the intriguing conjecture on the concurrency of lines formed by conics tangent to a central ellipse.",
     "url": "articles/concurrency-of-lines-defined-by-conics.html",
-    "date": "June 13, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Clarifying the Nature of Double Integrals in Mathematics",
-    "summary": "Explore the nuances between operators and functionals in double integrals, especially in statistical thermodynamics.",
-    "url": "articles/understanding-double-integrals-operators-vs-functionals.html",
     "date": "June 13, 2026",
     "category": "Finance"
   }
