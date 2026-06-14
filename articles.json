@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Expected Maximum in Random Permutations",
+    "summary": "Explore the expected maximum value of sums over random permutations and its implications.",
+    "url": "articles/expected-maximum-random-permutations.html",
+    "date": "June 14, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering Exponential Sums: Key Insights for Polynomials",
     "summary": "Discover how to estimate exponential sums for polynomials, including techniques and examples for linear and quadratic functions.",
     "url": "articles/sharp-estimates-exponential-sums-polynomials.html",
@@ -201,12 +208,5 @@
     "url": "articles/maximizing-quadratic-functions.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Who is Right in the Algebra Dilemma? A Closer Look",
-    "summary": "Explore the conflicting answers in a high school algebra test and understand the reasoning behind each response.",
-    "url": "articles/understanding-algebraic-confusion.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
