@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is $\\mathbb{F}_p^1$ Really One-Dimensional? A Closer Look",
+    "summary": "Explore the dimension of the affine variety $\\mathbb{F}_p^1$ in classical algebraic geometry and its implications.",
+    "url": "articles/dimension-of-fp1-algebraic-geometry.html",
+    "date": "June 14, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Solutions: The Quest to Solve a Functional Equation",
     "summary": "Explore effective methods to tackle the challenging functional equation $x^2(f(x)+f(y))=(x+y)f(yf(x))$.",
     "url": "articles/solving-functional-equation.html",
@@ -201,12 +208,5 @@
     "url": "articles/is-xrp-poised-for-a-significant-rebound.html",
     "date": "June 13, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Deciphering the Complexities of \\( W_{-1} \\) Series Expansions",
-    "summary": "Delve into the series expansion of \\( W_{-1} \\left(-e^{-(x+1)}\right) \\) around \\( x=a \\) and uncover polynomial identities.",
-    "url": "articles/series-expansion-w-function-x-a.html",
-    "date": "June 13, 2026",
-    "category": "Productivity"
   }
 ]
