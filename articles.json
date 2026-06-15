@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Field Extensions in Polynomial Algebra",
+    "summary": "Explore the significance of defining σ on arbitrary elements in field theory and its implications in algebra.",
+    "url": "articles/understanding-field-extensions-in-algebra.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Count of Custom Leather Jacket Designs",
     "summary": "Explore how to count jacket designs with color and zipper restrictions.",
     "url": "articles/leather-jacket-design-counting.html",
@@ -199,13 +206,6 @@
     "title": "Optimizing Functions on Riemannian Manifolds with the Simplex Method",
     "summary": "Explore how to optimize functions on Riemannian manifolds using the simplex method.",
     "url": "articles/simplex-method-on-riemannian-manifolds.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Clarifying Systematic vs. Standard Form in Generator Matrices",
-    "summary": "Explore the differences between systematic and standard forms of generator matrices in coding theory.",
-    "url": "articles/understanding-systematic-and-standard-form-in-coding-theory.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
