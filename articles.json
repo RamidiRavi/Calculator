@@ -1,5 +1,12 @@
 [
   {
+    "title": "9 Healthier McDonald's Menu Choices to Satisfy Your Cravings",
+    "summary": "Discover 9 healthy McDonald's menu items under 400 calories.",
+    "url": "articles/healthier-mcdonalds-orders.html",
+    "date": "June 15, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Is Grab the Safe Haven Investors Need in a Volatile Market?",
     "summary": "Explore why Grab is a smarter investment choice over Uber amidst macro volatility.",
     "url": "articles/grab-alternative-to-uber-investment.html",
@@ -201,12 +208,5 @@
     "url": "articles/expected-maximum-random-permutations.html",
     "date": "June 14, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering Exponential Sums: Key Insights for Polynomials",
-    "summary": "Discover how to estimate exponential sums for polynomials, including techniques and examples for linear and quadratic functions.",
-    "url": "articles/sharp-estimates-exponential-sums-polynomials.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
   }
 ]
