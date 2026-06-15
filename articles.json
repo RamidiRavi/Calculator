@@ -1,5 +1,12 @@
 [
   {
+    "title": "Calculating Average Distances: A Guide to 2D Shapes",
+    "summary": "Explore techniques to calculate average distances from a point in various 2D shapes.",
+    "url": "articles/average-distances-in-2d-shapes.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Deciphering Determinant Formulas for (2,2) Tensors",
     "summary": "Explore the determinant formulas for (2,2) tensors and their implications in linear algebra.",
     "url": "articles/determinant-formulas-for-tensors.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Mathematics of Lie Groups in Robotics",
     "summary": "Explore the role of Lie groups in capturing rotation uncertainties in robotics.",
     "url": "articles/understanding-lie-groups-robotics.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Connecting Game Theory and Dynamic Programming: Nash & Bellman-Ford",
-    "summary": "Discover the intriguing links between Nash Equilibrium in Game Theory and the Bellman-Ford algorithm in Dynamic Programming.",
-    "url": "articles/nash-equilibrium-bellman-ford-connection.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
