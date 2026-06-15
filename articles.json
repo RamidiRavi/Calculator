@@ -1,5 +1,12 @@
 [
   {
+    "title": "Clarifying Doubts in Mathematical Theorem Proving",
+    "summary": "Exploring doubts in proving theorems and the role of inequalities in mathematics.",
+    "url": "articles/doubts-in-mathematical-proofs.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "A Fresh Perspective on Fermat's Last Theorem for n=3",
     "summary": "Discover the latest insights on proving FLT for n=3 and the implications of a new mathematical approach.",
     "url": "articles/fresh-perspective-on-flt-n3.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling a Challenging Functional Equation: Insights and Solutions",
     "summary": "Dive into the solutions of a complex functional equation and understand the implications of variable behavior.",
     "url": "articles/solving-functional-equations.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding Logic: What Can We Infer from Graduate Roles?",
-    "summary": "Explore logic puzzles derived from graduate roles, coding, and ML expertise.",
-    "url": "articles/logic-puzzles-graduate-career-paths.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
