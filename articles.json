@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Weak Law of Large Numbers vs. Central Limit Theorem",
+    "summary": "Explore the differences and implications of the Weak Law of Large Numbers and the Central Limit Theorem in probability theory.",
+    "url": "articles/wlln-vs-clt-nuances-in-probability-theory.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Uniqueness in Elementary Divisor Theorem for Modules",
     "summary": "Delving into non-finitely generated cases of the Elementary Divisor Theorem.",
     "url": "articles/uniqueness-in-elementary-divisor-theorem.html",
@@ -201,12 +208,5 @@
     "url": "articles/energy-estimates-kdv-proposition-5-3.html",
     "date": "June 14, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Non-Commutative Financial States",
-    "summary": "Understanding the non-commutativity of temporal morphisms in finance and its implications.",
-    "url": "articles/non-commutativity-financial-categorical-structures.html",
-    "date": "June 14, 2026",
-    "category": "Finance"
   }
 ]
