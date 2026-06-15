@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mystery of Primes and Squares",
+    "summary": "Uncover the mystery behind primes that can't be expressed as sums of squares. A detailed exploration of finite lists and implications.",
+    "url": "articles/exploring-primes-and-squares.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Measure Theory in Geometry",
     "summary": "Explore key concepts of measure theory and the implications of volumes in geometry.",
     "url": "articles/understanding-measure-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/independence-conditions-cr-manifolds.html",
     "date": "June 14, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Sarasota or Naples: Where Should You Spend Your Retirement Years?",
-    "summary": "Explore the retirement potential of Sarasota and Naples based on housing costs, lifestyle, and financial planning.",
-    "url": "articles/sarasota-vs-naples-retirement-decision.html",
-    "date": "June 14, 2026",
-    "category": "Finance"
   }
 ]
