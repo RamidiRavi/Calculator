@@ -1,5 +1,12 @@
 [
   {
+    "title": "Linking Representation Theory and Group Cohomology",
+    "summary": "Discover how representation theory aids the study of group cohomology and its applications to finite simple groups.",
+    "url": "articles/representation-theory-group-cohomology.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Clarifying Doubts in Mathematical Theorem Proving",
     "summary": "Exploring doubts in proving theorems and the role of inequalities in mathematics.",
     "url": "articles/doubts-in-mathematical-proofs.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling Proof by Contradiction: A Deep Dive",
     "summary": "Are arguments like A → ¬A used in proofs? Dive into proof by contradiction and its logical structures.",
     "url": "articles/exploring-contradictions-in-mathematical-proofs.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling a Challenging Functional Equation: Insights and Solutions",
-    "summary": "Dive into the solutions of a complex functional equation and understand the implications of variable behavior.",
-    "url": "articles/solving-functional-equations.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
