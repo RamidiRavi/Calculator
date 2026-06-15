@@ -1,5 +1,12 @@
 [
   {
+    "title": "Market Shifts: Capitalizing on Oil's Weekly Drop",
+    "summary": "Explore how a drop in oil prices creates opportunities in Jets, Materials, and Infrastructure ETFs.",
+    "url": "articles/oil-prices-drop-etfs-opportunity.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Proving the Isomorphism: Removing Open Sets in Projective Geometry",
     "summary": "Explore how removing an open set from projective space leads to a new isomorphic structure. A step-by-step approach for algebraic geometry enthusiasts.",
     "url": "articles/isomorphism-in-projective-spaces.html",
@@ -199,13 +206,6 @@
     "title": "Revolutionizing Mathematics: A Deep Dive into π's Nature",
     "summary": "Explore innovative equations to redefine π's transcendence through calculus and trigonometric identities.",
     "url": "articles/eliminating-trigonometric-transcendence-of-pi.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Is it Acceptable to Omit Outer Parentheses in Math Notation?",
-    "summary": "Exploring the usage of notation in families of mathematical objects and its acceptance in the community.",
-    "url": "articles/omitting-outer-parentheses-in-math-notation.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
