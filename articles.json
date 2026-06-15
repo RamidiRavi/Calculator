@@ -1,5 +1,12 @@
 [
   {
+    "title": "Clarifying Continuous Deformations in Algebraic Topology",
+    "summary": "Exploring the concept of continuous deformations in algebraic topology and addressing common misconceptions.",
+    "url": "articles/continuous-deformations-algebraic-topology.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Mysteries of Prime Number Products",
     "summary": "Discover the intriguing patterns found in the products of small prime numbers and their implications in mathematics.",
     "url": "articles/patterns-in-small-prime-products.html",
@@ -201,12 +208,5 @@
     "url": "articles/institutional-investing-xrp-etfs.html",
     "date": "June 14, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding the Isodynamic Point Transformation and Its Conditions",
-    "summary": "A deep dive into the intriguing properties of the first isodynamic point transformation.",
-    "url": "articles/exploring-isodynamic-point-transformation.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
   }
 ]
