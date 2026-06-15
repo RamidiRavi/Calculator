@@ -1,5 +1,12 @@
 [
   {
+    "title": "A Fresh Perspective on Fermat's Last Theorem for n=3",
+    "summary": "Discover the latest insights on proving FLT for n=3 and the implications of a new mathematical approach.",
+    "url": "articles/fresh-perspective-on-flt-n3.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Can We Tile an \\(N \times M\\) Rectangle with \\(1 \times X\\) Tiles?",
     "summary": "Explore the conditions for tiling a rectangle using \\(1 \times X\\) tiles when dimensions aren’t divisible by \\(X\\).",
     "url": "articles/tiling-nxm-rectangle-1x-x-tiles.html",
@@ -199,13 +206,6 @@
     "title": "Decoding Logic: What Can We Infer from Graduate Roles?",
     "summary": "Explore logic puzzles derived from graduate roles, coding, and ML expertise.",
     "url": "articles/logic-puzzles-graduate-career-paths.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mathematics of Lie Groups in Robotics",
-    "summary": "Explore the role of Lie groups in capturing rotation uncertainties in robotics.",
-    "url": "articles/understanding-lie-groups-robotics.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
