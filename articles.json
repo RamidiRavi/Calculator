@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Uniqueness in Elementary Divisor Theorem for Modules",
+    "summary": "Delving into non-finitely generated cases of the Elementary Divisor Theorem.",
+    "url": "articles/uniqueness-in-elementary-divisor-theorem.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Minimizing Costs in Mathematical Variable Adjustments",
     "summary": "Explore a mathematical approach to minimizing costs in variable settings with averaging operations.",
     "url": "articles/optimizing-costs-variable-adjustments.html",
@@ -201,12 +208,5 @@
     "url": "articles/non-commutativity-financial-categorical-structures.html",
     "date": "June 14, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering Permutations and Combinations: Find Your Perfect Resources",
-    "summary": "Struggling with permutations? Discover essential resources and tips to enhance your understanding of this key mathematical concept.",
-    "url": "articles/mastering-permutations-and-combinations.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
   }
 ]
