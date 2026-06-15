@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Measure Theory in Geometry",
+    "summary": "Explore key concepts of measure theory and the implications of volumes in geometry.",
+    "url": "articles/understanding-measure-theory.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "How Connected Spaces Define Grouplike Structures",
     "summary": "Explore the concept of grouplike structures in algebraic topology and the significance of the free E1-monoid.",
     "url": "articles/connected-spaces-grouplike-structures.html",
@@ -201,12 +208,5 @@
     "url": "articles/sarasota-vs-naples-retirement-decision.html",
     "date": "June 14, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Overcoming Hurdles in Self-Studying Formal Mathematics",
-    "summary": "Struggling with formal math? Discover effective strategies to overcome obstacles in self-studying complex topics.",
-    "url": "articles/navigating-formal-math-self-study.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
   }
 ]
