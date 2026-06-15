@@ -1,5 +1,12 @@
 [
   {
+    "title": "Deepening Your Understanding of Kahler Differentials",
+    "summary": "Explore the intuition behind the first fundamental sequence for Kahler differentials in algebraic geometry.",
+    "url": "articles/kahler-differentials-intuition.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "9 Healthier McDonald's Menu Choices to Satisfy Your Cravings",
     "summary": "Discover 9 healthy McDonald's menu items under 400 calories.",
     "url": "articles/healthier-mcdonalds-orders.html",
@@ -201,12 +208,5 @@
     "url": "articles/spivak-calculus-essential-exercises.html",
     "date": "June 14, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Expected Maximum in Random Permutations",
-    "summary": "Explore the expected maximum value of sums over random permutations and its implications.",
-    "url": "articles/expected-maximum-random-permutations.html",
-    "date": "June 14, 2026",
-    "category": "Finance"
   }
 ]
