@@ -1,5 +1,12 @@
 [
   {
+    "title": "Connecting Operator Injection Moduli to Spectral Properties",
+    "summary": "Explore why the injection moduli of A relate to the bottom of A*A's spectrum in Hilbert spaces.",
+    "url": "articles/operator-injection-moduli-spectral-properties.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding the Weak Law of Large Numbers vs. Central Limit Theorem",
     "summary": "Explore the differences and implications of the Weak Law of Large Numbers and the Central Limit Theorem in probability theory.",
     "url": "articles/wlln-vs-clt-nuances-in-probability-theory.html",
@@ -199,13 +206,6 @@
     "title": "Connecting Game Theory and Dynamic Programming: Nash & Bellman-Ford",
     "summary": "Discover the intriguing links between Nash Equilibrium in Game Theory and the Bellman-Ford algorithm in Dynamic Programming.",
     "url": "articles/nash-equilibrium-bellman-ford-connection.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of the 5th Order KdV Equation",
-    "summary": "Dive deep into the energy estimates for the fifth-order KdV equation and understand Proposition 5.3's implications.",
-    "url": "articles/energy-estimates-kdv-proposition-5-3.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
