@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Mystery of Continuous Tetration Roots",
+    "summary": "Investigating the existence of roots for the continuous tetration function and numerical methods for precise calculations.",
+    "url": "articles/roots-of-continuous-tetration.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Intriguing World of p-adic Numbers and Fermat's Last Theorem",
     "summary": "Discover the implications of Fermat's Last Theorem for p-adic numbers, shedding light on complex relationships in number theory.",
     "url": "articles/fermats-last-theorem-p-adic-numbers.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Procedural Graph Node Estimation",
     "summary": "Explore the mathematical foundations behind estimating the number of nodes in a procedurally generated graph.",
     "url": "articles/estimating-node-count-in-procedural-graphs.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Examining the Transfer of Differentiable Structures in Homotopy",
-    "summary": "Exploring the challenges in transferring differentiable structures across homotopy equivalent spaces.",
-    "url": "articles/transferring-differentiable-structures.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
