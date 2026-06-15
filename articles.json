@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding Open Subgroups of Inverse Limits in Group Theory",
+    "summary": "Clarifying the concept of open subgroups in inverse limits of pro-p groups.",
+    "url": "articles/understanding-open-subgroups-inverse-limits.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unraveling the Mystery of Primes and Squares",
     "summary": "Uncover the mystery behind primes that can't be expressed as sums of squares. A detailed exploration of finite lists and implications.",
     "url": "articles/exploring-primes-and-squares.html",
@@ -199,13 +206,6 @@
     "title": "Maximize Your Study Efficiency in Representation Theory",
     "summary": "Struggling with representation theory? Discover effective strategies and resources to tackle complex exercises in no time.",
     "url": "articles/master-representation-theory-students.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Are Conditions for $C^r$ Manifolds Truly Independent?",
-    "summary": "Exploring the independence of conditions for $C^r$ $k$-dimensional parametrized manifolds.",
-    "url": "articles/independence-conditions-cr-manifolds.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
