@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can We Define Cotangent Space Geometrically?",
+    "summary": "Investigate whether a geometric definition of cotangent space can be established without referencing tangent spaces.",
+    "url": "articles/geometric-definitions-cotangent-space.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Market Shifts: Capitalizing on Oil's Weekly Drop",
     "summary": "Explore how a drop in oil prices creates opportunities in Jets, Materials, and Infrastructure ETFs.",
     "url": "articles/oil-prices-drop-etfs-opportunity.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Intricacies of Tangent Conics in Geometry",
     "summary": "Dive into the metric properties of conics tangent to fixed lines in projective geometry.",
     "url": "articles/geometric-properties-of-tangent-conics.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Revolutionizing Mathematics: A Deep Dive into π's Nature",
-    "summary": "Explore innovative equations to redefine π's transcendence through calculus and trigonometric identities.",
-    "url": "articles/eliminating-trigonometric-transcendence-of-pi.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
