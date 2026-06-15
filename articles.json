@@ -1,5 +1,12 @@
 [
   {
+    "title": "Minimizing Costs in Mathematical Variable Adjustments",
+    "summary": "Explore a mathematical approach to minimizing costs in variable settings with averaging operations.",
+    "url": "articles/optimizing-costs-variable-adjustments.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Mystery of Continuous Tetration Roots",
     "summary": "Investigating the existence of roots for the continuous tetration function and numerical methods for precise calculations.",
     "url": "articles/roots-of-continuous-tetration.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Permutations and Combinations: Find Your Perfect Resources",
     "summary": "Struggling with permutations? Discover essential resources and tips to enhance your understanding of this key mathematical concept.",
     "url": "articles/mastering-permutations-and-combinations.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Procedural Graph Node Estimation",
-    "summary": "Explore the mathematical foundations behind estimating the number of nodes in a procedurally generated graph.",
-    "url": "articles/estimating-node-count-in-procedural-graphs.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
