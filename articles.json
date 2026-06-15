@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Count of Custom Leather Jacket Designs",
+    "summary": "Explore how to count jacket designs with color and zipper restrictions.",
+    "url": "articles/leather-jacket-design-counting.html",
+    "date": "June 15, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Can We Define Cotangent Space Geometrically?",
     "summary": "Investigate whether a geometric definition of cotangent space can be established without referencing tangent spaces.",
     "url": "articles/geometric-definitions-cotangent-space.html",
@@ -199,13 +206,6 @@
     "title": "Clarifying Systematic vs. Standard Form in Generator Matrices",
     "summary": "Explore the differences between systematic and standard forms of generator matrices in coding theory.",
     "url": "articles/understanding-systematic-and-standard-form-in-coding-theory.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Intricacies of Tangent Conics in Geometry",
-    "summary": "Dive into the metric properties of conics tangent to fixed lines in projective geometry.",
-    "url": "articles/geometric-properties-of-tangent-conics.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
