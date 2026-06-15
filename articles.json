@@ -1,8 +1,8 @@
 [
   {
-    "title": "Calculating Average Distances: A Guide to 2D Shapes",
-    "summary": "Explore techniques to calculate average distances from a point in various 2D shapes.",
-    "url": "articles/average-distances-in-2d-shapes.html",
+    "title": "Can We Tile an \\(N \times M\\) Rectangle with \\(1 \times X\\) Tiles?",
+    "summary": "Explore the conditions for tiling a rectangle using \\(1 \times X\\) tiles when dimensions aren’t divisible by \\(X\\).",
+    "url": "articles/tiling-nxm-rectangle-1x-x-tiles.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   },
