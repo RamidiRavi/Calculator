@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Grab the Safe Haven Investors Need in a Volatile Market?",
+    "summary": "Explore why Grab is a smarter investment choice over Uber amidst macro volatility.",
+    "url": "articles/grab-alternative-to-uber-investment.html",
+    "date": "June 15, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Integrating Sin^6(x) + Cos^6(x)",
     "summary": "Learn how to simplify the integral of sin and cos cubes effectively.",
     "url": "articles/mastering-integral-sine-cosine-cubes.html",
@@ -199,13 +206,6 @@
     "title": "Mastering Exponential Sums: Key Insights for Polynomials",
     "summary": "Discover how to estimate exponential sums for polynomials, including techniques and examples for linear and quadratic functions.",
     "url": "articles/sharp-estimates-exponential-sums-polynomials.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "A Revolutionary Step Towards Proving the Riemann Hypothesis",
-    "summary": "Exploring a computer-aided solution to the Riemann Hypothesis using integral functions and prime number calculation.",
-    "url": "articles/riemann-hypothesis-proof-approach.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
