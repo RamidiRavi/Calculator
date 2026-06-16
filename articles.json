@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Complexities of Maximin Optimization Problems",
+    "summary": "Explore theoretical transformations and computational techniques for solving maximin optimization problems with convex objectives.",
+    "url": "articles/maximin-optimization-strategies.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Can 100/n Be Expressed as the Sum of 99 Unit Fractions?",
     "summary": "Delve into the Erdős–Straus Conjecture and its implications for expressing 100/n as a sum of unit fractions.",
     "url": "articles/100-n-unit-fraction-conjecture.html",
@@ -201,12 +208,5 @@
     "url": "articles/quadratic-curves-l-functions.html",
     "date": "June 16, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Mastering Numerical Simulation of Brownian Motion",
-    "summary": "Explore techniques for accurately simulating residence time of Brownian motion and the numerical challenges faced.",
-    "url": "articles/simulating-brownian-motion-techniques.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
