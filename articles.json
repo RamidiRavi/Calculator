@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Dynamic Programming: Decoding 1,b in Counting Bits",
+    "summary": "Learn how to interpret the function P(x+b) = P(x) + 1,b in dynamic programming for counting bits in binary representations.",
+    "url": "articles/understanding-1b-dynamic-programming-counting-bits.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring the Depth of Number-Theoretic Coincidences",
     "summary": "Exploring remarkable coincidences in number theory beyond traditional examples.",
     "url": "articles/number-theoretic-coincidences.html",
@@ -201,12 +208,5 @@
     "url": "articles/doubts-in-mathematical-proofs.html",
     "date": "June 15, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "A Fresh Perspective on Fermat's Last Theorem for n=3",
-    "summary": "Discover the latest insights on proving FLT for n=3 and the implications of a new mathematical approach.",
-    "url": "articles/fresh-perspective-on-flt-n3.html",
-    "date": "June 15, 2026",
-    "category": "Finance"
   }
 ]
