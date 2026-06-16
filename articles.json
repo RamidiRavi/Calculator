@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Holomorphic Functions on Riemann Surfaces",
+    "summary": "Explore the proof of holomorphism in Riemann surfaces using homogeneous coordinates.",
+    "url": "articles/holomorphic-functions-in-riemann-surfaces.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Uncovering the Depths of Egorov's Theorem",
     "summary": "Discover intriguing applications of Egorov's theorem in analysis beyond the Bounded Convergence Theorem.",
     "url": "articles/exploring-applications-of-egorovs-theorem.html",
@@ -199,13 +206,6 @@
     "title": "Minimizing Costs in Mathematical Variable Adjustments",
     "summary": "Explore a mathematical approach to minimizing costs in variable settings with averaging operations.",
     "url": "articles/optimizing-costs-variable-adjustments.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Mystery of Continuous Tetration Roots",
-    "summary": "Investigating the existence of roots for the continuous tetration function and numerical methods for precise calculations.",
-    "url": "articles/roots-of-continuous-tetration.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
