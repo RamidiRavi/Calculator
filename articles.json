@@ -1,5 +1,12 @@
 [
   {
+    "title": "Connecting the Spectrum and Injection Moduli of Operators",
+    "summary": "Explore the connection between the spectrum and injection moduli of closed operators B and B*B.",
+    "url": "articles/understanding-operator-spectra-and-injection-moduli.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "The Fascinating World of Undefinable Ordinals in Set Theory",
     "summary": "Dive into the intricacies of fixed points in set theory and the implications of undefinable ordinals.",
     "url": "articles/undefinable-ordinals-explored.html",
@@ -199,13 +206,6 @@
     "title": "Deciphering Determinant Formulas for (2,2) Tensors",
     "summary": "Explore the determinant formulas for (2,2) tensors and their implications in linear algebra.",
     "url": "articles/determinant-formulas-for-tensors.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding the Weak Law of Large Numbers vs. Central Limit Theorem",
-    "summary": "Explore the differences and implications of the Weak Law of Large Numbers and the Central Limit Theorem in probability theory.",
-    "url": "articles/wlln-vs-clt-nuances-in-probability-theory.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
