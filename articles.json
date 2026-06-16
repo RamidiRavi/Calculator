@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Geometry of Sine: When Are Triangles Always Obtuse?",
+    "summary": "Discover the intriguing conditions for triangles on the sine graph to be obtuse, and the intriguing constraints on parameter t.",
+    "url": "articles/obtuse-triangles-sine-curve.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Connection Between Odd Degree and Zeros",
     "summary": "Explore Borsuk's Theorem and its implications in topology regarding odd degrees and zeros in continuous maps.",
     "url": "articles/understanding-odd-degree-and-zero-counts-in-topology.html",
@@ -201,12 +208,5 @@
     "url": "articles/schur-orthogonality-group-algebra.html",
     "date": "June 15, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Count of Custom Leather Jacket Designs",
-    "summary": "Explore how to count jacket designs with color and zipper restrictions.",
-    "url": "articles/leather-jacket-design-counting.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
   }
 ]
