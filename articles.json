@@ -1,5 +1,12 @@
 [
   {
+    "title": "Constructing Any Concave Shape with Tangent Lines: A Geometric Challenge",
+    "summary": "Can we create any concave shape using tangent lines of non-overlapping circles? Dive into this intriguing geometric exploration!",
+    "url": "articles/concave-shapes-with-tangent-lines.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Complexities of Maximin Optimization Problems",
     "summary": "Explore theoretical transformations and computational techniques for solving maximin optimization problems with convex objectives.",
     "url": "articles/maximin-optimization-strategies.html",
@@ -199,13 +206,6 @@
     "title": "The Importance of Finite Order in the Selberg Class",
     "summary": "Explore why functions in the Selberg class must be of finite order and the implications of infinite order.",
     "url": "articles/understanding-finite-order-selberg-class.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Do Quadratic Curves Have L-Functions? An In-Depth Analysis",
-    "summary": "Discover the relationship between quadratic curves and L-functions, and their connection to modular forms.",
-    "url": "articles/quadratic-curves-l-functions.html",
     "date": "June 16, 2026",
     "category": "Finance"
   }
