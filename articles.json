@@ -1,5 +1,12 @@
 [
   {
+    "title": "Uncovering the Depths of Egorov's Theorem",
+    "summary": "Discover intriguing applications of Egorov's theorem in analysis beyond the Bounded Convergence Theorem.",
+    "url": "articles/exploring-applications-of-egorovs-theorem.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is the Matrix Function f(A) = A^{1/2} Lipschitz Continuous?",
     "summary": "Dive into the Lipschitz continuity of the matrix function f(A)=A^{1/2} and its implications for positive definite matrices.",
     "url": "articles/lipschitz-continuity-of-matrix-functions.html",
@@ -201,12 +208,5 @@
     "url": "articles/roots-of-continuous-tetration.html",
     "date": "June 15, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "The Intriguing World of p-adic Numbers and Fermat's Last Theorem",
-    "summary": "Discover the implications of Fermat's Last Theorem for p-adic numbers, shedding light on complex relationships in number theory.",
-    "url": "articles/fermats-last-theorem-p-adic-numbers.html",
-    "date": "June 15, 2026",
-    "category": "Finance"
   }
 ]
