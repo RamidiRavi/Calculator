@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Numerical Simulation of Brownian Motion",
+    "summary": "Explore techniques for accurately simulating residence time of Brownian motion and the numerical challenges faced.",
+    "url": "articles/simulating-brownian-motion-techniques.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of a Complex Inequality Problem",
     "summary": "Explore the challenge of minimizing a cyclic sum in an inequality problem with the constraint a+b+c=4.",
     "url": "articles/inequality-challenge-minimizing-cyclic-sum.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-lcm-conditions-in-integers.html",
     "date": "June 14, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Mysteries of Derived Lie Groups",
-    "summary": "A fresh perspective on the properties of derived Lie groups, showcasing an elegant proof that's easier to grasp.",
-    "url": "articles/exploring-derived-lie-groups.html",
-    "date": "June 14, 2026",
-    "category": "Finance"
   }
 ]
