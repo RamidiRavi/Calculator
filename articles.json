@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Fascinating World of Undefinable Ordinals in Set Theory",
+    "summary": "Dive into the intricacies of fixed points in set theory and the implications of undefinable ordinals.",
+    "url": "articles/undefinable-ordinals-explored.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Secrets of Primitive Roots in Number Theory",
     "summary": "Explore the proof behind the product of primitive roots being 1 modulo primes greater than 3.",
     "url": "articles/understanding-primitive-roots-in-modular-arithmetic.html",
@@ -199,13 +206,6 @@
     "title": "Decoding the Weak Law of Large Numbers vs. Central Limit Theorem",
     "summary": "Explore the differences and implications of the Weak Law of Large Numbers and the Central Limit Theorem in probability theory.",
     "url": "articles/wlln-vs-clt-nuances-in-probability-theory.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Uniqueness in Elementary Divisor Theorem for Modules",
-    "summary": "Delving into non-finitely generated cases of the Elementary Divisor Theorem.",
-    "url": "articles/uniqueness-in-elementary-divisor-theorem.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
