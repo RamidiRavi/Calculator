@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of a Complex Inequality Problem",
+    "summary": "Explore the challenge of minimizing a cyclic sum in an inequality problem with the constraint a+b+c=4.",
+    "url": "articles/inequality-challenge-minimizing-cyclic-sum.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding Open Subgroups of Inverse Limits in Group Theory",
     "summary": "Clarifying the concept of open subgroups in inverse limits of pro-p groups.",
     "url": "articles/understanding-open-subgroups-inverse-limits.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-derived-lie-groups.html",
     "date": "June 14, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Maximize Your Study Efficiency in Representation Theory",
-    "summary": "Struggling with representation theory? Discover effective strategies and resources to tackle complex exercises in no time.",
-    "url": "articles/master-representation-theory-students.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
   }
 ]
