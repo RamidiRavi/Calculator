@@ -1,5 +1,12 @@
 [
   {
+    "title": "Do Quadratic Curves Have L-Functions? An In-Depth Analysis",
+    "summary": "Discover the relationship between quadratic curves and L-functions, and their connection to modular forms.",
+    "url": "articles/quadratic-curves-l-functions.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Mastering Numerical Simulation of Brownian Motion",
     "summary": "Explore techniques for accurately simulating residence time of Brownian motion and the numerical challenges faced.",
     "url": "articles/simulating-brownian-motion-techniques.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Dynamics of Group Pair Symmetries",
     "summary": "A deep dive into symmetries in group theory and its implications in mathematics.",
     "url": "articles/configuration-space-group-pair-symmetries.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Delving into Positive Integers and LCM Relations",
-    "summary": "Explore the implications of LCM relationships among positive integers.",
-    "url": "articles/understanding-lcm-conditions-in-integers.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
