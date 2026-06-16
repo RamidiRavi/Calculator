@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Partial Derivatives in Finance",
+    "summary": "Learn how to compute first and second partial derivatives with examples for better understanding.",
+    "url": "articles/partial-derivatives-multivariable-functions.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets Behind a Fascinating Mathematical Inequality",
     "summary": "Delve into the inequality involving factorials and harmonic numbers, and learn its significance in mathematical theory.",
     "url": "articles/math-inequality-exploration.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of Measure Theory in Geometry",
     "summary": "Explore key concepts of measure theory and the implications of volumes in geometry.",
     "url": "articles/understanding-measure-theory.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "How Connected Spaces Define Grouplike Structures",
-    "summary": "Explore the concept of grouplike structures in algebraic topology and the significance of the free E1-monoid.",
-    "url": "articles/connected-spaces-grouplike-structures.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
