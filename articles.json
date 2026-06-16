@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets Behind a Fascinating Mathematical Inequality",
+    "summary": "Delve into the inequality involving factorials and harmonic numbers, and learn its significance in mathematical theory.",
+    "url": "articles/math-inequality-exploration.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating Recurrence Relations: Solutions Beyond Mods",
     "summary": "Learn effective methods to solve recurrence relations without using mod functions. Discover techniques to find the general term.",
     "url": "articles/exploring-recurrence-relations.html",
@@ -199,13 +206,6 @@
     "title": "How Connected Spaces Define Grouplike Structures",
     "summary": "Explore the concept of grouplike structures in algebraic topology and the significance of the free E1-monoid.",
     "url": "articles/connected-spaces-grouplike-structures.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Deepening Your Understanding of Kahler Differentials",
-    "summary": "Explore the intuition behind the first fundamental sequence for Kahler differentials in algebraic geometry.",
-    "url": "articles/kahler-differentials-intuition.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
