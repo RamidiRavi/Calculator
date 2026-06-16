@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can 100/n Be Expressed as the Sum of 99 Unit Fractions?",
+    "summary": "Delve into the Erdős–Straus Conjecture and its implications for expressing 100/n as a sum of unit fractions.",
+    "url": "articles/100-n-unit-fraction-conjecture.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding Equality in Synthetic Category Theory",
     "summary": "Delve into the nuances of equality within synthetic category theory and its implications for mathematical structures.",
     "url": "articles/equality-in-synthetic-category-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/simulating-brownian-motion-techniques.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of a Complex Inequality Problem",
-    "summary": "Explore the challenge of minimizing a cyclic sum in an inequality problem with the constraint a+b+c=4.",
-    "url": "articles/inequality-challenge-minimizing-cyclic-sum.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
   }
 ]
