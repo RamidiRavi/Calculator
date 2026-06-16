@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Boundary Conditions After Transformation of ODEs",
+    "summary": "Explore the nuances of boundary conditions for transformed ODEs and their implications for functional analysis.",
+    "url": "articles/boundary-value-problems-transformation-insights.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Dive into the Nutritional Power of Salmon",
     "summary": "Discover how salmon can elevate your meals with health benefits and cooking tips.",
     "url": "articles/salmon-health-benefits-cooking-tips.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-minimal-representation-exponential-families.html",
     "date": "June 15, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Linking Representation Theory and Group Cohomology",
-    "summary": "Discover how representation theory aids the study of group cohomology and its applications to finite simple groups.",
-    "url": "articles/representation-theory-group-cohomology.html",
-    "date": "June 15, 2026",
-    "category": "Finance"
   }
 ]
