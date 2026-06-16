@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Multiplicative Insight of Goldbach's Conjecture",
+    "summary": "Discover a fresh perspective on Goldbach's Conjecture through prime partition counts and their multiplicative relationship.",
+    "url": "articles/hidden-relationships-goldbach-conjecture.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring the Smooth Vector Bundle Structure Problem",
     "summary": "A deep dive into the final version of the smooth vector bundle structure problem with key insights.",
     "url": "articles/smooth-vector-bundle-structure.html",
@@ -201,12 +208,5 @@
     "url": "articles/healthier-mcdonalds-orders.html",
     "date": "June 15, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Is Grab the Safe Haven Investors Need in a Volatile Market?",
-    "summary": "Explore why Grab is a smarter investment choice over Uber amidst macro volatility.",
-    "url": "articles/grab-alternative-to-uber-investment.html",
-    "date": "June 15, 2026",
-    "category": "Finance"
   }
 ]
