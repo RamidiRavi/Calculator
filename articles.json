@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Equality in Synthetic Category Theory",
+    "summary": "Delve into the nuances of equality within synthetic category theory and its implications for mathematical structures.",
+    "url": "articles/equality-in-synthetic-category-theory.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Efficient Numerical Expressions: A Guide",
     "summary": "Explore how to minimize digits used in expressions while adhering to specific numerical constraints.",
     "url": "articles/minimizing-digits-in-mathematical-expressions.html",
@@ -200,13 +207,6 @@
     "summary": "Explore the challenge of minimizing a cyclic sum in an inequality problem with the constraint a+b+c=4.",
     "url": "articles/inequality-challenge-minimizing-cyclic-sum.html",
     "date": "June 16, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Decoding Open Subgroups of Inverse Limits in Group Theory",
-    "summary": "Clarifying the concept of open subgroups in inverse limits of pro-p groups.",
-    "url": "articles/understanding-open-subgroups-inverse-limits.html",
-    "date": "June 15, 2026",
     "category": "Finance"
   }
 ]
