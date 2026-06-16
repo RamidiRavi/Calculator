@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating Recurrence Relations: Solutions Beyond Mods",
+    "summary": "Learn effective methods to solve recurrence relations without using mod functions. Discover techniques to find the general term.",
+    "url": "articles/exploring-recurrence-relations.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring the Multiplicative Insight of Goldbach's Conjecture",
     "summary": "Discover a fresh perspective on Goldbach's Conjecture through prime partition counts and their multiplicative relationship.",
     "url": "articles/hidden-relationships-goldbach-conjecture.html",
@@ -201,12 +208,5 @@
     "url": "articles/kahler-differentials-intuition.html",
     "date": "June 15, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "9 Healthier McDonald's Menu Choices to Satisfy Your Cravings",
-    "summary": "Discover 9 healthy McDonald's menu items under 400 calories.",
-    "url": "articles/healthier-mcdonalds-orders.html",
-    "date": "June 15, 2026",
-    "category": "Health"
   }
 ]
