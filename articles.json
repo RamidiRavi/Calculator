@@ -1,5 +1,12 @@
 [
   {
+    "title": "Emerging Market Debt: A Surprisingly Strong Alternative to Treasuries",
+    "summary": "Discover why emerging market debt could offer better yields and stability than traditional Treasury bonds.",
+    "url": "articles/rethinking-emerging-market-debt.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Partial Derivatives in Finance",
     "summary": "Learn how to compute first and second partial derivatives with examples for better understanding.",
     "url": "articles/partial-derivatives-multivariable-functions.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Mystery of Primes and Squares",
     "summary": "Uncover the mystery behind primes that can't be expressed as sums of squares. A detailed exploration of finite lists and implications.",
     "url": "articles/exploring-primes-and-squares.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Measure Theory in Geometry",
-    "summary": "Explore key concepts of measure theory and the implications of volumes in geometry.",
-    "url": "articles/understanding-measure-theory.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
