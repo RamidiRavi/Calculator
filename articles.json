@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is the Matrix Function f(A) = A^{1/2} Lipschitz Continuous?",
+    "summary": "Dive into the Lipschitz continuity of the matrix function f(A)=A^{1/2} and its implications for positive definite matrices.",
+    "url": "articles/lipschitz-continuity-of-matrix-functions.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Geometry of Sine: When Are Triangles Always Obtuse?",
     "summary": "Discover the intriguing conditions for triangles on the sine graph to be obtuse, and the intriguing constraints on parameter t.",
     "url": "articles/obtuse-triangles-sine-curve.html",
@@ -199,13 +206,6 @@
     "title": "The Intriguing World of p-adic Numbers and Fermat's Last Theorem",
     "summary": "Discover the implications of Fermat's Last Theorem for p-adic numbers, shedding light on complex relationships in number theory.",
     "url": "articles/fermats-last-theorem-p-adic-numbers.html",
-    "date": "June 15, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of Schur Orthogonality in Group Algebra",
-    "summary": "Explore Schur orthogonality relations from Wedderburn decomposition in finite group algebra and their significance in representation theory.",
-    "url": "articles/schur-orthogonality-group-algebra.html",
     "date": "June 15, 2026",
     "category": "Finance"
   }
