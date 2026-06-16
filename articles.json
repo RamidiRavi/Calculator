@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Depth of Number-Theoretic Coincidences",
+    "summary": "Exploring remarkable coincidences in number theory beyond traditional examples.",
+    "url": "articles/number-theoretic-coincidences.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Exploring Connections on Differentiable Manifolds",
     "summary": "Explore if two points on a manifold can be connected by a straight line in maximal atlases.",
     "url": "articles/connecting-points-on-a-differentiable-manifold.html",
@@ -201,12 +208,5 @@
     "url": "articles/fresh-perspective-on-flt-n3.html",
     "date": "June 15, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Can We Tile an \\(N \times M\\) Rectangle with \\(1 \times X\\) Tiles?",
-    "summary": "Explore the conditions for tiling a rectangle using \\(1 \times X\\) tiles when dimensions aren’t divisible by \\(X\\).",
-    "url": "articles/tiling-nxm-rectangle-1x-x-tiles.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
   }
 ]
