@@ -1,5 +1,12 @@
 [
   {
+    "title": "Dive into the Nutritional Power of Salmon",
+    "summary": "Discover how salmon can elevate your meals with health benefits and cooking tips.",
+    "url": "articles/salmon-health-benefits-cooking-tips.html",
+    "date": "June 16, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Unlocking Dynamic Programming: Decoding 1,b in Counting Bits",
     "summary": "Learn how to interpret the function P(x+b) = P(x) + 1,b in dynamic programming for counting bits in binary representations.",
     "url": "articles/understanding-1b-dynamic-programming-counting-bits.html",
@@ -201,12 +208,5 @@
     "url": "articles/representation-theory-group-cohomology.html",
     "date": "June 15, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Clarifying Doubts in Mathematical Theorem Proving",
-    "summary": "Exploring doubts in proving theorems and the role of inequalities in mathematics.",
-    "url": "articles/doubts-in-mathematical-proofs.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
   }
 ]
