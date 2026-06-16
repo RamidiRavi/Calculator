@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Wonders of Capped Inward Focal Conchoids",
+    "summary": "Discover the mathematical beauty of capped inward focal conchoids of a paraboloid and their implications in geometry.",
+    "url": "articles/exploring-capped-inward-focal-conchoids.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Importance of Finite Order in the Selberg Class",
     "summary": "Explore why functions in the Selberg class must be of finite order and the implications of infinite order.",
     "url": "articles/understanding-finite-order-selberg-class.html",
@@ -200,13 +207,6 @@
     "summary": "Exploring the concept of continuous deformations in algebraic topology and addressing common misconceptions.",
     "url": "articles/continuous-deformations-algebraic-topology.html",
     "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Mysteries of Prime Number Products",
-    "summary": "Discover the intriguing patterns found in the products of small prime numbers and their implications in mathematics.",
-    "url": "articles/patterns-in-small-prime-products.html",
-    "date": "June 14, 2026",
     "category": "Productivity"
   }
 ]
