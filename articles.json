@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Efficient Numerical Expressions: A Guide",
+    "summary": "Explore how to minimize digits used in expressions while adhering to specific numerical constraints.",
+    "url": "articles/minimizing-digits-in-mathematical-expressions.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Emerging Market Debt: A Surprisingly Strong Alternative to Treasuries",
     "summary": "Discover why emerging market debt could offer better yields and stability than traditional Treasury bonds.",
     "url": "articles/rethinking-emerging-market-debt.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-open-subgroups-inverse-limits.html",
     "date": "June 15, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unraveling the Mystery of Primes and Squares",
-    "summary": "Uncover the mystery behind primes that can't be expressed as sums of squares. A detailed exploration of finite lists and implications.",
-    "url": "articles/exploring-primes-and-squares.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
   }
 ]
