@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring Connections on Differentiable Manifolds",
+    "summary": "Explore if two points on a manifold can be connected by a straight line in maximal atlases.",
+    "url": "articles/connecting-points-on-a-differentiable-manifold.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Connecting the Spectrum and Injection Moduli of Operators",
     "summary": "Explore the connection between the spectrum and injection moduli of closed operators B and B*B.",
     "url": "articles/understanding-operator-spectra-and-injection-moduli.html",
@@ -199,13 +206,6 @@
     "title": "Can We Tile an \\(N \times M\\) Rectangle with \\(1 \times X\\) Tiles?",
     "summary": "Explore the conditions for tiling a rectangle using \\(1 \times X\\) tiles when dimensions aren’t divisible by \\(X\\).",
     "url": "articles/tiling-nxm-rectangle-1x-x-tiles.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Deciphering Determinant Formulas for (2,2) Tensors",
-    "summary": "Explore the determinant formulas for (2,2) tensors and their implications in linear algebra.",
-    "url": "articles/determinant-formulas-for-tensors.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
