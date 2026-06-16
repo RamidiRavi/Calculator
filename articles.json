@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling New Function Strategies Beyond the Golden Ratio",
+    "summary": "Discover how to manipulate functions to achieve non-linear asymptotic behavior while retaining a golden ratio base case.",
+    "url": "articles/beyond-the-golden-ratio-functions.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Does Bishop's Diagonal Proof Reliant on Countable Choice?",
     "summary": "Delve into the nuances of Bishop's proof and its dependence on countable choice in constructive analysis.",
     "url": "articles/bishop-proof-countable-choice.html",
@@ -201,12 +208,5 @@
     "url": "articles/geometric-definitions-cotangent-space.html",
     "date": "June 15, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Market Shifts: Capitalizing on Oil's Weekly Drop",
-    "summary": "Explore how a drop in oil prices creates opportunities in Jets, Materials, and Infrastructure ETFs.",
-    "url": "articles/oil-prices-drop-etfs-opportunity.html",
-    "date": "June 15, 2026",
-    "category": "Finance"
   }
 ]
