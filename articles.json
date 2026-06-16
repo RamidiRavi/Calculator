@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Importance of Finite Order in the Selberg Class",
+    "summary": "Explore why functions in the Selberg class must be of finite order and the implications of infinite order.",
+    "url": "articles/understanding-finite-order-selberg-class.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Do Quadratic Curves Have L-Functions? An In-Depth Analysis",
     "summary": "Discover the relationship between quadratic curves and L-functions, and their connection to modular forms.",
     "url": "articles/quadratic-curves-l-functions.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Mysteries of Prime Number Products",
     "summary": "Discover the intriguing patterns found in the products of small prime numbers and their implications in mathematics.",
     "url": "articles/patterns-in-small-prime-products.html",
-    "date": "June 14, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Dynamics of Group Pair Symmetries",
-    "summary": "A deep dive into symmetries in group theory and its implications in mathematics.",
-    "url": "articles/configuration-space-group-pair-symmetries.html",
     "date": "June 14, 2026",
     "category": "Productivity"
   }
