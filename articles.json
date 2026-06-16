@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Secrets of Primitive Roots in Number Theory",
+    "summary": "Explore the proof behind the product of primitive roots being 1 modulo primes greater than 3.",
+    "url": "articles/understanding-primitive-roots-in-modular-arithmetic.html",
+    "date": "June 16, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Holomorphic Functions on Riemann Surfaces",
     "summary": "Explore the proof of holomorphism in Riemann surfaces using homogeneous coordinates.",
     "url": "articles/holomorphic-functions-in-riemann-surfaces.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Uniqueness in Elementary Divisor Theorem for Modules",
     "summary": "Delving into non-finitely generated cases of the Elementary Divisor Theorem.",
     "url": "articles/uniqueness-in-elementary-divisor-theorem.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Minimizing Costs in Mathematical Variable Adjustments",
-    "summary": "Explore a mathematical approach to minimizing costs in variable settings with averaging operations.",
-    "url": "articles/optimizing-costs-variable-adjustments.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
