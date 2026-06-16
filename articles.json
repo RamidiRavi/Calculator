@@ -1,5 +1,12 @@
 [
   {
+    "title": "Does Bishop's Diagonal Proof Reliant on Countable Choice?",
+    "summary": "Delve into the nuances of Bishop's proof and its dependence on countable choice in constructive analysis.",
+    "url": "articles/bishop-proof-countable-choice.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unraveling the Geometry Question from Peru's Olympiad",
     "summary": "Explore a captivating geometry problem from Peru's National Mathematical Olympiad that proves intriguing for math enthusiasts.",
     "url": "articles/geometry-challenge-peru-olympiad.html",
@@ -201,12 +208,5 @@
     "url": "articles/oil-prices-drop-etfs-opportunity.html",
     "date": "June 15, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Proving the Isomorphism: Removing Open Sets in Projective Geometry",
-    "summary": "Explore how removing an open set from projective space leads to a new isomorphic structure. A step-by-step approach for algebraic geometry enthusiasts.",
-    "url": "articles/isomorphism-in-projective-spaces.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
   }
 ]
