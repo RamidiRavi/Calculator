@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the Super Micro ETF Landscape: SMCZ vs. SMCX",
+    "summary": "Explore the contrasting strategies of SMCZ and SMCX in the Super Micro ETF arena.",
+    "url": "articles/super-micro-etf-showdown-smcz-vs-smcx.html",
+    "date": "June 16, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unveiling New Function Strategies Beyond the Golden Ratio",
     "summary": "Discover how to manipulate functions to achieve non-linear asymptotic behavior while retaining a golden ratio base case.",
     "url": "articles/beyond-the-golden-ratio-functions.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Count of Custom Leather Jacket Designs",
     "summary": "Explore how to count jacket designs with color and zipper restrictions.",
     "url": "articles/leather-jacket-design-counting.html",
-    "date": "June 15, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Can We Define Cotangent Space Geometrically?",
-    "summary": "Investigate whether a geometric definition of cotangent space can be established without referencing tangent spaces.",
-    "url": "articles/geometric-definitions-cotangent-space.html",
     "date": "June 15, 2026",
     "category": "Productivity"
   }
