@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is the Riemann Zeta Function Unique Among L-Functions?",
+    "summary": "Exploring if the Riemann zeta function is the lone L-function with a pole of order at s=1.",
+    "url": "articles/riemann-zeta-function-l-functions-pole.html",
+    "date": "June 17, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Geometric Insights into the Annihilator of Zero Divisors",
     "summary": "Explore the geometric interpretation of the annihilator of zero divisors in reduced Noetherian rings.",
     "url": "articles/geometric-interpreter-zero-divisors-anihilator.html",
@@ -199,13 +206,6 @@
     "title": "Navigating Recurrence Relations: Solutions Beyond Mods",
     "summary": "Learn effective methods to solve recurrence relations without using mod functions. Discover techniques to find the general term.",
     "url": "articles/exploring-recurrence-relations.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring the Multiplicative Insight of Goldbach's Conjecture",
-    "summary": "Discover a fresh perspective on Goldbach's Conjecture through prime partition counts and their multiplicative relationship.",
-    "url": "articles/hidden-relationships-goldbach-conjecture.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
