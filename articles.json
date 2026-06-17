@@ -1,5 +1,12 @@
 [
   {
+    "title": "Proving Lower Bounds: The Infimum Explained",
+    "summary": "Exploring the proof for lower bounds and infimum in real numbers.",
+    "url": "articles/understanding-lower-bounds-and-infimum.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Distinction Between Direct Sums and Products",
     "summary": "Explore the nuances between direct sums and products in ring theory, focusing on the notations $R^{(I)}$ and $R^I$ in modules.",
     "url": "articles/clarifying-r-i-vs-r-i-in-module-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/boundary-value-problems-transformation-insights.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Dive into the Nutritional Power of Salmon",
-    "summary": "Discover how salmon can elevate your meals with health benefits and cooking tips.",
-    "url": "articles/salmon-health-benefits-cooking-tips.html",
-    "date": "June 16, 2026",
-    "category": "Health"
   }
 ]
