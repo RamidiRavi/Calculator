@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Absolute Value Equations",
+    "summary": "Learn to tackle equations with absolute values using intervals and other methods to gain confidence in solving inequalities.",
+    "url": "articles/mastering-absolute-values-solve-equation.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Geometry of Random Tetrahedra: Dihedral Angles Explained",
     "summary": "Explore the intriguing geometry of tetrahedra inscribed in a sphere, focusing on dihedral angles and their significance.",
     "url": "articles/understanding-dihedral-angles-tetrahedra.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Equality in Synthetic Category Theory",
     "summary": "Delve into the nuances of equality within synthetic category theory and its implications for mathematical structures.",
     "url": "articles/equality-in-synthetic-category-theory.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Efficient Numerical Expressions: A Guide",
-    "summary": "Explore how to minimize digits used in expressions while adhering to specific numerical constraints.",
-    "url": "articles/minimizing-digits-in-mathematical-expressions.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
