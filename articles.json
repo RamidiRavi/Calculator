@@ -1,5 +1,12 @@
 [
   {
+    "title": "Does Non-Uniqueness Prevent Convergence in Iterative Procedures?",
+    "summary": "Exploring convergence challenges in iterative algorithms for non-unique solutions of Laplace equations.",
+    "url": "articles/convergence-issues-in-iterative-methods.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Existence of Adjoint Operators in Inner Product Spaces",
     "summary": "Can finite-rank linear transformations have adjoints in inner product spaces? Discover the implications on vector spaces.",
     "url": "articles/adjoint-operators-finite-rank-transformations.html",
@@ -201,12 +208,5 @@
     "url": "articles/beyond-the-golden-ratio-functions.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Does Bishop's Diagonal Proof Reliant on Countable Choice?",
-    "summary": "Delve into the nuances of Bishop's proof and its dependence on countable choice in constructive analysis.",
-    "url": "articles/bishop-proof-countable-choice.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
   }
 ]
