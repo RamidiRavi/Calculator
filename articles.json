@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Convergence Dynamics of Stochastic Growth Processes",
+    "summary": "Delve into the convergence properties of a reflected multiplicative growth system and its implications for stochastic processes.",
+    "url": "articles/stochastic-growth-processes-convergence.html",
+    "date": "June 17, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding the Intricacies of Logical Theorems",
     "summary": "Exploring the apparent contradiction between Lindenbaum's Lemma and Gödel's Incompleteness Theorems in logic.",
     "url": "articles/lindenbaum-lemma-godel-incompleteness.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-operator-spectra-and-injection-moduli.html",
     "date": "June 16, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "The Fascinating World of Undefinable Ordinals in Set Theory",
-    "summary": "Dive into the intricacies of fixed points in set theory and the implications of undefinable ordinals.",
-    "url": "articles/undefinable-ordinals-explored.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
