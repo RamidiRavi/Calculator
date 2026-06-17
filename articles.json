@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating the Complexities of Syntax and Semantics in Model Theory",
+    "summary": "Can we enhance syntax to capture all truths? An examination of model theory and Tarski's theorem.",
+    "url": "articles/syntax-semantics-model-theory.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Group Theory Demystified: Are We Weakening Definitions?",
     "summary": "Dive into the nuances of group theory and the equivalence of group definitions in mathematics.",
     "url": "articles/group-theory-equivalent-definitions.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-1b-dynamic-programming-counting-bits.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Exploring the Depth of Number-Theoretic Coincidences",
-    "summary": "Exploring remarkable coincidences in number theory beyond traditional examples.",
-    "url": "articles/number-theoretic-coincidences.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
   }
 ]
