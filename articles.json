@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Open Neighborhoods Matter in Mathematical Analysis",
+    "summary": "Explore the significance of open neighborhoods in analysis with insights from Mitsuo Sugiura's work.",
+    "url": "articles/understanding-open-neighborhoods.html",
+    "date": "June 17, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding Codimension in Closed Subsets: A Deeper Look",
     "summary": "Explore the intricacies of codimension in topology and unravel a fascinating mathematical conundrum.",
     "url": "articles/understanding-codimension-in-topology.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-capped-inward-focal-conchoids.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "The Importance of Finite Order in the Selberg Class",
-    "summary": "Explore why functions in the Selberg class must be of finite order and the implications of infinite order.",
-    "url": "articles/understanding-finite-order-selberg-class.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
   }
 ]
