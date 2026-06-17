@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Homology and Cohomology: A Guide",
+    "summary": "Explore the fundamentals of homology and cohomology, their definitions, and practical interpretations in topology and algebra.",
+    "url": "articles/understanding-homology-cohomology.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Reducing Description Size Doesn't Guarantee Better Representation",
     "summary": "Explore the nuances of representation in autoencoders and why size reduction doesn't always equate to better outcomes.",
     "url": "articles/understanding-representation-in-autoencoders.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Multiplicative Insight of Goldbach's Conjecture",
     "summary": "Discover a fresh perspective on Goldbach's Conjecture through prime partition counts and their multiplicative relationship.",
     "url": "articles/hidden-relationships-goldbach-conjecture.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring the Smooth Vector Bundle Structure Problem",
-    "summary": "A deep dive into the final version of the smooth vector bundle structure problem with key insights.",
-    "url": "articles/smooth-vector-bundle-structure.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
