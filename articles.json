@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is the Bold Chancery Style Missing in Mathematical Scripts?",
+    "summary": "Delve into the significance of bold chancery styles in mathematical typography and Unicode representation.",
+    "url": "articles/bold-chancery-math-fonts.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Does Non-Uniqueness Prevent Convergence in Iterative Procedures?",
     "summary": "Exploring convergence challenges in iterative algorithms for non-unique solutions of Laplace equations.",
     "url": "articles/convergence-issues-in-iterative-methods.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Connection Between Odd Degree and Zeros",
     "summary": "Explore Borsuk's Theorem and its implications in topology regarding odd degrees and zeros in continuous maps.",
     "url": "articles/understanding-odd-degree-and-zero-counts-in-topology.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unveiling New Function Strategies Beyond the Golden Ratio",
-    "summary": "Discover how to manipulate functions to achieve non-linear asymptotic behavior while retaining a golden ratio base case.",
-    "url": "articles/beyond-the-golden-ratio-functions.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
