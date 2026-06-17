@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Mystery of Cone Angle Specifications",
+    "summary": "Clarifying the default angle reference for specifying cone shapes.",
+    "url": "articles/understanding-cone-angles.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unveiling the Odds: Probability of Four-of-a-Kind in Kemps",
     "summary": "Explore the intriguing probability of drawing four-of-a-kind cards in a game of Kemps.",
     "url": "articles/probability-four-of-a-kind-kemps.html",
@@ -199,13 +206,6 @@
     "title": "Decoding Codimension in Closed Subsets: A Deeper Look",
     "summary": "Explore the intricacies of codimension in topology and unravel a fascinating mathematical conundrum.",
     "url": "articles/understanding-codimension-in-topology.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Complexities of Maximin Optimization Problems",
-    "summary": "Explore theoretical transformations and computational techniques for solving maximin optimization problems with convex objectives.",
-    "url": "articles/maximin-optimization-strategies.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
