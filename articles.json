@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Geometry of Random Tetrahedra: Dihedral Angles Explained",
+    "summary": "Explore the intriguing geometry of tetrahedra inscribed in a sphere, focusing on dihedral angles and their significance.",
+    "url": "articles/understanding-dihedral-angles-tetrahedra.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Tangents as Limits of Secants in Geometry",
     "summary": "Delve into the relationship between tangents and secants in projective algebraic geometry, and discover insightful methods for their analysis.",
     "url": "articles/tangents-secant-relation-algebraic-geometry.html",
@@ -201,12 +208,5 @@
     "url": "articles/minimizing-digits-in-mathematical-expressions.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Emerging Market Debt: A Surprisingly Strong Alternative to Treasuries",
-    "summary": "Discover why emerging market debt could offer better yields and stability than traditional Treasury bonds.",
-    "url": "articles/rethinking-emerging-market-debt.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
   }
 ]
