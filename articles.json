@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Reducing Description Size Doesn't Guarantee Better Representation",
+    "summary": "Explore the nuances of representation in autoencoders and why size reduction doesn't always equate to better outcomes.",
+    "url": "articles/understanding-representation-in-autoencoders.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "How to Prove Zero Derivative for Monotonic Functions",
     "summary": "Explore how monotonic functions can have a zero derivative almost everywhere, backed by Lebesgue's Last Theorem.",
     "url": "articles/zero-derivative-monotonic-functions.html",
@@ -199,13 +206,6 @@
     "title": "Exploring the Smooth Vector Bundle Structure Problem",
     "summary": "A deep dive into the final version of the smooth vector bundle structure problem with key insights.",
     "url": "articles/smooth-vector-bundle-structure.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlock Your Mathematical Potential This Summer",
-    "summary": "Get tips on summer self-study for a successful math degree at Cambridge.",
-    "url": "articles/summer-math-study-guide.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
