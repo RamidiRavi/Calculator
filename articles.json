@@ -1,5 +1,12 @@
 [
   {
+    "title": "Defining Quantifier Theory Without Arity or Index Numbers",
+    "summary": "Learn how to define quantifier theory independently from numerical dependencies.",
+    "url": "articles/quantifier-theory-without-numbers.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Continued Fractions: Computation Techniques",
     "summary": "Explore techniques to compute slowly convergent continued fractions with high precision.",
     "url": "articles/computing-continued-fractions.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-applications-of-egorovs-theorem.html",
     "date": "June 16, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Is the Matrix Function f(A) = A^{1/2} Lipschitz Continuous?",
-    "summary": "Dive into the Lipschitz continuity of the matrix function f(A)=A^{1/2} and its implications for positive definite matrices.",
-    "url": "articles/lipschitz-continuity-of-matrix-functions.html",
-    "date": "June 16, 2026",
-    "category": "Finance"
   }
 ]
