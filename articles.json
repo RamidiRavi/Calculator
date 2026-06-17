@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Distinction Between Direct Sums and Products",
+    "summary": "Explore the nuances between direct sums and products in ring theory, focusing on the notations $R^{(I)}$ and $R^I$ in modules.",
+    "url": "articles/clarifying-r-i-vs-r-i-in-module-theory.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating the Complexities of Syntax and Semantics in Model Theory",
     "summary": "Can we enhance syntax to capture all truths? An examination of model theory and Tarski's theorem.",
     "url": "articles/syntax-semantics-model-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/salmon-health-benefits-cooking-tips.html",
     "date": "June 16, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unlocking Dynamic Programming: Decoding 1,b in Counting Bits",
-    "summary": "Learn how to interpret the function P(x+b) = P(x) + 1,b in dynamic programming for counting bits in binary representations.",
-    "url": "articles/understanding-1b-dynamic-programming-counting-bits.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
