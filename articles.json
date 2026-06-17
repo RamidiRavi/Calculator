@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Smoothness Debate: Graphs of Non-Smooth Functions Explained",
+    "summary": "Explore the intricacies of smoothness in non-smooth functions and manifolds in mathematics.",
+    "url": "articles/smoothness-graphs.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Open Neighborhoods Matter in Mathematical Analysis",
     "summary": "Explore the significance of open neighborhoods in analysis with insights from Mitsuo Sugiura's work.",
     "url": "articles/understanding-open-neighborhoods.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Geometry Question from Peru's Olympiad",
     "summary": "Explore a captivating geometry problem from Peru's National Mathematical Olympiad that proves intriguing for math enthusiasts.",
     "url": "articles/geometry-challenge-peru-olympiad.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Wonders of Capped Inward Focal Conchoids",
-    "summary": "Discover the mathematical beauty of capped inward focal conchoids of a paraboloid and their implications in geometry.",
-    "url": "articles/exploring-capped-inward-focal-conchoids.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
