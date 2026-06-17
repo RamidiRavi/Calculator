@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Parentheses Matter in First-Order Logic Syntax",
+    "summary": "Explore the nuances of parentheses in first-order logic and their impact on logical expressions.",
+    "url": "articles/importance-of-parentheses-first-order-logic.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding the Mystery of Cone Angle Specifications",
     "summary": "Clarifying the default angle reference for specifying cone shapes.",
     "url": "articles/understanding-cone-angles.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-open-neighborhoods.html",
     "date": "June 17, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Decoding Codimension in Closed Subsets: A Deeper Look",
-    "summary": "Explore the intricacies of codimension in topology and unravel a fascinating mathematical conundrum.",
-    "url": "articles/understanding-codimension-in-topology.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
