@@ -1,5 +1,12 @@
 [
   {
+    "title": "Evaluating Limits for Sequences in Economic Modeling",
+    "summary": "Dive into the limit evaluation of v_n over u_n sequences in economic modeling using mathematical functions.",
+    "url": "articles/evaluating-limits-economic-modeling.html",
+    "date": "June 17, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Addressing the Runtime Paradox in NP Proofs",
     "summary": "A deep dive into the nuances of NP proof definitions and runtime uncertainties in theoretical computer science.",
     "url": "articles/np-proof-runtime-ambiguities.html",
@@ -201,12 +208,5 @@
     "url": "articles/number-theoretic-coincidences.html",
     "date": "June 16, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Exploring Connections on Differentiable Manifolds",
-    "summary": "Explore if two points on a manifold can be connected by a straight line in maximal atlases.",
-    "url": "articles/connecting-points-on-a-differentiable-manifold.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
