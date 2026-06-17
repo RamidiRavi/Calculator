@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Chaitin's Constant: Why is it Transcendental?",
+    "summary": "Explore why Chaitin's constant is transcendental and its implications in mathematics and undecidability.",
+    "url": "articles/transcendence-of-chaitins-constant.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Population Dynamics: Steady-State Distribution Explained",
     "summary": "Explore the steady-state distribution for multi-stage population growth models and learn how to set up your simulation effectively.",
     "url": "articles/multi-stage-population-growth-models.html",
@@ -201,12 +208,5 @@
     "url": "articles/partial-derivatives-multivariable-functions.html",
     "date": "June 16, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets Behind a Fascinating Mathematical Inequality",
-    "summary": "Delve into the inequality involving factorials and harmonic numbers, and learn its significance in mathematical theory.",
-    "url": "articles/math-inequality-exploration.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
