@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Intricacies of Logical Theorems",
+    "summary": "Exploring the apparent contradiction between Lindenbaum's Lemma and Gödel's Incompleteness Theorems in logic.",
+    "url": "articles/lindenbaum-lemma-godel-incompleteness.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Dividing by a Fraction Equates to Multiplying its Reciprocal",
     "summary": "Explore why dividing by a fraction is the same as multiplying by its reciprocal, with intuitive explanations and proofs.",
     "url": "articles/dividing-by-fraction-reciprocal.html",
@@ -199,13 +206,6 @@
     "title": "The Fascinating World of Undefinable Ordinals in Set Theory",
     "summary": "Dive into the intricacies of fixed points in set theory and the implications of undefinable ordinals.",
     "url": "articles/undefinable-ordinals-explored.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Secrets of Primitive Roots in Number Theory",
-    "summary": "Explore the proof behind the product of primitive roots being 1 modulo primes greater than 3.",
-    "url": "articles/understanding-primitive-roots-in-modular-arithmetic.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
