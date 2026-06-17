@@ -1,5 +1,12 @@
 [
   {
+    "title": "Colgate-Palmolive: The Surprising Stock to Buy Now",
+    "summary": "Explore why Colgate-Palmolive may be a better buy than Procter & Gamble, focusing on earnings and cash flow.",
+    "url": "articles/colgate-palmolive-outshines-procter-gamble.html",
+    "date": "June 17, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Defining Quantifier Theory Without Arity or Index Numbers",
     "summary": "Learn how to define quantifier theory independently from numerical dependencies.",
     "url": "articles/quantifier-theory-without-numbers.html",
@@ -199,13 +206,6 @@
     "title": "Demystifying Holomorphic Functions on Riemann Surfaces",
     "summary": "Explore the proof of holomorphism in Riemann surfaces using homogeneous coordinates.",
     "url": "articles/holomorphic-functions-in-riemann-surfaces.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Uncovering the Depths of Egorov's Theorem",
-    "summary": "Discover intriguing applications of Egorov's theorem in analysis beyond the Bounded Convergence Theorem.",
-    "url": "articles/exploring-applications-of-egorovs-theorem.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
