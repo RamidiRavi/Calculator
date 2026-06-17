@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mysteries of Riemann Zeta Function Analogs",
+    "summary": "Dive into the fascinating world of Riemann zeta function analogs and their mathematical significance.",
+    "url": "articles/exploring-analogs-of-riemann-zeta-function.html",
+    "date": "June 17, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Is the Riemann Zeta Function Unique Among L-Functions?",
     "summary": "Exploring if the Riemann zeta function is the lone L-function with a pole of order at s=1.",
     "url": "articles/riemann-zeta-function-l-functions-pole.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets Behind a Fascinating Mathematical Inequality",
     "summary": "Delve into the inequality involving factorials and harmonic numbers, and learn its significance in mathematical theory.",
     "url": "articles/math-inequality-exploration.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Navigating Recurrence Relations: Solutions Beyond Mods",
-    "summary": "Learn effective methods to solve recurrence relations without using mod functions. Discover techniques to find the general term.",
-    "url": "articles/exploring-recurrence-relations.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
