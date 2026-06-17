@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Existence of Adjoint Operators in Inner Product Spaces",
+    "summary": "Can finite-rank linear transformations have adjoints in inner product spaces? Discover the implications on vector spaces.",
+    "url": "articles/adjoint-operators-finite-rank-transformations.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Smoothness Debate: Graphs of Non-Smooth Functions Explained",
     "summary": "Explore the intricacies of smoothness in non-smooth functions and manifolds in mathematics.",
     "url": "articles/smoothness-graphs.html",
@@ -201,12 +208,5 @@
     "url": "articles/bishop-proof-countable-choice.html",
     "date": "June 16, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unraveling the Geometry Question from Peru's Olympiad",
-    "summary": "Explore a captivating geometry problem from Peru's National Mathematical Olympiad that proves intriguing for math enthusiasts.",
-    "url": "articles/geometry-challenge-peru-olympiad.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
   }
 ]
