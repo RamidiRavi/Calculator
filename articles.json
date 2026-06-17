@@ -1,5 +1,12 @@
 [
   {
+    "title": "How to Prove Zero Derivative for Monotonic Functions",
+    "summary": "Explore how monotonic functions can have a zero derivative almost everywhere, backed by Lebesgue's Last Theorem.",
+    "url": "articles/zero-derivative-monotonic-functions.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Proving Lower Bounds: The Infimum Explained",
     "summary": "Exploring the proof for lower bounds and infimum in real numbers.",
     "url": "articles/understanding-lower-bounds-and-infimum.html",
@@ -199,13 +206,6 @@
     "title": "Unlock Your Mathematical Potential This Summer",
     "summary": "Get tips on summer self-study for a successful math degree at Cambridge.",
     "url": "articles/summer-math-study-guide.html",
-    "date": "June 16, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Boundary Conditions After Transformation of ODEs",
-    "summary": "Explore the nuances of boundary conditions for transformed ODEs and their implications for functional analysis.",
-    "url": "articles/boundary-value-problems-transformation-insights.html",
     "date": "June 16, 2026",
     "category": "Productivity"
   }
