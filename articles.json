@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Evolution of Generalized Spin Structures in Mathematics",
+    "summary": "Uncover the significance of generalized spin structures on Riemannian manifolds in theoretical physics.",
+    "url": "articles/generalized-spin-structures-riemannian-manifolds.html",
+    "date": "June 17, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Parentheses Matter in First-Order Logic Syntax",
     "summary": "Explore the nuances of parentheses in first-order logic and their impact on logical expressions.",
     "url": "articles/importance-of-parentheses-first-order-logic.html",
@@ -201,12 +208,5 @@
     "url": "articles/smoothness-graphs.html",
     "date": "June 17, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Why Open Neighborhoods Matter in Mathematical Analysis",
-    "summary": "Explore the significance of open neighborhoods in analysis with insights from Mitsuo Sugiura's work.",
-    "url": "articles/understanding-open-neighborhoods.html",
-    "date": "June 17, 2026",
-    "category": "Finance"
   }
 ]
