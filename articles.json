@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the 2-adic Valuation Conjecture in Polynomials",
+    "summary": "Explore the intriguing conjecture regarding 2-adic valuation linked to polynomial coefficients.",
+    "url": "articles/2-adic-valuation-patterns-in-polynomials.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Gravitational Forces: A Mathematical Approach",
     "summary": "Dive into the fascinating calculations of gravitational forces using integrals, as we explore the shell theorem and its implications.",
     "url": "articles/gravitational-forces-integrals.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking $R$-Independence: Determinants and Module Theory Explained",
     "summary": "Exploring the relationship between R-independence and determinants in module theory. Understand this theorem's implications.",
     "url": "articles/$r-independence-and-determinants-module-theory.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Defining Quantifier Theory Without Arity or Index Numbers",
-    "summary": "Learn how to define quantifier theory independently from numerical dependencies.",
-    "url": "articles/quantifier-theory-without-numbers.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
