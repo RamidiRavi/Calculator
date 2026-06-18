@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Odds: Can You Score 30 in Rummikub on Your First Turn?",
+    "summary": "Explore the odds of achieving a score of 30 in Rummikub with 22 tiles. Understand strategies and probabilities for your next game.",
+    "url": "articles/winning-odds-in-rummikub-making-a-30-score.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Does Infinity Demand a Logical Framework or Just Philosophical Beliefs?",
     "summary": "Explore the debate on actual vs. potential infinity in mathematics and its philosophical implications.",
     "url": "articles/infinity-logic-or-philosophy.html",
@@ -201,12 +208,5 @@
     "url": "articles/operators-numerical-range-normality.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding the Identity of F_k(N): A Mathematician's Guide",
-    "summary": "Explore the intriguing mathematical identity involving F_k(N) and its implications in asymptotic analysis.",
-    "url": "articles/unlocking-mathematical-identities.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
