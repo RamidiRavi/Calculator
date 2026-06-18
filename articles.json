@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unveiling the Geometry of Square Cross Sections in Pyramids",
+    "summary": "Discover how to determine the apex of a pyramid for square cross sections of a convex quadrilateral base.",
+    "url": "articles/square-cross-sections-pyramids.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is Playmabble the Future of Math Learning?",
     "summary": "Uncover the buzz around Playmabble, the innovative math game that's engaging students in classrooms across the country.",
     "url": "articles/discover-playmabble-new-math-game.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Tangents as Limits of Secants in Geometry",
     "summary": "Delve into the relationship between tangents and secants in projective algebraic geometry, and discover insightful methods for their analysis.",
     "url": "articles/tangents-secant-relation-algebraic-geometry.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Chaitin's Constant: Why is it Transcendental?",
-    "summary": "Explore why Chaitin's constant is transcendental and its implications in mathematics and undecidability.",
-    "url": "articles/transcendence-of-chaitins-constant.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
