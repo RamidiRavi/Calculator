@@ -1,5 +1,12 @@
 [
   {
+    "title": "Delving into the Homotopy of Connecting Arcs Among Boundary Components",
+    "summary": "Explore the homotopy of connecting arcs in geometric topology, with a focus on pairs of pants and their boundary components.",
+    "url": "articles/homotopy-connecting-arcs-pants.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Mysteries of Points on a Sphere",
     "summary": "Delve into the fascinating world of point distributions on spheres and the distances between them.",
     "url": "articles/distance-distributions-on-a-sphere.html",
@@ -199,13 +206,6 @@
     "title": "The Evolution of Generalized Spin Structures in Mathematics",
     "summary": "Uncover the significance of generalized spin structures on Riemannian manifolds in theoretical physics.",
     "url": "articles/generalized-spin-structures-riemannian-manifolds.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Why Parentheses Matter in First-Order Logic Syntax",
-    "summary": "Explore the nuances of parentheses in first-order logic and their impact on logical expressions.",
-    "url": "articles/importance-of-parentheses-first-order-logic.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
