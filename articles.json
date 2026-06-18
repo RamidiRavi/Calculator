@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Playmabble the Future of Math Learning?",
+    "summary": "Uncover the buzz around Playmabble, the innovative math game that's engaging students in classrooms across the country.",
+    "url": "articles/discover-playmabble-new-math-game.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Diving into Nonseparable Field Extensions: Examples & Insights",
     "summary": "Explore nonseparable field extensions and their properties, including finite intermediate fields and examples.",
     "url": "articles/understanding-nonseparable-field-extensions.html",
@@ -201,12 +208,5 @@
     "url": "articles/transcendence-of-chaitins-constant.html",
     "date": "June 17, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Population Dynamics: Steady-State Distribution Explained",
-    "summary": "Explore the steady-state distribution for multi-stage population growth models and learn how to set up your simulation effectively.",
-    "url": "articles/multi-stage-population-growth-models.html",
-    "date": "June 17, 2026",
-    "category": "Health"
   }
 ]
