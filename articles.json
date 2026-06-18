@@ -1,5 +1,12 @@
 [
   {
+    "title": "Deriving Exact Solutions to ODEs Through Perturbation Techniques",
+    "summary": "Explore innovative methods to derive exact ODE solutions via perturbation series and their implications.",
+    "url": "articles/unraveling-ode-solutions-perturbative-techniques.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Crypto Pullback: Bitcoin and Ripple Down Amid Market Rally",
     "summary": "Bitcoin and Ripple experience declines while stocks rally; understand the macro factors influencing this divergence.",
     "url": "articles/crypto-pullback-amid-stock-rally.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Secrets of a Challenging Inequality",
     "summary": "Explore a compelling inequality proof involving variables constrained by a linear condition.",
     "url": "articles/mastering-inequalities.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Solutions in Quadratic Systems: Key Conditions",
-    "summary": "Explore sufficient conditions for solutions in quadratic systems involving linearly independent vectors.",
-    "url": "articles/guaranteeing-positive-solutions-quadratic-systems.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
