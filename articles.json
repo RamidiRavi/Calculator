@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Debate on Division by Zero: Is It Valid?",
+    "summary": "An examination of the logical proofs surrounding the validity of division by zero.",
+    "url": "articles/is-division-by-zero-valid.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unveiling the Geometry of Square Cross Sections in Pyramids",
     "summary": "Discover how to determine the apex of a pyramid for square cross sections of a convex quadrilateral base.",
     "url": "articles/square-cross-sections-pyramids.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Geometry of Random Tetrahedra: Dihedral Angles Explained",
     "summary": "Explore the intriguing geometry of tetrahedra inscribed in a sphere, focusing on dihedral angles and their significance.",
     "url": "articles/understanding-dihedral-angles-tetrahedra.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Tangents as Limits of Secants in Geometry",
-    "summary": "Delve into the relationship between tangents and secants in projective algebraic geometry, and discover insightful methods for their analysis.",
-    "url": "articles/tangents-secant-relation-algebraic-geometry.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
