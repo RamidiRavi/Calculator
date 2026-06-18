@@ -1,5 +1,12 @@
 [
   {
+    "title": "Implications of a Hawkish Fed on Your Loans and Borrowing Costs",
+    "summary": "Warsh's hawkish Fed committee raises concerns for rate cuts. Find out how this impacts loan rates and borrowing costs.",
+    "url": "articles/fed-hawks-challenge-rate-cuts.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding the 2-adic Valuation Conjecture in Polynomials",
     "summary": "Explore the intriguing conjecture regarding 2-adic valuation linked to polynomial coefficients.",
     "url": "articles/2-adic-valuation-patterns-in-polynomials.html",
@@ -199,13 +206,6 @@
     "title": "Why Dividing by a Fraction Equates to Multiplying its Reciprocal",
     "summary": "Explore why dividing by a fraction is the same as multiplying by its reciprocal, with intuitive explanations and proofs.",
     "url": "articles/dividing-by-fraction-reciprocal.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking $R$-Independence: Determinants and Module Theory Explained",
-    "summary": "Exploring the relationship between R-independence and determinants in module theory. Understand this theorem's implications.",
-    "url": "articles/$r-independence-and-determinants-module-theory.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
