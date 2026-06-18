@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Significance of the Constant 2 in Normed Space Inequalities",
+    "summary": "Explore why the constant 2 provides the best upper bound in normed space inequalities.",
+    "url": "articles/constant-2-in-normed-spaces.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Why Stochastic Differential Equations Matter: A Deep Dive",
     "summary": "Explore the importance and application of SDEs in various fields, igniting interest through basic examples.",
     "url": "articles/unlocking-sde-mystery.html",
@@ -201,12 +208,5 @@
     "url": "articles/np-proof-runtime-ambiguities.html",
     "date": "June 17, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Convergence Dynamics of Stochastic Growth Processes",
-    "summary": "Delve into the convergence properties of a reflected multiplicative growth system and its implications for stochastic processes.",
-    "url": "articles/stochastic-growth-processes-convergence.html",
-    "date": "June 17, 2026",
-    "category": "Finance"
   }
 ]
