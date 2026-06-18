@@ -1,5 +1,12 @@
 [
   {
+    "title": "Harness the Power of Untyped Lambda Calculus in Programming",
+    "summary": "Explore practical examples of untyped lambda calculus programs, including conditionals and repetition techniques.",
+    "url": "articles/untyped-lambda-calculus-practical-examples.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Mysteries of Prime Number Inequalities",
     "summary": "Dive into the intriguing realm of prime number inequalities and explore a new conjecture regarding distinct odd primes.",
     "url": "articles/exploring-prime-number-inequalities.html",
@@ -199,13 +206,6 @@
     "title": "Navigating the Complexities of Syntax and Semantics in Model Theory",
     "summary": "Can we enhance syntax to capture all truths? An examination of model theory and Tarski's theorem.",
     "url": "articles/syntax-semantics-model-theory.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Group Theory Demystified: Are We Weakening Definitions?",
-    "summary": "Dive into the nuances of group theory and the equivalence of group definitions in mathematics.",
-    "url": "articles/group-theory-equivalent-definitions.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
