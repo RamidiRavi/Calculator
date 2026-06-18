@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Quasicoherent Sheaves and Their Applications",
+    "summary": "Delve into quasicoherent sheaves over stack quotients and their implications for equivariant modules in algebraic geometry.",
+    "url": "articles/quasicoherent-sheaves-and-equivariant-modules.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding the Construction of Semitopological Groups",
     "summary": "Explore the nuances of semitopological groups and their construction through filter bases.",
     "url": "articles/semitopological-groups-filters.html",
@@ -201,12 +208,5 @@
     "url": "articles/fed-hawks-challenge-rate-cuts.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding the 2-adic Valuation Conjecture in Polynomials",
-    "summary": "Explore the intriguing conjecture regarding 2-adic valuation linked to polynomial coefficients.",
-    "url": "articles/2-adic-valuation-patterns-in-polynomials.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
