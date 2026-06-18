@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Gravitational Forces: A Mathematical Approach",
+    "summary": "Dive into the fascinating calculations of gravitational forces using integrals, as we explore the shell theorem and its implications.",
+    "url": "articles/gravitational-forces-integrals.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Are Operators with Convex Hulls of Eigenvalues Always Normal?",
     "summary": "Analyzing if the numerical range of an operator equates to its eigenvalues' convex hull implies the operator is normal.",
     "url": "articles/operators-numerical-range-normality.html",
@@ -199,13 +206,6 @@
     "title": "Defining Quantifier Theory Without Arity or Index Numbers",
     "summary": "Learn how to define quantifier theory independently from numerical dependencies.",
     "url": "articles/quantifier-theory-without-numbers.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Continued Fractions: Computation Techniques",
-    "summary": "Explore techniques to compute slowly convergent continued fractions with high precision.",
-    "url": "articles/computing-continued-fractions.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
