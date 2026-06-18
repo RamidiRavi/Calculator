@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding Solvability: Conditions for Groups of Order n",
+    "summary": "Exploring conditions under which every group of order n is solvable in group theory.",
+    "url": "articles/when-are-all-groups-of-order-n-solvable.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Building Muscle After 40: Nutrition and Strength Training Tips",
     "summary": "Unlock strength training nutrition tips for women over 40 to build muscle and enhance health during menopause.",
     "url": "articles/strength-training-nutrition-for-women-over-40.html",
@@ -199,13 +206,6 @@
     "title": "Why Reducing Description Size Doesn't Guarantee Better Representation",
     "summary": "Explore the nuances of representation in autoencoders and why size reduction doesn't always equate to better outcomes.",
     "url": "articles/understanding-representation-in-autoencoders.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "How to Prove Zero Derivative for Monotonic Functions",
-    "summary": "Explore how monotonic functions can have a zero derivative almost everywhere, backed by Lebesgue's Last Theorem.",
-    "url": "articles/zero-derivative-monotonic-functions.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
