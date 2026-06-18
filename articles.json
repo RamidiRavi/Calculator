@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Solutions in Quadratic Systems: Key Conditions",
+    "summary": "Explore sufficient conditions for solutions in quadratic systems involving linearly independent vectors.",
+    "url": "articles/guaranteeing-positive-solutions-quadratic-systems.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Lie Derivatives and Their Sign Conventions",
     "summary": "Explore the intricacies of Lie derivatives and tensor calculus in general relativity. Learn the correct conventions and interpretations.",
     "url": "articles/understanding-lie-derivatives-in-general-relativity.html",
@@ -199,13 +206,6 @@
     "title": "Does Non-Uniqueness Prevent Convergence in Iterative Procedures?",
     "summary": "Exploring convergence challenges in iterative algorithms for non-unique solutions of Laplace equations.",
     "url": "articles/convergence-issues-in-iterative-methods.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Existence of Adjoint Operators in Inner Product Spaces",
-    "summary": "Can finite-rank linear transformations have adjoints in inner product spaces? Discover the implications on vector spaces.",
-    "url": "articles/adjoint-operators-finite-rank-transformations.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
