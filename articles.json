@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Some Tangents Do Not Indicate Differentiability",
+    "summary": "Explore the relationship between tangents and differentiability, focusing on the absolute value function's unique characteristics.",
+    "url": "articles/understanding-tangents-and-differentiability.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Are There Infinite Odd or Even Numbers on the Number Line?",
     "summary": "Dive into the fascinating world of odd and even numbers between whole numbers on the number line.",
     "url": "articles/infinite-odd-even-numbers.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-finite-induction.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Why Stochastic Differential Equations Matter: A Deep Dive",
-    "summary": "Explore the importance and application of SDEs in various fields, igniting interest through basic examples.",
-    "url": "articles/unlocking-sde-mystery.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
