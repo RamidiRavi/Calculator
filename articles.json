@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can We Design Linear Operators with Custom Eigenfunctions?",
+    "summary": "Explore how eigenfunction theory can inspire the creation of new linear operators.",
+    "url": "articles/creating-linear-operators-eigenfunction-theory.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Quasicoherent Sheaves and Their Applications",
     "summary": "Delve into quasicoherent sheaves over stack quotients and their implications for equivariant modules in algebraic geometry.",
     "url": "articles/quasicoherent-sheaves-and-equivariant-modules.html",
@@ -201,12 +208,5 @@
     "url": "articles/singular-values-traceless-hermitian-matrices.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Implications of a Hawkish Fed on Your Loans and Borrowing Costs",
-    "summary": "Warsh's hawkish Fed committee raises concerns for rate cuts. Find out how this impacts loan rates and borrowing costs.",
-    "url": "articles/fed-hawks-challenge-rate-cuts.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
