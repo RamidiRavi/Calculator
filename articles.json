@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Differential Equations: The Role of Manifolds",
+    "summary": "Explore how studying manifolds enhances our grasp of differential equations, along with essential resources for deeper learning.",
+    "url": "articles/understanding-differential-equations-manifolds.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Debate on Division by Zero: Is It Valid?",
     "summary": "An examination of the logical proofs surrounding the validity of division by zero.",
     "url": "articles/is-division-by-zero-valid.html",
@@ -201,12 +208,5 @@
     "url": "articles/vig-vs-schd-dividend-etf-retirement.html",
     "date": "June 17, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Geometry of Random Tetrahedra: Dihedral Angles Explained",
-    "summary": "Explore the intriguing geometry of tetrahedra inscribed in a sphere, focusing on dihedral angles and their significance.",
-    "url": "articles/understanding-dihedral-angles-tetrahedra.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
   }
 ]
