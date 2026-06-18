@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of 3D OBBs and Perspective Projection",
+    "summary": "Delve into non-linear perspective projection and analytical methods for bounding boxes in 3D graphics.",
+    "url": "articles/analytical-bounds-3d-oriented-bounding-box.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating the Complexity of Game Theory Expectations",
     "summary": "Explore the complexities of undefined expectations in game theory problems and find clarity on your calculations.",
     "url": "articles/undefined-expectations-game-theory.html",
@@ -199,13 +206,6 @@
     "title": "Understanding the 2-adic Valuation Conjecture in Polynomials",
     "summary": "Explore the intriguing conjecture regarding 2-adic valuation linked to polynomial coefficients.",
     "url": "articles/2-adic-valuation-patterns-in-polynomials.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Gravitational Forces: A Mathematical Approach",
-    "summary": "Dive into the fascinating calculations of gravitational forces using integrals, as we explore the shell theorem and its implications.",
-    "url": "articles/gravitational-forces-integrals.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
