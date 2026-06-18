@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unearth the Elegance of Synthetic Geometry in Angle Puzzles",
+    "summary": "Explore a synthetic geometry approach to finding a missing angle in a grid puzzle, beyond trigonometry.",
+    "url": "articles/solve-missing-angle-puzzle-synthetic-geometry.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Deriving Exact Solutions to ODEs Through Perturbation Techniques",
     "summary": "Explore innovative methods to derive exact ODE solutions via perturbation series and their implications.",
     "url": "articles/unraveling-ode-solutions-perturbative-techniques.html",
@@ -199,13 +206,6 @@
     "title": "Understanding the Identity of F_k(N): A Mathematician's Guide",
     "summary": "Explore the intriguing mathematical identity involving F_k(N) and its implications in asymptotic analysis.",
     "url": "articles/unlocking-mathematical-identities.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of a Challenging Inequality",
-    "summary": "Explore a compelling inequality proof involving variables constrained by a linear condition.",
-    "url": "articles/mastering-inequalities.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
