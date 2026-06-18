@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can a Strict Transform of a Plane Curve Hold New Singularities?",
+    "summary": "Can the strict transform of a singular plane curve exhibit new singularities? Discover the intricacies of algebraic geometry.",
+    "url": "articles/singularities-plane-curves.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering Perspective Projection: A Mathematical Exploration",
     "summary": "Explore mathematical structures to solve perspective projection issues for points behind the camera.",
     "url": "articles/resolving-coordinate-flips-in-perspective-projection.html",
@@ -201,12 +208,5 @@
     "url": "articles/riemann-zeta-function-l-functions-pole.html",
     "date": "June 17, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Geometric Insights into the Annihilator of Zero Divisors",
-    "summary": "Explore the geometric interpretation of the annihilator of zero divisors in reduced Noetherian rings.",
-    "url": "articles/geometric-interpreter-zero-divisors-anihilator.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
   }
 ]
