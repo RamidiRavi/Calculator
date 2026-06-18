@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Impact of Machine Precision on Chaotic Trajectories",
+    "summary": "Explore how machine precision affects trajectories in chaotic systems and strange attractors.",
+    "url": "articles/machine-precision-chaotic-systems.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Odds: Can You Score 30 in Rummikub on Your First Turn?",
     "summary": "Explore the odds of achieving a score of 30 in Rummikub with 22 tiles. Understand strategies and probabilities for your next game.",
     "url": "articles/winning-odds-in-rummikub-making-a-30-score.html",
@@ -201,12 +208,5 @@
     "url": "articles/gravitational-forces-integrals.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Are Operators with Convex Hulls of Eigenvalues Always Normal?",
-    "summary": "Analyzing if the numerical range of an operator equates to its eigenvalues' convex hull implies the operator is normal.",
-    "url": "articles/operators-numerical-range-normality.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
