@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Fixed-Length Segmentation on a 3D Helix",
+    "summary": "Learn how to compute fixed-length segments on a 3D helix with our expert guide on trigonometric calculations.",
+    "url": "articles/segmenting-3d-helix.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Delving into the Homotopy of Connecting Arcs Among Boundary Components",
     "summary": "Explore the homotopy of connecting arcs in geometric topology, with a focus on pairs of pants and their boundary components.",
     "url": "articles/homotopy-connecting-arcs-pants.html",
@@ -200,13 +207,6 @@
     "summary": "Explore the intricacies of Lie derivatives and tensor calculus in general relativity. Learn the correct conventions and interpretations.",
     "url": "articles/understanding-lie-derivatives-in-general-relativity.html",
     "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Evolution of Generalized Spin Structures in Mathematics",
-    "summary": "Uncover the significance of generalized spin structures on Riemannian manifolds in theoretical physics.",
-    "url": "articles/generalized-spin-structures-riemannian-manifolds.html",
-    "date": "June 17, 2026",
     "category": "Productivity"
   }
 ]
