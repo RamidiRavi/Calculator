@@ -1,5 +1,12 @@
 [
   {
+    "title": "Why Stochastic Differential Equations Matter: A Deep Dive",
+    "summary": "Explore the importance and application of SDEs in various fields, igniting interest through basic examples.",
+    "url": "articles/unlocking-sde-mystery.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Singular Values in Matrices",
     "summary": "Discover the singular values of matrices formed with traceless generators of SU(d) and their implications in linear algebra.",
     "url": "articles/singular-values-traceless-hermitian-matrices.html",
@@ -201,12 +208,5 @@
     "url": "articles/stochastic-growth-processes-convergence.html",
     "date": "June 17, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Decoding the Intricacies of Logical Theorems",
-    "summary": "Exploring the apparent contradiction between Lindenbaum's Lemma and Gödel's Incompleteness Theorems in logic.",
-    "url": "articles/lindenbaum-lemma-godel-incompleteness.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
   }
 ]
