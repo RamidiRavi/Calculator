@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Strong Induction in Recursive Algorithms",
+    "summary": "Explore strong induction proof for a recursive multiplication algorithm and its implications in algorithm design.",
+    "url": "articles/validating-recursive-multiplication.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Differential Equations: The Role of Manifolds",
     "summary": "Explore how studying manifolds enhances our grasp of differential equations, along with essential resources for deeper learning.",
     "url": "articles/understanding-differential-equations-manifolds.html",
@@ -199,13 +206,6 @@
     "title": "The Intricacies of Cardinality in Nested Families of Subsets",
     "summary": "Explore the existence of least cardinal in nested subsets intersection conditions.",
     "url": "articles/understanding-cardinality-in-nested-set-families.html",
-    "date": "June 17, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Choosing Between VIG and SCHD: A Dividend Dilemma",
-    "summary": "Explore whether Vanguard's VIG or Schwab's SCHD should be your go-to for dividends in retirement.",
-    "url": "articles/vig-vs-schd-dividend-etf-retirement.html",
     "date": "June 17, 2026",
     "category": "Finance"
   }
