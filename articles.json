@@ -1,5 +1,12 @@
 [
   {
+    "title": "Are There Infinite Odd or Even Numbers on the Number Line?",
+    "summary": "Dive into the fascinating world of odd and even numbers between whole numbers on the number line.",
+    "url": "articles/infinite-odd-even-numbers.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Can We Design Linear Operators with Custom Eigenfunctions?",
     "summary": "Explore how eigenfunction theory can inspire the creation of new linear operators.",
     "url": "articles/creating-linear-operators-eigenfunction-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/unlocking-sde-mystery.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Secrets of Singular Values in Matrices",
-    "summary": "Discover the singular values of matrices formed with traceless generators of SU(d) and their implications in linear algebra.",
-    "url": "articles/singular-values-traceless-hermitian-matrices.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
