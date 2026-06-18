@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Role of Derived Functors in Homological Algebra",
+    "summary": "Explore derived functors' roles in measuring exactness failures in homological algebra.",
+    "url": "articles/understanding-derived-functors-homological-algebra.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Harness the Power of Untyped Lambda Calculus in Programming",
     "summary": "Explore practical examples of untyped lambda calculus programs, including conditionals and repetition techniques.",
     "url": "articles/untyped-lambda-calculus-practical-examples.html",
@@ -199,13 +206,6 @@
     "title": "Understanding the Distinction Between Direct Sums and Products",
     "summary": "Explore the nuances between direct sums and products in ring theory, focusing on the notations $R^{(I)}$ and $R^I$ in modules.",
     "url": "articles/clarifying-r-i-vs-r-i-in-module-theory.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Navigating the Complexities of Syntax and Semantics in Model Theory",
-    "summary": "Can we enhance syntax to capture all truths? An examination of model theory and Tarski's theorem.",
-    "url": "articles/syntax-semantics-model-theory.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
