@@ -1,5 +1,12 @@
 [
   {
+    "title": "Diving into Nonseparable Field Extensions: Examples & Insights",
+    "summary": "Explore nonseparable field extensions and their properties, including finite intermediate fields and examples.",
+    "url": "articles/understanding-nonseparable-field-extensions.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unraveling the Geometric Magic of Circle Tangents and Centers",
     "summary": "Discover the geometric intuition behind the swapping of circle centers and tangent intersection points.",
     "url": "articles/geometric-reciprocity-circle-tangents.html",
@@ -201,12 +208,5 @@
     "url": "articles/multi-stage-population-growth-models.html",
     "date": "June 17, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Is the Riemann Zeta Function Unique Among L-Functions?",
-    "summary": "Exploring if the Riemann zeta function is the lone L-function with a pole of order at s=1.",
-    "url": "articles/riemann-zeta-function-l-functions-pole.html",
-    "date": "June 17, 2026",
-    "category": "Finance"
   }
 ]
