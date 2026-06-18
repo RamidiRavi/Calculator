@@ -1,5 +1,12 @@
 [
   {
+    "title": "Crypto Pullback: Bitcoin and Ripple Down Amid Market Rally",
+    "summary": "Bitcoin and Ripple experience declines while stocks rally; understand the macro factors influencing this divergence.",
+    "url": "articles/crypto-pullback-amid-stock-rally.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "The Uniqueness of x=6 in Twin-Prime Patterns: A Mathematical Exploration",
     "summary": "Analyzing the unique properties of x=6 in twin-prime configurations.",
     "url": "articles/twin-prime-patterns-exploration.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking Solutions in Quadratic Systems: Key Conditions",
     "summary": "Explore sufficient conditions for solutions in quadratic systems involving linearly independent vectors.",
     "url": "articles/guaranteeing-positive-solutions-quadratic-systems.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Demystifying Lie Derivatives and Their Sign Conventions",
-    "summary": "Explore the intricacies of Lie derivatives and tensor calculus in general relativity. Learn the correct conventions and interpretations.",
-    "url": "articles/understanding-lie-derivatives-in-general-relativity.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
