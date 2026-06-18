@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Mysteries of Points on a Sphere",
+    "summary": "Delve into the fascinating world of point distributions on spheres and the distances between them.",
+    "url": "articles/distance-distributions-on-a-sphere.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Fascinating World of Polynomial Sums: Rational vs. Transcendental",
     "summary": "Unpacking the distinction between rational, transcendental, and algebraic irrational sums in polynomial series.",
     "url": "articles/rational-transcendental-sums-math-exploration.html",
@@ -199,13 +206,6 @@
     "title": "Why Parentheses Matter in First-Order Logic Syntax",
     "summary": "Explore the nuances of parentheses in first-order logic and their impact on logical expressions.",
     "url": "articles/importance-of-parentheses-first-order-logic.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding the Mystery of Cone Angle Specifications",
-    "summary": "Clarifying the default angle reference for specifying cone shapes.",
-    "url": "articles/understanding-cone-angles.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
