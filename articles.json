@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering Perspective Projection: A Mathematical Exploration",
+    "summary": "Explore mathematical structures to solve perspective projection issues for points behind the camera.",
+    "url": "articles/resolving-coordinate-flips-in-perspective-projection.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding Solvability: Conditions for Groups of Order n",
     "summary": "Exploring conditions under which every group of order n is solvable in group theory.",
     "url": "articles/when-are-all-groups-of-order-n-solvable.html",
@@ -199,13 +206,6 @@
     "title": "Geometric Insights into the Annihilator of Zero Divisors",
     "summary": "Explore the geometric interpretation of the annihilator of zero divisors in reduced Noetherian rings.",
     "url": "articles/geometric-interpreter-zero-divisors-anihilator.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Why Reducing Description Size Doesn't Guarantee Better Representation",
-    "summary": "Explore the nuances of representation in autoencoders and why size reduction doesn't always equate to better outcomes.",
-    "url": "articles/understanding-representation-in-autoencoders.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
