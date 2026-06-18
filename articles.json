@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding Conditional Expectations with Gaussian Processes",
+    "summary": "Explore conditional expectations in Gaussian processes to deepen your understanding of probability theory.",
+    "url": "articles/conditional-expectations-gaussian-processes.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Understanding Strong Induction in Recursive Algorithms",
     "summary": "Explore strong induction proof for a recursive multiplication algorithm and its implications in algorithm design.",
     "url": "articles/validating-recursive-multiplication.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Odds: Probability of Four-of-a-Kind in Kemps",
     "summary": "Explore the intriguing probability of drawing four-of-a-kind cards in a game of Kemps.",
     "url": "articles/probability-four-of-a-kind-kemps.html",
-    "date": "June 17, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "The Intricacies of Cardinality in Nested Families of Subsets",
-    "summary": "Explore the existence of least cardinal in nested subsets intersection conditions.",
-    "url": "articles/understanding-cardinality-in-nested-set-families.html",
     "date": "June 17, 2026",
     "category": "Finance"
   }
