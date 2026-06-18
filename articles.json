@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Identity of F_k(N): A Mathematician's Guide",
+    "summary": "Explore the intriguing mathematical identity involving F_k(N) and its implications in asymptotic analysis.",
+    "url": "articles/unlocking-mathematical-identities.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of a Challenging Inequality",
     "summary": "Explore a compelling inequality proof involving variables constrained by a linear condition.",
     "url": "articles/mastering-inequalities.html",
@@ -199,13 +206,6 @@
     "title": "Are Pre-Orders Misrepresented in Category Theory?",
     "summary": "Delving into potential misunderstandings in pre-orders and inverses in 'A Gentle Introduction to Category Theory.'",
     "url": "articles/pre-orders-category-theory-oversight.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Is the Bold Chancery Style Missing in Mathematical Scripts?",
-    "summary": "Delve into the significance of bold chancery styles in mathematical typography and Unicode representation.",
-    "url": "articles/bold-chancery-math-fonts.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
