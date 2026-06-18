@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of a Challenging Inequality",
+    "summary": "Explore a compelling inequality proof involving variables constrained by a linear condition.",
+    "url": "articles/mastering-inequalities.html",
+    "date": "June 18, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Solutions in Quadratic Systems: Key Conditions",
     "summary": "Explore sufficient conditions for solutions in quadratic systems involving linearly independent vectors.",
     "url": "articles/guaranteeing-positive-solutions-quadratic-systems.html",
@@ -199,13 +206,6 @@
     "title": "Is the Bold Chancery Style Missing in Mathematical Scripts?",
     "summary": "Delve into the significance of bold chancery styles in mathematical typography and Unicode representation.",
     "url": "articles/bold-chancery-math-fonts.html",
-    "date": "June 17, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Does Non-Uniqueness Prevent Convergence in Iterative Procedures?",
-    "summary": "Exploring convergence challenges in iterative algorithms for non-unique solutions of Laplace equations.",
-    "url": "articles/convergence-issues-in-iterative-methods.html",
     "date": "June 17, 2026",
     "category": "Productivity"
   }
