@@ -1,5 +1,12 @@
 [
   {
+    "title": "Does the GPT Renormalization Model for MRB Constant Hold Water?",
+    "summary": "Is the GPT renormalization model for the MRB constant valid? Dive into the physics and mathematics behind it.",
+    "url": "articles/mrb-constant-renormalization-model.html",
+    "date": "June 18, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Decoding Conditional Expectations with Gaussian Processes",
     "summary": "Explore conditional expectations in Gaussian processes to deepen your understanding of probability theory.",
     "url": "articles/conditional-expectations-gaussian-processes.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-cone-angles.html",
     "date": "June 17, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unveiling the Odds: Probability of Four-of-a-Kind in Kemps",
-    "summary": "Explore the intriguing probability of drawing four-of-a-kind cards in a game of Kemps.",
-    "url": "articles/probability-four-of-a-kind-kemps.html",
-    "date": "June 17, 2026",
-    "category": "Finance"
   }
 ]
