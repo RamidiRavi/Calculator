@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Hodge Theory: Resources for Advanced Study",
+    "summary": "Delve into Helmholtz-Hodge decomposition on Riemannian manifolds, focusing on non-compact spaces.",
+    "url": "articles/hodge-theory-helmholtz-decomposition.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Calculating Expected Stopping Ranks in a Card Discard Game",
     "summary": "Discover the expected stopping rank in a card discarding game and how card variations affect outcomes.",
     "url": "articles/expected-stopping-ranks-in-card-games.html",
@@ -199,13 +206,6 @@
     "title": "Does Infinity Demand a Logical Framework or Just Philosophical Beliefs?",
     "summary": "Explore the debate on actual vs. potential infinity in mathematics and its philosophical implications.",
     "url": "articles/infinity-logic-or-philosophy.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Deriving Exact Solutions to ODEs Through Perturbation Techniques",
-    "summary": "Explore innovative methods to derive exact ODE solutions via perturbation series and their implications.",
-    "url": "articles/unraveling-ode-solutions-perturbative-techniques.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
