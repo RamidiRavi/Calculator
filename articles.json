@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Curious Case of Pascal’s Triangle and Infinite Series",
+    "summary": "Explore the intricacies of applying Pascal's Triangle to infinite series and why it may lead to contradictions.",
+    "url": "articles/understanding-pascals-triangle-in-infinite-series.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Cosmic Temperature Fluctuations",
     "summary": "Explore the maximum attainable value of the two-point correlation function on a 2-sphere in cosmology.",
     "url": "articles/maximizing-correlation-2-sphere.html",
@@ -201,12 +208,5 @@
     "url": "articles/rethinking-zero-and-infinity.html",
     "date": "June 19, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Why Some Tangents Do Not Indicate Differentiability",
-    "summary": "Explore the relationship between tangents and differentiability, focusing on the absolute value function's unique characteristics.",
-    "url": "articles/understanding-tangents-and-differentiability.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
