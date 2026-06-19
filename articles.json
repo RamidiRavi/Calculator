@@ -1,5 +1,12 @@
 [
   {
+    "title": "Is Z(s) a More Natural Formulation Than the Riemann Zeta Function?",
+    "summary": "Is the function Z(s) more fundamental than the Riemann zeta function? We explore its rational properties and spectral significance.",
+    "url": "articles/exploring-nature-of-z-function.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Simplifying the Calculation of Krull Dimension in Algebra",
     "summary": "Learn how to compute Krull dimension for rings using concrete examples and straightforward methods.",
     "url": "articles/mastering-krull-dimension-guide.html",
@@ -201,12 +208,5 @@
     "url": "articles/vinogradov-korobov-bound-l-functions.html",
     "date": "June 19, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Mystery of Marble Distribution: 55 Bags Explained",
-    "summary": "Explore how to distribute 55 marbles into the maximum number of bags with distinct counts.",
-    "url": "articles/maximizing-bags-for-marble-distribution.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
   }
 ]
