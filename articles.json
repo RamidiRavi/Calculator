@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Significance of the Number MoIedx (10^103)",
+    "summary": "Discover the intriguing properties and applications of the large number defined as 10^103 in combinatorics and number theory.",
+    "url": "articles/exploring-moiedx-10-103.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Navigating Doubts in Riemannian Geometry: A Deep Dive",
     "summary": "Explore the doubts surrounding Corollary 2.10 of Manfredo's Riemannian Geometry and understand its implications.",
     "url": "articles/clarifying-corollary-2-10-in-riemannian-geometry.html",
@@ -201,12 +208,5 @@
     "url": "articles/unraveling-ode-solutions-perturbative-techniques.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Crypto Pullback: Bitcoin and Ripple Down Amid Market Rally",
-    "summary": "Bitcoin and Ripple experience declines while stocks rally; understand the macro factors influencing this divergence.",
-    "url": "articles/crypto-pullback-amid-stock-rally.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
