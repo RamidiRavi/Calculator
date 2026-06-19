@@ -1,5 +1,12 @@
 [
   {
+    "title": "Building a Strong Foundation: Understanding Linear Mappings",
+    "summary": "Unlock the secrets of linear mappings and affine spaces with beginner-friendly resources and intuitive explanations.",
+    "url": "articles/master-linear-mappings-affine-spaces.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Importance of Clarity in Mathematical Phrasing",
     "summary": "Is your mathematical question clear? Explore the implications of poorly worded problems in mathematics.",
     "url": "articles/decoding-clarity-in-mathematical-questions.html",
@@ -201,12 +208,5 @@
     "url": "articles/rational-transcendental-sums-math-exploration.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Decoding Conditional Expectations with Gaussian Processes",
-    "summary": "Explore conditional expectations in Gaussian processes to deepen your understanding of probability theory.",
-    "url": "articles/conditional-expectations-gaussian-processes.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
