@@ -1,5 +1,12 @@
 [
   {
+    "title": "Decoding the Markov Chain Behind Rolling a Die",
+    "summary": "Exploring the concept of Markov chains through the lens of dice rolls and event timing.",
+    "url": "articles/understanding-measurability-dice-rolls-markov-chains.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking Hodge Theory: Resources for Advanced Study",
     "summary": "Delve into Helmholtz-Hodge decomposition on Riemannian manifolds, focusing on non-compact spaces.",
     "url": "articles/hodge-theory-helmholtz-decomposition.html",
@@ -199,13 +206,6 @@
     "title": "Unlocking the Odds: Can You Score 30 in Rummikub on Your First Turn?",
     "summary": "Explore the odds of achieving a score of 30 in Rummikub with 22 tiles. Understand strategies and probabilities for your next game.",
     "url": "articles/winning-odds-in-rummikub-making-a-30-score.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Does Infinity Demand a Logical Framework or Just Philosophical Beliefs?",
-    "summary": "Explore the debate on actual vs. potential infinity in mathematics and its philosophical implications.",
-    "url": "articles/infinity-logic-or-philosophy.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
