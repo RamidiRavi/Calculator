@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can We Equalize Three Numbers Using Operations?",
+    "summary": "Can three numbers become equal through specific operations? Discover the mathematical exploration of this intriguing problem.",
+    "url": "articles/exploring-number-equality-through-operations.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unlocking the Secrets of Vector Calculus: Gradient, Curl, and Divergence",
     "summary": "Explore the fundamental concepts of gradient, curl, and divergence and their applications in physics and engineering.",
     "url": "articles/understanding-gradient-curl-divergence.html",
@@ -201,12 +208,5 @@
     "url": "articles/strength-training-nutrition-for-women-over-40.html",
     "date": "June 18, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Unveiling the Applications of the Mediant Inequality",
-    "summary": "Dive into the applications of the mediant inequality in linear operator analysis and its significance in various mathematical contexts.",
-    "url": "articles/exploring-mediant-inequality-applications.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
