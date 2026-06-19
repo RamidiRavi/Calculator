@@ -1,5 +1,12 @@
 [
   {
+    "title": "Simplifying the Calculation of Krull Dimension in Algebra",
+    "summary": "Learn how to compute Krull dimension for rings using concrete examples and straightforward methods.",
+    "url": "articles/mastering-krull-dimension-guide.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Curious Case of Pascal’s Triangle and Infinite Series",
     "summary": "Explore the intricacies of applying Pascal's Triangle to infinite series and why it may lead to contradictions.",
     "url": "articles/understanding-pascals-triangle-in-infinite-series.html",
@@ -201,12 +208,5 @@
     "url": "articles/maximizing-bags-for-marble-distribution.html",
     "date": "June 19, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Rethinking Zero and Infinity: A New Mathematical Framework",
-    "summary": "Exploring the implications of redefining zero and infinity in mathematical frameworks.",
-    "url": "articles/rethinking-zero-and-infinity.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
   }
 ]
