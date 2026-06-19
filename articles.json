@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unpacking the Connection Between Derivative Concepts",
+    "summary": "Delve into the connection between functional analysis and geometric derivatives.",
+    "url": "articles/exploring-derivatives-functional-analysis-geometry.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Deriving Elliptic Integral Solutions for Multi-variable DEs",
     "summary": "Explore the derivation process of the solution to the DE u'=vw, v'=wu, w'=uv in elliptic integral form.",
     "url": "articles/elliptic-integral-solutions-multivariable-de.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Geometry of Square Cross Sections in Pyramids",
     "summary": "Discover how to determine the apex of a pyramid for square cross sections of a convex quadrilateral base.",
     "url": "articles/square-cross-sections-pyramids.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Is Playmabble the Future of Math Learning?",
-    "summary": "Uncover the buzz around Playmabble, the innovative math game that's engaging students in classrooms across the country.",
-    "url": "articles/discover-playmabble-new-math-game.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
