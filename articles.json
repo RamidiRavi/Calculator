@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Calculations for Rafter Cuts: A Guide",
+    "summary": "Learn how to calculate angles and heights for rafter cuts in structural engineering projects.",
+    "url": "articles/calculate-rafter-cuts.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating RFK Jr.'s Call for Social Security Benefit Cuts",
     "summary": "RFK Jr. suggests a 25.2% cut to Social Security benefits. Here's how you can financially prepare for changes.",
     "url": "articles/rfk-jr-social-security-benefit-cuts.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Geometric Magic of Circle Tangents and Centers",
     "summary": "Discover the geometric intuition behind the swapping of circle centers and tangent intersection points.",
     "url": "articles/geometric-reciprocity-circle-tangents.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering Perspective Projection: A Mathematical Exploration",
-    "summary": "Explore mathematical structures to solve perspective projection issues for points behind the camera.",
-    "url": "articles/resolving-coordinate-flips-in-perspective-projection.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
