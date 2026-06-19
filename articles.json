@@ -1,5 +1,12 @@
 [
   {
+    "title": "Uncovering the Equal Probability in Random Walks on n-Gons",
+    "summary": "Discover why all vertices have equal last-visit probability in a random walk on an n-gon.",
+    "url": "articles/random-walk-n-gon-last-vertex-probability.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Decoding the Markov Chain Behind Rolling a Die",
     "summary": "Exploring the concept of Markov chains through the lens of dice rolls and event timing.",
     "url": "articles/understanding-measurability-dice-rolls-markov-chains.html",
@@ -201,12 +208,5 @@
     "url": "articles/undefined-expectations-game-theory.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Odds: Can You Score 30 in Rummikub on Your First Turn?",
-    "summary": "Explore the odds of achieving a score of 30 in Rummikub with 22 tiles. Understand strategies and probabilities for your next game.",
-    "url": "articles/winning-odds-in-rummikub-making-a-30-score.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
