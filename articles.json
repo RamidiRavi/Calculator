@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding Covariance When Data Sets Don't Match",
+    "summary": "Learn how to handle covariance calculations when data vectors have different lengths.",
+    "url": "articles/calculating-covariance-with-unequal-data-lengths.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unraveling the Relationship Between Two Key Mathematical Concepts",
     "summary": "Explore the Mod k Dold Theorem and its relationship with the Adams conjecture, deciphering the implications and strengths of both.",
     "url": "articles/mod-k-dold-theorem-vs-adams-conjecture.html",
@@ -201,12 +208,5 @@
     "url": "articles/quasicoherent-sheaves-and-equivariant-modules.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Decoding the Construction of Semitopological Groups",
-    "summary": "Explore the nuances of semitopological groups and their construction through filter bases.",
-    "url": "articles/semitopological-groups-filters.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
