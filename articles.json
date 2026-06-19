@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Importance of Clarity in Mathematical Phrasing",
+    "summary": "Is your mathematical question clear? Explore the implications of poorly worded problems in mathematics.",
+    "url": "articles/decoding-clarity-in-mathematical-questions.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Characteristics of Class D Processes",
     "summary": "Uncover the defining features and conditions of Class D processes in the Doob-Meyer decomposition theorem.",
     "url": "articles/properties-class-d-processes.html",
@@ -201,12 +208,5 @@
     "url": "articles/conditional-expectations-gaussian-processes.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Understanding Strong Induction in Recursive Algorithms",
-    "summary": "Explore strong induction proof for a recursive multiplication algorithm and its implications in algorithm design.",
-    "url": "articles/validating-recursive-multiplication.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
