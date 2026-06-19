@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Girard’s Phase Space Semantics in Linear Logic",
+    "summary": "Explore insights into Girard's phase space semantics in linear logic and build a deeper understanding.",
+    "url": "articles/girards-phase-space-semantics.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering the Calculations for Rafter Cuts: A Guide",
     "summary": "Learn how to calculate angles and heights for rafter cuts in structural engineering projects.",
     "url": "articles/calculate-rafter-cuts.html",
@@ -199,13 +206,6 @@
     "title": "Diving into Nonseparable Field Extensions: Examples & Insights",
     "summary": "Explore nonseparable field extensions and their properties, including finite intermediate fields and examples.",
     "url": "articles/understanding-nonseparable-field-extensions.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unraveling the Geometric Magic of Circle Tangents and Centers",
-    "summary": "Discover the geometric intuition behind the swapping of circle centers and tangent intersection points.",
-    "url": "articles/geometric-reciprocity-circle-tangents.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
