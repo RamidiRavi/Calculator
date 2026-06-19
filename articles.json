@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mysteries of Ext and Tor: Textbook Recommendations",
+    "summary": "Discover diverse textbooks that introduce Ext and Tor functors from unique perspectives in homological algebra.",
+    "url": "articles/textbooks-ext-tor-homological-algebra.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Maximize Your Teaching with New Discovering Mathematics Resources",
     "summary": "Explore effective strategies to access and utilize teaching resources for New Discovering Mathematics for Sec 1 and Sec 2.",
     "url": "articles/unlocking-new-discovering-mathematics-resources.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-differential-equations-manifolds.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "The Debate on Division by Zero: Is It Valid?",
-    "summary": "An examination of the logical proofs surrounding the validity of division by zero.",
-    "url": "articles/is-division-by-zero-valid.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
