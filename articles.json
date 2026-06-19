@@ -1,5 +1,12 @@
 [
   {
+    "title": "A Deep Dive into the Vinogradov-Korobov Bound in L-Functions",
+    "summary": "Explore the intricacies of the Vinogradov-Korobov bound in Dirichlet L-functions from Tao's Math 254A Notes.",
+    "url": "articles/vinogradov-korobov-bound-l-functions.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Mystery of Marble Distribution: 55 Bags Explained",
     "summary": "Explore how to distribute 55 marbles into the maximum number of bags with distinct counts.",
     "url": "articles/maximizing-bags-for-marble-distribution.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-derived-functors-homological-algebra.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Harness the Power of Untyped Lambda Calculus in Programming",
-    "summary": "Explore practical examples of untyped lambda calculus programs, including conditionals and repetition techniques.",
-    "url": "articles/untyped-lambda-calculus-practical-examples.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
