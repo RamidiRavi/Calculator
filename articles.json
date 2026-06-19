@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Vector Calculus: Gradient, Curl, and Divergence",
+    "summary": "Explore the fundamental concepts of gradient, curl, and divergence and their applications in physics and engineering.",
+    "url": "articles/understanding-gradient-curl-divergence.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "A Deep Dive into the Vinogradov-Korobov Bound in L-Functions",
     "summary": "Explore the intricacies of the Vinogradov-Korobov bound in Dirichlet L-functions from Tao's Math 254A Notes.",
     "url": "articles/vinogradov-korobov-bound-l-functions.html",
@@ -199,13 +206,6 @@
     "title": "Unveiling the Applications of the Mediant Inequality",
     "summary": "Dive into the applications of the mediant inequality in linear operator analysis and its significance in various mathematical contexts.",
     "url": "articles/exploring-mediant-inequality-applications.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Exploring the Role of Derived Functors in Homological Algebra",
-    "summary": "Explore derived functors' roles in measuring exactness failures in homological algebra.",
-    "url": "articles/understanding-derived-functors-homological-algebra.html",
     "date": "June 18, 2026",
     "category": "Finance"
   }
