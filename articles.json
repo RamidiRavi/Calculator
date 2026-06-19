@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unraveling the Relationship Between Two Key Mathematical Concepts",
+    "summary": "Explore the Mod k Dold Theorem and its relationship with the Adams conjecture, deciphering the implications and strengths of both.",
+    "url": "articles/mod-k-dold-theorem-vs-adams-conjecture.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Uncovering the Equal Probability in Random Walks on n-Gons",
     "summary": "Discover why all vertices have equal last-visit probability in a random walk on an n-gon.",
     "url": "articles/random-walk-n-gon-last-vertex-probability.html",
@@ -199,13 +206,6 @@
     "title": "Decoding the Construction of Semitopological Groups",
     "summary": "Explore the nuances of semitopological groups and their construction through filter bases.",
     "url": "articles/semitopological-groups-filters.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Navigating the Complexity of Game Theory Expectations",
-    "summary": "Explore the complexities of undefined expectations in game theory problems and find clarity on your calculations.",
-    "url": "articles/undefined-expectations-game-theory.html",
     "date": "June 18, 2026",
     "category": "Finance"
   }
