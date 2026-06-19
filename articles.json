@@ -1,5 +1,12 @@
 [
   {
+    "title": "Rethinking Transcendental Numbers with Evolving Algebraic Approaches",
+    "summary": "Investigate Liouville transcendental sequences through innovative algebraic frameworks inspired by historical Indian mathematics.",
+    "url": "articles/evolving-algebraic-approaches.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Secrets of Nonlinear Elliptic PDEs",
     "summary": "Looking for references on nonlinear elliptic PDEs? Discover insights and resources for harmonic coordinates in mathematical analysis.",
     "url": "articles/nonlinear-elliptic-pdes-references.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-tangents-and-differentiability.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Are There Infinite Odd or Even Numbers on the Number Line?",
-    "summary": "Dive into the fascinating world of odd and even numbers between whole numbers on the number line.",
-    "url": "articles/infinite-odd-even-numbers.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
