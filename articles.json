@@ -1,8 +1,8 @@
 [
   {
-    "title": "Building a Strong Foundation: Understanding Linear Mappings",
-    "summary": "Unlock the secrets of linear mappings and affine spaces with beginner-friendly resources and intuitive explanations.",
-    "url": "articles/master-linear-mappings-affine-spaces.html",
+    "title": "Exploring Continuity of Linear Maps in Normed Spaces",
+    "summary": "Explore an example of a linear map not being continuous in two norms with insights on normed vector spaces.",
+    "url": "articles/understanding-linear-maps-norms-vector-spaces.html",
     "date": "June 19, 2026",
     "category": "Productivity"
   },
