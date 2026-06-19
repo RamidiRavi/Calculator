@@ -1,5 +1,12 @@
 [
   {
+    "title": "Exploring the Limit of Fiber Products in Infinity-Categories",
+    "summary": "Explore the computation of limits in fiber products within category theory.",
+    "url": "articles/understanding-fiber-products-category-theory.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Covariance When Data Sets Don't Match",
     "summary": "Learn how to handle covariance calculations when data vectors have different lengths.",
     "url": "articles/calculating-covariance-with-unequal-data-lengths.html",
@@ -199,13 +206,6 @@
     "title": "Can We Design Linear Operators with Custom Eigenfunctions?",
     "summary": "Explore how eigenfunction theory can inspire the creation of new linear operators.",
     "url": "articles/creating-linear-operators-eigenfunction-theory.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Quasicoherent Sheaves and Their Applications",
-    "summary": "Delve into quasicoherent sheaves over stack quotients and their implications for equivariant modules in algebraic geometry.",
-    "url": "articles/quasicoherent-sheaves-and-equivariant-modules.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
