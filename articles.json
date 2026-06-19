@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating Doubts in Riemannian Geometry: A Deep Dive",
+    "summary": "Explore the doubts surrounding Corollary 2.10 of Manfredo's Riemannian Geometry and understand its implications.",
+    "url": "articles/clarifying-corollary-2-10-in-riemannian-geometry.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Independence of Linear Maps: A Deep Dive",
     "summary": "Explore the independence of linear maps from coordinate choices in mathematical analysis.",
     "url": "articles/independence-of-linear-maps-in-analysis.html",
@@ -199,13 +206,6 @@
     "title": "Crypto Pullback: Bitcoin and Ripple Down Amid Market Rally",
     "summary": "Bitcoin and Ripple experience declines while stocks rally; understand the macro factors influencing this divergence.",
     "url": "articles/crypto-pullback-amid-stock-rally.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "The Uniqueness of x=6 in Twin-Prime Patterns: A Mathematical Exploration",
-    "summary": "Analyzing the unique properties of x=6 in twin-prime configurations.",
-    "url": "articles/twin-prime-patterns-exploration.html",
     "date": "June 18, 2026",
     "category": "Finance"
   }
