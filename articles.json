@@ -1,5 +1,12 @@
 [
   {
+    "title": "Rethinking Zero and Infinity: A New Mathematical Framework",
+    "summary": "Exploring the implications of redefining zero and infinity in mathematical frameworks.",
+    "url": "articles/rethinking-zero-and-infinity.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Why Some Tangents Do Not Indicate Differentiability",
     "summary": "Explore the relationship between tangents and differentiability, focusing on the absolute value function's unique characteristics.",
     "url": "articles/understanding-tangents-and-differentiability.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-prime-number-inequalities.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Clarifying Doubts in Finite Induction: A Mathematical Perspective",
-    "summary": "Explore the nuances of finite induction and common pitfalls in mathematical reasoning.",
-    "url": "articles/understanding-finite-induction.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
