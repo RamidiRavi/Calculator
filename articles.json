@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Independence of Linear Maps: A Deep Dive",
+    "summary": "Explore the independence of linear maps from coordinate choices in mathematical analysis.",
+    "url": "articles/independence-of-linear-maps-in-analysis.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding Lateral Surface Area Approximations",
     "summary": "Learn about the approximation of lateral surface areas for oblique and elliptical cones.",
     "url": "articles/lateral-area-approximations-cones.html",
@@ -201,12 +208,5 @@
     "url": "articles/twin-prime-patterns-exploration.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Delving into the Homotopy of Connecting Arcs Among Boundary Components",
-    "summary": "Explore the homotopy of connecting arcs in geometric topology, with a focus on pairs of pants and their boundary components.",
-    "url": "articles/homotopy-connecting-arcs-pants.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
