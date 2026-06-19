@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Mystery of Marble Distribution: 55 Bags Explained",
+    "summary": "Explore how to distribute 55 marbles into the maximum number of bags with distinct counts.",
+    "url": "articles/maximizing-bags-for-marble-distribution.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Rethinking Zero and Infinity: A New Mathematical Framework",
     "summary": "Exploring the implications of redefining zero and infinity in mathematical frameworks.",
     "url": "articles/rethinking-zero-and-infinity.html",
@@ -201,12 +208,5 @@
     "url": "articles/untyped-lambda-calculus-practical-examples.html",
     "date": "June 18, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Mysteries of Prime Number Inequalities",
-    "summary": "Dive into the intriguing realm of prime number inequalities and explore a new conjecture regarding distinct odd primes.",
-    "url": "articles/exploring-prime-number-inequalities.html",
-    "date": "June 18, 2026",
-    "category": "Finance"
   }
 ]
