@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Secrets of Nonlinear Elliptic PDEs",
+    "summary": "Looking for references on nonlinear elliptic PDEs? Discover insights and resources for harmonic coordinates in mathematical analysis.",
+    "url": "articles/nonlinear-elliptic-pdes-references.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is $1 Million Retirement Possible for Median Earners?",
     "summary": "Discover strategies to save and invest effectively to reach $1 million for retirement, even on a median salary.",
     "url": "articles/how-to-save-1-million-as-a-median-earner.html",
@@ -201,12 +208,5 @@
     "url": "articles/infinite-odd-even-numbers.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Can We Design Linear Operators with Custom Eigenfunctions?",
-    "summary": "Explore how eigenfunction theory can inspire the creation of new linear operators.",
-    "url": "articles/creating-linear-operators-eigenfunction-theory.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
