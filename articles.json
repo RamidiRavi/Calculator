@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking Olympiad Math Problems with AI: A Closer Look",
+    "summary": "Exploring how AI, particularly LLMs, solves Olympiad style math problems and their performance across various topics.",
+    "url": "articles/ai-role-in-solving-olympiad-math.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Exploring Continuity of Linear Maps in Normed Spaces",
     "summary": "Explore an example of a linear map not being continuous in two norms with insights on normed vector spaces.",
     "url": "articles/understanding-linear-maps-norms-vector-spaces.html",
@@ -199,13 +206,6 @@
     "title": "Unraveling the Mysteries of Points on a Sphere",
     "summary": "Delve into the fascinating world of point distributions on spheres and the distances between them.",
     "url": "articles/distance-distributions-on-a-sphere.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Fascinating World of Polynomial Sums: Rational vs. Transcendental",
-    "summary": "Unpacking the distinction between rational, transcendental, and algebraic irrational sums in polynomial series.",
-    "url": "articles/rational-transcendental-sums-math-exploration.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
