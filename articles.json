@@ -1,5 +1,12 @@
 [
   {
+    "title": "Maximize Your Teaching with New Discovering Mathematics Resources",
+    "summary": "Explore effective strategies to access and utilize teaching resources for New Discovering Mathematics for Sec 1 and Sec 2.",
+    "url": "articles/unlocking-new-discovering-mathematics-resources.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Unpacking the Connection Between Derivative Concepts",
     "summary": "Delve into the connection between functional analysis and geometric derivatives.",
     "url": "articles/exploring-derivatives-functional-analysis-geometry.html",
@@ -201,12 +208,5 @@
     "url": "articles/is-division-by-zero-valid.html",
     "date": "June 18, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Unveiling the Geometry of Square Cross Sections in Pyramids",
-    "summary": "Discover how to determine the apex of a pyramid for square cross sections of a convex quadrilateral base.",
-    "url": "articles/square-cross-sections-pyramids.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
   }
 ]
