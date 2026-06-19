@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Characteristics of Class D Processes",
+    "summary": "Uncover the defining features and conditions of Class D processes in the Doob-Meyer decomposition theorem.",
+    "url": "articles/properties-class-d-processes.html",
+    "date": "June 19, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Unlocking the Mysteries of Ext and Tor: Textbook Recommendations",
     "summary": "Discover diverse textbooks that introduce Ext and Tor functors from unique perspectives in homological algebra.",
     "url": "articles/textbooks-ext-tor-homological-algebra.html",
@@ -199,13 +206,6 @@
     "title": "Understanding Strong Induction in Recursive Algorithms",
     "summary": "Explore strong induction proof for a recursive multiplication algorithm and its implications in algorithm design.",
     "url": "articles/validating-recursive-multiplication.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Differential Equations: The Role of Manifolds",
-    "summary": "Explore how studying manifolds enhances our grasp of differential equations, along with essential resources for deeper learning.",
-    "url": "articles/understanding-differential-equations-manifolds.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
