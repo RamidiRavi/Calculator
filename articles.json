@@ -1,5 +1,12 @@
 [
   {
+    "title": "Deriving Elliptic Integral Solutions for Multi-variable DEs",
+    "summary": "Explore the derivation process of the solution to the DE u'=vw, v'=wu, w'=uv in elliptic integral form.",
+    "url": "articles/elliptic-integral-solutions-multivariable-de.html",
+    "date": "June 19, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Girard’s Phase Space Semantics in Linear Logic",
     "summary": "Explore insights into Girard's phase space semantics in linear logic and build a deeper understanding.",
     "url": "articles/girards-phase-space-semantics.html",
@@ -199,13 +206,6 @@
     "title": "Is Playmabble the Future of Math Learning?",
     "summary": "Uncover the buzz around Playmabble, the innovative math game that's engaging students in classrooms across the country.",
     "url": "articles/discover-playmabble-new-math-game.html",
-    "date": "June 18, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Diving into Nonseparable Field Extensions: Examples & Insights",
-    "summary": "Explore nonseparable field extensions and their properties, including finite intermediate fields and examples.",
-    "url": "articles/understanding-nonseparable-field-extensions.html",
     "date": "June 18, 2026",
     "category": "Productivity"
   }
