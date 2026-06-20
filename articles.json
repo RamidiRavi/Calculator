@@ -1,5 +1,12 @@
 [
   {
+    "title": "Understanding the Modular Lambda Function's Curiosities",
+    "summary": "Unravel the mysteries of the modular lambda function and its behavior as τ approaches 0.",
+    "url": "articles/modular-lambda-function-tau-0.html",
+    "date": "June 20, 2026",
+    "category": "Finance"
+  },
+  {
     "title": "Can We Make Three Numbers Equal with Minimal Operations?",
     "summary": "Explore the challenging problem of achieving equality in three numbers through minimal addition operations.",
     "url": "articles/number-equality-operations.html",
@@ -199,13 +206,6 @@
     "title": "Navigating RFK Jr.'s Call for Social Security Benefit Cuts",
     "summary": "RFK Jr. suggests a 25.2% cut to Social Security benefits. Here's how you can financially prepare for changes.",
     "url": "articles/rfk-jr-social-security-benefit-cuts.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Understanding Tail Bounds and Moment Conditions in Random Variables",
-    "summary": "Discover the relationship between tail bounds and random variables through the lens of moment conditions and inequalities.",
-    "url": "articles/tail-bounds-random-variables-insights-techniques.html",
     "date": "June 19, 2026",
     "category": "Finance"
   }
