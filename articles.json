@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Etymology of 'Faithful': A Dive into Mathematical Terminology",
+    "summary": "Explore the etymology and significance of 'faithful' in mathematical contexts.",
+    "url": "articles/etymology-of-faithful-in-mathematics.html",
+    "date": "June 20, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Understanding the Modular Lambda Function's Curiosities",
     "summary": "Unravel the mysteries of the modular lambda function and its behavior as τ approaches 0.",
     "url": "articles/modular-lambda-function-tau-0.html",
@@ -201,12 +208,5 @@
     "url": "articles/calculate-rafter-cuts.html",
     "date": "June 19, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "Navigating RFK Jr.'s Call for Social Security Benefit Cuts",
-    "summary": "RFK Jr. suggests a 25.2% cut to Social Security benefits. Here's how you can financially prepare for changes.",
-    "url": "articles/rfk-jr-social-security-benefit-cuts.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
   }
 ]
