@@ -1,5 +1,12 @@
 [
   {
+    "title": "Navigating Computability Issues in Type Theory Induction",
+    "summary": "Explore challenges with defining natural numbers as W-types.",
+    "url": "articles/induction-w-types-type-theory.html",
+    "date": "June 20, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Demystifying Random Vectors and Their Covariances",
     "summary": "Explore the abstract concepts of random vectors and covariance matrices in linear algebra and their implications.",
     "url": "articles/understanding-random-vectors-linear-algebra.html",
@@ -199,13 +206,6 @@
     "title": "Can We Equalize Three Numbers Using Operations?",
     "summary": "Can three numbers become equal through specific operations? Discover the mathematical exploration of this intriguing problem.",
     "url": "articles/exploring-number-equality-through-operations.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking the Secrets of Vector Calculus: Gradient, Curl, and Divergence",
-    "summary": "Explore the fundamental concepts of gradient, curl, and divergence and their applications in physics and engineering.",
-    "url": "articles/understanding-gradient-curl-divergence.html",
     "date": "June 19, 2026",
     "category": "Productivity"
   }
