@@ -1,5 +1,12 @@
 [
   {
+    "title": "Can We Make Three Numbers Equal with Minimal Operations?",
+    "summary": "Explore the challenging problem of achieving equality in three numbers through minimal addition operations.",
+    "url": "articles/number-equality-operations.html",
+    "date": "June 20, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Navigating Computability Issues in Type Theory Induction",
     "summary": "Explore challenges with defining natural numbers as W-types.",
     "url": "articles/induction-w-types-type-theory.html",
@@ -201,12 +208,5 @@
     "url": "articles/tail-bounds-random-variables-insights-techniques.html",
     "date": "June 19, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Can We Equalize Three Numbers Using Operations?",
-    "summary": "Can three numbers become equal through specific operations? Discover the mathematical exploration of this intriguing problem.",
-    "url": "articles/exploring-number-equality-through-operations.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
   }
 ]
