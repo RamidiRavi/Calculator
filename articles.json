@@ -1,5 +1,12 @@
 [
   {
+    "title": "Unlocking the Joy of Mathematics: It’s More Than Just Numbers",
+    "summary": "Discover how to view mathematics as more than just numbers for a deeper understanding and enjoyment in learning.",
+    "url": "articles/math-beyond-numbers.html",
+    "date": "June 20, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Mastering the Triple Angle Formula in Trigonometry",
     "summary": "Learn how to derive the triple angle formula for sine without complex numbers, and grasp its geometric intuition.",
     "url": "articles/triple-angle-formula-trigonometry.html",
@@ -199,13 +206,6 @@
     "title": "Deriving Elliptic Integral Solutions for Multi-variable DEs",
     "summary": "Explore the derivation process of the solution to the DE u'=vw, v'=wu, w'=uv in elliptic integral form.",
     "url": "articles/elliptic-integral-solutions-multivariable-de.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Demystifying Girard’s Phase Space Semantics in Linear Logic",
-    "summary": "Explore insights into Girard's phase space semantics in linear logic and build a deeper understanding.",
-    "url": "articles/girards-phase-space-semantics.html",
     "date": "June 19, 2026",
     "category": "Productivity"
   }
