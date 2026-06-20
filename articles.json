@@ -1,5 +1,12 @@
 [
   {
+    "title": "Mastering the Triple Angle Formula in Trigonometry",
+    "summary": "Learn how to derive the triple angle formula for sine without complex numbers, and grasp its geometric intuition.",
+    "url": "articles/triple-angle-formula-trigonometry.html",
+    "date": "June 20, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "The Etymology of 'Faithful': A Dive into Mathematical Terminology",
     "summary": "Explore the etymology and significance of 'faithful' in mathematical contexts.",
     "url": "articles/etymology-of-faithful-in-mathematics.html",
@@ -199,13 +206,6 @@
     "title": "Demystifying Girard’s Phase Space Semantics in Linear Logic",
     "summary": "Explore insights into Girard's phase space semantics in linear logic and build a deeper understanding.",
     "url": "articles/girards-phase-space-semantics.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering the Calculations for Rafter Cuts: A Guide",
-    "summary": "Learn how to calculate angles and heights for rafter cuts in structural engineering projects.",
-    "url": "articles/calculate-rafter-cuts.html",
     "date": "June 19, 2026",
     "category": "Productivity"
   }
