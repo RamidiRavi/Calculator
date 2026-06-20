@@ -1,5 +1,12 @@
 [
   {
+    "title": "Demystifying Random Vectors and Their Covariances",
+    "summary": "Explore the abstract concepts of random vectors and covariance matrices in linear algebra and their implications.",
+    "url": "articles/understanding-random-vectors-linear-algebra.html",
+    "date": "June 20, 2026",
+    "category": "Productivity"
+  },
+  {
     "title": "Is Z(s) a More Natural Formulation Than the Riemann Zeta Function?",
     "summary": "Is the function Z(s) more fundamental than the Riemann zeta function? We explore its rational properties and spectral significance.",
     "url": "articles/exploring-nature-of-z-function.html",
@@ -201,12 +208,5 @@
     "url": "articles/understanding-gradient-curl-divergence.html",
     "date": "June 19, 2026",
     "category": "Productivity"
-  },
-  {
-    "title": "A Deep Dive into the Vinogradov-Korobov Bound in L-Functions",
-    "summary": "Explore the intricacies of the Vinogradov-Korobov bound in Dirichlet L-functions from Tao's Math 254A Notes.",
-    "url": "articles/vinogradov-korobov-bound-l-functions.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
   }
 ]
