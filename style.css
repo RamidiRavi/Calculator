@@ -618,7 +618,7 @@ footer {
 }
 
 .article-body {
-  font-size: 15.5px;
+  font-size: 15px;
   line-height: 1.7;
   color: var(--text-primary);
 }
@@ -632,6 +632,8 @@ footer {
   font-size: 20px;
   font-weight: 700;
   margin: 28px 0 12px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 6px;
 }
 
 .article-body h3 {
@@ -647,7 +649,88 @@ footer {
 }
 
 .article-body li {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+/* Premium Table Styling */
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 13.5px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.article-body th {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  font-weight: 700;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.article-body td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.article-body tr:nth-child(even) td {
+  background: var(--bg-primary);
+}
+
+.article-body tr:hover td {
+  background: var(--bg-tertiary);
+}
+
+/* Formula Block Cards */
+.formula-card {
+  background: var(--bg-secondary);
+  border-left: 4px solid var(--accent-financial);
+  padding: 16px;
+  border-radius: 4px;
+  margin: 20px 0;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  color: var(--text-primary);
+}
+
+/* Info Grid Layouts */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.info-grid-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.info-grid-card h4 {
+  font-family: var(--font-display);
+  font-weight: bold;
+  font-size: 14.5px;
+  margin: 0 0 8px;
+  color: var(--text-primary);
+}
+
+.info-grid-card p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin: 0;
 }
 
 .article-body blockquote {
