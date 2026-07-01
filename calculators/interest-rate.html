@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interest Rate Converter (APY) - InterestCalcs</title>
+  <meta name="description" content="Convert nominal annual interest rates to Effective Annual Rates (APY/EAR) based on compound frequencies.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Interest Rate Converter (APY)</h1>
+      <p>Convert nominal annual interest rates to Effective Annual Rates (APY/EAR) based on compound frequencies.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="nominal">Nominal Interest Rate (%)</label>
+          <input type="number" class="form-control" id="nominal" value="6.0" step="0.1">
+        </div>
+        <div class="form-group">
+          <label for="freq">Compounding Frequency</label>
+          <select class="form-control" id="freq">
+            <option value="12">Monthly (12/yr)</option>
+            <option value="4">Quarterly (4/yr)</option>
+            <option value="2">Semiannually (2/yr)</option>
+            <option value="365">Daily (365/yr)</option>
+            <option value="1">Annually (1/yr)</option>
+          </select>
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Effective Rate</h3>
+        <div class="result-main">
+          <div class="value" id="res-ear" style="color: var(--accent-financial);">6.17%</div>
+          <div class="label">Effective Annual Yield (APY)</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Extra Yield from Compounding:</span>
+          <span class="val" id="res-extra" style="font-weight: bold;">+0.17%</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Nominal vs. Effective Interest Rates</h2>
+        <p>The **Nominal Interest Rate** is the stated rate on paper. The **Effective Annual Rate (APY)** is the actual interest rate earned or paid over a full year, accounting for the effect of compound interest compounding within that year.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['nominal', 'freq'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const nominal = parseFloat(document.getElementById('nominal').value) || 0;
+          const freq = parseInt(document.getElementById('freq').value) || 1;
+          
+          const ear = Math.pow(1 + (nominal / 100 / freq), freq) - 1;
+          const earPercent = ear * 100;
+          const extra = earPercent - nominal;
+          
+          document.getElementById('res-ear').textContent = earPercent.toFixed(3) + '%';
+          document.getElementById('res-extra').textContent = '+' + extra.toFixed(3) + '%';
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

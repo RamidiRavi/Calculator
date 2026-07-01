@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Calculator - InterestCalcs</title>
+  <meta name="description" content="Calculate your weighted class grade average and estimate the score needed on your final exam.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-other">Grade Calculator</h1>
+      <p>Calculate your weighted class grade average and estimate the score needed on your final exam.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 5px; font-weight: bold; font-size: 12px; margin-bottom: 5px;">
+          <span>Category</span><span>Grade (%)</span><span>Weight (%)</span>
+        </div>
+        <div id="grade-rows"></div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Weighted Grade</h3>
+        <div class="result-main">
+          <div class="value" id="res-grade" style="color: var(--accent-other);">85.0%</div>
+          <div class="label">Current Grade</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Required Score for Final (Target 90%):</span>
+          <span class="val" id="res-final-needed" style="font-weight: bold;">95.0%</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Calculating Weighted Grades</h2>
+        <p>A weighted grade average is calculated by multiplying each category score by its weight percent, and summing the results: <code>Weighted Average = Sum of (Grade * Weight) / Total Weight</code>.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        let html = '';
+        const cats = ['Homework', 'Quizzes', 'Midterm', 'Final Exam'];
+        const grades = [90, 80, 85, 0];
+        const weights = [20, 20, 30, 30];
+        
+        for (let i = 0; i < 4; i++) {
+          html += `
+            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 5px; align-items: center; margin-bottom: 8px;">
+              <input type="text" class="form-control" id="cat-name-${i}" value="${cats[i]}" style="font-size:12px;">
+              <input type="number" class="form-control" id="cat-grade-${i}" value="${grades[i]}">
+              <input type="number" class="form-control" id="cat-weight-${i}" value="${weights[i]}">
+            </div>
+          `;
+        }
+        document.getElementById('grade-rows').innerHTML = html;
+        
+        for (let i = 0; i < 4; i++) {
+          document.getElementById(`cat-grade-${i}`).addEventListener('input', calculate);
+          document.getElementById(`cat-weight-${i}`).addEventListener('input', calculate);
+        }
+        
+        function calculate() {
+          let sumWeight = 0;
+          let sumWeightedGrade = 0;
+          
+          let hasFinal = false;
+          let finalWeight = 0;
+          
+          for (let i = 0; i < 4; i++) {
+            const w = parseFloat(document.getElementById(`cat-weight-${i}`).value) || 0;
+            const g = parseFloat(document.getElementById(`cat-grade-${i}`).value) || 0;
+            
+            // Assume the last category is the final exam if its grade is 0 or unentered
+            if (i === 3) {
+              finalWeight = w;
+            } else {
+              sumWeight += w;
+              sumWeightedGrade += g * (w / 100);
+            }
+          }
+          
+          let currentGrade = sumWeight > 0 ? (sumWeightedGrade / sumWeight) * 100 : 0;
+          
+          // Final needed = (Target - CurrentGrade * (1 - FinalWeight/100)) / (FinalWeight/100)
+          const target = 90;
+          const currentWeightShare = (100 - finalWeight) / 100;
+          const currentScoreShare = currentGrade * currentWeightShare;
+          const finalNeeded = finalWeight > 0 ? (target - currentScoreShare) / (finalWeight / 100) : 0;
+          
+          document.getElementById('res-grade').textContent = currentGrade.toFixed(1) + '%';
+          document.getElementById('res-final-needed').textContent = finalNeeded.toFixed(1) + '%';
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

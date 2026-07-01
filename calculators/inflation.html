@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inflation Calculator - InterestCalcs</title>
+  <meta name="description" content="Calculate flat rate inflation adjustments over a specified duration.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎈</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Inflation Calculator</h1>
+      <p>Calculate flat rate inflation adjustments over a specified duration.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="amount">Original Amount ($)</label>
+          <input type="number" class="form-control" id="amount" value="1000">
+        </div>
+        <div class="form-group">
+          <label for="rate">Inflation Rate (%)</label>
+          <input type="number" class="form-control" id="rate" value="3.0" step="0.1">
+        </div>
+        <div class="form-group">
+          <label for="years">Number of Years</label>
+          <input type="number" class="form-control" id="years" value="10">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Adjusted Amount</h3>
+        <div class="result-main">
+          <div class="value" id="res-inflated" style="color: var(--accent-financial);">$1,343.92</div>
+          <div class="label">Required Future Purchasing Power</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Cumulative Increase:</span>
+          <span class="val" id="res-percent" style="font-weight: bold;">+34.39%</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Understanding Purchasing Power</h2>
+        <p>Inflation erodes the purchasing power of money over time. An item costing $1,000 today will require a higher nominal amount of money in the future to purchase the same level of utility, assuming a constant inflation rate.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['amount', 'rate', 'years'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const amount = parseFloat(document.getElementById('amount').value) || 0;
+          const rate = parseFloat(document.getElementById('rate').value) || 0;
+          const years = parseInt(document.getElementById('years').value) || 0;
+          
+          const inflated = amount * Math.pow(1 + rate / 100, years);
+          const percent = ((inflated - amount) / amount) * 100;
+          
+          document.getElementById('res-inflated').textContent = '$' + inflated.toFixed(2);
+          document.getElementById('res-percent').textContent = (percent >= 0 ? '+' : '') + percent.toFixed(2) + '%';
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

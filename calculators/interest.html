@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interest Calculator - InterestCalcs</title>
+  <meta name="description" content="Calculate simple or compound interest returns on deposits or investment capital.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Interest Calculator</h1>
+      <p>Calculate simple or compound interest returns on deposits or investment capital.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="principal">Principal Amount ($)</label>
+          <input type="number" class="form-control" id="principal" value="10000">
+        </div>
+        <div class="form-group">
+          <label for="rate">Interest Rate (%)</label>
+          <input type="number" class="form-control" id="rate" value="5.0" step="0.1">
+        </div>
+        <div class="form-group">
+          <label for="time">Time Period</label>
+          <div style="display: flex; gap: 10px;">
+            <input type="number" class="form-control" id="time" value="5" style="flex: 2;">
+            <select class="form-control" id="time-unit" style="flex: 1;">
+              <option value="years">Years</option>
+              <option value="months">Months</option>
+              <option value="days">Days</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="type">Interest Type</label>
+          <select class="form-control" id="type">
+            <option value="compound">Compound Interest</option>
+            <option value="simple">Simple Interest</option>
+          </select>
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Accrued Interest</h3>
+        <div class="result-main">
+          <div class="value" id="res-interest" style="color: var(--accent-financial);">$2,762.82</div>
+          <div class="label">Total Interest Earned</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Final Total Value:</span>
+          <span class="val" id="res-balance" style="font-weight: bold;">$12,762.82</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Simple vs. Compound Interest</h2>
+        <p><strong>Simple Interest</strong> is calculated only on the initial principal. The returns remain linear over time.</p>
+        <p><strong>Compound Interest</strong> is calculated on the initial principal and the accumulated interest of previous periods, driving exponential growth.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['principal', 'rate', 'time', 'time-unit', 'type'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const principal = parseFloat(document.getElementById('principal').value) || 0;
+          const rate = parseFloat(document.getElementById('rate').value) || 0;
+          const time = parseFloat(document.getElementById('time').value) || 0;
+          const unit = document.getElementById('time-unit').value;
+          const type = document.getElementById('type').value;
+          
+          let t = time;
+          if (unit === 'months') t = time / 12;
+          else if (unit === 'days') t = time / 365;
+          
+          let balance = 0;
+          let interest = 0;
+          
+          if (type === 'simple') {
+            interest = principal * (rate / 100) * t;
+            balance = principal + interest;
+          } else {
+            balance = principal * Math.pow(1 + (rate / 100), t);
+            interest = balance - principal;
+          }
+          
+          document.getElementById('res-interest').textContent = '$' + interest.toFixed(2);
+          document.getElementById('res-balance').textContent = '$' + balance.toFixed(2);
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

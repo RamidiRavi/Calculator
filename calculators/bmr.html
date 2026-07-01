@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basal Metabolic Rate Calculator (BMR) - InterestCalcs</title>
+  <meta name="description" content="Calculate your daily baseline caloric requirements at complete rest using the Mifflin-St Jeor equation.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-fitness">Basal Metabolic Rate Calculator (BMR)</h1>
+      <p>Calculate your daily baseline caloric requirements at complete rest using the Mifflin-St Jeor equation.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="bmr-gender">Gender</label>
+          <select class="form-control" id="bmr-gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="bmr-weight">Weight (kg)</label>
+          <input type="number" class="form-control" id="bmr-weight" value="70">
+        </div>
+        <div class="form-group">
+          <label for="bmr-height">Height (cm)</label>
+          <input type="number" class="form-control" id="bmr-height" value="175">
+        </div>
+        <div class="form-group">
+          <label for="bmr-age">Age (years)</label>
+          <input type="number" class="form-control" id="bmr-age" value="28">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Energy BMR</h3>
+        <div class="result-main">
+          <div class="value" id="res-bmr" style="color: var(--accent-fitness);">1,649</div>
+          <div class="label">Calories per Day (Resting)</div>
+        </div>
+        <div class="result-row" style="border-bottom: none; font-size: 13px;">
+          <span class="lbl">Meaning:</span>
+          <span class="val">Energy expended solely to maintain vital organs at rest.</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        ['<h2>What is Basal Metabolic Rate?</h2>', '<p>Your **Basal Metabolic Rate (BMR)** represents the minimum quantity of calories your body requires to function while at complete physical, digestive, and emotional rest. It does not account for physical exercise or movement.</p>']
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['bmr-gender', 'bmr-weight', 'bmr-height', 'bmr-age'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const g = document.getElementById('bmr-gender').value;
+          const w = parseFloat(document.getElementById('bmr-weight').value) || 0;
+          const h = parseFloat(document.getElementById('bmr-height').value) || 0;
+          const a = parseFloat(document.getElementById('bmr-age').value) || 0;
+          
+          let bmr = 0;
+          if (g === 'male') {
+            bmr = 10 * w + 6.25 * h - 5 * a + 5;
+          } else {
+            bmr = 10 * w + 6.25 * h - 5 * a - 161;
+          }
+          
+          document.getElementById('res-bmr').textContent = Math.round(bmr).toLocaleString();
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

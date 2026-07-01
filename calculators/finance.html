@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Profit Margin Calculator - InterestCalcs</title>
+  <meta name="description" content="Calculate key business performance ratios: gross profits, operating profits, and margin ratios.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Business Profit Margin Calculator</h1>
+      <p>Calculate key business performance ratios: gross profits, operating profits, and margin ratios.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="rev">Revenue ($)</label>
+          <input type="number" class="form-control" id="rev" value="100000">
+        </div>
+        <div class="form-group">
+          <label for="cogs">Cost of Goods Sold (COGS) ($)</label>
+          <input type="number" class="form-control" id="cogs" value="40000">
+        </div>
+        <div class="form-group">
+          <label for="opex">Operating Expenses ($)</label>
+          <input type="number" class="form-control" id="opex" value="25000">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Margins Summary</h3>
+        <div class="result-main">
+          <div class="value" id="res-gross" style="color: var(--accent-financial);">60.0%</div>
+          <div class="label">Gross Profit Margin</div>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Gross Profit Amount:</span>
+          <span class="val" id="res-gross-amt">$60,000.00</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Operating Profit Amount:</span>
+          <span class="val" id="res-opex-amt">$35,000.00</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Operating Margin Ratio:</span>
+          <span class="val" id="res-opex-margin" style="font-weight: bold;">35.0%</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Key Financial Ratios</h2>
+        <p><strong>Gross Margin</strong> displays the percentage of revenue remaining after paying off direct production costs (COGS). It measures core product profitability.</p>
+        <p><strong>Operating Margin</strong> represents the percentage of revenues remaining after accounting for operating overhead costs (rent, salaries, research). It highlights operational efficiency.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['rev', 'cogs', 'opex'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const rev = parseFloat(document.getElementById('rev').value) || 0;
+          const cogs = parseFloat(document.getElementById('cogs').value) || 0;
+          const opex = parseFloat(document.getElementById('opex').value) || 0;
+          
+          const grossAmt = rev - cogs;
+          const opexAmt = grossAmt - opex;
+          
+          const grossMargin = rev > 0 ? (grossAmt / rev) * 100 : 0;
+          const opexMargin = rev > 0 ? (opexAmt / rev) * 100 : 0;
+          
+          document.getElementById('res-gross').textContent = grossMargin.toFixed(1) + '%';
+          document.getElementById('res-gross-amt').textContent = '$' + grossAmt.toFixed(2);
+          document.getElementById('res-opex-amt').textContent = '$' + opexAmt.toFixed(2);
+          document.getElementById('res-opex-margin').textContent = opexMargin.toFixed(1) + '%';
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

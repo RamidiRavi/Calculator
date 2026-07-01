@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Navy Body Fat Calculator - InterestCalcs</title>
+  <meta name="description" content="Estimate your body fat percentage using the standardized US Navy circumference method.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚖️</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-fitness">US Navy Body Fat Calculator</h1>
+      <p>Estimate your body fat percentage using the standardized US Navy circumference method.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select class="form-control" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="height">Height (cm)</label>
+          <input type="number" class="form-control" id="height" value="175">
+        </div>
+        <div class="form-group">
+          <label for="neck">Neck Circumference (cm)</label>
+          <input type="number" class="form-control" id="neck" value="38">
+        </div>
+        <div class="form-group">
+          <label for="waist">Waist Circumference (cm)</label>
+          <input type="number" class="form-control" id="waist" value="85">
+        </div>
+        <div class="form-group" id="hip-group" style="display: none;">
+          <label for="hip">Hip Circumference (cm)</label>
+          <input type="number" class="form-control" id="hip" value="95">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Fat Percentage</h3>
+        <div class="result-main">
+          <div class="value" id="res-bf" style="color: var(--accent-fitness);">16.2%</div>
+          <div class="label">Estimated Body Fat</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Classification:</span>
+          <span class="val" id="res-class" style="font-weight: bold; color: var(--accent-fitness);">Fitness Range</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>The US Navy Circumference Method</h2>
+        <p>Developed by the US Navy, this equation provides a reliable estimate of body fat percentage using key circumference measurements rather than expensive calipers or DEXA scans.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['gender', 'height', 'neck', 'waist', 'hip'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        document.getElementById('gender').addEventListener('change', function() {
+          const hipGroup = document.getElementById('hip-group');
+          if (this.value === 'female') {
+            hipGroup.style.display = 'block';
+          } else {
+            hipGroup.style.display = 'none';
+          }
+          calculate();
+        });
+        
+        function calculate() {
+          const gender = document.getElementById('gender').value;
+          const h = parseFloat(document.getElementById('height').value) || 170;
+          const n = parseFloat(document.getElementById('neck').value) || 35;
+          const w = parseFloat(document.getElementById('waist').value) || 80;
+          const hp = parseFloat(document.getElementById('hip').value) || 90;
+          
+          let bf = 0;
+          if (gender === 'male') {
+            // Navy formula for men (metric)
+            bf = 86.010 * Math.log10(w - n) - 70.041 * Math.log10(h) + 36.76;
+          } else {
+            // Navy formula for women (metric)
+            bf = 163.205 * Math.log10(w + hp - n) - 97.684 * Math.log10(h) - 78.387;
+          }
+          
+          if (isNaN(bf) || bf < 2 || bf > 60) {
+            document.getElementById('res-bf').textContent = '--';
+            document.getElementById('res-class').textContent = 'Invalid Measurements';
+            return;
+          }
+          
+          let status = 'Acceptable';
+          if (gender === 'male') {
+            if (bf < 6) status = 'Essential Fat';
+            else if (bf < 14) status = 'Athletes';
+            else if (bf < 18) status = 'Fitness';
+            else if (bf < 25) status = 'Average';
+            else status = 'Obese';
+          } else {
+            if (bf < 14) status = 'Essential Fat';
+            else if (bf < 21) status = 'Athletes';
+            else if (bf < 25) status = 'Fitness';
+            else if (bf < 32) status = 'Average';
+            else status = 'Obese';
+          }
+          
+          document.getElementById('res-bf').textContent = bf.toFixed(1) + '%';
+          document.getElementById('res-class').textContent = status;
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

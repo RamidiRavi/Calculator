@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Running Pace Calculator - InterestCalcs</title>
+  <meta name="description" content="Calculate your running speed, time split, or total distance for race planning.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏃</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-fitness">Running Pace Calculator</h1>
+      <p>Calculate your running speed, time split, or total distance for race planning.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="pace-dist">Distance</label>
+          <div style="display: flex; gap: 10px;">
+            <input type="number" class="form-control" id="pace-dist" value="5" style="flex: 2;">
+            <select class="form-control" id="pace-unit" style="flex: 1;">
+              <option value="miles">Miles</option>
+              <option value="kilometers">Kilometers</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Time Duration</label>
+          <div style="display: flex; gap: 5px;">
+            <input type="number" class="form-control" id="time-hr" placeholder="hr" value="0">
+            <input type="number" class="form-control" id="time-min" placeholder="min" value="25">
+            <input type="number" class="form-control" id="time-sec" placeholder="sec" value="0">
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Pace Result</h3>
+        <div class="result-main">
+          <div class="value" id="res-pace" style="color: var(--accent-fitness);">05:00</div>
+          <div class="label">Pace per Unit (Min:Sec)</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Hourly Speed:</span>
+          <span class="val" id="res-speed" style="font-weight: bold;">12.00 mph</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>How Running Pace is Calculated</h2>
+        <p>Pace represents the time duration required to cover a specific unit of distance. It is calculated by dividing the total time elapsed by the distance covered: <code>Pace = Time / Distance</code>.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['pace-dist', 'pace-unit', 'time-hr', 'time-min', 'time-sec'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const dist = parseFloat(document.getElementById('pace-dist').value) || 0;
+          const unit = document.getElementById('pace-unit').value;
+          const hr = parseFloat(document.getElementById('time-hr').value) || 0;
+          const min = parseFloat(document.getElementById('time-min').value) || 0;
+          const sec = parseFloat(document.getElementById('time-sec').value) || 0;
+          
+          const totalSec = (hr * 3600) + (min * 60) + sec;
+          
+          if (dist <= 0 || totalSec <= 0) {
+            document.getElementById('res-pace').textContent = '--:--';
+            document.getElementById('res-speed').textContent = '0.00';
+            return;
+          }
+          
+          const paceSec = totalSec / dist;
+          const paceMin = Math.floor(paceSec / 60);
+          const paceRemainingSec = Math.round(paceSec % 60);
+          
+          const paddedSec = paceRemainingSec < 10 ? '0' + paceRemainingSec : paceRemainingSec;
+          const paddedMin = paceMin < 10 ? '0' + paceMin : paceMin;
+          
+          const speed = dist / (totalSec / 3600);
+          
+          document.getElementById('res-pace').textContent = paddedMin + ':' + paddedSec;
+          document.getElementById('res-speed').textContent = speed.toFixed(2) + (unit === 'miles' ? ' mph' : ' km/h');
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

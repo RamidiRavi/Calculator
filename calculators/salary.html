@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salary Converter - InterestCalcs</title>
+  <meta name="description" content="Convert hourly wage to weekly, monthly, or annual earnings estimates.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏱️</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Salary Converter</h1>
+      <p>Convert hourly wage to weekly, monthly, or annual earnings estimates.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="salary-amount">Pay Amount ($)</label>
+          <input type="number" class="form-control" id="salary-amount" value="25">
+        </div>
+        <div class="form-group">
+          <label for="salary-period">Pay Period</label>
+          <select class="form-control" id="salary-period">
+            <option value="hourly">Hourly</option>
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+            <option value="annually">Annually</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="salary-hours">Hours per Week</label>
+          <input type="number" class="form-control" id="salary-hours" value="40">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Wage Equivalencies</h3>
+        <div style="margin-top: 15px; border: 1px solid var(--border-color); border-radius: 6px; overflow: hidden;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: left;">
+            <tbody id="salary-body">
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>How Pay is Converted</h2>
+        <p>This calculator computes pay equivalents under standard corporate payroll structures: a standard working year consists of 52 weeks (or 260 working days, 2,080 working hours for a standard 40-hour work week).</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['salary-amount', 'salary-period', 'salary-hours'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const amt = parseFloat(document.getElementById('salary-amount').value) || 0;
+          const period = document.getElementById('salary-period').value;
+          const hours = parseFloat(document.getElementById('salary-hours').value) || 40;
+          
+          let annual = 0;
+          if (period === 'hourly') annual = amt * hours * 52;
+          else if (period === 'weekly') annual = amt * 52;
+          else if (period === 'monthly') annual = amt * 12;
+          else if (period === 'annually') annual = amt;
+          
+          const hourly = annual / 52 / hours;
+          const daily = annual / 260;
+          const weekly = annual / 52;
+          const monthly = annual / 12;
+          
+          const rows = [
+            { label: 'Hourly Equivalent', val: hourly },
+            { label: 'Daily Equivalent', val: daily },
+            { label: 'Weekly Equivalent', val: weekly },
+            { label: 'Monthly Equivalent', val: monthly },
+            { label: 'Annual Equivalent', val: annual }
+          ];
+          
+          document.getElementById('salary-body').innerHTML = rows.map(r => `
+            <tr style="border-bottom: 1px solid var(--border-color);">
+              <td style="padding: 10px; font-weight: bold; background: var(--bg-tertiary);">${r.label}</td>
+              <td style="padding: 10px; text-align: right;">$${r.val.toFixed(2).replace(/\B(?=(\d{{3}})+(?!\d))/g, ",")}</td>
+            </tr>
+          `).join('');
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

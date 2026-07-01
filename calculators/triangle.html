@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle Calculator - InterestCalcs</title>
+  <meta name="description" content="Solve for missing side lengths, internal angles, perimeter, and area of triangles.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📐</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-math">Triangle Calculator</h1>
+      <p>Solve for missing side lengths, internal angles, perimeter, and area of triangles.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <p style="font-size: 12px; margin-bottom: 12px; color: var(--text-secondary);">Input 3 fields (with at least 1 side) to solve the triangle.</p>
+        <div class="form-group">
+          <label for="side-a">Side a</label>
+          <input type="number" class="form-control" id="side-a" value="3">
+        </div>
+        <div class="form-group">
+          <label for="side-b">Side b</label>
+          <input type="number" class="form-control" id="side-b" value="4">
+        </div>
+        <div class="form-group">
+          <label for="side-c">Side c</label>
+          <input type="number" class="form-control" id="side-c" value="5">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Solved Properties</h3>
+        <div class="result-main">
+          <div class="value" id="res-tri-area" style="color: var(--accent-math);">6.0</div>
+          <div class="label">Calculated Area</div>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Angle A:</span>
+          <span class="val" id="res-ang-a">36.87°</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Angle B:</span>
+          <span class="val" id="res-ang-b">53.13°</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Angle C:</span>
+          <span class="val" id="res-ang-c">90.00°</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Perimeter:</span>
+          <span class="val" id="res-tri-perim" style="font-weight: bold;">12.0</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Laws of Sines and Cosines</h2>
+        <p>To solve a triangle, geometric formulas like the Law of Sines: <code>a/sin(A) = b/sin(B) = c/sin(C)</code> or the Law of Cosines: <code>c² = a² + b² - 2ab*cos(C)</code> are used. Area is calculated using Heron's Formula for SSS inputs.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['side-a', 'side-b', 'side-c'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const a = parseFloat(document.getElementById('side-a').value) || 0;
+          const b = parseFloat(document.getElementById('side-b').value) || 0;
+          const c = parseFloat(document.getElementById('side-c').value) || 0;
+          
+          if (a <= 0 || b <= 0 || c <= 0 || (a + b <= c) || (a + c <= b) || (b + c <= a)) {
+            document.getElementById('res-tri-area').textContent = '--';
+            document.getElementById('res-ang-a').textContent = '--';
+            document.getElementById('res-ang-b').textContent = '--';
+            document.getElementById('res-ang-c').textContent = '--';
+            document.getElementById('res-tri-perim').textContent = '--';
+            return;
+          }
+          
+          const s = (a + b + c) / 2;
+          const area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+          const perim = a + b + c;
+          
+          const radA = Math.acos((b*b + c*c - a*a) / (2*b*c));
+          const radB = Math.acos((a*a + c*c - b*b) / (2*a*c));
+          const radC = Math.acos((a*a + b*b - c*c) / (2*a*b));
+          
+          const degA = radA * (180 / Math.PI);
+          const degB = radB * (180 / Math.PI);
+          const degC = radC * (180 / Math.PI);
+          
+          document.getElementById('res-tri-area').textContent = area.toFixed(2);
+          document.getElementById('res-ang-a').textContent = degA.toFixed(2) + '°';
+          document.getElementById('res-ang-b').textContent = degB.toFixed(2) + '°';
+          document.getElementById('res-ang-c').textContent = degC.toFixed(2) + '°';
+          document.getElementById('res-tri-perim').textContent = perim.toFixed(2);
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

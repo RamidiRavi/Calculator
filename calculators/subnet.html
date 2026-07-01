@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPv4 Subnet Calculator - InterestCalcs</title>
+  <meta name="description" content="Calculate IP subnet network address, broadcast address, usable hosts range, and netmask binary maps.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔌</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-other">IPv4 Subnet Calculator</h1>
+      <p>Calculate IP subnet network address, broadcast address, usable hosts range, and netmask binary maps.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="ip">IP Address</label>
+          <input type="text" class="form-control" id="ip" value="192.168.1.1">
+        </div>
+        <div class="form-group">
+          <label for="mask">Subnet Mask (CIDR)</label>
+          <select class="form-control" id="mask">
+            <option value="24">/24 - 255.255.255.0 (254 hosts)</option>
+            <option value="30">/30 - 255.255.255.252 (2 hosts)</option>
+            <option value="28">/28 - 255.255.255.240 (14 hosts)</option>
+            <option value="25">/25 - 255.255.255.128 (126 hosts)</option>
+            <option value="16">/16 - 255.255.0.0 (65,534 hosts)</option>
+            <option value="8">/8 - 255.0.0.0 (16,777,214 hosts)</option>
+          </select>
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Subnet Details</h3>
+        <div class="result-main">
+          <div class="value" id="res-net-ip" style="font-size: 20px; color: var(--accent-other);">192.168.1.0</div>
+          <div class="label">Network Address (Subnet IP)</div>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Usable Hosts Range:</span>
+          <span class="val" id="res-hosts-range" style="font-size: 11px;">192.168.1.1 - 192.168.1.254</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Broadcast IP:</span>
+          <span class="val" id="res-broadcast">192.168.1.255</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Total Usable Hosts:</span>
+          <span class="val" id="res-hosts-count" style="font-weight: bold;">254 hosts</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>How Subnetting Works</h2>
+        <p>An IP address is split into a network portion and a host portion using a bitwise AND operation with the Subnet Mask. CIDR notation (like /24) represents the quantity of binary bits set to 1 in the network prefix.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['ip', 'mask'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function ipToInt(ip) {
+          const parts = ip.split('.').map(x => parseInt(x));
+          if (parts.length !== 4 || parts.some(isNaN)) return null;
+          return ((parts[0] << 24) | (parts[1] << 16) | (parts[2] << 8) | parts[3]) >>> 0;
+        }
+        
+        function intToIp(val) {
+          return [
+            (val >>> 24) & 255,
+            (val >>> 16) & 255,
+            (val >>> 8) & 255,
+            val & 255
+          ].join('.');
+        }
+        
+        function calculate() {
+          const ipVal = document.getElementById('ip').value;
+          const maskVal = parseInt(document.getElementById('mask').value) || 24;
+          
+          const ipInt = ipToInt(ipVal);
+          if (ipInt === null) {
+            document.getElementById('res-net-ip').textContent = 'Invalid IP Address';
+            return;
+          }
+          
+          // Calculate mask
+          const maskInt = maskVal === 0 ? 0 : (~0 << (32 - maskVal)) >>> 0;
+          const networkInt = (ipInt & maskInt) >>> 0;
+          const broadcastInt = (networkInt | ~maskInt) >>> 0;
+          
+          let usableHosts = 0;
+          let rangeStart = 0;
+          let rangeEnd = 0;
+          
+          if (maskVal < 31) {
+            usableHosts = Math.pow(2, 32 - maskVal) - 2;
+            rangeStart = networkInt + 1;
+            rangeEnd = broadcastInt - 1;
+          } else if (maskVal === 31) {
+            usableHosts = 2;
+            rangeStart = networkInt;
+            rangeEnd = broadcastInt;
+          } else {
+            usableHosts = 1;
+            rangeStart = networkInt;
+            rangeEnd = broadcastInt;
+          }
+          
+          document.getElementById('res-net-ip').textContent = intToIp(networkInt);
+          document.getElementById('res-hosts-range').textContent = `${intToIp(rangeStart)} - ${intToIp(rangeEnd)}`;
+          document.getElementById('res-broadcast').textContent = intToIp(broadcastInt);
+          document.getElementById('res-hosts-count').textContent = usableHosts.toLocaleString() + ' hosts';
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

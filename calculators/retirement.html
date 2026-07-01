@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retirement Calculator - InterestCalcs</title>
+  <meta name="description" content="Plan your retirement fund requirements based on inflation, deposits, and investment growth rates.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏖️</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Retirement Calculator</h1>
+      <p>Plan your retirement fund requirements based on inflation, deposits, and investment growth rates.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="curr-age">Current Age</label>
+          <input type="number" class="form-control" id="curr-age" value="30">
+        </div>
+        <div class="form-group">
+          <label for="ret-age">Retirement Target Age</label>
+          <input type="number" class="form-control" id="ret-age" value="65">
+        </div>
+        <div class="form-group">
+          <label for="curr-sav">Current Savings ($)</label>
+          <input type="number" class="form-control" id="curr-sav" value="50000">
+        </div>
+        <div class="form-group">
+          <label for="ann-dep">Annual Savings Deposit ($)</label>
+          <input type="number" class="form-control" id="ann-dep" value="12000">
+        </div>
+        <div class="form-group">
+          <label for="return-rate">Annual Investment Return (%)</label>
+          <input type="number" class="form-control" id="return-rate" value="7.0" step="0.1">
+        </div>
+        <div class="form-group">
+          <label for="inflation">Expected Inflation Rate (%)</label>
+          <input type="number" class="form-control" id="inflation" value="2.5" step="0.1">
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Retirement Balance</h3>
+        <div class="result-main">
+          <div class="value" id="res-retirement" style="color: var(--accent-financial);">$1,120,451</div>
+          <div class="label">Accumulated Balance (Nominal)</div>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Inflation-Adjusted Value:</span>
+          <span class="val" id="res-inflation-adj" style="font-weight: bold;">$472,391</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>Strategic Retirement Planning</h2>
+        <p>Planning for retirement requires understanding the real rate of return. A nominal 7% return feels great, but with a 2.5% inflation rate, the actual purchasing power of your money only grows by about 4.4% per year. This calculator models both to give you a clear estimate of your retirement portfolio's true size.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['curr-age', 'ret-age', 'curr-sav', 'ann-dep', 'return-rate', 'inflation'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const currAge = parseInt(document.getElementById('curr-age').value) || 0;
+          const retAge = parseInt(document.getElementById('ret-age').value) || 0;
+          const currSav = parseFloat(document.getElementById('curr-sav').value) || 0;
+          const annDep = parseFloat(document.getElementById('ann-dep').value) || 0;
+          const rate = parseFloat(document.getElementById('return-rate').value) || 0;
+          const inf = parseFloat(document.getElementById('inflation').value) || 0;
+          
+          const years = Math.max(0, retAge - currAge);
+          
+          // Nominal calculation
+          let nominal = currSav * Math.pow(1 + rate/100, years);
+          for(let i=0; i<years; i++) {
+            nominal += annDep * Math.pow(1 + rate/100, years - i - 1);
+          }
+          
+          // Inflation-adjusted calculation
+          const realRate = ((1 + rate/100) / (1 + inf/100)) - 1;
+          let real = currSav * Math.pow(1 + realRate, years);
+          for(let i=0; i<years; i++) {
+            real += annDep * Math.pow(1 + realRate, years - i - 1);
+          }
+          
+          document.getElementById('res-retirement').textContent = '$' + Math.round(nominal).toLocaleString();
+          document.getElementById('res-inflation-adj').textContent = '$' + Math.round(real).toLocaleString();
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

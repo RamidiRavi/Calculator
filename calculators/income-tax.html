@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income Tax Estimator - InterestCalcs</title>
+  <meta name="description" content="Calculate estimated federal income tax liability and effective tax rates.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💸</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-financial">Income Tax Estimator</h1>
+      <p>Calculate estimated federal income tax liability and effective tax rates.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="income">Gross Annual Income ($)</label>
+          <input type="number" class="form-control" id="income" value="75000">
+        </div>
+        <div class="form-group">
+          <label for="status">Filing Status</label>
+          <select class="form-control" id="status">
+            <option value="single">Single Filer</option>
+            <option value="married">Married Filing Jointly</option>
+          </select>
+        </div>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Tax Estimate</h3>
+        <div class="result-main">
+          <div class="value" id="res-tax" style="color: var(--accent-financial);">$9,230</div>
+          <div class="label">Estimated Federal Tax</div>
+        </div>
+        <div class="result-row">
+          <span class="lbl">Effective Tax Rate:</span>
+          <span class="val" id="res-rate">12.3%</span>
+        </div>
+        <div class="result-row" style="border-bottom: none;">
+          <span class="lbl">Estimated Take-Home:</span>
+          <span class="val" id="res-net" style="font-weight: bold;">$65,770</span>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>How Progressive Taxes Work</h2>
+        <p>Progressive taxation divides taxable income into ranges, or brackets. Each bracket has a separate rate. You do not pay your highest marginal tax rate on all your income; you only pay it on the portion of your income that falls into that bracket.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        const inputs = ['income', 'status'];
+        inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
+        
+        function calculate() {
+          const income = parseFloat(document.getElementById('income').value) || 0;
+          const status = document.getElementById('status').value;
+          
+          let standardDeduction = status === 'single' ? 15000 : 30000;
+          let taxable = Math.max(0, income - standardDeduction);
+          
+          let tax = 0;
+          const brackets = status === 'single' ? [
+            { limit: 11600, rate: 0.10 },
+            { limit: 47150, rate: 0.12 },
+            { limit: 100525, rate: 0.22 },
+            { limit: 191950, rate: 0.24 },
+            { limit: 243725, rate: 0.32 },
+            { limit: 609350, rate: 0.35 },
+            { limit: Infinity, rate: 0.37 }
+          ] : [
+            { limit: 23200, rate: 0.10 },
+            { limit: 94300, rate: 0.12 },
+            { limit: 201050, rate: 0.22 },
+            { limit: 383900, rate: 0.24 },
+            { limit: 487450, rate: 0.32 },
+            { limit: 731200, rate: 0.35 },
+            { limit: Infinity, rate: 0.37 }
+          ];
+          
+          let prevLimit = 0;
+          for (let b of brackets) {
+            if (taxable > b.limit) {
+              tax += (b.limit - prevLimit) * b.rate;
+              prevLimit = b.limit;
+            } else {
+              tax += (taxable - prevLimit) * b.rate;
+              break;
+            }
+          }
+          
+          const ratePercent = income > 0 ? (tax / income) * 100 : 0;
+          const net = income - tax;
+          
+          document.getElementById('res-tax').textContent = '$' + Math.round(tax).toLocaleString();
+          document.getElementById('res-rate').textContent = ratePercent.toFixed(1) + '%';
+          document.getElementById('res-net').textContent = '$' + Math.round(net).toLocaleString();
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>

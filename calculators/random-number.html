@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number Generator - InterestCalcs</title>
+  <meta name="description" content="Generate single or multiple random integers within a custom number range.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎲</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-math">Random Number Generator</h1>
+      <p>Generate single or multiple random integers within a custom number range.</p>
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad Unit)
+    </div>
+
+    <!-- Calculator Layout -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        
+        <div class="form-group">
+          <label for="min">Minimum Value</label>
+          <input type="number" class="form-control" id="min" value="1">
+        </div>
+        <div class="form-group">
+          <label for="max">Maximum Value</label>
+          <input type="number" class="form-control" id="max" value="100">
+        </div>
+        <div class="form-group">
+          <label for="count">Quantity of Numbers</label>
+          <input type="number" class="form-control" id="count" value="5" min="1" max="100">
+        </div>
+        <div class="form-group">
+          <label for="dup">Allow Duplicates?</label>
+          <select class="form-control" id="dup">
+            <option value="no">No (Unique Numbers)</option>
+            <option value="yes">Yes</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" id="btn-gen" style="width:100%;">Generate Numbers</button>
+        
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        
+        <h3 class="result-title">Generated Values</h3>
+        <div class="result-main" style="min-height: 80px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+          <div class="value" id="res-random" style="font-size: 20px; line-height: 1.4; color: var(--accent-math); text-align: center; word-break: break-all;">--</div>
+        </div>
+        
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px;">
+      Advertisements (Middle Calculator Ad Unit)
+    </div>
+
+    <!-- SEO & Educational Info -->
+    <section class="article-page" style="margin-top: 20px;">
+      <article class="article-body">
+        
+        <h2>True Randomness vs. Pseudorandomness</h2>
+        <p>This browser-side calculator leverages the JavaScript Math.random() engine to draw random integers. These are technically pseudorandom numbers generated using high-frequency mathematical algorithms.</p>
+        
+      </article>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul class="footer-links">
+            <li><a href="../finance.html">Financial Tools</a></li>
+            <li><a href="../fitness.html">Health &amp; Gym Tools</a></li>
+            <li><a href="../math.html">Math Utilities</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+  <script>
+    
+        document.getElementById('btn-gen').addEventListener('click', calculate);
+        
+        function calculate() {
+          const min = parseInt(document.getElementById('min').value) || 0;
+          const max = parseInt(document.getElementById('max').value) || 100;
+          const count = parseInt(document.getElementById('count').value) || 1;
+          const dup = document.getElementById('dup').value;
+          
+          if (min > max) {
+            document.getElementById('res-random').textContent = 'Error: Min greater than Max';
+            return;
+          }
+          
+          const range = max - min + 1;
+          if (dup === 'no' && count > range) {
+            document.getElementById('res-random').textContent = 'Error: Range too small for unique values';
+            return;
+          }
+          
+          const results = [];
+          if (dup === 'yes') {
+            for (let i = 0; i < count; i++) {
+              results.push(Math.floor(Math.random() * range) + min);
+            }
+          } else {
+            const pool = [];
+            for (let i = min; i <= max; i++) pool.push(i);
+            for (let i = 0; i < count; i++) {
+              const idx = Math.floor(Math.random() * pool.length);
+              results.push(pool.splice(idx, 1)[0]);
+            }
+          }
+          
+          document.getElementById('res-random').textContent = results.join(', ');
+        }
+        calculate();
+        
+  </script>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-banner" style="display: none;">
+    <div class="container cookie-inner">
+      <p>We use cookies to personalize content and ads, and to analyze our traffic. By clicking "Accept All", you consent to our use of cookies in accordance with our <a href="../privacy.html">Privacy Policy</a>.</p>
+      <div class="cookie-buttons">
+        <button class="btn btn-primary btn-sm" onclick="acceptCookieConsent()">Accept All</button>
+        <button class="btn btn-secondary btn-sm" onclick="declineCookieConsent()">Decline</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>
