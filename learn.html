@@ -16,10 +16,10 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>InterestCalcs - Free Online Calculators</title>
-  <meta name="description" content="Access free online calculators categorized in finance, fitness, math, and other daily productivity utilities. Simple, fast, and light calculations.">
+  <title>Learning Guides | Formulas & Explanations - InterestCalcs</title>
+  <meta name="description" content="Explore our detailed mathematical and clinical explanations, formulas, and step-by-step guides for our interactive calculators.">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📚</text></svg>">
 </head>
 <body>
 
@@ -31,9 +31,9 @@
         <span>InterestCalcs</span>
       </a>
       <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="#directory">Calculators</a>
-        <a href="learn.html">Learn</a>
+        <a href="index.html">Home</a>
+        <a href="index.html#directory">Calculators</a>
+        <a href="learn.html" class="active">Learn</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="privacy.html">Privacy</a>
@@ -42,77 +42,32 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Free Online <span>Calculators</span></h1>
-      <p>InterestCalcs provides clean, fast, and free interactive calculation utilities. No popups, no registration, and no tracking. Simply choose a tool below to begin.</p>
+  <!-- Main Content -->
+  <main class="container">
+    <div class="hero" style="margin-bottom: 20px;">
+      <h1 style="font-family: var(--font-display); font-size: 38px; font-weight: 800; color: var(--text-primary); margin-bottom: 8px;">Learning &amp; Calculation Guides</h1>
+      <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto; line-height: 1.5;">Step-by-step math breakdowns, formulas, and documentation for our interactive tools.</p>
     </div>
-  </section>
 
-  <!-- Ad Banner -->
-  <div class="container">
-    <div class="adsense-placeholder ads-horizontal">
-      Advertisements (Top Banner Placement)
+    <!-- Ad Banner -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-bottom: 30px;">
+      Advertisements (Top Guide Banner)
     </div>
-  </div>
 
-  <!-- Main Directory / Sitemap -->
-  <section class="directory-section" id="directory">
-    <div class="container">
-      <div class="directory-grid">
-        
-        <!-- Financial Calculators -->
-        <div class="directory-card financial">
-          <h3>💰 Financial Calculators</h3>
-          <ul class="link-list">
-            <li><a href="calculators/loan.html">Loan Calculator</a></li>
-            <li><a href="calculators/mortgage.html">Mortgage Calculator</a></li>
-            <li><a href="calculators/compound-interest.html">Compound Interest Calculator</a></li>
-          </ul>
+    <!-- Articles Section -->
+    <section class="articles-section" style="padding-top: 0;">
+      <div class="article-grid" id="articles-container">
+        <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+          <p>Loading learning guides...</p>
         </div>
-
-        <!-- Fitness & Health -->
-        <div class="directory-card fitness">
-          <h3>🥗 Fitness & Health</h3>
-          <ul class="link-list">
-            <li><a href="calculators/calorie.html">Calorie Deficit Calculator</a></li>
-            <li><a href="calculators/bmi.html">BMI Calculator</a></li>
-            <li><a href="calculators/ideal-weight.html">Ideal Weight Calculator</a></li>
-          </ul>
-        </div>
-
-        <!-- Math Calculators -->
-        <div class="directory-card math">
-          <h3>📊 Math Calculators</h3>
-          <ul class="link-list">
-            <li><a href="calculators/percentage.html">Percentage Calculator</a></li>
-            <li><a href="calculators/scientific.html">Scientific Calculator</a></li>
-          </ul>
-        </div>
-
-        <!-- Other Tools -->
-        <div class="directory-card other">
-          <h3>📅 Other Tools</h3>
-          <ul class="link-list">
-            <li><a href="calculators/days.html">Days Between Dates</a></li>
-            <li><a href="calculators/age.html">Age Calculator</a></li>
-            <li><a href="calculators/gpa.html">GPA Calculator</a></li>
-          </ul>
-        </div>
-
       </div>
+    </section>
+
+    <!-- Ad Banner -->
+    <div class="adsense-placeholder ads-horizontal" style="margin-top: 20px; margin-bottom: 40px;">
+      Advertisements (Bottom Guide Banner)
     </div>
-  </section>
-
-
-
-  <!-- Ad Banner -->
-  <div class="container">
-    <div class="adsense-placeholder ads-horizontal">
-      Advertisements (Footer Banner Placement)
-    </div>
-  </div>
+  </main>
 
   <!-- Footer -->
   <footer>
@@ -129,7 +84,7 @@
           <h4>Directories</h4>
           <ul class="footer-links">
             <li><a href="index.html#directory">Financial Tools</a></li>
-            <li><a href="index.html#directory">Health & Gym Tools</a></li>
+            <li><a href="index.html#directory">Health &amp; Gym Tools</a></li>
             <li><a href="index.html#directory">Math Utilities</a></li>
           </ul>
         </div>
@@ -151,6 +106,48 @@
 
   <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    async function loadArticles() {
+      const container = document.getElementById('articles-container');
+      try {
+        const response = await fetch('articles.json');
+        if (!response.ok) throw new Error('Could not fetch index');
+        const articles = await response.json();
+        
+        if (articles.length === 0) {
+          container.innerHTML = `
+            <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+              <p>No learning guides found.</p>
+            </div>
+          `;
+          return;
+        }
+
+        container.innerHTML = articles.map(art => `
+          <article class="article-card">
+            <div class="article-content">
+              <div class="article-meta">
+                <span>${art.date}</span>
+                <span>•</span>
+                <span style="color: var(--accent-financial); font-weight: bold;">${art.category}</span>
+              </div>
+              <h4>${art.title}</h4>
+              <p>${art.summary || ''}</p>
+              <a href="${art.url}" class="article-link">Read Guide &rarr;</a>
+            </div>
+          </article>
+        `).join('');
+
+      } catch (err) {
+        console.error(err);
+        container.innerHTML = `
+          <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+            <p>Failed to load learning guides.</p>
+          </div>
+        `;
+      }
+    }
+    loadArticles();
   </script>
 
   <!-- Cookie Consent Banner -->
