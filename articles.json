@@ -1,212 +1,79 @@
 [
   {
-    "title": "Unlocking the Joy of Mathematics: It’s More Than Just Numbers",
-    "summary": "Discover how to view mathematics as more than just numbers for a deeper understanding and enjoyment in learning.",
-    "url": "articles/math-beyond-numbers.html",
-    "date": "June 20, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Mastering the Triple Angle Formula in Trigonometry",
-    "summary": "Learn how to derive the triple angle formula for sine without complex numbers, and grasp its geometric intuition.",
-    "url": "articles/triple-angle-formula-trigonometry.html",
-    "date": "June 20, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Etymology of 'Faithful': A Dive into Mathematical Terminology",
-    "summary": "Explore the etymology and significance of 'faithful' in mathematical contexts.",
-    "url": "articles/etymology-of-faithful-in-mathematics.html",
-    "date": "June 20, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Modular Lambda Function's Curiosities",
-    "summary": "Unravel the mysteries of the modular lambda function and its behavior as τ approaches 0.",
-    "url": "articles/modular-lambda-function-tau-0.html",
-    "date": "June 20, 2026",
+    "title": "How to Calculate Loan Interest Manually",
+    "summary": "Learn how to calculate loan interest manually using simple and amortization formulas. Includes a step-by-step example and amortization table.",
+    "url": "articles/loan-interest-calculation-guide.html",
+    "date": "July 1, 2026",
     "category": "Finance"
   },
   {
-    "title": "Can We Make Three Numbers Equal with Minimal Operations?",
-    "summary": "Explore the challenging problem of achieving equality in three numbers through minimal addition operations.",
-    "url": "articles/number-equality-operations.html",
-    "date": "June 20, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Navigating Computability Issues in Type Theory Induction",
-    "summary": "Explore challenges with defining natural numbers as W-types.",
-    "url": "articles/induction-w-types-type-theory.html",
-    "date": "June 20, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Demystifying Random Vectors and Their Covariances",
-    "summary": "Explore the abstract concepts of random vectors and covariance matrices in linear algebra and their implications.",
-    "url": "articles/understanding-random-vectors-linear-algebra.html",
-    "date": "June 20, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Is Z(s) a More Natural Formulation Than the Riemann Zeta Function?",
-    "summary": "Is the function Z(s) more fundamental than the Riemann zeta function? We explore its rational properties and spectral significance.",
-    "url": "articles/exploring-nature-of-z-function.html",
-    "date": "June 19, 2026",
+    "title": "Mortgage Amortization & Monthly Payments Guide",
+    "summary": "Understand the mathematics of mortgage amortization. Learn how monthly payments are calculated and divided between interest and principal over 15 and 30 years.",
+    "url": "articles/mortgage-amortization-math-explained.html",
+    "date": "July 1, 2026",
     "category": "Finance"
   },
   {
-    "title": "Simplifying the Calculation of Krull Dimension in Algebra",
-    "summary": "Learn how to compute Krull dimension for rings using concrete examples and straightforward methods.",
-    "url": "articles/mastering-krull-dimension-guide.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Curious Case of Pascal’s Triangle and Infinite Series",
-    "summary": "Explore the intricacies of applying Pascal's Triangle to infinite series and why it may lead to contradictions.",
-    "url": "articles/understanding-pascals-triangle-in-infinite-series.html",
-    "date": "June 19, 2026",
+    "title": "The Power of Compound Interest & Calculation Math",
+    "summary": "Discover how compound interest grows wealth exponentially. Learn the mathematical formula, frequencies, and compound calculators.",
+    "url": "articles/compound-interest-mathematical-power.html",
+    "date": "July 1, 2026",
     "category": "Finance"
   },
   {
-    "title": "Unlocking the Secrets of Cosmic Temperature Fluctuations",
-    "summary": "Explore the maximum attainable value of the two-point correlation function on a 2-sphere in cosmology.",
-    "url": "articles/maximizing-correlation-2-sphere.html",
-    "date": "June 19, 2026",
+    "title": "How to Calculate a Calorie Deficit Safely",
+    "summary": "Learn how to calculate your basal metabolic rate (BMR), total daily energy expenditure (TDEE), and calorie deficit for healthy weight loss.",
+    "url": "articles/how-to-calculate-calorie-deficit.html",
+    "date": "July 1, 2026",
     "category": "Health"
   },
   {
-    "title": "Unlocking the Secrets of Nonlinear Elliptic PDEs",
-    "summary": "Looking for references on nonlinear elliptic PDEs? Discover insights and resources for harmonic coordinates in mathematical analysis.",
-    "url": "articles/nonlinear-elliptic-pdes-references.html",
-    "date": "June 19, 2026",
+    "title": "Body Mass Index (BMI): Formula and Limitations",
+    "summary": "Discover the math behind Body Mass Index (BMI). Learn the classification categories and read about the limitations of BMI measurements.",
+    "url": "articles/body-mass-index-formula-limitations.html",
+    "date": "July 1, 2026",
+    "category": "Health"
+  },
+  {
+    "title": "Scientific Formulas for Ideal Body Weight",
+    "summary": "Compare Robinson, Devine, and Miller formulas for Ideal Body Weight (IBW). Understand the math behind healthy weight ranges.",
+    "url": "articles/ideal-body-weight-scientific-formulas.html",
+    "date": "July 1, 2026",
+    "category": "Health"
+  },
+  {
+    "title": "Percentage Calculations in Daily Life and Business",
+    "summary": "Master the formulas for percentage increase, decrease, margins, and markups. Includes practical math formulas for school and business.",
+    "url": "articles/percentage-calculation-formulas-guide.html",
+    "date": "July 1, 2026",
+    "category": "Math"
+  },
+  {
+    "title": "Introduction to Scientific Notation & Calculator Guides",
+    "summary": "Learn how to read and write scientific notation. Learn basic calculation rules and scientific calculator tips.",
+    "url": "articles/scientific-notation-and-calculator-guide.html",
+    "date": "July 1, 2026",
+    "category": "Math"
+  },
+  {
+    "title": "How to Calculate Days Gap for Project Timelines",
+    "summary": "Learn how to calculate calendar day gaps and working business days for contract deadlines. Avoid scheduling errors.",
+    "url": "articles/calculating-date-gaps-and-project-timelines.html",
+    "date": "July 1, 2026",
     "category": "Productivity"
   },
   {
-    "title": "Is $1 Million Retirement Possible for Median Earners?",
-    "summary": "Discover strategies to save and invest effectively to reach $1 million for retirement, even on a median salary.",
-    "url": "articles/how-to-save-1-million-as-a-median-earner.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Understanding Covariance When Data Sets Don't Match",
-    "summary": "Learn how to handle covariance calculations when data vectors have different lengths.",
-    "url": "articles/calculating-covariance-with-unequal-data-lengths.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unraveling the Relationship Between Two Key Mathematical Concepts",
-    "summary": "Explore the Mod k Dold Theorem and its relationship with the Adams conjecture, deciphering the implications and strengths of both.",
-    "url": "articles/mod-k-dold-theorem-vs-adams-conjecture.html",
-    "date": "June 19, 2026",
+    "title": "How Age is Calculated in Days, Hours, and Minutes",
+    "summary": "Understand the age calculation logic, including leap year handling and conversion to hours and minutes. Free online age guide.",
+    "url": "articles/age-calculation-math-leap-years.html",
+    "date": "July 1, 2026",
     "category": "Productivity"
   },
   {
-    "title": "Uncovering the Equal Probability in Random Walks on n-Gons",
-    "summary": "Discover why all vertices have equal last-visit probability in a random walk on an n-gon.",
-    "url": "articles/random-walk-n-gon-last-vertex-probability.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Decoding the Markov Chain Behind Rolling a Die",
-    "summary": "Exploring the concept of Markov chains through the lens of dice rolls and event timing.",
-    "url": "articles/understanding-measurability-dice-rolls-markov-chains.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Hodge Theory: Resources for Advanced Study",
-    "summary": "Delve into Helmholtz-Hodge decomposition on Riemannian manifolds, focusing on non-compact spaces.",
-    "url": "articles/hodge-theory-helmholtz-decomposition.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Calculating Expected Stopping Ranks in a Card Discard Game",
-    "summary": "Discover the expected stopping rank in a card discarding game and how card variations affect outcomes.",
-    "url": "articles/expected-stopping-ranks-in-card-games.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Navigating Doubts in Riemannian Geometry: A Deep Dive",
-    "summary": "Explore the doubts surrounding Corollary 2.10 of Manfredo's Riemannian Geometry and understand its implications.",
-    "url": "articles/clarifying-corollary-2-10-in-riemannian-geometry.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Independence of Linear Maps: A Deep Dive",
-    "summary": "Explore the independence of linear maps from coordinate choices in mathematical analysis.",
-    "url": "articles/independence-of-linear-maps-in-analysis.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding Lateral Surface Area Approximations",
-    "summary": "Learn about the approximation of lateral surface areas for oblique and elliptical cones.",
-    "url": "articles/lateral-area-approximations-cones.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unlocking Olympiad Math Problems with AI: A Closer Look",
-    "summary": "Exploring how AI, particularly LLMs, solves Olympiad style math problems and their performance across various topics.",
-    "url": "articles/ai-role-in-solving-olympiad-math.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Exploring Continuity of Linear Maps in Normed Spaces",
-    "summary": "Explore an example of a linear map not being continuous in two norms with insights on normed vector spaces.",
-    "url": "articles/understanding-linear-maps-norms-vector-spaces.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "The Importance of Clarity in Mathematical Phrasing",
-    "summary": "Is your mathematical question clear? Explore the implications of poorly worded problems in mathematics.",
-    "url": "articles/decoding-clarity-in-mathematical-questions.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Understanding the Characteristics of Class D Processes",
-    "summary": "Uncover the defining features and conditions of Class D processes in the Doob-Meyer decomposition theorem.",
-    "url": "articles/properties-class-d-processes.html",
-    "date": "June 19, 2026",
-    "category": "Finance"
-  },
-  {
-    "title": "Unlocking the Mysteries of Ext and Tor: Textbook Recommendations",
-    "summary": "Discover diverse textbooks that introduce Ext and Tor functors from unique perspectives in homological algebra.",
-    "url": "articles/textbooks-ext-tor-homological-algebra.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Maximize Your Teaching with New Discovering Mathematics Resources",
-    "summary": "Explore effective strategies to access and utilize teaching resources for New Discovering Mathematics for Sec 1 and Sec 2.",
-    "url": "articles/unlocking-new-discovering-mathematics-resources.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Unpacking the Connection Between Derivative Concepts",
-    "summary": "Delve into the connection between functional analysis and geometric derivatives.",
-    "url": "articles/exploring-derivatives-functional-analysis-geometry.html",
-    "date": "June 19, 2026",
-    "category": "Productivity"
-  },
-  {
-    "title": "Deriving Elliptic Integral Solutions for Multi-variable DEs",
-    "summary": "Explore the derivation process of the solution to the DE u'=vw, v'=wu, w'=uv in elliptic integral form.",
-    "url": "articles/elliptic-integral-solutions-multivariable-de.html",
-    "date": "June 19, 2026",
+    "title": "How to Calculate GPA: Semester and Cumulative Formulas",
+    "summary": "Learn how semester and cumulative GPA are calculated using credit weights. Includes example calculation tables.",
+    "url": "articles/how-to-calculate-gpa-math-formulas.html",
+    "date": "July 1, 2026",
     "category": "Productivity"
   }
 ]

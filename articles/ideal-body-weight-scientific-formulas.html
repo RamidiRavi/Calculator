@@ -16,8 +16,8 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} - InterestCalcs</title>
-  <meta name="description" content="{meta-description}">
+  <title>Scientific Formulas for Ideal Body Weight - InterestCalcs</title>
+  <meta name="description" content="Compare Robinson, Devine, and Miller formulas for Ideal Body Weight (IBW). Understand the math behind healthy weight ranges.">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
 </head>
@@ -55,11 +55,11 @@
       <!-- Article Header -->
       <div class="article-header">
         <div class="article-meta" style="margin-bottom: 8px; font-size: 13px;">
-          <span>{date}</span>
+          <span>July 1, 2026</span>
           <span>•</span>
-          <span style="color: var(--accent-financial); font-weight: bold;">{category}</span>
+          <span style="color: var(--accent-financial); font-weight: bold;">Health</span>
         </div>
-        <h1>{article-headline}</h1>
+        <h1>Scientific Formulas for Calculating Ideal Body Weight: Robinson vs Devine vs Miller</h1>
       </div>
 
       <!-- Main Layout: Content + Sidebar -->
@@ -67,13 +67,41 @@
         
         <!-- Content -->
         <article class="article-body">
-          {article-body}
+          
+<p>Ideal Body Weight (IBW) is a concept originally developed in clinical medicine to estimate proper drug dosing (especially for anesthetics and clearance-dependent medications). Unlike BMI, which calculates a ratio, IBW formulas estimate a specific target weight based on height and sex.</p>
+
+<h3>The Core Formulas</h3>
+<p>All modern IBW equations start with a baseline weight for a person of 5 feet (60 inches) tall and add increment values for every extra inch of height:</p>
+<ol>
+  <li><strong>Devine Formula (1974):</strong>
+    <ul>
+      <li>Men: IBW = 50.0 kg + 2.3 kg per inch over 5 feet</li>
+      <li>Women: IBW = 45.5 kg + 2.3 kg per inch over 5 feet</li>
+    </ul>
+  </li>
+  <li><strong>Robinson Formula (1983):</strong>
+    <ul>
+      <li>Men: IBW = 52.0 kg + 1.9 kg per inch over 5 feet</li>
+      <li>Women: IBW = 49.0 kg + 1.7 kg per inch over 5 feet</li>
+    </ul>
+  </li>
+  <li><strong>Miller Formula (1983):</strong>
+    <ul>
+      <li>Men: IBW = 56.2 kg + 1.41 kg per inch over 5 feet</li>
+      <li>Women: IBW = 53.1 kg + 1.36 kg per inch over 5 feet</li>
+    </ul>
+  </li>
+</ol>
+
+<h3>Applying IBW Clinically</h3>
+<p>IBW calculation prevents overdosing of medications that do not distribute well into fat tissue. While individuals naturally carry more or less muscle and structure, using a standardized IBW reference provides a safe baseline for doctors and nutritionists.</p>
+
           
           <!-- Tool Card Widget -->
           <div class="card" style="margin: 30px 0; border: 1px solid var(--accent-financial); background-color: var(--bg-primary); border-radius: 8px; padding: 20px;">
             <h3 style="margin-top: 0; font-family: var(--font-display); font-size: 18px; color: var(--accent-financial);">⚡ Need to calculate this?</h3>
             <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: 16px;">We have built a dedicated, browser-side interactive calculator to help you process these numbers immediately. It is free and respects your privacy.</p>
-            {embedded-calculator-link}
+            <a href="../calculators/ideal-weight.html" class="btn btn-primary">Open Ideal Weight Calculator &rarr;</a>
           </div>
 
           <p style="margin-top: 30px;"><a href="../index.html#blog" style="color: var(--accent-financial); text-decoration: none; font-weight: 600;">&larr; Back to Latest Insights</a></p>

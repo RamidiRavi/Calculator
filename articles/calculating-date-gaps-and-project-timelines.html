@@ -16,8 +16,8 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} - InterestCalcs</title>
-  <meta name="description" content="{meta-description}">
+  <title>How to Calculate Days Gap for Project Timelines - InterestCalcs</title>
+  <meta name="description" content="Learn how to calculate calendar day gaps and working business days for contract deadlines. Avoid scheduling errors.">
   <link rel="stylesheet" href="../style.css">
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
 </head>
@@ -55,11 +55,11 @@
       <!-- Article Header -->
       <div class="article-header">
         <div class="article-meta" style="margin-bottom: 8px; font-size: 13px;">
-          <span>{date}</span>
+          <span>July 1, 2026</span>
           <span>•</span>
-          <span style="color: var(--accent-financial); font-weight: bold;">{category}</span>
+          <span style="color: var(--accent-financial); font-weight: bold;">Productivity</span>
         </div>
-        <h1>{article-headline}</h1>
+        <h1>Calculating Calendar Day Gaps and Business Days for Project Timelines</h1>
       </div>
 
       <!-- Main Layout: Content + Sidebar -->
@@ -67,13 +67,26 @@
         
         <!-- Content -->
         <article class="article-body">
-          {article-body}
+          
+<p>Calculating the exact number of days between two dates is a fundamental requirement in project management, shipping logistics, and contract drafting. Inaccurate date calculations can lead to missed milestones, shipping delays, or breach of contract penalties.</p>
+
+<h3>The Math of Date Gaps</h3>
+<p>Computing calendar duration involves finding the mathematical difference between the serial values representing each date (commonly represented as Epoch time, or days elapsed since a fixed anchor date). A standard day count represents the total 24-hour periods that elapse between the start and end dates.</p>
+
+<h3>Inclusive vs. Exclusive Boundary Counting</h3>
+<p>One of the most common errors in timeline planning is misunderstanding inclusive vs. exclusive dates.
+For example, a contract begins on October 1st and ends on October 5th.
+* **Exclusive count (standard difference):** 5 - 1 = **4 days**. (Counts the gaps between days).
+* **Inclusive count (full days active):** 5 - 1 + 1 = **5 days**. (Counts the start and end days as active).
+
+When drafting business contracts or timelines, it is essential to specify whether the date range is inclusive or exclusive to avoid disputes.</p>
+
           
           <!-- Tool Card Widget -->
           <div class="card" style="margin: 30px 0; border: 1px solid var(--accent-financial); background-color: var(--bg-primary); border-radius: 8px; padding: 20px;">
             <h3 style="margin-top: 0; font-family: var(--font-display); font-size: 18px; color: var(--accent-financial);">⚡ Need to calculate this?</h3>
             <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: 16px;">We have built a dedicated, browser-side interactive calculator to help you process these numbers immediately. It is free and respects your privacy.</p>
-            {embedded-calculator-link}
+            <a href="../calculators/days.html" class="btn btn-primary">Open Days Counter &rarr;</a>
           </div>
 
           <p style="margin-top: 30px;"><a href="../index.html#blog" style="color: var(--accent-financial); text-decoration: none; font-weight: 600;">&larr; Back to Latest Insights</a></p>
