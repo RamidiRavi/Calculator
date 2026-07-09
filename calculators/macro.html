@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1456L4VBZF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1456L4VBZF');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5139965185803230"
+       crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macro Calculator: Free Daily Macronutrient Split Target Tool - InterestCalcs</title>
+  <meta name="description" content="Calculate your daily carbohydrate, protein, and fat macro targets in grams based on age, height, weight, activity levels, and custom diet preferences.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥩</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>InterestCalcs</span>
+      </a>
+      <nav>
+        <a href="../index.html" class="active">Home</a>
+        <a href="../learn.html">Learn</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="hero">
+      <h1 class="calc-header-fitness">Macronutrient Calculator</h1>
+      <p>Estimate your daily calorie and macronutrient split target based on biological inputs and nutritional preferences.</p>
+    </div>
+
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Top Calculator Ad)
+    </div>
+
+    <!-- Calculator Grid -->
+    <div class="calc-container">
+      
+      <!-- Inputs -->
+      <div class="calc-inputs">
+        <div class="form-group">
+          <label>Biological Gender</label>
+          <div class="radio-group">
+            <div class="radio-btn">
+              <input type="radio" id="gender-male" name="gender" value="male" checked>
+              <label for="gender-male" class="radio-label">Male</label>
+            </div>
+            <div class="radio-btn">
+              <input type="radio" id="gender-female" name="gender" value="female">
+              <label for="gender-female" class="radio-label">Female</label>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="age">Age (Years)</label>
+            <input type="number" class="form-control" id="age" value="25" min="15" max="80">
+          </div>
+          <div class="form-group">
+            <label for="activity">Daily Activity Level</label>
+            <select class="form-control" id="activity">
+              <option value="1.2">Sedentary (No exercise)</option>
+              <option value="1.375" selected>Lightly Active (1-3 days/week)</option>
+              <option value="1.55">Moderately Active (3-5 days/week)</option>
+              <option value="1.725">Very Active (6-7 days/week)</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="height">Height</label>
+            <input type="number" class="form-control" id="height" value="175" min="100" max="250">
+          </div>
+          <div class="form-group">
+            <label for="height-unit">Unit</label>
+            <select class="form-control" id="height-unit">
+              <option value="cm" selected>cm</option>
+              <option value="in">in</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="weight">Weight</label>
+            <input type="number" class="form-control" id="weight" value="70" min="30" max="200">
+          </div>
+          <div class="form-group">
+            <label for="weight-unit">Unit</label>
+            <select class="form-control" id="weight-unit">
+              <option value="kg" selected>kg</option>
+              <option value="lb">lb</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+          <div class="form-group">
+            <label for="goal">Weight Goal</label>
+            <select class="form-control" id="goal">
+              <option value="maintain" selected>Maintain Weight</option>
+              <option value="loss">Weight Loss</option>
+              <option value="gain">Weight Gain</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="rate">Weight Change Goal</label>
+            <select class="form-control" id="rate" disabled>
+              <option value="0.25">0.5 lb / 0.25 kg per week</option>
+              <option value="0.5" selected>1.0 lb / 0.5 kg per week</option>
+              <option value="0.75">1.5 lb / 0.75 kg per week</option>
+              <option value="1.0">2.0 lb / 1.0 kg per week</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="preference">Carbs/Fat Preference</label>
+          <select class="form-control" id="preference">
+            <option value="standard" selected>Standard Balanced (40% Carbs, 30% Protein, 30% Fat)</option>
+            <option value="lowcarb">Low Carb / High Fat (20% Carbs, 35% Protein, 45% Fat)</option>
+            <option value="highcarb">High Carb / Low Fat (60% Carbs, 25% Protein, 15% Fat)</option>
+            <option value="keto">Ketogenic (5% Carbs, 25% Protein, 70% Fat)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="calc-results">
+        <h3 class="result-title">Macronutrient Targets</h3>
+        <div class="result-main">
+          <div class="value" id="res-calories" style="color: var(--accent-fitness);">2,243</div>
+          <div class="label">Daily Calorie Target (kcal)</div>
+        </div>
+
+        <div class="result-row">
+          <span class="lbl">🥩 Protein:</span>
+          <span class="val" id="res-protein">168 g (672 kcal)</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">🍞 Carbohydrates:</span>
+          <span class="val" id="res-carbs">224 g (897 kcal)</span>
+        </div>
+        <div class="result-row">
+          <span class="lbl">🥑 Fats:</span>
+          <span class="val" id="res-fats">75 g (674 kcal)</span>
+        </div>
+
+        <div class="result-row" style="padding-top: 12px; border-bottom: none;">
+          <div style="width: 100%;">
+            <div style="font-weight: bold; font-size: 13px; color: var(--text-secondary); margin-bottom: 6px;">Visual Ratio Split:</div>
+            <div style="display: flex; height: 16px; border-radius: 4px; overflow: hidden; background: var(--bg-tertiary);">
+              <div id="bar-carbs" style="background: #2563eb; width: 40%;" title="Carbohydrates"></div>
+              <div id="bar-protein" style="background: #dc2626; width: 30%;" title="Protein"></div>
+              <div id="bar-fats" style="background: #ca8a04; width: 30%;" title="Fats"></div>
+            </div>
+            <div style="display: flex; gap: 10px; font-size: 11px; color: var(--text-muted); margin-top: 6px; justify-content: center;">
+              <span><span style="display:inline-block; width:8px; height:8px; background:#2563eb; border-radius:50%; margin-right:3px;"></span>Carbs (<span id="pct-carbs">40</span>%)</span>
+              <span><span style="display:inline-block; width:8px; height:8px; background:#dc2626; border-radius:50%; margin-right:3px;"></span>Protein (<span id="pct-protein">30</span>%)</span>
+              <span><span style="display:inline-block; width:8px; height:8px; background:#ca8a04; border-radius:50%; margin-right:3px;"></span>Fats (<span id="pct-fats">30</span>%)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ad placeholder -->
+    <div class="adsense-placeholder ads-horizontal">
+      Advertisements (Middle Calculator Ad)
+    </div>
+
+    <!-- SEO Content -->
+    <section class="article-page" style="margin-top: 0;">
+      <article class="article-body">
+        <h2>Macronutrient Calculator: Complete Daily Ratio Planning Guide</h2>
+        <p>Macronutrients—commonly abbreviated as "macros"—refer to the three primary categories of nutrients that the human body requires in large quantities to sustain life, generate energy, and repair tissue: carbohydrates, proteins, and fats. Unlike micronutrients (vitamins and minerals), which are needed in trace amounts, macronutrients compose the actual caloric bulk of our diets. Every calorie you consume is derived from one of these three energy carriers. By establishing custom macro targets, you can optimize your body composition, boost physical energy, and tailor your nutrition plan to meet specific athletic or metabolic targets.</p>
+        <p>While calorie counting is the primary driver of weight loss or weight gain, macronutrient ratios determine the *quality* of that change. For instance, a calorie deficit without adequate protein intake will force the body to break down lean muscle tissue for energy, resulting in a decline in metabolic rate and an unfavorable body composition (often termed "skinny fat"). Conversely, balancing your calorie targets with precise protein, carbohydrate, and fat splits ensures that you lose body fat while retaining or building lean muscle tissue, optimizing physical thermodynamic efficiency.</p>
+
+        <div class="card" style="background: var(--bg-secondary); border-left: 4px solid var(--accent-fitness); padding: 15px; margin: 20px 0; font-size: 13.5px; line-height: 1.5;">
+          <strong>💡 Educational Info:</strong> This guide provides a detailed overview of the mathematical, scientific, and physiological principles behind macronutrient calculations, helping you plan and verify your targets.
+        </div>
+
+        <h3>The Science Profiles of Macronutrients</h3>
+        <p>To calculate macros effectively, you must understand the role and caloric weight of each macronutrient class:</p>
+        
+        <div class="info-grid">
+          <div class="info-grid-card">
+            <h4>1. Proteins (4 kcal / gram)</h4>
+            <p>Protein is composed of amino acids, which serve as the building blocks for muscle mass, skin, hair, and enzymes. It is crucial for cell repair, immune function, and maintaining nitrogen balance. Higher protein intake also increases satiety and has the highest thermic effect of food (TEF), burning more energy during digestion.</p>
+          </div>
+          <div class="info-grid-card">
+            <h4>2. Carbohydrates (4 kcal / gram)</h4>
+            <p>Carbohydrates are converted into glucose, serving as the body's primary energy source, especially for brain function and high-intensity muscular work. Stored in the muscles and liver as glycogen, carbohydrates are essential for athletic performance, anaerobic conditioning, and sparing protein from breakdown.</p>
+          </div>
+          <div class="info-grid-card">
+            <h4>3. Fats (9 kcal / gram)</h4>
+            <p>Dietary fats are vital for hormone production (like testosterone and estrogen), cell membrane integrity, brain health, and the absorption of fat-soluble vitamins (A, D, E, and K). Because fat is calorie-dense, it provides a slow-burning, long-lasting energy source and helps regulate insulin output.</p>
+          </div>
+        </div>
+
+        <h3>Mathematical Calculations & Formulas</h3>
+        <p>The daily macronutrient target is computed using Mifflin-St Jeor metabolic baselines and specific diet splits:</p>
+        <div class="formula-card" style="border-left-color: var(--accent-fitness);">
+          BMR (Male) = 10 * weight (kg) + 6.25 * height (cm) - 5 * age (years) + 5<br>
+          BMR (Female) = 10 * weight (kg) + 6.25 * height (cm) - 5 * age (years) - 161
+        </div>
+        <p>Once your Basal Metabolic Rate (BMR) is determined, the Total Daily Energy Expenditure (TDEE) is calculated by applying an activity multiplier based on physical exercise frequency:</p>
+        <div class="formula-card" style="border-left-color: var(--accent-fitness);">
+          TDEE = BMR * Activity Factor
+        </div>
+        <p>To adjust for your weight goal, we apply a daily calorie offset. One pound of body fat contains approximately 3,500 calories. Therefore, to lose 1 pound per week, a deficit of 500 calories per day must be subtracted from TDEE. Conversely, to gain 1 pound per week of weight, a surplus of 500 calories is added to TDEE. To convert these final calorie targets into macronutrient grams, we apply your diet preference ratio splits (Standard, Low-Carb, High-Carb, or Ketogenic) and divide by the respective macro caloric weight: 4 kcal/gram for carbs and protein, and 9 kcal/gram for fat.</p>
+
+        <h3>Step-by-Step Practical Calculation Example</h3>
+        <p>Let's run a complete manual calculation for a <strong>30-year-old male</strong> weighing <strong>80 kg (176.4 lbs)</strong> who is <strong>180 cm (70.9 in)</strong> tall, selects a <strong>Moderately Active</strong> lifestyle, has a goal of <strong>Weight Loss (1 lb per week)</strong>, and prefers a <strong>Low-Carb diet</strong>.</p>
+        <ol>
+          <li><strong>Step 1: Calculate BMR (Mifflin-St Jeor):</strong><br>
+          <code>BMR = 10 * 80 + 6.25 * 180 - 5 * 30 + 5 = 800 + 1,125 - 150 + 5 = 1,780 kcal/day</code>.</li>
+          <li><strong>Step 2: Calculate TDEE (Moderately Active factor = 1.55):</strong><br>
+          <code>TDEE = 1,780 * 1.55 = 2,759 kcal/day</code> (maintenance baseline).</li>
+          <li><strong>Step 3: Apply Weight Loss Deficit (1 lb/week = -500 kcal):</strong><br>
+          <code>Target Calories = 2,759 - 500 = 2,259 kcal/day</code>.</li>
+          <li><strong>Step 4: Distribute Calories by Low-Carb splits (35% Protein, 20% Carbs, 45% Fat):</strong><br>
+            <ul>
+              <li>Protein calories: <code>2,259 * 0.35 = 790.65 kcal</code></li>
+              <li>Carbohydrate calories: <code>2,259 * 0.20 = 451.8 kcal</code></li>
+              <li>Fat calories: <code>2,259 * 0.45 = 1,016.55 kcal</code></li>
+            </ul>
+          </li>
+          <li><strong>Step 5: Convert Calories to Grams:</strong><br>
+            <ul>
+              <li>Protein grams: <code>790.65 / 4 ≈ 198 grams</code></li>
+              <li>Carbohydrate grams: <code>451.8 / 4 ≈ 113 grams</code></li>
+              <li>Fat grams: <code>1,016.55 / 9 ≈ 113 grams</code></li>
+            </ul>
+          </li>
+        </ol>
+        <p>By executing these calculations locally in your web browser, our interactive macro tool converts these values instantly, allowing you to optimize nutritional tracking safely and privately.</p>
+
+        <h3>Macronutrient Split Ratio Comparison Table</h3>
+        <p>The following table outlines standard nutritional split targets based on primary metabolic strategies:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Diet Strategy</th>
+              <th>Carbohydrate %</th>
+              <th>Protein %</th>
+              <th>Fat %</th>
+              <th>Primary Clinical Use Case</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Standard Balanced</strong></td>
+              <td>40%</td>
+              <td>30%</td>
+              <td>30%</td>
+              <td>General fitness, moderate endurance, weight maintenance</td>
+            </tr>
+            <tr>
+              <td><strong>Low Carb / High Fat</strong></td>
+              <td>20%</td>
+              <td>35%</td>
+              <td>45%</td>
+              <td>Insulin sensitivity, fat loss support, appetite regulation</td>
+            </tr>
+            <tr>
+              <td><strong>High Carb / Low Fat</strong></td>
+              <td>60%</td>
+              <td>25%</td>
+              <td>15%</td>
+              <td>Endurance athletes, high-volume strength builders</td>
+            </tr>
+            <tr>
+              <td><strong>Ketogenic</strong></td>
+              <td>5%</td>
+              <td>25%</td>
+              <td>70%</td>
+              <td>Therapeutic ketosis, metabolic adaptation, rapid glycogen reduction</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>The Scientific Basis of Metabolic Rate and Energy Balances</h3>
+        <p>Human energy balance is governed by the first law of thermodynamics: energy cannot be created or destroyed, only transformed. The body requires energy in the form of calories to support basic physiological processes (like cell repair, respiration, and brain activity) and to fuel physical movement. Your daily energy needs are divided into Basal Metabolic Rate (BMR) and Active Energy Expenditure (AEE). When daily calorie intake matches expenditure, weight remains stable. A calorie deficit forces the body to burn stored fat, while a calorie surplus leads to energy storage as fat tissue.</p>
+        <p>To measure these metrics accurately, clinicians use math models based on demographics and physical measurements. The Mifflin-St Jeor equation is the standard baseline used by dietitians to estimate BMR, showing high reliability across diverse body types. Body composition is further evaluated using heuristics like the Body Mass Index (BMI) and the US Navy Circumference Method. While BMI is a quick population-level assessment based on height and weight, the Navy method estimates body fat percentage using key measurements, allowing you to track body composition changes independently of total scale weight.</p>
+        <p>Understanding these biological numbers helps you avoid extreme diets that can cause muscle loss, nutrient deficiencies, and metabolic adaptation (slowing of the metabolism). By calculating your resting metabolic rate, activity multipliers, and body fat ratios, you can build a sustainable nutrition and training program tailored to your body's unique requirements, whether your goal is fat loss, muscle building, or general fitness.</p>
+        <p>Additionally, macro-nutrient distributions play a key role in body transformation. Consuming sufficient protein helps preserve muscle mass while in a calorie deficit, while dietary fats support hormone regulation. Carbohydrates fuel high-intensity exercise and support recovery. Balancing these variables provides a complete framework for physical optimization.</p>
+    
+        <h3>Scientific Validation and Clinical Fitness Frameworks</h3>
+        <p>Designing an effective diet or cardiovascular training regimen requires tracking physical metrics with clinical accuracy. When calculating metrics such as body fat percentages, caloric needs, or Ideal Body Weight, it is vital to remember that these formulas represent statistical aggregates. A person's metabolic rate is influenced by thyroid activity, genetics, and lean muscle mass, which are not fully captured by general formulas. Therefore, cross-referencing your calculator outputs with advice from registered dietitians or sports physicians ensures that your training targets remain healthy and aligned with your body's physiological requirements. Continuous self-monitoring through monthly measurements establishes a consistent feedback loop for steady health gains.</p>
+    
+        <h3>Clinical Guidelines for Weight Management and Metabolic Health</h3>
+        <ul>
+          <li><strong>Protect Lean Muscle:</strong> Consume 1.6 to 2.2 grams of protein per kilogram of body weight daily during a calorie deficit to prevent muscle tissue breakdown.</li>
+          <li><strong>Incorporate Resistance Training:</strong> Lift weights or perform bodyweight resistance exercises at least 3 days per week to stimulate muscle synthesis and preserve bone density.</li>
+          <li><strong>Target a Sustainable Deficit:</strong> Keep your daily calorie deficit between 300 and 500 calories below maintenance to lose fat steadily without triggering severe metabolic slowing.</li>
+          <li><strong>Track Non-Scale Progress:</strong> Take waist, hip, and neck measurements monthly. Changes in clothing fit and body measurements are often more reliable than daily scale fluctuations.</li>
+        </ul>
+
+        <h3>Advanced Technical Context on Macro Calculator Systems</h3>
+        <p>Operating a macro calculator requires addressing both theoretical inputs and real-world limits. When analyzing metrics in the <strong>fitness</strong> domain, configurations must align with scientific standards. For instance, in financial modeling, ignoring fees or inflation can skew your planning, while in fitness tracking, failing to adjust calculators for muscle density or thyroid levels can result in incorrect metabolic targets.</p>
+        <p>By studying the mathematical and scientific concepts behind these utility calculations, users build practical literacy in the field. This empowers individuals to verify browser-compiled calculations manually and make data-driven decisions with high confidence. Our tools run locally in your browser memory sandbox, meaning no personal inputs or results are ever sent over the network, ensuring complete data privacy.</p>
+        <p>Furthermore, bounds-testing is a highly recommended practice for advanced planning. Consider running calculations for multiple scenarios (such as conservative, moderate, and aggressive targets) to understand the range of potential outcomes. This bounds-testing strategy helps manage risks and structure contingency plans for your home, business, or health tracking.</p>
+        <p>Additionally, verifying assumptions against verified benchmarks (e.g. tax codes, clinical studies, or geometric theorems) provides valuable context for the outputs. Our calculators combine these scientific frameworks with lightweight JavaScript solvers, bridging the gap between theoretical calculations and daily productivity tasks.</p>
+        <p>Finally, standard calibration of your input values ensures the highest degree of reliability. If you are calculating long-term projections, consider performing multiple calculations to model the 'best case' and 'worst case' scenarios. This bounds-testing strategy helps you manage risks, structure contingency reserves, and establish realistic targets. By verifying your assumptions against historical datasets or industry baselines, you convert raw mathematical values into actionable strategic insights for your home, business, or health tracking.</p>
+        
+        <h3>Ensuring Operational Standards and Long-Term Value</h3>
+        <p>Using calculators effectively requires maintaining consistent calibration routines. When working with mathematical datasets, physical training programs, or financial models, users should periodically verify their assumptions against industry baselines. For example, in real estate planning, property tax rates and insurance premiums adjust annually, meaning your PITI estimates should be bounds-tested against current local tax schedules. Similarly, in fitness and nutritional tracking, your daily calorie needs and basal metabolic rate naturally shift as your body composition evolves, requiring a re-evaluation of your target intakes every 4 to 6 weeks. By automating these math workflows locally inside your web browser, our tools offer a highly secure, private platform to process these calculations without exposing your sensitive personal details to third-party data tracking. Operating client-side ensures that your private data remains completely secure and under your personal control, serving as a reliable administrative baseline for your household, financial, or academic projects.</p>
+
+        <h3>Frequently Asked Questions (FAQ)</h3>
+        <div style="margin-top: 15px;">
+          <p><strong>Q: What is the difference between calorie counting and macro tracking?</strong><br>
+          A: Calorie counting focuses purely on energy balance (calories in vs. calories out). Macro tracking details *how* that energy is composed, ensuring proper distribution to preserve muscle mass, support hormone regulation, and fuel workouts.</p>
+          <p><strong>Q: How do I adjust my macros if my weight loss stalls?</strong><br>
+          A: If weight loss stalls for more than 2-3 weeks, first ensure tracking accuracy. If correct, recalculate your targets based on your updated weight or decrease daily calories by 100-150, keeping protein high to protect muscle mass.</p>
+          <p><strong>Q: What are raw vs. net carbs?</strong><br>
+          A: Net carbohydrates are the total carbs minus dietary fiber and sugar alcohols, representing the carbs actually absorbed by the body. Net carbs are particularly tracked in low-carb and ketogenic diets.</p>
+          <p><strong>Q: How does alcohol affect macros?</strong><br>
+          A: Alcohol provides 7 calories per gram but is not considered an essential macronutrient. To track alcohol, convert its calorie cost into equivalent carbohydrate or fat grams in your tracker.</p>
+          <p><strong>Q: Can I build muscle while in a calorie deficit?</strong><br>
+          A: Yes, particularly for beginners or individuals with higher body fat percentages. This process (body recomposition) requires keeping protein high (1.8-2.2g/kg) and performing consistent resistance training.</p>
+          <p><strong>Q: Can I use this calculator on mobile devices?</strong><br>
+          A: Yes, the website is fully responsive, meaning the layout adjusts to fit smartphones, tablets, and desktop computers.</p>
+          <p><strong>Q: Who should use this calculator?</strong><br>
+          A: This tool is designed for students, professionals, and individuals looking to simplify calculations and analyze scenarios with speed and confidence.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Horizontal Ad Banner -->
+  <div class="container">
+    <div class="adsense-placeholder ads-horizontal" style="margin-bottom: 40px;">
+      Advertisements (Bottom Calculator Ad)
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <a href="../index.html" class="logo" style="margin-bottom: 12px;">
+            <div class="logo-icon">⚡</div>
+            <span>InterestCalcs</span>
+          </a>
+          <p>A directory of 100% free, browser-compiled calculator tools designed to help you process numbers and timelines with maximum privacy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Utility Tools</h4>
+          <ul class="footer-links">
+            <li><a href="../calculators/loan.html">Loan Calculator</a></li>
+            <li><a href="../calculators/calorie.html">Calorie Deficit</a></li>
+            <li><a href="../calculators/days.html">Days Counter</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> InterestCalcs. All rights reserved. Calculations are client-side estimates only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Elements
+    const ageInput = document.getElementById('age');
+    const heightInput = document.getElementById('height');
+    const heightUnit = document.getElementById('height-unit');
+    const weightInput = document.getElementById('weight');
+    const weightUnit = document.getElementById('weight-unit');
+    const activityInput = document.getElementById('activity');
+    const goalInput = document.getElementById('goal');
+    const rateInput = document.getElementById('rate');
+    const preferenceInput = document.getElementById('preference');
+    
+    const resCalories = document.getElementById('res-calories');
+    const resProtein = document.getElementById('res-protein');
+    const resCarbs = document.getElementById('res-carbs');
+    const resFats = document.getElementById('res-fats');
+    
+    const barCarbs = document.getElementById('bar-carbs');
+    const barProtein = document.getElementById('bar-protein');
+    const barFats = document.getElementById('bar-fats');
+    
+    const pctCarbs = document.getElementById('pct-carbs');
+    const pctProtein = document.getElementById('pct-protein');
+    const pctFats = document.getElementById('pct-fats');
+
+    // Toggle rate input based on goal selection
+    goalInput.addEventListener('change', () => {
+      if (goalInput.value === 'maintain') {
+        rateInput.disabled = true;
+      } else {
+        rateInput.disabled = false;
+      }
+      calculateMacros();
+    });
+
+    function calculateMacros() {
+      const age = parseInt(ageInput.value) || 25;
+      let height = parseFloat(heightInput.value) || 175;
+      let weight = parseFloat(weightInput.value) || 70;
+      const isMale = document.getElementById('gender-male').checked;
+      const activity = parseFloat(activityInput.value) || 1.375;
+      const goal = goalInput.value;
+      const rate = parseFloat(rateInput.value) || 0.5;
+      const pref = preferenceInput.value;
+
+      // Convert height to cm if input in inches
+      if (heightUnit.value === 'in') {
+        height = height * 2.54;
+      }
+      // Convert weight to kg if input in lbs
+      if (weightUnit.value === 'lb') {
+        weight = weight / 2.20462;
+      }
+
+      // 1. Calculate BMR (Mifflin-St Jeor)
+      let bmr = 0;
+      if (isMale) {
+        bmr = 10 * weight + 6.25 * height - 5 * age + 5;
+      } else {
+        bmr = 10 * weight + 6.25 * height - 5 * age - 161;
+      }
+
+      // 2. Calculate TDEE
+      const tdee = bmr * activity;
+
+      // 3. Adjust Calories for Goals
+      let targetCalories = tdee;
+      if (goal === 'loss') {
+        // 0.5 lb/week rate = 250 deficit, 1.0 lb/week = 500 deficit, etc.
+        const deficit = rate * 500;
+        targetCalories = tdee - deficit;
+        // Floor checks for biological health preservation
+        const floor = isMale ? 1500 : 1200;
+        if (targetCalories < floor) targetCalories = floor;
+      } else if (goal === 'gain') {
+        const surplus = rate * 500;
+        targetCalories = tdee + surplus;
+      }
+
+      // 4. Macro Ratio Splits
+      let pRatio = 0.30;
+      let cRatio = 0.40;
+      let fRatio = 0.30;
+
+      if (pref === 'lowcarb') {
+        pRatio = 0.35;
+        cRatio = 0.20;
+        fRatio = 0.45;
+      } else if (pref === 'highcarb') {
+        pRatio = 0.25;
+        cRatio = 0.60;
+        fRatio = 0.15;
+      } else if (pref === 'keto') {
+        pRatio = 0.25;
+        cRatio = 0.05;
+        fRatio = 0.70;
+      }
+
+      // 5. Convert to Grams (P: 4 kcal/g, C: 4 kcal/g, F: 9 kcal/g)
+      const proteinKcal = targetCalories * pRatio;
+      const carbsKcal = targetCalories * cRatio;
+      const fatsKcal = targetCalories * fRatio;
+
+      const proteinG = proteinKcal / 4;
+      const carbsG = carbsKcal / 4;
+      const fatsG = fatsKcal / 9;
+
+      // Update DOM
+      resCalories.textContent = Math.round(targetCalories).toLocaleString();
+      resProtein.textContent = `${Math.round(proteinG)} g (${Math.round(proteinKcal)} kcal)`;
+      resCarbs.textContent = `${Math.round(carbsG)} g (${Math.round(carbsKcal)} kcal)`;
+      resFats.textContent = `${Math.round(fatsG)} g (${Math.round(fatsKcal)} kcal)`;
+
+      // Visual split display
+      pctCarbs.textContent = Math.round(cRatio * 100);
+      pctProtein.textContent = Math.round(pRatio * 100);
+      pctFats.textContent = Math.round(fRatio * 100);
+
+      barCarbs.style.width = `${cRatio * 100}%`;
+      barProtein.style.width = `${pRatio * 100}%`;
+      barFats.style.width = `${fRatio * 100}%`;
+    }
+
+    // Event listeners
+    document.getElementById('gender-male').addEventListener('change', calculateMacros);
+    document.getElementById('gender-female').addEventListener('change', calculateMacros);
+    ageInput.addEventListener('input', calculateMacros);
+    heightInput.addEventListener('input', calculateMacros);
+    heightUnit.addEventListener('change', calculateMacros);
+    weightInput.addEventListener('input', calculateMacros);
+    weightUnit.addEventListener('change', calculateMacros);
+    activityInput.addEventListener('change', calculateMacros);
+    preferenceInput.addEventListener('change', calculateMacros);
+
+    calculateMacros();
+  </script>
+
+  <!-- Cookie Consent Banner Logic -->
+  <script>
+    function checkCookieConsent() {
+      if (!localStorage.getItem('cookie-consent')) {
+        document.getElementById('cookie-consent').style.display = 'block';
+      }
+    }
+    function acceptCookieConsent() {
+      localStorage.setItem('cookie-consent', 'accepted');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    function declineCookieConsent() {
+      localStorage.setItem('cookie-consent', 'declined');
+      document.getElementById('cookie-consent').style.display = 'none';
+    }
+    window.addEventListener('DOMContentLoaded', checkCookieConsent);
+  </script>
+</body>
+</html>
