@@ -1,5 +1,12 @@
 [
   {
+    "title": "Healthy Baked Ziti Casserole: Veggies, Turkey & Cheese",
+    "summary": "Discover a healthier twist on classic baked ziti! This recipe features artichoke, spinach, and lean ground turkey for a delicious, family-friendly, protein-packed meal. Get the recipe now!",
+    "url": "articles/healthy-baked-ziti-casserole-recipe.html",
+    "date": "July 17, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Chicken Burrito Bowl: Healthy & Easy Meal Prep Recipe",
     "summary": "Discover how to make a healthy and easy chicken burrito bowl. Perfect for meal prep, this recipe is packed with protein, fiber, and flavor. Get the recipe and nutritional info!",
     "url": "articles/chicken-burrito-bowl-recipe.html",
@@ -201,12 +208,5 @@
     "url": "articles/vaneck-fabless-semiconductor-etf-smhx-tsmc-exclusion.html",
     "date": "July 7, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Generate $4K Monthly: $750K Portfolio Strategy",
-    "summary": "Unlock consistent $4,000 monthly income from a $750,000 portfolio. Explore a blended strategy for reliable cash flow, growth, and tax efficiency. Learn to build and stress-test your income portfolio.",
-    "url": "articles/750k-portfolio-4k-monthly-income.html",
-    "date": "July 7, 2026",
-    "category": "Investing"
   }
 ]
