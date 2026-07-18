@@ -1,5 +1,12 @@
 [
   {
+    "title": "Golden Scramble: Protein & Greens for a Power Start",
+    "summary": "Fuel your morning with this delicious and healthy Golden Scramble recipe. Packed with protein, vibrant greens, and earthy mushrooms, it's quick, easy, and incredibly nutritious.",
+    "url": "articles/golden-scramble-greens-mushrooms-power-breakfast.html",
+    "date": "July 18, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Quick & Healthy Green Chicken Enchiladas in 20 Mins",
     "summary": "Whip up delicious and healthy green chicken enchiladas in just 20 minutes! This recipe uses rotisserie chicken and fresh ingredients for a speedy, high-protein weeknight meal.",
     "url": "articles/green-chicken-enchiladas-20-minute-recipe.html",
@@ -200,13 +207,6 @@
     "summary": "Discover our elegant yet easy recipe for roasted turkey sausages with sweet grapes and tender pearl onions, finished with tangy pomegranate molasses. A healthy, delicious meal in 30 mins!",
     "url": "articles/roasted-turkey-sausages-grapes-pearl-onions.html",
     "date": "July 10, 2026",
-    "category": "Health"
-  },
-  {
-    "title": "Healthy Late Night Snacks for Better Sleep & Stable Blood Sugar",
-    "summary": "Discover expert-approved healthy late-night snacks that support stable blood sugar and promote restful sleep. Learn what to eat, what to avoid, and why timing matters for your evening fuel.",
-    "url": "articles/healthy-late-night-snacks.html",
-    "date": "July 9, 2026",
     "category": "Health"
   }
 ]
