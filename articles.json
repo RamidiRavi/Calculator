@@ -1,5 +1,12 @@
 [
   {
+    "title": "Healthy BBQ Meatball Sub: Delicious & Guilt-Free Recipe",
+    "summary": "Indulge in a healthy BBQ Meatball Sub! This recipe uses lean ground beef and no-sugar-added BBQ sauce for a delicious, low-calorie, and high-protein meal. Perfect for meal prep and healthy eating.",
+    "url": "articles/healthy-bbq-meatball-sub-recipe.html",
+    "date": "July 18, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Healthy Baked Ziti Casserole: Veggies, Turkey & Cheese",
     "summary": "Discover a healthier twist on classic baked ziti! This recipe features artichoke, spinach, and lean ground turkey for a delicious, family-friendly, protein-packed meal. Get the recipe now!",
     "url": "articles/healthy-baked-ziti-casserole-recipe.html",
@@ -201,12 +208,5 @@
     "url": "articles/roasted-chicken-meyer-lemon-sauce-healthy-recipe.html",
     "date": "July 9, 2026",
     "category": "Nutrition"
-  },
-  {
-    "title": "VanEck Fabless Semiconductor ETF (SMHX): 58% Up YTD, Excludes TSMC",
-    "summary": "Explore the VanEck Fabless Semiconductor ETF (SMHX), up 58% this year, and its unique strategy focusing on chip designers, excluding manufacturing giants like TSMC.",
-    "url": "articles/vaneck-fabless-semiconductor-etf-smhx-tsmc-exclusion.html",
-    "date": "July 7, 2026",
-    "category": "Finance"
   }
 ]
