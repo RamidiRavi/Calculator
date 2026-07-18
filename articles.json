@@ -1,5 +1,12 @@
 [
   {
+    "title": "Quick & Healthy Chicken Jambalaya with Quinoa",
+    "summary": "Savor a delicious, healthy chicken jambalaya! This quick recipe features lean protein, vibrant veggies, and protein-packed quinoa for a satisfying, nutrient-rich meal in just 30 minutes.",
+    "url": "articles/healthy-chicken-jambalaya-quinoa-recipe.html",
+    "date": "July 18, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Healthy BBQ Meatball Sub: Delicious & Guilt-Free Recipe",
     "summary": "Indulge in a healthy BBQ Meatball Sub! This recipe uses lean ground beef and no-sugar-added BBQ sauce for a delicious, low-calorie, and high-protein meal. Perfect for meal prep and healthy eating.",
     "url": "articles/healthy-bbq-meatball-sub-recipe.html",
@@ -201,12 +208,5 @@
     "url": "articles/exploring-normality-in-topological-spaces.html",
     "date": "July 9, 2026",
     "category": "Finance"
-  },
-  {
-    "title": "Healthy Roasted Chicken with Meyer Lemon: Easy Recipe",
-    "summary": "Master the art of healthy roasting with our simple Meyer lemon chicken recipe. Get crispy skin, juicy meat, and a flavorful pan sauce for a nutritious meal.",
-    "url": "articles/roasted-chicken-meyer-lemon-sauce-healthy-recipe.html",
-    "date": "July 9, 2026",
-    "category": "Nutrition"
   }
 ]
