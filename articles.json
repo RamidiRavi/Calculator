@@ -1,5 +1,12 @@
 [
   {
+    "title": "Quick & Healthy Green Chicken Enchiladas in 20 Mins",
+    "summary": "Whip up delicious and healthy green chicken enchiladas in just 20 minutes! This recipe uses rotisserie chicken and fresh ingredients for a speedy, high-protein weeknight meal.",
+    "url": "articles/green-chicken-enchiladas-20-minute-recipe.html",
+    "date": "July 18, 2026",
+    "category": "Health"
+  },
+  {
     "title": "Orchard Chicken Salad Lettuce Wraps: Healthy & Easy Recipe",
     "summary": "Discover how to make delicious and healthy Orchard Chicken Salad Lettuce Wraps. A high-protein, low-carb meal with fresh fruit, perfect for a quick lunch or dinner. Get the recipe and nutritional facts!",
     "url": "articles/orchard-chicken-salad-lettuce-wraps.html",
@@ -201,12 +208,5 @@
     "url": "articles/healthy-late-night-snacks.html",
     "date": "July 9, 2026",
     "category": "Health"
-  },
-  {
-    "title": "Understanding Normality in Topological Spaces: A Dive into Munkres' Theory",
-    "summary": "Delve into how normality in product spaces impacts individual topological spaces with Munkres' insights.",
-    "url": "articles/exploring-normality-in-topological-spaces.html",
-    "date": "July 9, 2026",
-    "category": "Finance"
   }
 ]
