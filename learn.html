@@ -58,6 +58,7 @@
           <p>Loading learning guides...</p>
         </div>
       </div>
+      <div class="pagination-container" id="pagination-container"></div>
     </section>
 
     <!-- Ad Banner -->
@@ -104,36 +105,98 @@
   <script>
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
+    const ITEMS_PER_PAGE = 12;
+    let allArticles = [];
+
+    function getPageFromURL() {
+      const params = new URLSearchParams(window.location.search);
+      const page = parseInt(params.get('page')) || 1;
+      return page > 0 ? page : 1;
+    }
+
+    function updateURL(page) {
+      const url = new URL(window.location);
+      url.searchParams.set('page', page);
+      window.history.pushState({ page }, '', url);
+    }
+
+    function renderPage(pageNumber) {
+      const container = document.getElementById('articles-container');
+      const pagContainer = document.getElementById('pagination-container');
+      
+      const totalPages = Math.ceil(allArticles.length / ITEMS_PER_PAGE) || 1;
+      const currentPage = Math.min(Math.max(1, pageNumber), totalPages);
+
+      const start = (currentPage - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+      const pageArticles = allArticles.slice(start, end);
+
+      if (pageArticles.length === 0) {
+        container.innerHTML = `
+          <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
+            <p>No learning guides found.</p>
+          </div>
+        `;
+        pagContainer.innerHTML = '';
+        return;
+      }
+
+      container.innerHTML = pageArticles.map(art => `
+        <article class="article-card">
+          <div class="article-content">
+            <div class="article-meta">
+              <span>${art.date}</span>
+              <span>•</span>
+              <span style="color: var(--accent-financial); font-weight: bold;">${art.category}</span>
+            </div>
+            <h4>${art.title}</h4>
+            <p>${art.summary || ''}</p>
+            <a href="${art.url}" class="article-link">Read Guide &rarr;</a>
+          </div>
+        </article>
+      `).join('');
+
+      // Build Pagination Buttons
+      if (totalPages <= 1) {
+        pagContainer.innerHTML = '';
+        return;
+      }
+
+      let buttonsHTML = '';
+
+      // Page Numbers
+      for (let i = 1; i <= totalPages; i++) {
+        const activeClass = i === currentPage ? 'page-btn active' : 'page-btn';
+        buttonsHTML += `<button class="${activeClass}" onclick="goToPage(${i})">${i}</button>`;
+      }
+
+      // Next Button
+      const nextClass = currentPage === totalPages ? 'page-btn disabled' : 'page-btn';
+      buttonsHTML += `<button class="${nextClass}" onclick="goToPage(${currentPage + 1})" aria-label="Next Page">&rarr;</button>`;
+
+      pagContainer.innerHTML = buttonsHTML;
+    }
+
+    function goToPage(page) {
+      updateURL(page);
+      renderPage(page);
+      document.getElementById('articles-container').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    window.addEventListener('popstate', () => {
+      const page = getPageFromURL();
+      renderPage(page);
+    });
+
     async function loadArticles() {
       const container = document.getElementById('articles-container');
       try {
         const response = await fetch('articles.json');
         if (!response.ok) throw new Error('Could not fetch index');
-        const articles = await response.json();
+        allArticles = await response.json();
         
-        if (articles.length === 0) {
-          container.innerHTML = `
-            <div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 30px 0;">
-              <p>No learning guides found.</p>
-            </div>
-          `;
-          return;
-        }
-
-        container.innerHTML = articles.map(art => `
-          <article class="article-card">
-            <div class="article-content">
-              <div class="article-meta">
-                <span>${art.date}</span>
-                <span>•</span>
-                <span style="color: var(--accent-financial); font-weight: bold;">${art.category}</span>
-              </div>
-              <h4>${art.title}</h4>
-              <p>${art.summary || ''}</p>
-              <a href="${art.url}" class="article-link">Read Guide &rarr;</a>
-            </div>
-          </article>
-        `).join('');
+        const initialPage = getPageFromURL();
+        renderPage(initialPage);
 
       } catch (err) {
         console.error(err);
