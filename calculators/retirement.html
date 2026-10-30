@@ -19,6 +19,7 @@
   <title>Retirement Calculator - InterestCalcs</title>
   <meta name="description" content="Plan your retirement fund requirements based on inflation, deposits, and investment growth rates.">
   <link rel="stylesheet" href="../style.css">
+  <script src="../motion.js" defer></script>
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏖️</text></svg>">
 </head>
 <body>
@@ -99,6 +100,35 @@
         
       </div>
 
+    </div>
+
+    <!-- Growth Visualization Chart -->
+    <div class="calc-chart-card reveal">
+      <div class="calc-chart-head">
+        <h3>Balance Growth to Retirement</h3>
+        <span class="hint">Hover to inspect any age</span>
+      </div>
+      <div class="calc-chart-legend">
+        <span><i class="swatch" style="background: var(--accent-financial);"></i>Nominal Balance</span>
+        <span><i class="swatch" style="background: var(--text-muted);"></i>Inflation-Adjusted</span>
+      </div>
+      <div class="calc-chart-wrap">
+        <svg class="calc-chart-svg" id="chart-svg" viewBox="0 0 640 240" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="chartGradient" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#1e40af" stop-opacity="0.18"/>
+              <stop offset="100%" stop-color="#1e40af" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <path class="calc-chart-area" id="chart-area" />
+          <path class="calc-chart-contrib-line" id="chart-contrib-line" />
+          <path class="calc-chart-line" id="chart-line" />
+          <line class="calc-chart-hover-line" id="chart-hover-line" x1="0" y1="0" x2="0" y2="200" />
+          <circle class="calc-chart-dot" id="chart-dot" r="4.5" />
+          <rect id="chart-overlay" x="0" y="0" width="640" height="200" fill="transparent" />
+        </svg>
+        <div class="calc-chart-tooltip" id="chart-tooltip"></div>
+      </div>
     </div>
 
     <!-- Ad placeholder -->
@@ -280,10 +310,23 @@
   </script>
 
   <script>
-    
+
         const inputs = ['curr-age', 'ret-age', 'curr-sav', 'ann-dep', 'return-rate', 'inflation'];
         inputs.forEach(id => document.getElementById(id).addEventListener('input', calculate));
-        
+
+        function balancesAt(currSav, annDep, rate, inf, years) {
+          let nominal = currSav * Math.pow(1 + rate / 100, years);
+          for (let i = 0; i < years; i++) {
+            nominal += annDep * Math.pow(1 + rate / 100, years - i - 1);
+          }
+          const realRate = ((1 + rate / 100) / (1 + inf / 100)) - 1;
+          let real = currSav * Math.pow(1 + realRate, years);
+          for (let i = 0; i < years; i++) {
+            real += annDep * Math.pow(1 + realRate, years - i - 1);
+          }
+          return { nominal, real };
+        }
+
         function calculate() {
           const currAge = parseInt(document.getElementById('curr-age').value) || 0;
           const retAge = parseInt(document.getElementById('ret-age').value) || 0;
@@ -291,27 +334,122 @@
           const annDep = parseFloat(document.getElementById('ann-dep').value) || 0;
           const rate = parseFloat(document.getElementById('return-rate').value) || 0;
           const inf = parseFloat(document.getElementById('inflation').value) || 0;
-          
+
           const years = Math.max(0, retAge - currAge);
-          
-          // Nominal calculation
-          let nominal = currSav * Math.pow(1 + rate/100, years);
-          for(let i=0; i<years; i++) {
-            nominal += annDep * Math.pow(1 + rate/100, years - i - 1);
-          }
-          
-          // Inflation-adjusted calculation
-          const realRate = ((1 + rate/100) / (1 + inf/100)) - 1;
-          let real = currSav * Math.pow(1 + realRate, years);
-          for(let i=0; i<years; i++) {
-            real += annDep * Math.pow(1 + realRate, years - i - 1);
-          }
-          
-          document.getElementById('res-retirement').textContent = '$' + Math.round(nominal).toLocaleString();
+          const { nominal, real } = balancesAt(currSav, annDep, rate, inf, years);
+
+          const resEl = document.getElementById('res-retirement');
+          resEl.textContent = '$' + Math.round(nominal).toLocaleString();
           document.getElementById('res-inflation-adj').textContent = '$' + Math.round(real).toLocaleString();
+          if (window.pulse) window.pulse(resEl);
+
+          renderChart(currSav, annDep, rate, inf, years, currAge);
         }
+
+        // --- Growth Chart ---
+        const chartW = 640, chartH = 240, chartPad = { top: 10, right: 10, bottom: 24, left: 10 };
+        const svg = document.getElementById('chart-svg');
+        const areaPath = document.getElementById('chart-area');
+        const linePath = document.getElementById('chart-line');
+        const contribPath = document.getElementById('chart-contrib-line');
+        const overlay = document.getElementById('chart-overlay');
+        const hoverLine = document.getElementById('chart-hover-line');
+        const dot = document.getElementById('chart-dot');
+        const tooltip = document.getElementById('chart-tooltip');
+        let chartPoints = [];
+        let chartDrawn = false;
+
+        function renderChart(currSav, annDep, rate, inf, years, currAge) {
+          if (years <= 0) return;
+          const steps = Math.max(Math.min(Math.round(years), 40), 1);
+          const nominals = [];
+          const reals = [];
+          for (let y = 0; y <= steps; y++) {
+            const whole = Math.floor((years / steps) * y);
+            const r = balancesAt(currSav, annDep, rate, inf, whole);
+            nominals.push(r.nominal);
+            reals.push(r.real);
+          }
+
+          const maxVal = Math.max(...nominals, 1);
+          const innerW = chartW - chartPad.left - chartPad.right;
+          const innerH = chartH - chartPad.top - chartPad.bottom;
+
+          chartPoints = nominals.map((v, i) => ({
+            x: chartPad.left + (innerW * i) / steps,
+            y: chartPad.top + innerH - (innerH * v) / maxVal,
+            age: currAge + Math.floor((years / steps) * i),
+            balance: v,
+            real: reals[i]
+          }));
+
+          const linePts = chartPoints.map(p => `${p.x},${p.y}`).join(' L ');
+          linePath.setAttribute('d', `M ${linePts}`);
+          areaPath.setAttribute('d', `M ${chartPoints[0].x},${chartPad.top + innerH} L ${linePts} L ${chartPoints[chartPoints.length - 1].x},${chartPad.top + innerH} Z`);
+
+          const realPts = chartPoints.map(p => {
+            const cy = chartPad.top + innerH - (innerH * p.real) / maxVal;
+            return `${p.x},${cy}`;
+          }).join(' L ');
+          contribPath.setAttribute('d', `M ${realPts}`);
+
+          if (!chartDrawn) {
+            chartDrawn = true;
+            const len = linePath.getTotalLength();
+            linePath.style.transition = 'none';
+            linePath.style.strokeDasharray = len;
+            linePath.style.strokeDashoffset = len;
+            areaPath.style.transition = 'none';
+            areaPath.style.opacity = 0;
+            contribPath.style.transition = 'none';
+            contribPath.style.opacity = 0;
+            linePath.getBoundingClientRect();
+            requestAnimationFrame(() => {
+              linePath.style.transition = 'stroke-dashoffset 1.1s cubic-bezier(.22,1,.36,1)';
+              linePath.style.strokeDashoffset = 0;
+              areaPath.style.transition = 'opacity 1s ease 0.3s';
+              areaPath.style.opacity = 1;
+              contribPath.style.transition = 'opacity 1s ease 0.6s';
+              contribPath.style.opacity = 1;
+            });
+          }
+        }
+
+        function handleChartMove(clientX) {
+          const rect = svg.getBoundingClientRect();
+          const scaleX = chartW / rect.width;
+          const x = (clientX - rect.left) * scaleX;
+          let nearest = chartPoints[0];
+          let minDist = Infinity;
+          for (const p of chartPoints) {
+            const d = Math.abs(p.x - x);
+            if (d < minDist) { minDist = d; nearest = p; }
+          }
+          if (!nearest) return;
+          dot.setAttribute('cx', nearest.x);
+          dot.setAttribute('cy', nearest.y);
+          dot.style.opacity = 1;
+          hoverLine.setAttribute('x1', nearest.x);
+          hoverLine.setAttribute('x2', nearest.x);
+          hoverLine.style.opacity = 1;
+          const screenX = rect.left + (nearest.x / chartW) * rect.width;
+          const screenY = rect.top + (nearest.y / chartH) * rect.height;
+          tooltip.style.left = (screenX - rect.left) + 'px';
+          tooltip.style.top = (screenY - rect.top) + 'px';
+          tooltip.innerHTML = `Age ${nearest.age}: <strong>${nearest.balance.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 })}</strong>`;
+          tooltip.style.opacity = 1;
+        }
+
+        overlay.addEventListener('mousemove', (e) => handleChartMove(e.clientX));
+        overlay.addEventListener('touchmove', (e) => { if (e.touches[0]) handleChartMove(e.touches[0].clientX); });
+        overlay.addEventListener('mouseleave', () => {
+          dot.style.opacity = 0;
+          hoverLine.style.opacity = 0;
+          tooltip.style.opacity = 0;
+        });
+
         calculate();
-        
+
   </script>
 
   <!-- Cookie Consent Banner -->

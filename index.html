@@ -19,6 +19,7 @@
   <title>InterestCalcs - Free Online Calculators</title>
   <meta name="description" content="Access free online calculators categorized in finance, fitness, math, and other daily productivity utilities. Simple, fast, and light calculations.">
   <link rel="stylesheet" href="style.css">
+  <script src="motion.js" defer></script>
   <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
 </head>
 <body>
@@ -39,13 +40,136 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Free Online <span>Calculators</span></h1>
-      <p>InterestCalcs provides clean, fast, and free interactive calculation utilities. No popups, no registration, and no tracking. Simply choose a tool below to begin.</p>
+  <!-- Hero Section: pitch + live working calculator -->
+  <section class="hero-live">
+    <div class="container hero-live-grid">
+      <div class="hero-pitch fade-up">
+        <span class="hero-eyebrow">⚡ 50+ free calculators</span>
+        <h1>See your money grow <span>before you click anything.</span></h1>
+        <p>InterestCalcs gives you clean, fast, interactive calculators for finance, fitness, and math. No popups, no registration, no tracking — try the compound interest calculator right now, live.</p>
+        <div class="hero-pitch-actions">
+          <a href="#directory" class="btn btn-primary">Browse all calculators</a>
+          <a href="calculators/compound-interest.html" class="btn btn-secondary">Open full calculator →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="num" id="stat-tools">0+</div>
+            <div class="lbl">Free tools</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num">$0</div>
+            <div class="lbl">Always free</div>
+          </div>
+          <div class="hero-stat">
+            <div class="num" id="stat-browser">0%</div>
+            <div class="lbl">Runs in your browser</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-live-card fade-up fade-up-delay-2">
+        <div class="hero-live-card-head">
+          <span class="title"><span class="dot"></span>Live · Compound Interest</span>
+        </div>
+        <div class="hero-live-card-body">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <div class="form-group">
+              <label for="hero-principal">Initial Deposit ($)</label>
+              <input type="number" class="form-control" id="hero-principal" value="10000">
+            </div>
+            <div class="form-group">
+              <label for="hero-monthly">Monthly Add ($)</label>
+              <input type="number" class="form-control" id="hero-monthly" value="200">
+            </div>
+          </div>
+          <div class="form-group" style="margin-top: 12px;">
+            <div class="range-header">
+              <label for="hero-rate">Annual Rate</label>
+              <span class="range-val" id="hero-rate-val">8%</span>
+            </div>
+            <input type="range" class="form-control-range" id="hero-rate" min="1" max="15" step="0.5" value="8">
+          </div>
+          <div class="form-group" style="margin-top: 10px;">
+            <div class="range-header">
+              <label for="hero-years">Years</label>
+              <span class="range-val" id="hero-years-val">10</span>
+            </div>
+            <input type="range" class="form-control-range" id="hero-years" min="1" max="40" step="1" value="10">
+          </div>
+
+          <div class="hero-live-result">
+            <div class="value" id="hero-result">$58,829</div>
+            <div class="label">Estimated Future Balance</div>
+            <div class="hero-live-breakdown">
+              <span>Contributed: <strong id="hero-deposited">$34,000</strong></span>
+              <span>Interest: <strong id="hero-interest">$24,829</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-live-footer">
+          <a href="calculators/compound-interest.html">Add monthly breakdowns & more →</a>
+        </div>
+      </div>
     </div>
   </section>
+
+  <script>
+    (function() {
+      const principal = document.getElementById('hero-principal');
+      const monthly = document.getElementById('hero-monthly');
+      const rate = document.getElementById('hero-rate');
+      const years = document.getElementById('hero-years');
+      const rateVal = document.getElementById('hero-rate-val');
+      const yearsVal = document.getElementById('hero-years-val');
+      const resultEl = document.getElementById('hero-result');
+      const depositedEl = document.getElementById('hero-deposited');
+      const interestEl = document.getElementById('hero-interest');
+
+      function fmt(n) {
+        return Math.round(n).toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+      }
+
+      function calc() {
+        const P = parseFloat(principal.value) || 0;
+        const PMT = parseFloat(monthly.value) || 0;
+        const r = (parseFloat(rate.value) || 0) / 100;
+        const t = parseFloat(years.value) || 0;
+
+        rateVal.textContent = rate.value + '%';
+        yearsVal.textContent = years.value;
+
+        const n = 12;
+        const fvPrincipal = P * Math.pow(1 + r / n, n * t);
+        const monthlyRate = r / 12;
+        const totalMonths = t * 12;
+        let fvContrib = 0;
+        if (r > 0) {
+          fvContrib = PMT * ((Math.pow(1 + monthlyRate, totalMonths) - 1) / monthlyRate);
+        } else {
+          fvContrib = PMT * totalMonths;
+        }
+
+        const total = fvPrincipal + fvContrib;
+        const deposited = P + PMT * totalMonths;
+        const interest = total - deposited;
+
+        resultEl.textContent = fmt(total);
+        depositedEl.textContent = fmt(deposited);
+        interestEl.textContent = fmt(interest);
+        if (window.pulse) window.pulse(resultEl);
+      }
+
+      [principal, monthly, rate, years].forEach(el => el.addEventListener('input', calc));
+      calc();
+
+      document.addEventListener('DOMContentLoaded', function () {
+        if (window.countUp) {
+          window.countUp(document.getElementById('stat-tools'), 50, { suffix: '+', duration: 1100 });
+          window.countUp(document.getElementById('stat-browser'), 100, { suffix: '%', duration: 1100 });
+        }
+      });
+    })();
+  </script>
 
   <!-- Ad Banner -->
   <div class="container">
@@ -60,8 +184,8 @@
       <div class="directory-grid">
         
         <!-- Financial Calculators -->
-        <div class="directory-card financial">
-          <h3>💰 <a href="finance.html" style="color: inherit; text-decoration: none;">Financial Calculators</a></h3>
+        <div class="directory-card financial reveal" data-stagger="0">
+          <h3><span class="icon-badge">💰</span> <a href="finance.html" style="color: inherit; text-decoration: none;">Financial Calculators</a></h3>
           <ul class="link-list">
             <li><a href="calculators/mortgage.html">Mortgage Calculator</a></li>
             <li><a href="calculators/loan.html">Loan Calculator</a></li>
@@ -82,8 +206,8 @@
         </div>
 
         <!-- Fitness & Health -->
-        <div class="directory-card fitness">
-          <h3>🥗 <a href="fitness.html" style="color: inherit; text-decoration: none;">Fitness & Health</a></h3>
+        <div class="directory-card fitness reveal" data-stagger="80">
+          <h3><span class="icon-badge">🥗</span> <a href="fitness.html" style="color: inherit; text-decoration: none;">Fitness & Health</a></h3>
           <ul class="link-list">
             <li><a href="calculators/bmi.html">BMI Calculator</a></li>
             <li><a href="calculators/calorie.html">Calorie Calculator</a></li>
@@ -99,8 +223,8 @@
         </div>
 
         <!-- Math Calculators -->
-        <div class="directory-card math">
-          <h3>📊 <a href="math.html" style="color: inherit; text-decoration: none;">Math Calculators</a></h3>
+        <div class="directory-card math reveal" data-stagger="160">
+          <h3><span class="icon-badge">📊</span> <a href="math.html" style="color: inherit; text-decoration: none;">Math Calculators</a></h3>
           <ul class="link-list">
             <li><a href="calculators/scientific.html">Scientific Calculator</a></li>
             <li><a href="calculators/fraction.html">Fraction Calculator</a></li>
@@ -112,8 +236,8 @@
         </div>
 
         <!-- Other Tools -->
-        <div class="directory-card other">
-          <h3>⚙️ <a href="other.html" style="color: inherit; text-decoration: none;">Other Tools</a></h3>
+        <div class="directory-card other reveal" data-stagger="240">
+          <h3><span class="icon-badge">⚙️</span> <a href="other.html" style="color: inherit; text-decoration: none;">Other Tools</a></h3>
           <ul class="link-list">
             <li><a href="calculators/age.html">Age Calculator</a></li>
             <li><a href="calculators/date.html">Date Shift Calculator</a></li>
